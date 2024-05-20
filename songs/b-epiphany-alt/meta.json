@@ -1,0 +1,17 @@
+{
+	"opponentModeAllowed": true,
+	"icon": "dategirls",
+	"difficulties": [
+		"HARD", "Unfair"
+	],
+	"parsedColor": -9306757,
+	"color": "#71FD7B",
+	"name": "b-epiphany-alt",
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"freeplaybg": "bigmonika",
+	"displayName": "B Epiphany w Giffany",
+	"beatsPerMesure": 4,
+	"needsVoices": true,
+	"bpm": 263
+}

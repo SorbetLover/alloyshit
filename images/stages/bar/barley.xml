@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="barley.png">
+	<!-- Made using Maru Aseprite JSON to XML converter -->
+	<SubTexture name="b00000" x="0" y="0" width="160" height="104"/>
+	<SubTexture name="b00001" x="160" y="0" width="160" height="104"/>
+	<SubTexture name="b00002" x="320" y="0" width="160" height="104"/>
+	<SubTexture name="b00003" x="480" y="0" width="160" height="104"/>
+	<SubTexture name="b00004" x="640" y="0" width="160" height="104"/>
+	<SubTexture name="b00005" x="800" y="0" width="160" height="104"/>
+	<SubTexture name="b00006" x="960" y="0" width="160" height="104"/>
+	<SubTexture name="b00007" x="1120" y="0" width="160" height="104"/>
+	<SubTexture name="b00008" x="1280" y="0" width="160" height="104"/>
+	<SubTexture name="b00009" x="1440" y="0" width="160" height="104"/>
+	<SubTexture name="b00010" x="1600" y="0" width="160" height="104"/>
+	<SubTexture name="b00011" x="1760" y="0" width="160" height="104"/>
+	<SubTexture name="b00012" x="1920" y="0" width="160" height="104"/>
+	<SubTexture name="b00013" x="2080" y="0" width="160" height="104"/>
+</TextureAtlas>

@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" icon="wee" y="0" isGF="false" isPlayer="false" sprite="wee" camy="200" camx="200">
+	<anim x="0" loop="false" y="0" fps="24" anim="feral dance idle" name="idle"/>
+	<anim x="0" loop="false" y="-2" fps="24" anim="feral UP NOTE" name="singUP"/>
+	<anim x="-63" loop="false" y="-2" fps="24" anim="feral DOWN note" name="singDOWN"/>
+	<anim x="20" loop="false" y="-3" fps="24" anim="feral note sing left" name="singLEFT"/>
+	<anim x="10" loop="false" y="0" fps="24" anim="feral sing right" name="singRIGHT"/>
+</character>

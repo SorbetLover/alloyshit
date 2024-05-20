@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" icon="taki" y="-5" isGF="false" color="#581630" isPlayer="false" sprite="taki" scale="1" camx="500">
+	<anim x="-5" loop="false" y="0" fps="24" anim="taki idle" name="idle"/>
+	<anim x="-135" loop="false" y="95" fps="24" anim="taki up" name="singUP"/>
+	<anim x="147" loop="false" y="-17" fps="24" anim="taki left" name="singLEFT"/>
+	<anim x="-298" loop="false" y="-52" fps="24" anim="taki right" name="singRIGHT"/>
+	<anim x="70" loop="false" y="-110" fps="24" anim="taki down" name="singDOWN"/>
+</character>

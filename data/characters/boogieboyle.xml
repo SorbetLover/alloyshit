@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" icon="boogieboyle" y="0" isGF="false" isPlayer="false" holdTime="6.1" sprite="boogieboyle">
+	<anim x="0" loop="false" y="0" fps="24" anim="angry boy idle" name="idle"/>
+	<anim x="0" loop="false" y="33" fps="24" anim="angry boy up0" name="singUP"/>
+	<anim x="0" loop="false" y="12" fps="24" anim="angry boy right0" name="singLEFT"/>
+	<anim x="0" loop="false" y="-1" fps="24" anim="angry boy left0" name="singRIGHT"/>
+	<anim x="0" loop="false" y="-26" fps="24" anim="angry boy down0" name="singDOWN"/>
+</character>

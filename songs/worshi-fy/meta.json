@@ -1,0 +1,16 @@
+{
+	"opponentModeAllowed": true,
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"beatsPerMesure": 4,
+	"bpm": 120,
+	"difficulties": [
+		"HARD"
+	],
+	"needsVoices": false,
+	"parsedColor": -19457,
+	"displayName": "Worshi-fy",
+	"icon": "sarvente",
+	"name": "worshi-fy",
+	"color": "#FFB3FF"
+}

@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" icon="Spinel" y="0" isGF="false" camy="120" isPlayer="false" holdTime="6.1" sprite="Spinel">
+	<anim x="0" loop="false" y="0" fps="24" anim="idle" name="idle"/>
+	<anim x="-111" loop="false" y="150" fps="24" anim="up" name="singUP"/>
+	<anim x="-110" loop="false" y="-135" fps="24" anim="right" name="singRIGHT"/>
+	<anim x="-15" loop="false" y="-68" fps="24" anim="left" name="singLEFT"/>
+	<anim x="-105" loop="false" y="-470" fps="24" anim="down" name="singDOWN"/>
+</character>

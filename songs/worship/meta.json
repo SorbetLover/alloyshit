@@ -1,0 +1,8 @@
+{
+	"displayName": "Worship",
+	"bpm": 120.0,
+	"icon": "sarvente",
+	"color": "#ffb3ff",
+	"coopAllowed": true,
+	"opponentModeAllowed": true
+}

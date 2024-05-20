@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" icon="bfcall" y="0" isGF="false" isPlayer="false" holdTime="6.1" sprite="bfcall_assets">
+	<anim x="0" loop="false" y="0" fps="24" anim="BFIdle0" name="idle"/>
+	<anim x="0" loop="false" y="0" fps="24" anim="BFUp0" name="singUP"/>
+	<anim x="0" loop="false" y="0" fps="24" anim="BFLeft0" name="singLEFT"/>
+	<anim x="0" loop="false" y="0" fps="24" anim="BFRight0" name="singRIGHT"/>
+	<anim x="0" loop="false" y="0" fps="24" anim="BFDown0" name="singDOWN"/>
+</character>

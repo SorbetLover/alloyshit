@@ -1,0 +1,16 @@
+{
+	"opponentModeAllowed": false,
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"beatsPerMesure": 4,
+	"bpm": 135,
+	"difficulties": [
+		"HARD"
+	],
+	"needsVoices": true,
+	"parsedColor": -7572995,
+	"displayName": "murder-brings",
+	"icon": "face",
+	"name": "murder-brings",
+	"color": "#8C71FD"
+}

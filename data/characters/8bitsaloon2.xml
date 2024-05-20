@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="150" icon="8bitsaloon" y="360" isGF="false" scale="6" isPlayer="false" antialiasing="false" sprite="8bitsaloon">
+	<anim x="0" loop="false" y="0" fps="12" anim="sax idle" name="idle"/>
+	<anim x="1" loop="false" y="0" fps="18" anim="sax left" name="singLEFT"/>
+	<anim x="0" loop="false" y="0" fps="18" anim="sax down" name="singDOWN"/>
+	<anim x="2" loop="false" y="0" fps="18" anim="sax up" name="singUP"/>
+	<anim x="-1" loop="false" y="0" fps="18" anim="sax right" name="singRIGHT"/>
+</character>

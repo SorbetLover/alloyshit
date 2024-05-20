@@ -1,0 +1,17 @@
+{
+	"opponentModeAllowed": true,
+	"icon": "bigmonika",
+	"difficulties": [
+		"HARD", "uh"
+	],
+	"parsedColor": -9306757,
+	"color": "#71FD7B",
+	"name": "b-epiphany",
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"freeplaybg": "bigmonika",
+	"displayName": "b-epiphany",
+	"beatsPerMesure": 4,
+	"needsVoices": true,
+	"bpm": 263
+}

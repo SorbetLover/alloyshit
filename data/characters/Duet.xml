@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character x="150" icon="duet" camx="100" y="360" isGF="false" scale="6" isPlayer="false" antialiasing="false" sprite="Duet">
+	<anim x="0" loop="false" y="0" fps="24" anim="FightIdle" name="idle"/>
+	<anim x="1" loop="false" y="0" fps="24" anim="MkaLeft" name="singLEFT"/>
+	<anim x="1" loop="false" y="0" fps="24" anim="MkaDown" name="singDOWN"/>
+	<anim x="1" loop="false" y="0" fps="24" anim="MkaUp" name="singUP"/>
+	<anim x="1" loop="false" y="0" fps="24" anim="MkaRight" name="singRIGHT"/>
+	<anim x="-1" loop="false" y="0" fps="24" anim="SenLeft" name="singLEFT-alt"/>
+	<anim x="-1" loop="false" y="0" fps="24" anim="SenDown" name="singDOWN-alt"/>
+	<anim x="0" loop="false" y="0" fps="24" anim="SenUp" name="singUP-alt"/>
+	<anim x="0" loop="false" y="0" fps="24" anim="SenRight" name="singRIGHT-alt"/>
+</character>

@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/markov/" name="markov" zoom="0.9">
+	<sprite x="112.5" y="-183.5" sprite="BG" name="BG"/>
+	<sprite x="-156.5" y="-182.5" sprite="ClosetBG" name="closet"/>
+	<girlfriend/>
+	<dad x="309" y="-166"/>
+	<boyfriend x="1062.5" y="-24"/>
+	<combo x="748.5" y="246"/>
+</stage>

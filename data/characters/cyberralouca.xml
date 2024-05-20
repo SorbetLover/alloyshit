@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" icon="ralucabnha" y="0" isGF="false" isPlayer="false" holdTime="6.1" sprite="cyberralouca">
+	<anim x="0" loop="false" y="0" fps="60" anim="idle" name="idle"/>
+	<anim x="0" loop="false" y="0" fps="48" anim="up" name="singUP"/>
+	<anim x="0" loop="false" y="0" fps="48" anim="left" name="singLEFT"/>
+	<anim x="0" loop="false" y="0" fps="48" anim="right" name="singRIGHT"/>
+	<anim x="0" loop="false" y="0" fps="48" anim="down" name="singDOWN"/>
+</character>

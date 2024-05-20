@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/gifshit/">
+	<gf x="541" y="296.25"/>
+	<dad x="518.5" y="404"/>
+	<combo/>
+	<sprite antialiasing="false" x="455" y="427.5" sprite="ra7-HUD-5" scale="6" name="bg"/>
+	<bf x="539" y="832"/>
+
+</stage>

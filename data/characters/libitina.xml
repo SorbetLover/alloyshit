@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" icon="libitina" y="0" isGF="false" color="#9A8484" isPlayer="true" sprite="libitina">
+	<anim x="0" loop="false" y="0" fps="24" anim="Libi Idle" name="idle"/>
+	<anim x="14" loop="false" y="72" fps="24" anim="Libi up0" name="singUP"/>
+	<anim x="115" loop="false" y="-67" fps="24" anim="Libi down0" name="singDOWN"/>
+	<anim x="120" loop="false" y="-38" fps="24" anim="Libi right0" name="singLEFT"/>
+	<anim x="60" loop="false" y="26" fps="24" anim="Libi left0" name="singRIGHT"/>
+</character>

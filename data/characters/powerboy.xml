@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" icon="powerboy" y="350" isGF="false" flipX="true" isPlayer="true" sprite="powerboy">
+	<anim x="-5" loop="false" y="0" fps="24" anim="bf idle" name="idle"/>
+	<anim x="-37" loop="false" y="29" fps="24" anim="bf up 4" name="singUP"/>
+	<anim x="45" loop="false" y="2" fps="24" anim="bf left 4" name="singLEFT"/>
+	<anim x="-25" loop="false" y="-2" fps="24" anim="bf right 4" name="singRIGHT"/>
+	<anim x="30" loop="false" y="-15" fps="24" anim="bf down 4" name="singDOWN"/>
+	<anim x="-22" loop="false" y="15" fps="24" anim="bf up miss" name="singUPmiss"/>
+	<anim x="-36" loop="false" y="-1" fps="24" anim="bf left miss" name="singLEFTmiss"/>
+	<anim x="8" loop="false" y="-1" fps="24" anim="bf right miss" name="singRIGHTmiss"/>
+	<anim x="-1" loop="false" y="-12" fps="24" anim="bf down miss" name="singDOWNmiss"/>
+</character>

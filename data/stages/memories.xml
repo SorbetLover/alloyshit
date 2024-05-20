@@ -1,0 +1,15 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="0.9" name="stage" folder="stages/memories/">
+	<sprite name="bg"               x="-500" y="-400"   sprite="distortedHouse"       scroll="1" />
+	<girlfriend x="380" y="100" alpha="0" scale="1.5"/>
+
+	<sprite name="shit" x="-500" y="-400" sprite="static" type="loop" scroll="1" zoomfactor="1" alpha="0.3">
+		<anim name="static" anim="static" loop="true" indices="0,1,2" />
+	</sprite>
+	<dad  x="330" y="100" scale="1.4"/>
+	<boyfriend  x="3000" y="0"/>
+	<sprite name="shit2" x="-500" y="-400" sprite="static" type="loop" scroll="1" zoomfactor="1" alpha="0.3">
+		<anim name="static" anim="static" loop="true" indices="0,1,2" />
+	</sprite>
+
+</stage>

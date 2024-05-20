@@ -1,0 +1,5 @@
+<!DOCTYPE codename-engine-character>
+<character x="-100" icon="gfamanda" y="30" isGF="true" isPlayer="false" sprite="amandagf">
+	<anim x="0" loop="false" y="0" fps="16" anim="idle" name="danceLeft"/>
+	<anim x="0" loop="false" y="0" fps="16" anim="aidle" name="danceRight"/>
+</character>

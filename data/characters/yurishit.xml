@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" icon="yuricrazy" y="0" isGF="false" color="#983EFE" isPlayer="false" sprite="yurishit">
+	<anim x="0" loop="false" y="0" fps="24" anim="YuriIdle" name="idle"/>
+	<anim x="5" loop="false" y="0" fps="24" anim="YuriUp" name="singUP"/>
+	<anim x="35" loop="false" y="0" fps="24" anim="YuriDown" name="singDOWN"/>
+	<anim x="54" loop="false" y="0" fps="24" anim="YuriLeft" name="singLEFT"/>
+	<anim x="-3" loop="false" y="0" fps="24" anim="YuriRight" name="singRIGHT"/>
+</character>

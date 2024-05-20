@@ -1,0 +1,16 @@
+{
+	"opponentModeAllowed": true,
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"beatsPerMesure": 4,
+	"bpm": 172,
+	"difficulties": [
+		"HARD", "6k","alt"
+	],
+	"needsVoices": true,
+	"parsedColor": -40270,
+	"displayName": "hot-air-baloon",
+	"icon": "abby",
+	"name": "hot-air-baloon",
+	"color": "#FF62B2"
+}

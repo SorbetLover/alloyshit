@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/housebruh/" name="shithouse" zoom="0.9">
+	<sprite x="-290" scroll="1" sprite="housedes" y="0" scale="1" name="bgshit"/>
+	<girlfriend/>
+	<dad x="145.5" y="-21.5"/>
+	<boyfriend x="771" y="87.5"/>
+	<combo/>
+</stage>

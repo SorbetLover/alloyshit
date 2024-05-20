@@ -1,0 +1,17 @@
+{
+	"opponentModeAllowed": true,
+	"icon": "ralucoejean",
+	"difficulties": [
+		"HARD"
+	],
+	"parsedColor": -9306757,
+	"color": "#71FD7B",
+	"name": "b-epiphany-raluca",
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"freeplaybg": "bigmonika",
+	"displayName": "B epiphany raluca",
+	"beatsPerMesure": 4,
+	"needsVoices": true,
+	"bpm": 263
+}

@@ -1,0 +1,17 @@
+{
+	"opponentModeAllowed": true,
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"beatsPerMesure": 4,
+	"bpm": 112,
+	"difficulties": [
+		"Normal",
+		"Hard"
+	],
+	"needsVoices": true,
+	"parsedColor": -627723,
+	"displayName": "cosmic swing",
+	"icon": "yukichi",
+	"name": "cosmic-swing",
+	"color": "#F66BF5"
+}

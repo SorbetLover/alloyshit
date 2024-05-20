@@ -1,0 +1,11 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" icon="gifpissed" y="0" isGF="false" scale="6" color="#FF7CE6" isPlayer="false" antialiasing="false" holdTime="6.1" sprite="gif/giffany_broken2">
+	<anim x="0" loop="false" y="0" fps="24" anim="IDLE0" name="idle"/>
+	<anim x="0" loop="false" y="-3" fps="24" anim="UP0" name="singUP"/>
+	<anim x="-3" loop="false" y="-1" fps="24" anim="LEFT0" name="singLEFT"/>
+	<anim x="2" loop="false" y="0" fps="24" anim="RIGHT0" name="singRIGHT"/>
+	<anim x="0" loop="false" y="1" fps="24" anim="DOWN0" name="singDOWN"/>
+	<anim x="0" loop="false" y="-3" fps="24" anim="SCREAM" name="scream"/>
+	<anim x="0" loop="false" y="5" fps="24" anim="KLITCH" name="klitch"/>
+	<anim x="0" loop="true" y="0" fps="12" anim="WIREFRAME" name="wire"/>
+</character>

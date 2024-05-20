@@ -1,0 +1,16 @@
+{
+	"opponentModeAllowed": true,
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"beatsPerMesure": 4,
+	"bpm": 170,
+	"difficulties": [
+		"HARD", "6k", "alt", "6k-alt"
+	],
+	"needsVoices": true,
+	"parsedColor": -560643,
+	"displayName": "agitated_remix",
+	"icon": "spinelapng",
+	"name": "agitated_remix",
+	"color": "#F771FD"
+}

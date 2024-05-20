@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" icon="monikapixel" y="0" isGF="false" scale="6" camx="70" color="#FB6BF1" isPlayer="false" antialiasing="false" holdTime="6.1" sprite="monikanew">
+	<anim x="0" loop="false" y="0" fps="24" anim="Mka Idle" name="idle"/>
+	<anim x="-3" loop="false" y="0" fps="24" anim="MkaUp" name="singUP"/>
+	<anim x="-1" loop="false" y="0" fps="24" anim="MkaLeft" name="singLEFT"/>
+	<anim x="0" loop="false" y="0" fps="24" anim="MkaRight" name="singRIGHT"/>
+	<anim x="-4" loop="false" y="0" fps="24" anim="MkaDown" name="singDOWN"/>
+</character>

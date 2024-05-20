@@ -1,0 +1,8 @@
+{
+	"displayName": "Takeover",
+	"bpm": 95.0,
+	"icon": "cass",
+	"color": "#772233",
+	"coopAllowed": true,
+	"opponentModeAllowed": true
+}

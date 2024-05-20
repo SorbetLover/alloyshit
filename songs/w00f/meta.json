@@ -1,0 +1,16 @@
+{
+	"opponentModeAllowed": true,
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"beatsPerMesure": 4,
+	"bpm": 210,
+	"difficulties": [
+		"Hard", "6k"
+	],
+	"needsVoices": true,
+	"parsedColor": -11132016,
+	"displayName": "Woof",
+	"icon": "robofever",
+	"name": "w00f",
+	"color": "#562390"
+}

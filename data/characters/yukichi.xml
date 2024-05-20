@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" icon="yukichi" y="0" isGF="false" isPlayer="false" holdTime="6.1" sprite="yukichi">
+	<anim x="-5" loop="false" y="0" fps="24" anim="yukichi idle" name="idle"/>
+	<anim x="-55" loop="false" y="25" fps="24" anim="yukichi up note" name="singUP"/>
+	<anim x="68" loop="false" y="3" fps="24" anim="yukichi left note" name="singLEFT"/>
+	<anim x="-39" loop="false" y="-3" fps="24" anim="yukichi right note" name="singRIGHT"/>
+	<anim x="-137" loop="false" y="-76" fps="24" anim="yukichi down note" name="singDOWN"/>
+</character>

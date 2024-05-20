@@ -1,0 +1,11 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/twins/" name="stage" zoom="0.9">
+	<sprite x="-591" y="-406.5" sprite="bedroom_backdrop" name="bedroom_backdrop"/>
+	<dad x="-588" y="-221"/>
+	<sprite x="19.5" y="385.5" sprite="bed" name="bed"/>
+	<boyfriend x="721.5" y="-29.5"/>
+	<girlfriend x="583" y="-87"/>
+	<combo/>
+	<sprite x="471.5" y="-378.5" sprite="lamp" name="lamp"/>
+	<sprite x="1102.5" y="225.5" sprite="bedside_table" name="bedside_table"/>
+</stage>

@@ -1,0 +1,16 @@
+{
+	"opponentModeAllowed": true,
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"beatsPerMesure": 4,
+	"bpm": 185,
+	"difficulties": [
+		"HARD"
+	],
+	"needsVoices": true,
+	"parsedColor": -4786689,
+	"displayName": "its-complicated",
+	"icon": "abby",
+	"name": "its-complicated",
+	"color": "#B6F5FF"
+}

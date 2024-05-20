@@ -1,0 +1,16 @@
+{
+	"opponentModeAllowed": false,
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"beatsPerMesure": 4,
+	"bpm": 90,
+	"difficulties": [
+		"HARD"
+	],
+	"needsVoices": true,
+	"parsedColor": -16777216,
+	"displayName": "sleeptalk",
+	"icon": "raloca",
+	"name": "sleeptalk",
+	"color": "#000000"
+}

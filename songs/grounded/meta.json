@@ -1,0 +1,15 @@
+{
+	"opponentModeAllowed": false,
+	"difficulties": [
+		"HARD", "test"
+	],
+	"icon": "cailou",
+	"parsedColor": -7179779,
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"beatsPerMesure": 4,
+	"displayName": "grounded",
+	"needsVoices": true,
+	"bpm": 174,
+	"name": "grounded"
+}

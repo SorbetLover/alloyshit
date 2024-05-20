@@ -1,0 +1,4 @@
+<stage name="promenade" zoom="0.8" folder="stages/promenade">
+	<sprite name="bg1"   antialiasing="false"         x="-1000" y="-700"   sprite="NikusaBG"       scroll="1" scale="1" alpha="1"/>
+    <boyfriend x="1200" y="200"/>
+</stage>

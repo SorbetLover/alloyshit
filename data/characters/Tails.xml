@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" icon="Tails" y="0" isGF="false" isPlayer="false" holdTime="6.1" sprite="Tails">
+	<anim x="-5" loop="false" y="0" fps="24" anim="Tails idle" name="idle"/>
+	<anim x="-55" loop="false" y="25" fps="24" anim="Tails up" name="singUP"/>
+	<anim x="68" loop="false" y="3" fps="24" anim="Tails left" name="singLEFT"/>
+	<anim x="-39" loop="false" y="72" fps="24" anim="Tails right" name="singRIGHT"/>
+	<anim x="63" loop="false" y="9" fps="24" anim="Tails down" name="singDOWN"/>
+</character>

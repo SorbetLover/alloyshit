@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" icon="sayori" y="100" isGF="false" flipX="true" isPlayer="false" holdTime="6.1" sprite="sayori">
+	<anim x="0" loop="false" y="0" fps="24" anim="Sayo Idle" name="idle"/>
+	<anim x="-1" loop="false" y="75" fps="24" anim="Sayo Sing Note Up" name="singUP"/>
+	<anim x="-45" loop="false" y="-9" fps="24" anim="Sayo Sing Note Left" name="singLEFT"/>
+	<anim x="25" loop="false" y="-10" fps="24" anim="Sayo Sing Note Right" name="singRIGHT"/>
+	<anim x="-20" loop="false" y="-50" fps="24" anim="Sayo Sing Note Down" name="singDOWN"/>
+</character>

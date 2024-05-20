@@ -1,0 +1,4 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" icon="core" y="0" isGF="false" camy="120" color="#000000" isPlayer="false" holdTime="6.1" sprite="notepad/">
+	<anim x="0" loop="false" y="0" fps="24" anim="lnf video" name="idle"/>
+</character>

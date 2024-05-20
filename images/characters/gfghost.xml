@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="gfghost.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="gf hallucination0000" x="2" y="2" width="275" height="422" pivotX="0" pivotY="0" frameX="0" frameY="0" frameWidth="278" frameHeight="424"/>
+	<SubTexture name="gf hallucination0001" x="2" y="2" width="275" height="422" frameX="0" frameY="0" frameWidth="278" frameHeight="424"/>
+	<SubTexture name="gf hallucination0002" x="277" y="2" width="277" height="424" frameX="0" frameY="0" frameWidth="278" frameHeight="424"/>
+	<SubTexture name="gf hallucination0003" x="277" y="2" width="277" height="424" frameX="0" frameY="0" frameWidth="278" frameHeight="424"/>
+	<SubTexture name="gf hallucination0004" x="554" y="2" width="275" height="419" frameX="0" frameY="0" frameWidth="278" frameHeight="424"/>
+	<SubTexture name="gf hallucination0005" x="554" y="2" width="275" height="419" frameX="0" frameY="0" frameWidth="278" frameHeight="424"/>
+	<SubTexture name="gf hallucination0006" x="2" y="426" width="276" height="414" frameX="0" frameY="0" frameWidth="278" frameHeight="424"/>
+	<SubTexture name="gf hallucination0007" x="2" y="426" width="276" height="414" frameX="0" frameY="0" frameWidth="278" frameHeight="424"/>
+	<SubTexture name="gf hallucination0008" x="278" y="426" width="278" height="416" frameX="0" frameY="0" frameWidth="278" frameHeight="424"/>
+	<SubTexture name="gf hallucination0009" x="278" y="426" width="278" height="416" frameX="0" frameY="0" frameWidth="278" frameHeight="424"/>
+	<SubTexture name="gf hallucination0010" x="278" y="426" width="278" height="416" frameX="0" frameY="0" frameWidth="278" frameHeight="424"/>
+	<SubTexture name="gf hallucination0011" x="278" y="426" width="278" height="416" frameX="0" frameY="0" frameWidth="278" frameHeight="424"/>
+	<SubTexture name="gf hallucination0012" x="278" y="426" width="278" height="416" frameX="0" frameY="0" frameWidth="278" frameHeight="424"/>
+	<SubTexture name="gf hallucination0013" x="278" y="426" width="278" height="416" frameX="0" frameY="0" frameWidth="278" frameHeight="424"/>
+</TextureAtlas>

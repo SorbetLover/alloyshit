@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="pump static memories.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="pump static DOWN NOTE0000" x="0" y="0" width="726" height="680" pivotX="286" pivotY="283"/>
+	<SubTexture name="pump static DOWN NOTE0001" x="0" y="0" width="726" height="680"/>
+	<SubTexture name="pump static DOWN NOTE0002" x="726" y="0" width="726" height="680"/>
+	<SubTexture name="pump static DOWN NOTE0003" x="726" y="0" width="726" height="680"/>
+	<SubTexture name="pump static DOWN NOTE0004" x="726" y="0" width="726" height="680"/>
+	<SubTexture name="pump static DOWN NOTE0005" x="726" y="0" width="726" height="680"/>
+	<SubTexture name="pump static DOWN NOTE0006" x="726" y="0" width="726" height="680"/>
+	<SubTexture name="pump static DOWN NOTE0007" x="726" y="0" width="726" height="680"/>
+	<SubTexture name="pump static DOWN NOTE0008" x="726" y="0" width="726" height="680"/>
+	<SubTexture name="pump static DOWN NOTE0009" x="726" y="0" width="726" height="680"/>
+	<SubTexture name="pump static DOWN NOTE0010" x="726" y="0" width="726" height="680"/>
+	<SubTexture name="pump static DOWN NOTE0011" x="726" y="0" width="726" height="680"/>
+	<SubTexture name="pump static DOWN NOTE0012" x="726" y="0" width="726" height="680"/>
+	<SubTexture name="pump static DOWN NOTE0013" x="726" y="0" width="726" height="680"/>
+	<SubTexture name="pump static DOWN NOTE0014" x="726" y="0" width="726" height="680"/>
+	<SubTexture name="pump static DOWN NOTE0015" x="726" y="0" width="726" height="680"/>
+	<SubTexture name="pump static DOWN NOTE0016" x="726" y="0" width="726" height="680"/>
+	<SubTexture name="pump static DOWN NOTE0017" x="726" y="0" width="726" height="680"/>
+	<SubTexture name="pump static DOWN NOTE0018" x="726" y="0" width="726" height="680"/>
+	<SubTexture name="pump static DOWN NOTE0019" x="726" y="0" width="726" height="680"/>
+	<SubTexture name="pump static DOWN NOTE0020" x="726" y="0" width="726" height="680"/>
+	<SubTexture name="pump static DOWN NOTE0021" x="726" y="0" width="726" height="680"/>
+	<SubTexture name="pump static DOWN NOTE0022" x="726" y="0" width="726" height="680"/>
+	<SubTexture name="pump static DOWN NOTE0023" x="726" y="0" width="726" height="680"/>
+	<SubTexture name="pump static DOWN NOTE0024" x="726" y="0" width="726" height="680"/>
+	<SubTexture name="pump static IDLE0000" x="1452" y="0" width="390" height="457" pivotX="112" pivotY="144" frameX="-7" frameY="-4" frameWidth="408" frameHeight="461"/>
+	<SubTexture name="pump static IDLE0001" x="1452" y="0" width="390" height="457" frameX="-7" frameY="-4" frameWidth="408" frameHeight="461"/>
+	<SubTexture name="pump static IDLE0002" x="1842" y="0" width="399" height="458" frameX="-9" frameY="0" frameWidth="408" frameHeight="461"/>
+	<SubTexture name="pump static IDLE0003" x="1842" y="0" width="399" height="458" frameX="-9" frameY="0" frameWidth="408" frameHeight="461"/>
+	<SubTexture name="pump static IDLE0004" x="2241" y="0" width="390" height="395" frameX="-8" frameY="-43" frameWidth="408" frameHeight="461"/>
+	<SubTexture name="pump static IDLE0005" x="2241" y="0" width="390" height="395" frameX="-8" frameY="-43" frameWidth="408" frameHeight="461"/>
+	<SubTexture name="pump static IDLE0006" x="2241" y="0" width="390" height="395" frameX="-8" frameY="-43" frameWidth="408" frameHeight="461"/>
+	<SubTexture name="pump static IDLE0007" x="2241" y="0" width="390" height="395" frameX="-8" frameY="-43" frameWidth="408" frameHeight="461"/>
+	<SubTexture name="pump static IDLE0008" x="2631" y="0" width="390" height="458" frameX="-18" frameY="0" frameWidth="408" frameHeight="461"/>
+	<SubTexture name="pump static IDLE0009" x="2631" y="0" width="390" height="458" frameX="-18" frameY="0" frameWidth="408" frameHeight="461"/>
+	<SubTexture name="pump static IDLE0010" x="3021" y="0" width="406" height="459" frameX="0" frameY="0" frameWidth="408" frameHeight="461"/>
+	<SubTexture name="pump static IDLE0011" x="3021" y="0" width="406" height="459" frameX="0" frameY="0" frameWidth="408" frameHeight="461"/>
+	<SubTexture name="pump static IDLE0012" x="2241" y="0" width="390" height="395" frameX="-8" frameY="-43" frameWidth="408" frameHeight="461"/>
+	<SubTexture name="pump static IDLE0013" x="2241" y="0" width="390" height="395" frameX="-8" frameY="-43" frameWidth="408" frameHeight="461"/>
+	<SubTexture name="pump static IDLE0014" x="2241" y="0" width="390" height="395" frameX="-8" frameY="-43" frameWidth="408" frameHeight="461"/>
+	<SubTexture name="pump static IDLE0015" x="2241" y="0" width="390" height="395" frameX="-8" frameY="-43" frameWidth="408" frameHeight="461"/>
+	<SubTexture name="pump static LEFT NOTE0000" x="0" y="680" width="726" height="680" pivotX="-6" pivotY="44" frameX="0" frameY="-1" frameWidth="727" frameHeight="681"/>
+	<SubTexture name="pump static LEFT NOTE0001" x="0" y="680" width="726" height="680" frameX="0" frameY="-1" frameWidth="727" frameHeight="681"/>
+	<SubTexture name="pump static LEFT NOTE0002" x="726" y="680" width="726" height="680" frameX="-1" frameY="0" frameWidth="727" frameHeight="681"/>
+	<SubTexture name="pump static LEFT NOTE0003" x="726" y="680" width="726" height="680" frameX="-1" frameY="0" frameWidth="727" frameHeight="681"/>
+	<SubTexture name="pump static LEFT NOTE0004" x="726" y="680" width="726" height="680" frameX="-1" frameY="0" frameWidth="727" frameHeight="681"/>
+	<SubTexture name="pump static LEFT NOTE0005" x="726" y="680" width="726" height="680" frameX="-1" frameY="0" frameWidth="727" frameHeight="681"/>
+	<SubTexture name="pump static LEFT NOTE0006" x="726" y="680" width="726" height="680" frameX="-1" frameY="0" frameWidth="727" frameHeight="681"/>
+	<SubTexture name="pump static LEFT NOTE0007" x="726" y="680" width="726" height="680" frameX="-1" frameY="0" frameWidth="727" frameHeight="681"/>
+	<SubTexture name="pump static LEFT NOTE0008" x="726" y="680" width="726" height="680" frameX="-1" frameY="0" frameWidth="727" frameHeight="681"/>
+	<SubTexture name="pump static LEFT NOTE0009" x="726" y="680" width="726" height="680" frameX="-1" frameY="0" frameWidth="727" frameHeight="681"/>
+	<SubTexture name="pump static LEFT NOTE0010" x="726" y="680" width="726" height="680" frameX="-1" frameY="0" frameWidth="727" frameHeight="681"/>
+	<SubTexture name="pump static LEFT NOTE0011" x="726" y="680" width="726" height="680" frameX="-1" frameY="0" frameWidth="727" frameHeight="681"/>
+	<SubTexture name="pump static LEFT NOTE0012" x="726" y="680" width="726" height="680" frameX="-1" frameY="0" frameWidth="727" frameHeight="681"/>
+	<SubTexture name="pump static LEFT NOTE0013" x="726" y="680" width="726" height="680" frameX="-1" frameY="0" frameWidth="727" frameHeight="681"/>
+	<SubTexture name="pump static LEFT NOTE0014" x="726" y="680" width="726" height="680" frameX="-1" frameY="0" frameWidth="727" frameHeight="681"/>
+	<SubTexture name="pump static RIGHT NOTE0000" x="1452" y="680" width="726" height="680" pivotX="144" pivotY="58" frameX="0" frameY="-1" frameWidth="727" frameHeight="681"/>
+	<SubTexture name="pump static RIGHT NOTE0001" x="1452" y="680" width="726" height="680" frameX="0" frameY="-1" frameWidth="727" frameHeight="681"/>
+	<SubTexture name="pump static RIGHT NOTE0002" x="2178" y="680" width="726" height="680" frameX="-1" frameY="0" frameWidth="727" frameHeight="681"/>
+	<SubTexture name="pump static RIGHT NOTE0003" x="2178" y="680" width="726" height="680" frameX="-1" frameY="0" frameWidth="727" frameHeight="681"/>
+	<SubTexture name="pump static RIGHT NOTE0004" x="2178" y="680" width="726" height="680" frameX="-1" frameY="0" frameWidth="727" frameHeight="681"/>
+	<SubTexture name="pump static RIGHT NOTE0005" x="2178" y="680" width="726" height="680" frameX="-1" frameY="0" frameWidth="727" frameHeight="681"/>
+	<SubTexture name="pump static RIGHT NOTE0006" x="2178" y="680" width="726" height="680" frameX="-1" frameY="0" frameWidth="727" frameHeight="681"/>
+	<SubTexture name="pump static RIGHT NOTE0007" x="2178" y="680" width="726" height="680" frameX="-1" frameY="0" frameWidth="727" frameHeight="681"/>
+	<SubTexture name="pump static RIGHT NOTE0008" x="2178" y="680" width="726" height="680" frameX="-1" frameY="0" frameWidth="727" frameHeight="681"/>
+	<SubTexture name="pump static RIGHT NOTE0009" x="2178" y="680" width="726" height="680" frameX="-1" frameY="0" frameWidth="727" frameHeight="681"/>
+	<SubTexture name="pump static RIGHT NOTE0010" x="2178" y="680" width="726" height="680" frameX="-1" frameY="0" frameWidth="727" frameHeight="681"/>
+	<SubTexture name="pump static RIGHT NOTE0011" x="2178" y="680" width="726" height="680" frameX="-1" frameY="0" frameWidth="727" frameHeight="681"/>
+	<SubTexture name="pump static RIGHT NOTE0012" x="2178" y="680" width="726" height="680" frameX="-1" frameY="0" frameWidth="727" frameHeight="681"/>
+	<SubTexture name="pump static RIGHT NOTE0013" x="2178" y="680" width="726" height="680" frameX="-1" frameY="0" frameWidth="727" frameHeight="681"/>
+	<SubTexture name="pump static RIGHT NOTE0014" x="2178" y="680" width="726" height="680" frameX="-1" frameY="0" frameWidth="727" frameHeight="681"/>
+	<SubTexture name="pump static RIGHT NOTE0015" x="2178" y="680" width="726" height="680" frameX="-1" frameY="0" frameWidth="727" frameHeight="681"/>
+	<SubTexture name="pump static RIGHT NOTE0016" x="2178" y="680" width="726" height="680" frameX="-1" frameY="0" frameWidth="727" frameHeight="681"/>
+	<SubTexture name="pump static RIGHT NOTE0017" x="2178" y="680" width="726" height="680" frameX="-1" frameY="0" frameWidth="727" frameHeight="681"/>
+	<SubTexture name="pump static RIGHT NOTE0018" x="2178" y="680" width="726" height="680" frameX="-1" frameY="0" frameWidth="727" frameHeight="681"/>
+	<SubTexture name="pump static RIGHT NOTE0019" x="2178" y="680" width="726" height="680" frameX="-1" frameY="0" frameWidth="727" frameHeight="681"/>
+	<SubTexture name="pump static RIGHT NOTE0020" x="2178" y="680" width="726" height="680" frameX="-1" frameY="0" frameWidth="727" frameHeight="681"/>
+	<SubTexture name="pump static RIGHT NOTE0021" x="2178" y="680" width="726" height="680" frameX="-1" frameY="0" frameWidth="727" frameHeight="681"/>
+	<SubTexture name="pump static RIGHT NOTE0022" x="2178" y="680" width="726" height="680" frameX="-1" frameY="0" frameWidth="727" frameHeight="681"/>
+	<SubTexture name="pump static RIGHT NOTE0023" x="2178" y="680" width="726" height="680" frameX="-1" frameY="0" frameWidth="727" frameHeight="681"/>
+	<SubTexture name="pump static RIGHT NOTE0024" x="2178" y="680" width="726" height="680" frameX="-1" frameY="0" frameWidth="727" frameHeight="681"/>
+	<SubTexture name="pump static UP NOTE0000" x="2904" y="680" width="726" height="680" pivotX="79" pivotY="13" frameX="-1" frameY="0" frameWidth="727" frameHeight="680"/>
+	<SubTexture name="pump static UP NOTE0001" x="2904" y="680" width="726" height="680" frameX="-1" frameY="0" frameWidth="727" frameHeight="680"/>
+	<SubTexture name="pump static UP NOTE0002" x="0" y="1360" width="726" height="680" frameX="0" frameY="0" frameWidth="727" frameHeight="680"/>
+	<SubTexture name="pump static UP NOTE0003" x="0" y="1360" width="726" height="680" frameX="0" frameY="0" frameWidth="727" frameHeight="680"/>
+	<SubTexture name="pump static UP NOTE0004" x="0" y="1360" width="726" height="680" frameX="0" frameY="0" frameWidth="727" frameHeight="680"/>
+</TextureAtlas>

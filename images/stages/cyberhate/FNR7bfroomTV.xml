@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="FNR7bfroomTV.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+
+	<SubTexture name="FNR7bfroomconsole0000" x="0" y="0" width="1192" height="889"/>
+	<SubTexture name="FNR7bfroomconsole0001" x="1198" y="0" width="1192" height="889"/>
+	<SubTexture name="FNR7bfroomconsole0002" x="2396" y="0" width="1192" height="889"/>
+	<SubTexture name="FNR7bfroomconsole0003" x="0" y="895" width="1192" height="889"/>
+	<SubTexture name="FNR7bfroomconsole0004" x="1198" y="895" width="1192" height="889"/>
+	<SubTexture name="FNR7bfroomconsole0005" x="2396" y="895" width="1192" height="889"/>
+	<SubTexture name="FNR7bfroomconsole0006" x="0" y="1790" width="1192" height="889"/>
+
+</TextureAtlas>

@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" icon="bfnotepad" y="350" isGF="false" flipX="true" isPlayer="true" sprite="bfnotepad">
+	<anim x="-5" loop="false" y="0" fps="24" anim="BF idle dance" name="idle"/>
+	<anim x="-9" loop="false" y="-3" fps="24" anim="BF NOTE UP0" name="singUP"/>
+	<anim x="2" loop="false" y="-7" fps="24" anim="BF NOTE LEFT0" name="singLEFT"/>
+	<anim x="-3" loop="false" y="-6" fps="24" anim="BF NOTE RIGHT0" name="singRIGHT"/>
+	<anim x="-10" loop="false" y="5" fps="24" anim="BF NOTE DOWN0" name="singDOWN"/>
+</character>

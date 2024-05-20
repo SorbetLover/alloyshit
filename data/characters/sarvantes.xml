@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" icon="sarvantes" y="0" isGF="false" isPlayer="false" holdTime="6.1" sprite="sarvantes">
+	<anim x="0" loop="false" y="0" fps="24" anim="Sar idole" name="idle"/>
+	<anim x="-1" loop="false" y="-25" fps="24" anim="Sar UP" name="singUP"/>
+	<anim x="-25" loop="false" y="0" fps="24" anim="Sar Left" name="singLEFT"/>
+	<anim x="0" loop="false" y="2" fps="24" anim="Sar right" name="singRIGHT"/>
+	<anim x="35" loop="false" y="45" fps="24" anim="Sar Down" name="singDOWN"/>
+</character>

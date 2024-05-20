@@ -1,0 +1,16 @@
+{
+	"opponentModeAllowed": true,
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"beatsPerMesure": 4,
+	"bpm": 128,
+	"difficulties": [
+		"GIF","hard"
+	],
+	"needsVoices": true,
+	"parsedColor": -26539,
+	"displayName": "Quick Draw",
+	"icon": "8bitsaloon",
+	"name": "quickdraw",
+	"color": "#b86f50"
+}

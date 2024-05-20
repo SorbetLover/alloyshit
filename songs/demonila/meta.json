@@ -1,0 +1,17 @@
+{
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": true,
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"bpm": 125,
+	"difficulties": [
+		"HARD"
+	],
+	"needsVoices": true,
+	"parsedColor": -25548,
+	"displayName": "demonila",
+	"icon": "abby",
+	"name": "demonila",
+	"color": "#FF9C34",
+	"customValues": {}
+}

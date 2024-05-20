@@ -1,0 +1,14 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/libitina/" name="stage" zoom="0.9">
+	<girlfriend/>
+	<sprite x="6" y="-299" sprite="finale\/FinaleBG" name="FinaleBG"/>
+	<combo/>
+	<sprite type="loop" sprite="InfoMidwayBGInvert" name="InfoMidwayBGInvert"/>
+	<sprite sprite="InfoMidwayBG" name="InfoMidwayBG"/>
+	<sprite x="250" name="bigwindow" sprite="bigwindow" y="125"/>
+
+	<dad/>
+	<boyfriend/>
+	<sprite x="273" y="30" sprite="GOONS2" scale="0.6" name="GOONS2"/>
+	<sprite x="-86" y="-20" sprite="GOONS1" scale="0.7" name="GOONS1"/>
+</stage>

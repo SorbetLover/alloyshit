@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" icon="alastor" y="0" isGF="false" color="#FF0000" isPlayer="false" holdTime="6.1" sprite="alastor">
+	<anim x="0" loop="false" y="0" fps="30" anim="idle" name="idle"/>
+	<anim x="-1" loop="false" y="45" fps="24" anim="up" name="singUP"/>
+	<anim x="153" loop="false" y="22" fps="24" anim="left" name="singLEFT"/>
+	<anim x="93" loop="false" y="17" fps="24" anim="right" name="singRIGHT"/>
+	<anim x="133" loop="false" y="-26" fps="24" anim="down" name="singDOWN"/>
+</character>

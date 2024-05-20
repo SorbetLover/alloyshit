@@ -1,0 +1,16 @@
+{
+	"opponentModeAllowed": true,
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"beatsPerMesure": 4,
+	"bpm": 146,
+	"difficulties": [
+		"HARD", "alt"
+	],
+	"needsVoices": true,
+	"parsedColor": -13166678,
+	"displayName": "brasilian-trouble",
+	"icon": "face",
+	"name": "triple-trouble",
+	"color": "#3717AA"
+}

@@ -1,0 +1,26 @@
+<stage folder="stages/takeovermedley/" zoom="0.5">
+    <sprite name="bg0" x="605" y="-20" scale="1.3" sprite="window_bottom_funkin" scroll="1" zoomfactor="1"         />
+    <sprite name="bgsepie" x="5" y="-2000" scale="1.3" sprite="window_bottom_senpai" scroll="1" zoomfactor="1"     />
+
+ 
+    <sprite name="bg" x="-600" y="-20" scale="1.3" sprite="window_bottom" scroll="1" zoomfactor="1"                />
+    <sprite name="bgmonka" x="-600" y="-20" scale="1.3" sprite="windowmonka" scroll="1" zoomfactor="1"    />
+
+    <sprite name="bgannie" x="-600" y="-20" scale="1.3" sprite="window_bottom_sayori" scroll="1" zoomfactor="1"    />
+    <sprite name="bgabbie" x="-600" y="-20" scale="1.3" sprite="window_bottom_natsuki" scroll="1" zoomfactor="1"   />
+    <sprite name="bggif" x="-600" y="-20" scale="1.3" sprite="window_bottom_yuri" scroll="1" zoomfactor="1"        />
+    <sprite name="bgsereal"  x="-597" y="-20" scale="1.3" sprite="window_bottom_protag" scroll="1" zoomfactor="1"  />
+    <sprite name="bgmonka2" x="-600" y="-20" scale="1.3" sprite="windowmonka" scroll="1" zoomfactor="1"    />
+
+    <sprite name="camobj" x="300" y="350" scale="0.001" sprite="window_bottom_natsuki" scroll="1" zoomfactor="1"   />
+
+
+    <sprite name="box" x="-600" y="-20" scale="1.3" sprite="window_top" scroll="1" zoomfactor="1" />
+    <sprite name="boxsepie" x="0" y="-2000" scale="1.3" sprite="window_top" scroll="1" zoomfactor="1" />
+
+    <sprite name="box2" x="600" y="-20" scale="1.3" sprite="window_top" scroll="1" zoomfactor="1"  />
+    <dad x="-600"/>
+    <boyfriend x="470" y="-40"/>
+    <sprite name="dokiLogo" x="0" y="0" scale="1" sprite="dokilogo" scroll="1" zoomfactor="1"  />
+
+</stage>

@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" icon="rolldog" y="0" isGF="false" isPlayer="false" holdTime="6.1" sprite="rolldog">
+	<anim x="6" loop="false" y="8" fps="24" anim="Roll dog idle" name="idle"/>
+	<anim x="-7" loop="false" y="16" fps="24" anim="Roll dog up0" name="singUP"/>
+	<anim x="8" loop="false" y="6" fps="24" anim="Roll dog left0" name="singLEFT"/>
+	<anim x="-15" loop="false" y="9" fps="24" anim="Roll dog right0" name="singRIGHT"/>
+	<anim x="0" loop="false" y="0" fps="24" anim="Roll dog down0" name="singDOWN"/>
+</character>

@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" icon="jax" y="0" isGF="false" isPlayer="false" holdTime="6.1" sprite="jax" camx="100" camy="100">
+	<anim x="-5" loop="false" y="0" fps="12" anim="jax idle left" name="danceLeft"/>
+	<anim x="-5" loop="false" y="0" fps="12" anim="jax idle right" name="danceRight"/>
+	<anim x="-10" loop="false" y="0" fps="12" anim="jax up" name="singUP"/>
+	<anim x="-47" loop="false" y="3" fps="12" anim="jax left" name="singLEFT"/>
+	<anim x="6" loop="false" y="-3" fps="12" anim="jax right" name="singRIGHT"/>
+	<anim x="-42" loop="false" y="9" fps="12" anim="jax down" name="singDOWN"/>
+</character>

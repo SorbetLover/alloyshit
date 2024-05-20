@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" icon="natsuki" y="0" isGF="false" isPlayer="false" holdTime="6.1" sprite="natsuki">
+	<anim x="0" loop="false" y="0" fps="24" anim="Nat Idle" name="idle"/>
+	<anim x="24" loop="false" y="5" fps="24" anim="Nat Up" name="singUP"/>
+	<anim x="-27" loop="false" y="-21" fps="24" anim="Nat Left" name="singLEFT"/>
+	<anim x="-45" loop="false" y="14" fps="24" anim="Nat Right" name="singRIGHT"/>
+	<anim x="27" loop="false" y="-18" fps="24" anim="Nat DOWN" name="singDOWN"/>
+</character>

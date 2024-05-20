@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" icon="scarlet" y="0" isGF="false" isPlayer="false" sprite="Scarlet">
+	<anim x="-5" loop="false" y="0" fps="24" anim="Scar Idle0" name="idle"/>	
+	<anim x="30" loop="false" y="45" fps="24" anim="Scar up" name="singUP"/>
+	<anim x="97" loop="false" y="-1" fps="24" anim="Scar left" name="singLEFT"/>
+	<anim x="9" loop="false" y="-12" fps="24" anim="Scar right" name="singRIGHT"/>
+	<anim x="53" loop="false" y="-76" fps="24" anim="Scar down" name="singDOWN"/>
+</character>

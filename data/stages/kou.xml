@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="0.9" name="kou" folder="stages/kou/">
+	<sprite x="-290" scroll="1" sprite="koustage2" y="0" scale="1" name="bgshit"/>
+
+	<girlfriend />
+	<dad y="150" x="-100" scale="0.8" />
+	<boyfriend y="500" x="900" flipX="true"/>
+</stage>

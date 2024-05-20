@@ -1,0 +1,17 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="0.4" name="epiphanycrossover" folder="stages/epiphanycross/">
+	<sprite name="gf1"               x="0" y="0"   sprite="gif/000"       scroll="1" scale="0.65" alpha="0"/>
+	<sprite name="gf2"               x="0" y="0"   sprite="gif/001"       scroll="1" scale="0.65" alpha="0"/>
+	<boyfriend y="180" x="-593" scale="0.8	"/>
+
+	<sprite name="monika1"               x="0" y="0"   sprite="monika/000"       scroll="1" scale="0.8" alpha="1"/>
+	<sprite name="monika2"               x="0" y="0"   sprite="monika/001"       scroll="1" scale="0.8"/>
+	<dad y="70" scale="0.8" x="660"/>
+
+	<sprite name="yuri1"               x="900" y="0"   sprite="yuri/000"       scroll="1" scale="0.5"/>
+	<sprite name="yuri2"               x="900" y="0"   sprite="yuri/001"       scroll="1" scale="0.5"/>
+	<sprite name="libi1"               x="-900" y="0"   sprite="libitina/000"       scroll="1" scale="0.5" alpha="1"/>
+	<sprite name="libi2"               x="-900" y="0"   sprite="libitina/001"       scroll="1" scale="0.5"/>
+	<sprite name="libi3"               x="-900" y="0"   sprite="libitina/002"       scroll="1" scale="0.5"/>
+	<girlfriend y="150" x="1150" alpha="0" scale="0.676"/>
+</stage>

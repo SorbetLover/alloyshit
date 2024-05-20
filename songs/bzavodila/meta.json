@@ -1,0 +1,16 @@
+{
+	"opponentModeAllowed": false,
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"beatsPerMesure": 4,
+	"bpm": 140,
+	"difficulties": [
+		"HARD"
+	],
+	"needsVoices": true,
+	"parsedColor": -5658198,
+	"displayName": "bzavodila",
+	"icon": "raloca",
+	"name": "bzavodila",
+	"color": "#A9A9AA"
+}

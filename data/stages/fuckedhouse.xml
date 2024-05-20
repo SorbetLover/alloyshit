@@ -1,0 +1,7 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="0.7" name="fuckedhouse" folder="stages/fuckedhouse/">
+	<sprite name="bg"               x="0" y="0"   sprite="week2bgtaki"       scroll="1" />
+	<girlfriend y="400" x="1000" alpha="0"/>
+	<dad y="0" />
+	<boyfriend y="620" x="1200"/>
+</stage>

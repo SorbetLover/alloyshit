@@ -1,0 +1,5 @@
+<!DOCTYPE codename-engine-character>
+<character isPlayer="false" flipX="false" sprite="8bit">
+	<anim name="idle"      anim="idle"      fps="60" loop="false" scale="3"/>
+	<anim name="neutral"    anim="neutral"   fps="60" loop="false"/>
+</character>

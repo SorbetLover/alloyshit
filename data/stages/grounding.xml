@@ -1,0 +1,5 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="" zoom="1.15">
+
+	<sprite sprite="grounding_floors" name="bg" y="-100"/>
+</stage>

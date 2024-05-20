@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" icon="boogielemon" y="0" isGF="false" isPlayer="false" holdTime="6.1" sprite="boogielemon">
+	<anim x="0" loop="false" y="0" fps="24" anim="lemon idle" name="idle"/>
+	<anim x="-6" loop="false" y="5" fps="24" anim="lemon up" name="singUP"/>
+	<anim x="3" loop="false" y="0" fps="24" anim="lemon right" name="singLEFT"/>
+	<anim x="28" loop="false" y="4" fps="24" anim="lemon left" name="singRIGHT"/>
+	<anim x="5" loop="false" y="-5" fps="24" anim="lemon down" name="singDOWN"/>
+	<anim x="-50" loop="false" y="4" fps="24" anim="lemon surprised" name="lemon surprised"/>
+</character>

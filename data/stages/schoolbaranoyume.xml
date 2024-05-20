@@ -1,0 +1,26 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/school/" zoom="1">
+	<sprite antialiasing="false" x="-12" updateHitbox="true" scroll="0.1" sprite="weebSky" y="0" scale="6" name="bgSky"/>
+	<sprite x="-216" updateHitbox="true" y="0" scale="6" scrollx="0.6" name="bgSchool" antialiasing="false" scrolly="0.9" sprite="weebSchool"/>
+	<sprite antialiasing="false" x="-204" updateHitbox="true" scroll="0.95" sprite="weebStreet" y="0" scale="6" name="bgStreet"/>
+	<sprite x="-30" updateHitbox="true" y="130" type="loop" scale="4.8" name="fgTrees" antialiasing="false" sprite="weebTreesBack" scroll="0.9"/>
+	<sprite x="-1180" updateHitbox="true" y="-1600" type="none" scale="8.4" name="bgTrees" antialiasing="false" sprite="weebTrees" scroll="0.85"/>
+	<sprite x="-200" updateHitbox="true" y="-40" type="loop" scale="6" name="treeLeaves" antialiasing="false" sprite="petals" scroll="0.85"/>
+	<sprite antialiasing="false" x="-100" updateHitbox="true" type="beat" scroll="0.9" sprite="bgFreaks" y="190" scale="6" name="bgGirls">
+		
+		
+		<anim loop="false" fps="24" anim="BG girls group" name="danceLeft" indices="0,1,2,3,4,5,6,7,8,9,10,11,12,13"/>
+		
+		
+		<anim loop="false" fps="24" anim="BG girls group" name="danceRight" indices="15,16,17,18,19,20,21,22,23,24,25,26,27,28,29"/>
+		
+	
+	</sprite>
+	<sprite x="-100.5" y="-82.5" sprite="BG" scale="1.2" name="BG" antialiasing="false"/>
+	<sprite x="-102.5" y="-201.5" sprite="FG" scale="1.5" name="FG" antialiasing="false"/>
+	<sprite x="405.5" y="193" sprite="animatedEvilSchool" scale="7" name="evilsch" antialiasing="false"/>
+	<gf/>
+	<dad/>
+	<bf/>
+	<combo/>
+</stage>

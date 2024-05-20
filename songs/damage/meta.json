@@ -1,0 +1,16 @@
+{
+	"opponentModeAllowed": true,
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"beatsPerMesure": 4,
+	"bpm": 190,
+	"difficulties": [
+		"hard", "fix"
+	],
+	"needsVoices": true,
+	"parsedColor": -47546,
+	"displayName": "damage",
+	"icon": "alastor",
+	"name": "damage",
+	"color": "#FF4646"
+}

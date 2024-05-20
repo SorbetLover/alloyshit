@@ -1,0 +1,15 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" icon="bf" camx="70" y="350" isGF="false" scale="6" camy="-600" flipX="true" isPlayer="true" antialiasing="false" gameOverChar="bf-falling" sprite="bf-falling">
+	<anim x="-5" loop="false" y="0" fps="12" anim="bfFalling-pixel idle" name="idle"/>
+	<anim x="-3" loop="false" y="0" fps="12" anim="bfFalling-pixel singup" name="singUP"/>
+	<anim x="-3" loop="false" y="0" fps="12" anim="bfFalling-pixel singleft" name="singLEFT"/>
+	<anim x="-7" loop="false" y="0" fps="12" anim="bfFalling-pixel singright" name="singRIGHT"/>
+	<anim x="-5" loop="false" y="0" fps="12" anim="bfFalling-pixel singdown0" name="singDOWN"/>
+	<anim x="-6" loop="false" y="0" fps="12" anim="bfFalling-pixel upmiss" name="singUPmiss"/>
+	<anim x="-5" loop="false" y="0" fps="12" anim="bfFalling-pixel leftmiss" name="singLEFTmiss"/>
+	<anim x="-5" loop="false" y="1" fps="12" anim="bfFalling-pixel rightmiss" name="singRIGHTmiss"/>
+	<anim x="-5" loop="false" y="0" fps="12" anim="bfFalling-pixel downmiss" name="singDOWNmiss"/>
+	<anim x="-5" loop="false" y="0" fps="12" anim="bfFalling-pixel gameover" name="firstDeath"/>
+	<anim x="-8" loop="false" y="80" fps="12" anim="bfFalling-pixel go loop" name="deathLoop"/>
+	<anim x="-8" loop="false" y="74" fps="12" anim="bfFalling-pixel retry" name="deathConfirm"/>
+</character>

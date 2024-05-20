@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="-20" icon="cailou" y="150" isGF="false"  isPlayer="true" flipX="true" holdTime="6.1" sprite="caylou">
+	<anim x="0" loop="false" y="0" fps="12" anim="caylou sad-idle" name="idle"/>
+	<anim x="-2" loop="false" y="0" fps="24" anim="caylou sad-up" name="singUP"/>
+	<anim x="-30" loop="false" y="2" fps="24" anim="caylou sad-left" name="singLEFT"/>
+	<anim x="-2" loop="false" y="10" fps="24" anim="caylou sad-right" name="singRIGHT"/>
+	<anim x="0" loop="false" y="-10" fps="24" anim="caylou sad-down" name="singDOWN"/>
+</character>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Jill.png">
+	<!-- Created with Adobe Animate version 22.0.0.93 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+
+	<SubTexture name="JillIdle0000" x="181" y="3" width="86" height="83"/>
+	<SubTexture name="JillIdle0001" x="181" y="3" width="86" height="83"/>
+	<SubTexture name="JillIdle0002" x="270" y="3" width="86" height="83"/>
+	<SubTexture name="JillIdle0003" x="270" y="3" width="86" height="83"/>
+	<SubTexture name="JillIdle0004" x="359" y="3" width="86" height="83"/>
+	<SubTexture name="JillIdle0005" x="359" y="3" width="86" height="83"/>
+	<SubTexture name="JillIdle0006" x="3" y="89" width="86" height="83"/>
+	<SubTexture name="JillIdle0007" x="3" y="89" width="86" height="83"/>
+	<SubTexture name="JillIdle0008" x="92" y="89" width="86" height="83"/>
+	<SubTexture name="JillIdle0009" x="92" y="89" width="86" height="83"/>
+	<SubTexture name="JillIdle0010" x="92" y="89" width="86" height="83"/>
+	<SubTexture name="JillIdle0011" x="92" y="89" width="86" height="83"/>
+	<SubTexture name="JillIdle0012" x="92" y="89" width="86" height="83"/>
+	<SubTexture name="JillIdle0013" x="92" y="89" width="86" height="83"/>
+	<SubTexture name="JillIdle0014" x="92" y="89" width="86" height="83"/>
+
+</TextureAtlas>

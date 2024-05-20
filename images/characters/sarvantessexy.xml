@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="sexy as hell.png">
+	<!-- Created with Adobe Animate version 22.0.8.217 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="DevilDOWN0000" x="5" y="5" width="1050" height="1149"/>
+	<SubTexture name="DevilDOWN0001" x="5" y="5" width="1050" height="1149"/>
+	<SubTexture name="DevilDOWN0002" x="1060" y="5" width="973" height="1095" frameX="-26" frameY="-27" frameWidth="1050" frameHeight="1149"/>
+	<SubTexture name="DevilDOWN0003" x="1060" y="5" width="973" height="1095" frameX="-26" frameY="-27" frameWidth="1050" frameHeight="1149"/>
+	<SubTexture name="DevilDOWN0004" x="2038" y="5" width="947" height="1107" frameX="-36" frameY="-21" frameWidth="1050" frameHeight="1149"/>
+	<SubTexture name="DevilDOWN0005" x="2038" y="5" width="947" height="1107" frameX="-36" frameY="-21" frameWidth="1050" frameHeight="1149"/>
+	<SubTexture name="DevilDOWN0006" x="2038" y="5" width="947" height="1107" frameX="-36" frameY="-21" frameWidth="1050" frameHeight="1149"/>
+	<SubTexture name="DevilDOWN0007" x="2038" y="5" width="947" height="1107" frameX="-36" frameY="-21" frameWidth="1050" frameHeight="1149"/>
+	<SubTexture name="DevilDOWN0008" x="2038" y="5" width="947" height="1107" frameX="-36" frameY="-21" frameWidth="1050" frameHeight="1149"/>
+	<SubTexture name="DevilDOWN0009" x="2038" y="5" width="947" height="1107" frameX="-36" frameY="-21" frameWidth="1050" frameHeight="1149"/>
+	<SubTexture name="DevilDOWN0010" x="2038" y="5" width="947" height="1107" frameX="-36" frameY="-21" frameWidth="1050" frameHeight="1149"/>
+	<SubTexture name="DevilDOWN0011" x="2038" y="5" width="947" height="1107" frameX="-36" frameY="-21" frameWidth="1050" frameHeight="1149"/>
+	<SubTexture name="DevilDOWN0012" x="2038" y="5" width="947" height="1107" frameX="-36" frameY="-21" frameWidth="1050" frameHeight="1149"/>
+	<SubTexture name="DevilDOWN0013" x="2038" y="5" width="947" height="1107" frameX="-36" frameY="-21" frameWidth="1050" frameHeight="1149"/>
+	<SubTexture name="DevilLeft0000" x="2990" y="5" width="912" height="1108" frameX="-164" frameY="-72" frameWidth="1155" frameHeight="1227"/>
+	<SubTexture name="DevilLeft0001" x="2990" y="5" width="912" height="1108" frameX="-164" frameY="-72" frameWidth="1155" frameHeight="1227"/>
+	<SubTexture name="DevilLeft0002" x="3907" y="5" width="989" height="1152" frameX="-111" frameY="-40" frameWidth="1155" frameHeight="1227"/>
+	<SubTexture name="DevilLeft0003" x="3907" y="5" width="989" height="1152" frameX="-111" frameY="-40" frameWidth="1155" frameHeight="1227"/>
+	<SubTexture name="DevilLeft0004" x="4901" y="5" width="1155" height="1227"/>
+	<SubTexture name="DevilLeft0005" x="4901" y="5" width="1155" height="1227"/>
+	<SubTexture name="DevilLeft0006" x="4901" y="5" width="1155" height="1227"/>
+	<SubTexture name="DevilLeft0007" x="4901" y="5" width="1155" height="1227"/>
+	<SubTexture name="DevilLeft0008" x="4901" y="5" width="1155" height="1227"/>
+	<SubTexture name="DevilLeft0009" x="4901" y="5" width="1155" height="1227"/>
+	<SubTexture name="DevilLeft0010" x="4901" y="5" width="1155" height="1227"/>
+	<SubTexture name="DevilLeft0011" x="4901" y="5" width="1155" height="1227"/>
+	<SubTexture name="DevilLeft0012" x="4901" y="5" width="1155" height="1227"/>
+	<SubTexture name="DevilLeft0013" x="4901" y="5" width="1155" height="1227"/>
+	<SubTexture name="DevilRight0000" x="6061" y="5" width="962" height="1200"/>
+	<SubTexture name="DevilRight0001" x="6061" y="5" width="962" height="1200"/>
+	<SubTexture name="DevilRight0002" x="7028" y="5" width="888" height="1146" frameX="-31" frameY="-25" frameWidth="962" frameHeight="1200"/>
+	<SubTexture name="DevilRight0003" x="7028" y="5" width="888" height="1146" frameX="-31" frameY="-25" frameWidth="962" frameHeight="1200"/>
+	<SubTexture name="DevilRight0004" x="7028" y="5" width="888" height="1146" frameX="-31" frameY="-25" frameWidth="962" frameHeight="1200"/>
+	<SubTexture name="DevilRight0005" x="7028" y="5" width="888" height="1146" frameX="-31" frameY="-25" frameWidth="962" frameHeight="1200"/>
+	<SubTexture name="DevilRight0006" x="7028" y="5" width="888" height="1146" frameX="-31" frameY="-25" frameWidth="962" frameHeight="1200"/>
+	<SubTexture name="DevilRight0007" x="7028" y="5" width="888" height="1146" frameX="-31" frameY="-25" frameWidth="962" frameHeight="1200"/>
+	<SubTexture name="DevilRight0008" x="7028" y="5" width="888" height="1146" frameX="-31" frameY="-25" frameWidth="962" frameHeight="1200"/>
+	<SubTexture name="DevilRight0009" x="7028" y="5" width="888" height="1146" frameX="-31" frameY="-25" frameWidth="962" frameHeight="1200"/>
+	<SubTexture name="DevilRight0010" x="7028" y="5" width="888" height="1146" frameX="-31" frameY="-25" frameWidth="962" frameHeight="1200"/>
+	<SubTexture name="DevilRight0011" x="7028" y="5" width="888" height="1146" frameX="-31" frameY="-25" frameWidth="962" frameHeight="1200"/>
+	<SubTexture name="DevilRight0012" x="7028" y="5" width="888" height="1146" frameX="-31" frameY="-25" frameWidth="962" frameHeight="1200"/>
+	<SubTexture name="DevilRight0013" x="7028" y="5" width="888" height="1146" frameX="-31" frameY="-25" frameWidth="962" frameHeight="1200"/>
+	<SubTexture name="DevilUP0000" x="5" y="1237" width="1111" height="1274"/>
+	<SubTexture name="DevilUP0001" x="5" y="1237" width="1111" height="1274"/>
+	<SubTexture name="DevilUP0002" x="1121" y="1237" width="1007" height="1214" frameX="-42" frameY="-29" frameWidth="1111" frameHeight="1274"/>
+	<SubTexture name="DevilUP0003" x="1121" y="1237" width="1007" height="1214" frameX="-42" frameY="-29" frameWidth="1111" frameHeight="1274"/>
+	<SubTexture name="DevilUP0004" x="2133" y="1237" width="947" height="1154" frameX="-63" frameY="-57" frameWidth="1111" frameHeight="1274"/>
+	<SubTexture name="DevilUP0005" x="2133" y="1237" width="947" height="1154" frameX="-63" frameY="-57" frameWidth="1111" frameHeight="1274"/>
+	<SubTexture name="DevilUP0006" x="2133" y="1237" width="947" height="1154" frameX="-63" frameY="-57" frameWidth="1111" frameHeight="1274"/>
+	<SubTexture name="DevilUP0007" x="2133" y="1237" width="947" height="1154" frameX="-63" frameY="-57" frameWidth="1111" frameHeight="1274"/>
+	<SubTexture name="DevilUP0008" x="2133" y="1237" width="947" height="1154" frameX="-63" frameY="-57" frameWidth="1111" frameHeight="1274"/>
+	<SubTexture name="DevilUP0009" x="2133" y="1237" width="947" height="1154" frameX="-63" frameY="-57" frameWidth="1111" frameHeight="1274"/>
+	<SubTexture name="DevilUP0010" x="2133" y="1237" width="947" height="1154" frameX="-63" frameY="-57" frameWidth="1111" frameHeight="1274"/>
+	<SubTexture name="DevilUP0011" x="2133" y="1237" width="947" height="1154" frameX="-63" frameY="-57" frameWidth="1111" frameHeight="1274"/>
+	<SubTexture name="DevilUP0012" x="2133" y="1237" width="947" height="1154" frameX="-63" frameY="-57" frameWidth="1111" frameHeight="1274"/>
+	<SubTexture name="DevilUP0013" x="2133" y="1237" width="947" height="1154" frameX="-63" frameY="-57" frameWidth="1111" frameHeight="1274"/>
+	<SubTexture name="Devilidle0000" x="3085" y="1237" width="1003" height="1129" frameX="-160" frameY="-150" frameWidth="1178" frameHeight="1319"/>
+	<SubTexture name="Devilidle0001" x="4093" y="1237" width="981" height="1119" frameX="-166" frameY="-156" frameWidth="1178" frameHeight="1319"/>
+	<SubTexture name="Devilidle0002" x="5079" y="1237" width="958" height="1109" frameX="-173" frameY="-162" frameWidth="1178" frameHeight="1319"/>
+	<SubTexture name="Devilidle0003" x="6042" y="1237" width="936" height="1097" frameX="-179" frameY="-169" frameWidth="1178" frameHeight="1319"/>
+	<SubTexture name="Devilidle0004" x="6983" y="1237" width="913" height="1085" frameX="-185" frameY="-175" frameWidth="1178" frameHeight="1319"/>
+	<SubTexture name="Devilidle0005" x="5" y="2516" width="890" height="1073" frameX="-192" frameY="-182" frameWidth="1178" frameHeight="1319"/>
+	<SubTexture name="Devilidle0006" x="900" y="2516" width="867" height="1060" frameX="-198" frameY="-189" frameWidth="1178" frameHeight="1319"/>
+	<SubTexture name="Devilidle0007" x="1772" y="2516" width="843" height="1046" frameX="-205" frameY="-197" frameWidth="1178" frameHeight="1319"/>
+	<SubTexture name="Devilidle0008" x="2620" y="2516" width="820" height="1032" frameX="-211" frameY="-204" frameWidth="1178" frameHeight="1319"/>
+	<SubTexture name="Devilidle0009" x="3445" y="2516" width="875" height="1080" frameX="-178" frameY="-173" frameWidth="1178" frameHeight="1319"/>
+	<SubTexture name="Devilidle0010" x="4325" y="2516" width="930" height="1126" frameX="-145" frameY="-142" frameWidth="1178" frameHeight="1319"/>
+	<SubTexture name="Devilidle0011" x="5260" y="2516" width="982" height="1170" frameX="-114" frameY="-111" frameWidth="1178" frameHeight="1319"/>
+	<SubTexture name="Devilidle0012" x="6247" y="2516" width="1033" height="1211" frameX="-84" frameY="-82" frameWidth="1178" frameHeight="1319"/>
+	<SubTexture name="Devilidle0013" x="5" y="3732" width="1083" height="1250" frameX="-55" frameY="-54" frameWidth="1178" frameHeight="1319"/>
+	<SubTexture name="Devilidle0014" x="1093" y="3732" width="1131" height="1286" frameX="-27" frameY="-27" frameWidth="1178" frameHeight="1319"/>
+	<SubTexture name="Devilidle0015" x="2229" y="3732" width="1178" height="1319"/>
+	<SubTexture name="Devilidle0016" x="3412" y="3732" width="1138" height="1290" frameX="-23" frameY="-23" frameWidth="1178" frameHeight="1319"/>
+	<SubTexture name="Devilidle0017" x="4555" y="3732" width="1096" height="1259" frameX="-47" frameY="-47" frameWidth="1178" frameHeight="1319"/>
+	<SubTexture name="Devilidle0018" x="5656" y="3732" width="1052" height="1225" frameX="-73" frameY="-72" frameWidth="1178" frameHeight="1319"/>
+	<SubTexture name="Devilidle0019" x="6713" y="3732" width="1008" height="1190" frameX="-99" frameY="-97" frameWidth="1178" frameHeight="1319"/>
+	<SubTexture name="Devilidle0020" x="5" y="5056" width="963" height="1153" frameX="-125" frameY="-123" frameWidth="1178" frameHeight="1319"/>
+	<SubTexture name="Devilidle0021" x="973" y="5056" width="917" height="1115" frameX="-153" frameY="-149" frameWidth="1178" frameHeight="1319"/>
+	<SubTexture name="Devilidle0022" x="1895" y="5056" width="869" height="1073" frameX="-182" frameY="-177" frameWidth="1178" frameHeight="1319"/>
+	<SubTexture name="Devilidle0023" x="2620" y="2516" width="820" height="1032" frameX="-211" frameY="-204" frameWidth="1178" frameHeight="1319"/>
+	<SubTexture name="Devilidle0024" x="2769" y="5056" width="858" height="1055" frameX="-201" frameY="-192" frameWidth="1178" frameHeight="1319"/>
+	<SubTexture name="Devilidle0025" x="3632" y="5056" width="894" height="1075" frameX="-191" frameY="-181" frameWidth="1178" frameHeight="1319"/>
+	<SubTexture name="Devilidle0026" x="4531" y="5056" width="932" height="1094" frameX="-180" frameY="-170" frameWidth="1178" frameHeight="1319"/>
+	<SubTexture name="Devilidle0027" x="5468" y="5056" width="968" height="1112" frameX="-170" frameY="-160" frameWidth="1178" frameHeight="1319"/>
+	<SubTexture name="Devilidle0028" x="3085" y="1237" width="1003" height="1129" frameX="-160" frameY="-150" frameWidth="1178" frameHeight="1319"/>
+</TextureAtlas>

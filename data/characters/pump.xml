@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" icon="pump" y="400" isGF="false" camy="-60" color="#FF7C11" isPlayer="false" sprite="PUMP_assets">
+	<anim x="-5" loop="false" y="0" fps="24" anim="pump static IDLE0" name="idle"/>
+	<anim x="111" loop="false" y="122" fps="24" anim="pump static UP NOTE0" name="singUP"/>
+	<anim x="147" loop="false" y="114" fps="24" anim="pump static LEFT NOTE0" name="singLEFT"/>
+	<anim x="127" loop="false" y="120" fps="24" anim="pump static RIGHT NOTE0" name="singRIGHT"/>
+	<anim x="130" loop="false" y="125" fps="24" anim="pump static DOWN NOTE0" name="singDOWN"/>
+</character>

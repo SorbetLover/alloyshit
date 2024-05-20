@@ -1,0 +1,7 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="0.7" name="church" folder="stages/church/">
+	<sprite name="bgshit"               x="-290" y="-600"   sprite="church"         scale="1.7" />
+	<girlfriend                              y="-100"                                      scale="0.8" />
+	<dad                            x="-100" y="-100"/>
+	<boyfriend                      x="1000" y="-40"/>
+</stage>

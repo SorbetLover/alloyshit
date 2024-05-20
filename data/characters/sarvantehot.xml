@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character camy="200" x="-200" icon="sarvhot" y="-400" isGF="false" color="#FF4E93" isPlayer="false" holdTime="6.1" sprite="sarvantessexy" scale="0.7">
+	<anim x="0" loop="false" y="0" fps="25" anim="Devilidle" name="idle"/>
+	<anim x="-6" loop="false" y="-33" fps="24" anim="DevilUP" name="singUP"/>
+	<anim x="77" loop="false" y="-132" fps="24" anim="DevilLeft" name="singLEFT"/>
+	<anim x="-60" loop="false" y="-93" fps="24" anim="DevilRight" name="singRIGHT"/>
+	<anim x="-50" loop="false" y="-35" fps="24" anim="DevilDOWN" name="singDOWN"/>
+</character>

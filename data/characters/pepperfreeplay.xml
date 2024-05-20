@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" icon="pepper" y="0" isGF="false" color="#7211FF" isPlayer="false" sprite="pepperfreeplay">
+	<anim x="0" loop="false" y="0" fps="24" anim="pepper idle0" name="idle"/>
+	<anim x="18" loop="false" y="-3" fps="24" anim="pepper left0" name="singLEFT"/>
+	<anim x="-3" loop="false" y="-6" fps="24" anim="pepper down0" name="singDOWN"/>
+	<anim x="-2" loop="false" y="13" fps="24" anim="pepper up0" name="singUP"/>
+	<anim x="-18" loop="false" y="-2" fps="24" anim="pepper right0" name="singRIGHT"/>
+</character>

@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" icon="kou" y="0" isGF="false" flipX="true" isPlayer="false" holdTime="6.1" sprite="kouplayer">
+	<anim x="0" loop="false" y="0" fps="24" anim="KOU idle dance" name="idle"/>
+	<anim x="44" loop="false" y="-10" fps="24" anim="KOU UP" name="singUP"/>
+	<anim x="66" loop="false" y="-54" fps="24" anim="KOU RIGHT" name="singRIGHT"/>
+	<anim x="15" loop="false" y="-10" fps="24" anim="KOU LEFT" name="singLEFT"/>
+	<anim x="42" loop="false" y="-64" fps="24" anim="KOU DOWN" name="singDOWN"/>
+</character>

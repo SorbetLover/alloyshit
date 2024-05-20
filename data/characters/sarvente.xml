@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" icon="sarvente" y="0" isGF="false" color="#FFB4F5" isPlayer="false" sprite="sarvente_dark">
+	<anim x="-35" loop="false" y="0" fps="24" anim="SarvDarkIdle" name="idle"/>
+	<anim x="-5" loop="false" y="0" fps="24" anim="SarvDarkUp" name="singUP"/>
+	<anim x="12" loop="false" y="-17" fps="24" anim="SarvDarkLeft" name="singLEFT"/>
+	<anim x="-38" loop="false" y="-7" fps="24" anim="SarvDarkRight" name="singRIGHT"/>
+	<anim x="-10" loop="false" y="-50" fps="24" anim="SarvDarkDown" name="singDOWN"/>
+	<anim x="-5" loop="false" y="0" fps="24" anim="SarvDarkAltUp" name="singUP-alt"/>
+	<anim x="12" loop="false" y="-17" fps="24" anim="SarvDarkAltLeft" name="singLEFT-alt"/>
+	<anim x="-38" loop="false" y="-7" fps="24" anim="SarvDarkAltRight" name="singRIGHT-alt"/>
+	<anim x="-10" loop="false" y="-50" fps="24" anim="SarvDarAltkDown" name="singDOWN-alt"/>
+</character>

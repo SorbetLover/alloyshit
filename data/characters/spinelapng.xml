@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" icon="spinelapng" y="0" isGF="false" camy="120" isPlayer="false" holdTime="6.1" sprite="spinelapng">
+	<anim x="0" loop="false" y="0" fps="24" anim="idle" name="idle"/>
+	<anim x="-46" loop="false" y="5" fps="24" anim="up" name="singUP"/>
+	<anim x="-335" loop="false" y="5" fps="24" anim="right" name="singRIGHT"/>
+	<anim x="-15" loop="false" y="42" fps="24" anim="left" name="singLEFT"/>
+	<anim x="-20" loop="false" y="0" fps="24" anim="down" name="singDOWN"/>
+</character>

@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" icon="sarvinhot" y="0" isGF="false" color="#FF4EFD" isPlayer="false" holdTime="6.1" sprite="sarvinhot">
+	<anim x="0" loop="false" y="0" fps="24" anim="SarvinIdle" name="idle"/>
+	<anim x="-6" loop="false" y="50" fps="24" anim="SarvinUp" name="singUP"/>
+	<anim x="-10" loop="false" y="10" fps="24" anim="SarvinLeft" name="singLEFT"/>
+	<anim x="0" loop="false" y="27" fps="24" anim="SarvinRight" name="singRIGHT"/>
+	<anim x="0" loop="false" y="-30" fps="24" anim="SarvinDown" name="singDOWN"/>
+</character>

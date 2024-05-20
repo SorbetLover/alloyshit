@@ -1,0 +1,6 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" icon="cesar" y="0" isGF="false" camy="0" camx="300" flipX="true" isPlayer="true" sprite="death/rolldog" scale="1.2">
+	<anim x="-5" loop="false" y="0" fps="24" anim="death0" name="firstDeath"/>
+	<anim x="-1120" loop="false" y="-362" fps="4" anim="death loop0" name="deathLoop"/>
+	<anim x="-82" loop="false" y="-127" fps="24" anim="death confirm" name="deathConfirm"/>
+</character>

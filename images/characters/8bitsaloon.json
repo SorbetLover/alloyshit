@@ -1,0 +1,1128 @@
+{ "frames": {
+   "sloon_8bit no0000": {
+    "frame": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 100
+   },
+   "sloon_8bit Idle0000": {
+    "frame": { "x": 240, "y": 0, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 100
+   },
+   "sloon_8bit Idle0001": {
+    "frame": { "x": 480, "y": 0, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 100
+   },
+   "sloon_8bit Idle0002": {
+    "frame": { "x": 720, "y": 0, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 100
+   },
+   "sloon_8bit Idle0003": {
+    "frame": { "x": 960, "y": 0, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 100
+   },
+   "sloon_8bit Idle0004": {
+    "frame": { "x": 1200, "y": 0, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 100
+   },
+   "sloon_8bit up0000": {
+    "frame": { "x": 1440, "y": 0, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 24
+   },
+   "sloon_8bit up0001": {
+    "frame": { "x": 1680, "y": 0, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 24
+   },
+   "sloon_8bit up0002": {
+    "frame": { "x": 1680, "y": 0, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 24
+   },
+   "sloon_8bit up0003": {
+    "frame": { "x": 1920, "y": 0, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 24
+   },
+   "sloon_8bit up0004": {
+    "frame": { "x": 1920, "y": 0, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 24
+   },
+   "sloon_8bit up0005": {
+    "frame": { "x": 2160, "y": 0, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 24
+   },
+   "sloon_8bit up0006": {
+    "frame": { "x": 2400, "y": 0, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 24
+   },
+   "sloon_8bit up0007": {
+    "frame": { "x": 0, "y": 200, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 24
+   },
+   "sloon_8bit up0008": {
+    "frame": { "x": 240, "y": 200, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 24
+   },
+   "sloon_8bit up0009": {
+    "frame": { "x": 480, "y": 200, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 24
+   },
+   "sloon_8bit up00010": {
+    "frame": { "x": 720, "y": 200, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 24
+   },
+   "sloon_8bit up00011": {
+    "frame": { "x": 960, "y": 200, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 24
+   },
+   "sloon_8bit up00012": {
+    "frame": { "x": 1200, "y": 200, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 24
+   },
+   "sloon_8bit up00013": {
+    "frame": { "x": 1200, "y": 200, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 24
+   },
+   "sloon_8bit down0000": {
+    "frame": { "x": 1440, "y": 200, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 24
+   },
+   "sloon_8bit down0001": {
+    "frame": { "x": 1680, "y": 200, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 24
+   },
+   "sloon_8bit down0002": {
+    "frame": { "x": 1680, "y": 200, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 24
+   },
+   "sloon_8bit down0003": {
+    "frame": { "x": 1920, "y": 200, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 24
+   },
+   "sloon_8bit down0004": {
+    "frame": { "x": 2160, "y": 200, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 24
+   },
+   "sloon_8bit down0005": {
+    "frame": { "x": 2400, "y": 200, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 24
+   },
+   "sloon_8bit down0006": {
+    "frame": { "x": 0, "y": 400, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 24
+   },
+   "sloon_8bit down0007": {
+    "frame": { "x": 240, "y": 400, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 24
+   },
+   "sloon_8bit down0008": {
+    "frame": { "x": 480, "y": 400, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 24
+   },
+   "sloon_8bit down0009": {
+    "frame": { "x": 720, "y": 400, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 24
+   },
+   "sloon_8bit down00010": {
+    "frame": { "x": 960, "y": 400, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 24
+   },
+   "sloon_8bit down00011": {
+    "frame": { "x": 1200, "y": 400, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 24
+   },
+   "sloon_8bit down00012": {
+    "frame": { "x": 1440, "y": 400, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 24
+   },
+   "sloon_8bit down00013": {
+    "frame": { "x": 1440, "y": 400, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 24
+   },
+   "sloon_8bit left0000": {
+    "frame": { "x": 1680, "y": 400, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 24
+   },
+   "sloon_8bit left0001": {
+    "frame": { "x": 1920, "y": 400, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 24
+   },
+   "sloon_8bit left0002": {
+    "frame": { "x": 2160, "y": 400, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 24
+   },
+   "sloon_8bit left0003": {
+    "frame": { "x": 2400, "y": 400, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 24
+   },
+   "sloon_8bit left0004": {
+    "frame": { "x": 0, "y": 600, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 24
+   },
+   "sloon_8bit left0005": {
+    "frame": { "x": 240, "y": 600, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 24
+   },
+   "sloon_8bit left0006": {
+    "frame": { "x": 480, "y": 600, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 24
+   },
+   "sloon_8bit left0007": {
+    "frame": { "x": 720, "y": 600, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 24
+   },
+   "sloon_8bit left0008": {
+    "frame": { "x": 960, "y": 600, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 24
+   },
+   "sloon_8bit left0009": {
+    "frame": { "x": 1200, "y": 600, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 24
+   },
+   "sloon_8bit left00010": {
+    "frame": { "x": 1440, "y": 600, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 24
+   },
+   "sloon_8bit left00011": {
+    "frame": { "x": 1680, "y": 600, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 24
+   },
+   "sloon_8bit left00012": {
+    "frame": { "x": 1920, "y": 600, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 24
+   },
+   "sloon_8bit left00013": {
+    "frame": { "x": 1920, "y": 600, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 24
+   },
+   "sloon_8bit right0000": {
+    "frame": { "x": 2160, "y": 600, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 24
+   },
+   "sloon_8bit right0001": {
+    "frame": { "x": 2400, "y": 600, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 24
+   },
+   "sloon_8bit right0002": {
+    "frame": { "x": 0, "y": 800, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 24
+   },
+   "sloon_8bit right0003": {
+    "frame": { "x": 240, "y": 800, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 24
+   },
+   "sloon_8bit right0004": {
+    "frame": { "x": 480, "y": 800, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 24
+   },
+   "sloon_8bit right0005": {
+    "frame": { "x": 720, "y": 800, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 24
+   },
+   "sloon_8bit right0006": {
+    "frame": { "x": 960, "y": 800, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 24
+   },
+   "sloon_8bit right0007": {
+    "frame": { "x": 1200, "y": 800, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 24
+   },
+   "sloon_8bit right0008": {
+    "frame": { "x": 1440, "y": 800, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 24
+   },
+   "sloon_8bit right0009": {
+    "frame": { "x": 1680, "y": 800, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 24
+   },
+   "sloon_8bit right00010": {
+    "frame": { "x": 1920, "y": 800, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 24
+   },
+   "sloon_8bit right00011": {
+    "frame": { "x": 2160, "y": 800, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 24
+   },
+   "sloon_8bit right00012": {
+    "frame": { "x": 2400, "y": 800, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 24
+   },
+   "sloon_8bit right00013": {
+    "frame": { "x": 2400, "y": 800, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 24
+   },
+   "sloon_8bit anger0000": {
+    "frame": { "x": 0, "y": 1000, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 100
+   },
+   "sloon_8bit anger0001": {
+    "frame": { "x": 240, "y": 1000, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 100
+   },
+   "sloon_8bit anger0002": {
+    "frame": { "x": 480, "y": 1000, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 100
+   },
+   "sloon_8bit anger0003": {
+    "frame": { "x": 720, "y": 1000, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 100
+   },
+   "sloon_8bit anger0004": {
+    "frame": { "x": 960, "y": 1000, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 100
+   },
+   "sloon_8bit anger0005": {
+    "frame": { "x": 1200, "y": 1000, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 100
+   },
+   "sloon_8bit anger0006": {
+    "frame": { "x": 1440, "y": 1000, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 100
+   },
+   "sloon_8bit anger0007": {
+    "frame": { "x": 1680, "y": 1000, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 100
+   },
+   "sloon_8bit anger0008": {
+    "frame": { "x": 1920, "y": 1000, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 100
+   },
+   "sloon_8bit anger0009": {
+    "frame": { "x": 2160, "y": 1000, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 100
+   },
+   "sloon_8bit anger00010": {
+    "frame": { "x": 2400, "y": 1000, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 100
+   },
+   "sloon_8bit anger00011": {
+    "frame": { "x": 0, "y": 1200, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 100
+   },
+   "sloon_8bit anger00012": {
+    "frame": { "x": 2160, "y": 1000, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 100
+   },
+   "sloon_8bit anger00013": {
+    "frame": { "x": 2400, "y": 1000, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 100
+   },
+   "sloon_8bit anger00014": {
+    "frame": { "x": 0, "y": 1200, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 100
+   },
+   "sloon_8bit anger00015": {
+    "frame": { "x": 2160, "y": 1000, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 100
+   },
+   "sloon_8bit anger00016": {
+    "frame": { "x": 2400, "y": 1000, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 100
+   },
+   "sloon_8bit anger00017": {
+    "frame": { "x": 0, "y": 1200, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 100
+   },
+   "sloon_8bit anger00018": {
+    "frame": { "x": 240, "y": 1200, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 100
+   },
+   "sloon_8bit anger00019": {
+    "frame": { "x": 480, "y": 1200, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 100
+   },
+   "sloon_8bit anger00020": {
+    "frame": { "x": 720, "y": 1200, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 100
+   },
+   "sloon_8bit anger00021": {
+    "frame": { "x": 960, "y": 1200, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 100
+   },
+   "sloon_8bit anger00022": {
+    "frame": { "x": 1200, "y": 1200, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 100
+   },
+   "sloon_8bit anger00023": {
+    "frame": { "x": 1440, "y": 1200, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 100
+   },
+   "sloon_8bit anger00024": {
+    "frame": { "x": 1680, "y": 1200, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 100
+   },
+   "sloon_8bit drums0000": {
+    "frame": { "x": 1920, "y": 1200, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 25
+   },
+   "sloon_8bit drums0001": {
+    "frame": { "x": 2160, "y": 1200, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 25
+   },
+   "sloon_8bit drums0002": {
+    "frame": { "x": 2400, "y": 1200, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 25
+   },
+   "sloon_8bit drums0003": {
+    "frame": { "x": 0, "y": 1400, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 25
+   },
+   "sloon_8bit gunshoot0000": {
+    "frame": { "x": 240, "y": 1400, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 100
+   },
+   "sloon_8bit gunshoot0001": {
+    "frame": { "x": 480, "y": 1400, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 100
+   },
+   "sloon_8bit gunshoot0002": {
+    "frame": { "x": 720, "y": 1400, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 100
+   },
+   "sloon_8bit gunshoot0003": {
+    "frame": { "x": 960, "y": 1400, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 100
+   },
+   "sloon_8bit gunshoot0004": {
+    "frame": { "x": 1200, "y": 1400, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 50
+   },
+   "sloon_8bit gunshoot0005": {
+    "frame": { "x": 1440, "y": 1400, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 50
+   },
+   "sloon_8bit gunshoot0006": {
+    "frame": { "x": 1680, "y": 1400, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 50
+   },
+   "sloon_8bit gunshoot0007": {
+    "frame": { "x": 1920, "y": 1400, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 50
+   },
+   "sloon_8bit gunshoot0008": {
+    "frame": { "x": 2160, "y": 1400, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 100
+   },
+   "sloon_8bit gunshoot0009": {
+    "frame": { "x": 2400, "y": 1400, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 100
+   },
+   "sloon_8bit gunshoot00010": {
+    "frame": { "x": 0, "y": 1600, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 100
+   },
+   "sloon_8bit gunshoot00011": {
+    "frame": { "x": 240, "y": 1600, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 100
+   },
+   "sloon_8bit gunshoot00012": {
+    "frame": { "x": 480, "y": 1600, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 100
+   },
+   "sloon_8bit gunshoot00013": {
+    "frame": { "x": 720, "y": 1600, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 100
+   },
+   "sloon_8bit gunshoot00014": {
+    "frame": { "x": 960, "y": 1600, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 50
+   },
+   "sloon_8bit gunshoot00015": {
+    "frame": { "x": 1200, "y": 1600, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 50
+   },
+   "sloon_8bit gunshoot00016": {
+    "frame": { "x": 1440, "y": 1600, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 100
+   },
+   "sloon_8bit gunshoot00017": {
+    "frame": { "x": 1680, "y": 1600, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 100
+   },
+   "sloon_8bit gunshoot00018": {
+    "frame": { "x": 1920, "y": 1600, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 100
+   },
+   "sloon_8bit gunshoot00019": {
+    "frame": { "x": 2160, "y": 1600, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 100
+   },
+   "sloon_8bit gunshoot00020": {
+    "frame": { "x": 240, "y": 1600, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 100
+   },
+   "sloon_8bit sax idle0000": {
+    "frame": { "x": 2400, "y": 1600, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 100
+   },
+   "sloon_8bit sax idle0001": {
+    "frame": { "x": 0, "y": 1800, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 100
+   },
+   "sloon_8bit sax idle0002": {
+    "frame": { "x": 240, "y": 1800, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 100
+   },
+   "sloon_8bit sax idle0003": {
+    "frame": { "x": 480, "y": 1800, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 100
+   },
+   "sloon_8bit sax idle0004": {
+    "frame": { "x": 720, "y": 1800, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 100
+   },
+   "sloon_8bit sax up0000": {
+    "frame": { "x": 960, "y": 1800, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 100
+   },
+   "sloon_8bit sax up0001": {
+    "frame": { "x": 1200, "y": 1800, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 100
+   },
+   "sloon_8bit sax up0002": {
+    "frame": { "x": 1440, "y": 1800, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 100
+   },
+   "sloon_8bit sax up0003": {
+    "frame": { "x": 1680, "y": 1800, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 100
+   },
+   "sloon_8bit sax down0000": {
+    "frame": { "x": 1920, "y": 1800, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 100
+   },
+   "sloon_8bit sax down0001": {
+    "frame": { "x": 2160, "y": 1800, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 100
+   },
+   "sloon_8bit sax down0002": {
+    "frame": { "x": 2400, "y": 1800, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 100
+   },
+   "sloon_8bit sax down0003": {
+    "frame": { "x": 0, "y": 2000, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 100
+   },
+   "sloon_8bit sax right0000": {
+    "frame": { "x": 240, "y": 2000, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 100
+   },
+   "sloon_8bit sax right0001": {
+    "frame": { "x": 480, "y": 2000, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 100
+   },
+   "sloon_8bit sax right0002": {
+    "frame": { "x": 720, "y": 2000, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 100
+   },
+   "sloon_8bit sax right0003": {
+    "frame": { "x": 960, "y": 2000, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 100
+   },
+   "sloon_8bit sax left0000": {
+    "frame": { "x": 1200, "y": 2000, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 100
+   },
+   "sloon_8bit sax left0001": {
+    "frame": { "x": 1440, "y": 2000, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 100
+   },
+   "sloon_8bit sax left0002": {
+    "frame": { "x": 1680, "y": 2000, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 100
+   },
+   "sloon_8bit sax left0003": {
+    "frame": { "x": 1920, "y": 2000, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 100
+   },
+   "sloon_8bit fuckoff0000": {
+    "frame": { "x": 2160, "y": 2000, "w": 240, "h": 200 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 200 },
+    "sourceSize": { "w": 240, "h": 200 },
+    "duration": 100
+   }
+ },
+ "meta": {
+  "app": "http://www.aseprite.org/",
+  "version": "1.2.21-dev",
+  "image": "sloon_8bit.png",
+  "format": "RGBA8888",
+  "size": { "w": 2640, "h": 2200 },
+  "scale": "1",
+  "frameTags": [
+   { "name": "no", "from": 0, "to": 0, "direction": "forward" },
+   { "name": "Idle", "from": 1, "to": 5, "direction": "forward" },
+   { "name": "up", "from": 6, "to": 19, "direction": "forward" },
+   { "name": "down", "from": 20, "to": 33, "direction": "forward" },
+   { "name": "left", "from": 34, "to": 47, "direction": "forward" },
+   { "name": "right", "from": 48, "to": 61, "direction": "forward" },
+   { "name": "anger", "from": 62, "to": 86, "direction": "forward" },
+   { "name": "drums", "from": 87, "to": 90, "direction": "forward" },
+   { "name": "gunshoot", "from": 91, "to": 111, "direction": "forward" },
+   { "name": "sax idle", "from": 112, "to": 116, "direction": "forward" },
+   { "name": "sax up", "from": 117, "to": 120, "direction": "forward" },
+   { "name": "sax down", "from": 121, "to": 124, "direction": "forward" },
+   { "name": "sax right", "from": 125, "to": 128, "direction": "forward" },
+   { "name": "sax left", "from": 129, "to": 132, "direction": "forward" },
+   { "name": "fuckoff", "from": 133, "to": 133, "direction": "forward" }
+  ],
+  "layers": [
+   { "name": "arrm2", "opacity": 255, "blendMode": "normal" },
+   { "name": "图层 5", "opacity": 255, "blendMode": "normal" },
+   { "name": "图层 3", "opacity": 255, "blendMode": "normal" },
+   { "name": "leg2", "opacity": 255, "blendMode": "normal" },
+   { "name": "leg1", "opacity": 255, "blendMode": "normal" },
+   { "name": "body", "opacity": 255, "blendMode": "normal" },
+   { "name": "oops", "opacity": 255, "blendMode": "normal" },
+   { "name": "OWO", "opacity": 255, "blendMode": "normal" },
+   { "name": "arm1", "opacity": 255, "blendMode": "normal" },
+   { "name": "THINGS", "opacity": 255, "blendMode": "normal" },
+   { "name": "arrm1", "opacity": 255, "blendMode": "normal" },
+   { "name": "图层 15", "opacity": 255, "blendMode": "normal" },
+   { "name": "图层 11", "opacity": 255, "blendMode": "normal" },
+   { "name": "图层 14", "opacity": 255, "blendMode": "normal" },
+   { "name": "图层 12", "opacity": 255, "blendMode": "normal" },
+   { "name": "图层 16", "opacity": 255, "blendMode": "normal" },
+   { "name": "图层 13", "opacity": 255, "blendMode": "normal" },
+   { "name": "组 1" },
+   { "name": "图层 6", "group": "组 1", "opacity": 255, "blendMode": "normal" },
+   { "name": "图层 2", "group": "组 1", "opacity": 255, "blendMode": "normal" },
+   { "name": "图层 7", "group": "组 1", "opacity": 255, "blendMode": "normal" },
+   { "name": "图层 8", "group": "组 1", "opacity": 255, "blendMode": "normal" },
+   { "name": "图层 9", "group": "组 1", "opacity": 255, "blendMode": "normal" },
+   { "name": "图层 10", "group": "组 1", "opacity": 255, "blendMode": "normal" }
+  ],
+  "slices": [
+  ]
+ }
+}

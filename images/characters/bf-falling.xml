@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="FNR7bf-falling.png">
+
+<SubTexture name="bfFalling-pixel idle0000" x="300" y="0" width="150" height="285" frameX="0" frameY="0" frameWidth="150" frameHeight="285" />
+<SubTexture name="bfFalling-pixel idle0001" x="450" y="0" width="150" height="285" frameX="0" frameY="0" frameWidth="150" frameHeight="285" />
+<SubTexture name="bfFalling-pixel idle0002" x="600" y="0" width="150" height="285" frameX="0" frameY="0" frameWidth="150" frameHeight="285" />
+<SubTexture name="bfFalling-pixel idle0003" x="750" y="0" width="150" height="285" frameX="0" frameY="0" frameWidth="150" frameHeight="285" />
+<SubTexture name="bfFalling-pixel idle0004" x="0" y="0" width="150" height="285" frameX="0" frameY="0" frameWidth="150" frameHeight="285" />
+<SubTexture name="bfFalling-pixel idle0005" x="150" y="0" width="150" height="285" frameX="0" frameY="0" frameWidth="150" frameHeight="285" />
+<SubTexture name="bfFalling-pixel idle0006" x="150" y="0" width="150" height="285" frameX="0" frameY="0" frameWidth="150" frameHeight="285" />
+<SubTexture name="bfFalling-pixel idle0007" x="150" y="0" width="150" height="285" frameX="0" frameY="0" frameWidth="150" frameHeight="285" />
+<SubTexture name="bfFalling-pixel idle0008" x="150" y="0" width="150" height="285" frameX="0" frameY="0" frameWidth="150" frameHeight="285" />
+<SubTexture name="bfFalling-pixel idle0009" x="150" y="0" width="150" height="285" frameX="0" frameY="0" frameWidth="150" frameHeight="285" />
+<SubTexture name="bfFalling-pixel idle0010" x="150" y="0" width="150" height="285" frameX="0" frameY="0" frameWidth="150" frameHeight="285" />
+
+
+
+<SubTexture name="bfFalling-pixel singup0000" x="900" y="0" width="150" height="285" frameX="0" frameY="0" frameWidth="150" frameHeight="285" />
+<SubTexture name="bfFalling-pixel singup0001" x="1050" y="0" width="150" height="285" frameX="0" frameY="0" frameWidth="150" frameHeight="285" />
+
+<SubTexture name="bfFalling-pixel singright0000" x="1200" y="0" width="150" height="285" frameX="0" frameY="0" frameWidth="150" frameHeight="285" />
+<SubTexture name="bfFalling-pixel singright0001" x="1350" y="0" width="150" height="285" frameX="0" frameY="0" frameWidth="150" frameHeight="285" />
+
+<SubTexture name="bfFalling-pixel singdown0000" x="1500" y="0" width="150" height="285" frameX="0" frameY="0" frameWidth="150" frameHeight="285" />
+<SubTexture name="bfFalling-pixel singdown0001" x="1650" y="0" width="150" height="285" frameX="0" frameY="0" frameWidth="150" frameHeight="285" />
+
+<SubTexture name="bfFalling-pixel singleft0000" x="0" y="285" width="150" height="285" frameX="0" frameY="0" frameWidth="150" frameHeight="285" />
+<SubTexture name="bfFalling-pixel singleft0001" x="150" y="285" width="150" height="285" frameX="0" frameY="0" frameWidth="150" frameHeight="285" />
+
+
+
+
+<SubTexture name="bfFalling-pixel upmiss0000" x="300" y="285" width="150" height="285" frameX="0" frameY="0" frameWidth="150" frameHeight="285" />
+<SubTexture name="bfFalling-pixel upmiss0001" x="450" y="285" width="150" height="285" frameX="0" frameY="0" frameWidth="150" frameHeight="285" />
+<SubTexture name="bfFalling-pixel upmiss0002" x="600" y="285" width="150" height="285" frameX="0" frameY="0" frameWidth="150" frameHeight="285" />
+
+<SubTexture name="bfFalling-pixel rightmiss0000" x="750" y="285" width="150" height="285" frameX="0" frameY="0" frameWidth="150" frameHeight="285" />
+<SubTexture name="bfFalling-pixel rightmiss0001" x="900" y="285" width="150" height="285" frameX="0" frameY="0" frameWidth="150" frameHeight="285" />
+<SubTexture name="bfFalling-pixel rightmiss0002" x="1050" y="285" width="150" height="285" frameX="0" frameY="0" frameWidth="150" frameHeight="285" />
+
+<SubTexture name="bfFalling-pixel downmiss0000" x="1200" y="285" width="150" height="285" frameX="0" frameY="0" frameWidth="150" frameHeight="285" />
+<SubTexture name="bfFalling-pixel downmiss0001" x="1350" y="285" width="150" height="285" frameX="0" frameY="0" frameWidth="150" frameHeight="285" />
+<SubTexture name="bfFalling-pixel downmiss0002" x="1500" y="285" width="150" height="285" frameX="0" frameY="0" frameWidth="150" frameHeight="285" />
+
+<SubTexture name="bfFalling-pixel leftmiss0000" x="1650" y="285" width="150" height="285" frameX="0" frameY="0" frameWidth="150" frameHeight="285" />
+<SubTexture name="bfFalling-pixel leftmiss0001" x="0" y="570" width="150" height="285" frameX="0" frameY="0" frameWidth="150" frameHeight="285" />
+<SubTexture name="bfFalling-pixel leftmiss0002" x="150" y="570" width="150" height="285" frameX="0" frameY="0" frameWidth="150" frameHeight="285" />
+
+
+
+<SubTexture name="bfFalling-pixel gameover0000" x="300" y="570" width="150" height="285" frameX="0" frameY="0" frameWidth="150" frameHeight="285" />
+<SubTexture name="bfFalling-pixel gameover0001" x="450" y="570" width="150" height="285" frameX="0" frameY="0" frameWidth="150" frameHeight="285" />
+<SubTexture name="bfFalling-pixel gameover0002" x="600" y="570" width="150" height="285" frameX="0" frameY="0" frameWidth="150" frameHeight="285" />
+<SubTexture name="bfFalling-pixel gameover0003" x="750" y="570" width="150" height="285" frameX="0" frameY="0" frameWidth="150" frameHeight="285" />
+<SubTexture name="bfFalling-pixel gameover0004" x="900" y="570" width="150" height="285" frameX="0" frameY="0" frameWidth="150" frameHeight="285" />
+<SubTexture name="bfFalling-pixel gameover0005" x="1050" y="570" width="150" height="285" frameX="0" frameY="0" frameWidth="150" frameHeight="285" />
+<SubTexture name="bfFalling-pixel gameover0006" x="1200" y="570" width="150" height="285" frameX="0" frameY="0" frameWidth="150" frameHeight="285" />
+<SubTexture name="bfFalling-pixel gameover0007" x="1350" y="570" width="150" height="285" frameX="0" frameY="0" frameWidth="150" frameHeight="285" />
+<SubTexture name="bfFalling-pixel gameover0008" x="1500" y="570" width="150" height="285" frameX="0" frameY="0" frameWidth="150" frameHeight="285" />
+<SubTexture name="bfFalling-pixel gameover0009" x="1650" y="570" width="150" height="285" frameX="0" frameY="0" frameWidth="150" frameHeight="285" />
+
+<SubTexture name="bfFalling-pixel gameover0010" x="0" y="855" width="150" height="285" frameX="0" frameY="0" frameWidth="150" frameHeight="285" />
+<SubTexture name="bfFalling-pixel gameover0011" x="150" y="855" width="150" height="285" frameX="0" frameY="0" frameWidth="150" frameHeight="285" />
+<SubTexture name="bfFalling-pixel gameover0012" x="300" y="855" width="150" height="285" frameX="0" frameY="0" frameWidth="150" frameHeight="285" />
+<SubTexture name="bfFalling-pixel gameover0013" x="450" y="855" width="150" height="285" frameX="0" frameY="0" frameWidth="150" frameHeight="285" />
+<SubTexture name="bfFalling-pixel gameover0014" x="600" y="855" width="150" height="285" frameX="0" frameY="0" frameWidth="150" frameHeight="285" />
+<SubTexture name="bfFalling-pixel gameover0015" x="750" y="855" width="150" height="285" frameX="0" frameY="0" frameWidth="150" frameHeight="285" />
+<SubTexture name="bfFalling-pixel gameover0016" x="900" y="855" width="150" height="285" frameX="0" frameY="0" frameWidth="150" frameHeight="285" />
+<SubTexture name="bfFalling-pixel gameover0017" x="1050" y="855" width="150" height="285" frameX="0" frameY="0" frameWidth="150" frameHeight="285" />
+<SubTexture name="bfFalling-pixel gameover0018" x="1200" y="855" width="150" height="285" frameX="0" frameY="0" frameWidth="150" frameHeight="285" />
+<SubTexture name="bfFalling-pixel gameover0019" x="1350" y="855" width="150" height="285" frameX="0" frameY="0" frameWidth="150" frameHeight="285" />
+<SubTexture name="bfFalling-pixel gameover0020" x="1500" y="855" width="150" height="285" frameX="0" frameY="0" frameWidth="150" frameHeight="285" />
+
+<SubTexture name="bfFalling-pixel go loop0020" x="1500" y="855" width="150" height="285" frameX="0" frameY="0" frameWidth="150" frameHeight="285" />
+
+<SubTexture name="bfFalling-pixel retry0019" x="1650" y="855" width="150" height="285" frameX="0" frameY="0" frameWidth="150" frameHeight="285" />
+
+</TextureAtlas>

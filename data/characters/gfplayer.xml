@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" icon="gf" y="350" isGF="false" flipX="true" isPlayer="true" sprite="gfplayer">
+	<anim x="-5" loop="false" y="0" fps="24" anim="GF IDLE" name="idle"/>
+	<anim x="28" loop="false" y="15" fps="24" anim="GF up" name="singUP"/>
+	<anim x="-80" loop="false" y="10" fps="24" anim="GF LEFT0" name="singRIGHT"/>
+	<anim x="-58" loop="false" y="9" fps="24" anim="GF RIGHT0" name="singLEFT"/>
+	<anim x="-45" loop="false" y="-25" fps="24" anim="GF DOWN0" name="singDOWN"/>
+	<anim x="-28" loop="false" y="4" fps="24" anim="hey!" name="hey"/>
+</character>

@@ -1,0 +1,16 @@
+{
+	"opponentModeAllowed": true,
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"beatsPerMesure": 4,
+	"bpm": 128,
+	"difficulties": [
+		"hard"
+	],
+	"needsVoices": true,
+	"parsedColor": -151439,
+	"displayName": "love n funkin",
+	"icon": "lovenfunkin",
+	"name": "love n funkin",
+	"color": "#FDB071"
+}

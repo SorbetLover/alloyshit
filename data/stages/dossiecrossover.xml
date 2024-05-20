@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/epiphanycross/" zoom="1.4">
+	<gf/>
+	<sprite sprite="BG" name="BG"/>
+	<dad x="160" y="152.5"/>
+	<bf x="986.5" y="66"/>
+	<combo x="726.5" y="292"/>
+	<sprite sprite="lights" name="lights"/>
+	<sprite sprite="WindowLight" name="windowLight"/>
+
+	<sprite sprite="FG2" name="FG2"/>
+</stage>

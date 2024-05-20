@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" icon="pomni" y="0" isGF="false" flipX="true" isPlayer="false" holdTime="6.1" sprite="pomni">
+	<anim x="-5" loop="false" y="0" fps="24" anim="pomni idle" name="idle"/>
+	<anim x="-20" loop="false" y="-5" fps="24" anim="pomni up" name="singUP"/>
+	<anim x="18" loop="false" y="3" fps="24" anim="pomni right" name="singLEFT"/>
+	<anim x="-39" loop="false" y="-3" fps="24" anim="pomni left" name="singRIGHT"/>
+	<anim x="-21" loop="false" y="4" fps="24" anim="pomni down" name="singDOWN"/>
+</character>

@@ -1,0 +1,16 @@
+{
+	"opponentModeAllowed": true,
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"beatsPerMesure": 4,
+	"bpm": 146,
+	"difficulties": [
+		"HARD","OLD"
+	],
+	"needsVoices": true,
+	"parsedColor": -3947581,
+	"displayName": "Raluko-v",
+	"icon": "raloca",
+	"name": "markov",
+	"color": "#C3C3C3"
+}

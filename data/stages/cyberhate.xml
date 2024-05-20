@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/cyberhate/">
+	<sprite x="333" y="603.5" sprite="FNR7bfroomShadow" scale="2" name="FNR7bfroomShadow"/>
+	<gf/>
+	<dad x="-296" y="15" scale="0.3" />
+	<bf x="690.5" y="88"/>
+	<combo/>
+	<sprite x="-309" y="126.5" sprite="FNR7bfroomTV" scale="0.8" name="FNR7bfroomTV"/>
+</stage>

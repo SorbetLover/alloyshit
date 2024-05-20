@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="KOU_assets.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="KOU DOWN0000" x="10" y="10" width="327" height="378" frameX="-3" frameY="-28" frameWidth="332" frameHeight="406"/>
+	<SubTexture name="KOU DOWN0001" x="10" y="10" width="327" height="378" frameX="-3" frameY="-28" frameWidth="332" frameHeight="406"/>
+	<SubTexture name="KOU DOWN0002" x="357" y="10" width="332" height="377" frameX="0" frameY="-29" frameWidth="332" frameHeight="406"/>
+	<SubTexture name="KOU DOWN0003" x="357" y="10" width="332" height="377" frameX="0" frameY="-29" frameWidth="332" frameHeight="406"/>
+	<SubTexture name="KOU DOWN0004" x="709" y="10" width="320" height="387" frameX="-7" frameY="-19" frameWidth="332" frameHeight="406"/>
+	<SubTexture name="KOU DOWN0005" x="709" y="10" width="320" height="387" frameX="-7" frameY="-19" frameWidth="332" frameHeight="406"/>
+	<SubTexture name="KOU DOWN0006" x="1049" y="10" width="314" height="398" frameX="-9" frameY="-8" frameWidth="332" frameHeight="406"/>
+	<SubTexture name="KOU DOWN0007" x="1049" y="10" width="314" height="398" frameX="-9" frameY="-8" frameWidth="332" frameHeight="406"/>
+	<SubTexture name="KOU DOWN0008" x="1383" y="10" width="312" height="403" frameX="-10" frameY="-3" frameWidth="332" frameHeight="406"/>
+	<SubTexture name="KOU DOWN0009" x="1383" y="10" width="312" height="403" frameX="-10" frameY="-3" frameWidth="332" frameHeight="406"/>
+	<SubTexture name="KOU DOWN0010" x="1715" y="10" width="309" height="405" frameX="-11" frameY="-1" frameWidth="332" frameHeight="406"/>
+	<SubTexture name="KOU DOWN0011" x="1715" y="10" width="309" height="405" frameX="-11" frameY="-1" frameWidth="332" frameHeight="406"/>
+	<SubTexture name="KOU DOWN0012" x="2044" y="10" width="308" height="406" frameX="-12" frameY="0" frameWidth="332" frameHeight="406"/>
+	<SubTexture name="KOU DOWN0013" x="2044" y="10" width="308" height="406" frameX="-12" frameY="0" frameWidth="332" frameHeight="406"/>
+	<SubTexture name="KOU idle dance0000" x="2372" y="10" width="279" height="447" frameX="-12" frameY="-22" frameWidth="292" frameHeight="469"/>
+	<SubTexture name="KOU idle dance0001" x="2372" y="10" width="279" height="447" frameX="-12" frameY="-22" frameWidth="292" frameHeight="469"/>
+	<SubTexture name="KOU idle dance0002" x="2671" y="10" width="279" height="448" frameX="-13" frameY="-21" frameWidth="292" frameHeight="469"/>
+	<SubTexture name="KOU idle dance0003" x="2671" y="10" width="279" height="448" frameX="-13" frameY="-21" frameWidth="292" frameHeight="469"/>
+	<SubTexture name="KOU idle dance0004" x="2970" y="10" width="276" height="463" frameX="-6" frameY="-6" frameWidth="292" frameHeight="469"/>
+	<SubTexture name="KOU idle dance0005" x="2970" y="10" width="276" height="463" frameX="-6" frameY="-6" frameWidth="292" frameHeight="469"/>
+	<SubTexture name="KOU idle dance0006" x="3266" y="10" width="274" height="468" frameX="-3" frameY="-1" frameWidth="292" frameHeight="469"/>
+	<SubTexture name="KOU idle dance0007" x="3266" y="10" width="274" height="468" frameX="-3" frameY="-1" frameWidth="292" frameHeight="469"/>
+	<SubTexture name="KOU idle dance0008" x="3560" y="10" width="274" height="469" frameX="-1" frameY="0" frameWidth="292" frameHeight="469"/>
+	<SubTexture name="KOU idle dance0009" x="3560" y="10" width="274" height="469" frameX="-1" frameY="0" frameWidth="292" frameHeight="469"/>
+	<SubTexture name="KOU idle dance0010" x="10" y="499" width="273" height="469" frameX="0" frameY="0" frameWidth="292" frameHeight="469"/>
+	<SubTexture name="KOU idle dance0011" x="10" y="499" width="273" height="469" frameX="0" frameY="0" frameWidth="292" frameHeight="469"/>
+	<SubTexture name="KOU idle dance0012" x="303" y="499" width="273" height="469" frameX="-1" frameY="0" frameWidth="292" frameHeight="469"/>
+	<SubTexture name="KOU idle dance0013" x="596" y="499" width="275" height="465" frameX="-4" frameY="-4" frameWidth="292" frameHeight="469"/>
+	<SubTexture name="KOU LEFT0000" x="891" y="499" width="313" height="460" frameX="-3" frameY="-1" frameWidth="321" frameHeight="461"/>
+	<SubTexture name="KOU LEFT0001" x="891" y="499" width="313" height="460" frameX="-3" frameY="-1" frameWidth="321" frameHeight="461"/>
+	<SubTexture name="KOU LEFT0002" x="1224" y="499" width="311" height="461" frameX="-6" frameY="0" frameWidth="321" frameHeight="461"/>
+	<SubTexture name="KOU LEFT0003" x="1224" y="499" width="311" height="461" frameX="-6" frameY="0" frameWidth="321" frameHeight="461"/>
+	<SubTexture name="KOU LEFT0004" x="1555" y="499" width="316" height="460" frameX="-4" frameY="-1" frameWidth="321" frameHeight="461"/>
+	<SubTexture name="KOU LEFT0005" x="1555" y="499" width="316" height="460" frameX="-4" frameY="-1" frameWidth="321" frameHeight="461"/>
+	<SubTexture name="KOU LEFT0006" x="1891" y="499" width="319" height="456" frameX="-2" frameY="-5" frameWidth="321" frameHeight="461"/>
+	<SubTexture name="KOU LEFT0007" x="1891" y="499" width="319" height="456" frameX="-2" frameY="-5" frameWidth="321" frameHeight="461"/>
+	<SubTexture name="KOU LEFT0008" x="2230" y="499" width="320" height="453" frameX="-1" frameY="-8" frameWidth="321" frameHeight="461"/>
+	<SubTexture name="KOU LEFT0009" x="2230" y="499" width="320" height="453" frameX="-1" frameY="-8" frameWidth="321" frameHeight="461"/>
+	<SubTexture name="KOU LEFT0010" x="2570" y="499" width="320" height="451" frameX="-1" frameY="-10" frameWidth="321" frameHeight="461"/>
+	<SubTexture name="KOU LEFT0011" x="2570" y="499" width="320" height="451" frameX="-1" frameY="-10" frameWidth="321" frameHeight="461"/>
+	<SubTexture name="KOU LEFT0012" x="2910" y="499" width="321" height="451" frameX="0" frameY="-10" frameWidth="321" frameHeight="461"/>
+	<SubTexture name="KOU LEFT0013" x="2910" y="499" width="321" height="451" frameX="0" frameY="-10" frameWidth="321" frameHeight="461"/>
+	<SubTexture name="KOU RIGHT0000" x="3251" y="499" width="287" height="420" frameX="-2" frameY="-3" frameWidth="302" frameHeight="423"/>
+	<SubTexture name="KOU RIGHT0001" x="3251" y="499" width="287" height="420" frameX="-2" frameY="-3" frameWidth="302" frameHeight="423"/>
+	<SubTexture name="KOU RIGHT0002" x="3558" y="499" width="290" height="422" frameX="0" frameY="-1" frameWidth="302" frameHeight="423"/>
+	<SubTexture name="KOU RIGHT0003" x="3558" y="499" width="290" height="422" frameX="0" frameY="-1" frameWidth="302" frameHeight="423"/>
+	<SubTexture name="KOU RIGHT0004" x="10" y="988" width="298" height="423" frameX="0" frameY="0" frameWidth="302" frameHeight="423"/>
+	<SubTexture name="KOU RIGHT0005" x="10" y="988" width="298" height="423" frameX="0" frameY="0" frameWidth="302" frameHeight="423"/>
+	<SubTexture name="KOU RIGHT0006" x="328" y="988" width="299" height="410" frameX="-1" frameY="-13" frameWidth="302" frameHeight="423"/>
+	<SubTexture name="KOU RIGHT0007" x="328" y="988" width="299" height="410" frameX="-1" frameY="-13" frameWidth="302" frameHeight="423"/>
+	<SubTexture name="KOU RIGHT0008" x="647" y="988" width="299" height="408" frameX="-2" frameY="-15" frameWidth="302" frameHeight="423"/>
+	<SubTexture name="KOU RIGHT0009" x="647" y="988" width="299" height="408" frameX="-2" frameY="-15" frameWidth="302" frameHeight="423"/>
+	<SubTexture name="KOU RIGHT0010" x="966" y="988" width="300" height="407" frameX="-2" frameY="-16" frameWidth="302" frameHeight="423"/>
+	<SubTexture name="KOU RIGHT0011" x="966" y="988" width="300" height="407" frameX="-2" frameY="-16" frameWidth="302" frameHeight="423"/>
+	<SubTexture name="KOU RIGHT0012" x="1286" y="988" width="299" height="406" frameX="-3" frameY="-17" frameWidth="302" frameHeight="423"/>
+	<SubTexture name="KOU RIGHT0013" x="1286" y="988" width="299" height="406" frameX="-3" frameY="-17" frameWidth="302" frameHeight="423"/>
+	<SubTexture name="KOU UP0000" x="1605" y="988" width="333" height="470" frameX="-2" frameY="0" frameWidth="344" frameHeight="470"/>
+	<SubTexture name="KOU UP0001" x="1605" y="988" width="333" height="470" frameX="-2" frameY="0" frameWidth="344" frameHeight="470"/>
+	<SubTexture name="KOU UP0002" x="1958" y="988" width="334" height="470" frameX="0" frameY="0" frameWidth="344" frameHeight="470"/>
+	<SubTexture name="KOU UP0003" x="1958" y="988" width="334" height="470" frameX="0" frameY="0" frameWidth="344" frameHeight="470"/>
+	<SubTexture name="KOU UP0004" x="2312" y="988" width="335" height="467" frameX="-4" frameY="-3" frameWidth="344" frameHeight="470"/>
+	<SubTexture name="KOU UP0005" x="2312" y="988" width="335" height="467" frameX="-4" frameY="-3" frameWidth="344" frameHeight="470"/>
+	<SubTexture name="KOU UP0006" x="2667" y="988" width="335" height="464" frameX="-6" frameY="-6" frameWidth="344" frameHeight="470"/>
+	<SubTexture name="KOU UP0007" x="2667" y="988" width="335" height="464" frameX="-6" frameY="-6" frameWidth="344" frameHeight="470"/>
+	<SubTexture name="KOU UP0008" x="3022" y="988" width="336" height="462" frameX="-7" frameY="-8" frameWidth="344" frameHeight="470"/>
+	<SubTexture name="KOU UP0009" x="3022" y="988" width="336" height="462" frameX="-7" frameY="-8" frameWidth="344" frameHeight="470"/>
+	<SubTexture name="KOU UP0010" x="3378" y="988" width="336" height="461" frameX="-8" frameY="-9" frameWidth="344" frameHeight="470"/>
+	<SubTexture name="KOU UP0011" x="3378" y="988" width="336" height="461" frameX="-8" frameY="-9" frameWidth="344" frameHeight="470"/>
+	<SubTexture name="KOU UP0012" x="3734" y="988" width="336" height="460" frameX="-8" frameY="-10" frameWidth="344" frameHeight="470"/>
+	<SubTexture name="KOU UP0013" x="3734" y="988" width="336" height="460" frameX="-8" frameY="-10" frameWidth="344" frameHeight="470"/>
+</TextureAtlas>

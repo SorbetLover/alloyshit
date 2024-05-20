@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" icon="cesar" camx="-240" y="350" isGF="false" camy="20" color="#D17CFF" flipX="true" isPlayer="true" sprite="cesarfreeplay">
+	<anim x="0" loop="false" y="0" fps="24" anim="fever idle" name="idle"/>
+	<anim x="-12" loop="false" y="6" fps="24" anim="fever up" name="singUP"/>
+	<anim x="-6" loop="false" y="0" fps="24" anim="fever left" name="singLEFT"/>
+	<anim x="1" loop="false" y="-7" fps="24" anim="fever right" name="singRIGHT"/>
+	<anim x="3" loop="false" y="-8" fps="24" anim="fever down" name="singDOWN"/>
+</character>

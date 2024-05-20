@@ -1,0 +1,11 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" icon="bigmonika" y="0" isGF="false" color="#62FF77" isPlayer="false" sprite="bigmonika" camx="-170" camy="70">
+	<anim x="0" loop="false" y="0" fps="24" anim="Big Monika Idle" name="idle"/>
+	<anim x="1" loop="false" y="13" fps="24" anim="Big Monika Sing Up" name="singUP"/>
+	<anim x="1" loop="false" y="-54" fps="24" anim="Big Monika Sing Down" name="singDOWN"/>
+	<anim x="88" loop="false" y="-15" fps="24" anim="Big Monika Sing Left" name="singLEFT"/>
+	<anim x="-23" loop="false" y="1" fps="24" anim="Big Monika Sing Right" name="singRIGHT"/>
+	<anim x="0" loop="false" y="0" fps="24" anim="Big Monika Last Note0" name="lastNote"/>
+	<anim x="270" loop="false" y="29" fps="24" anim="Big Monika Last Note First" name="lastNoteFirst"/>
+	<anim x="271" loop="false" y="19" fps="20" anim="Big Monika Last Note Shrug" name="lastShrug"/>
+</character>
