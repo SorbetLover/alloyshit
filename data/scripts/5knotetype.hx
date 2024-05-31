@@ -114,7 +114,7 @@ trace("cu");
     }
         rdom += 1;
 
-    if(e.note.noteData == 2 && e.note.noteType == "middleNote"){
+    if(e.note.noteType == "middleNote"){
         e.note.noteData = 3;
     }
 

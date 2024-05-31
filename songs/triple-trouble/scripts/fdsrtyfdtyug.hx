@@ -12,7 +12,28 @@ trace(PlayState.instance.difficulty);
     for( i in [2,3,4]){
        strumLines.members[i].characters[0].alpha = 0;
     }
+
+            strumLines.members[0].members[0] -= 5000;
+            strumLines.members[0].members[1] -= 5000;
+            strumLines.members[0].members[2] -= 5000;
+            strumLines.members[0].members[3] -= 5000;
+
+            strumLines.members[2].members[0] -= 5000;
+            strumLines.members[2].members[1] -= 5000;
+            strumLines.members[2].members[2] -= 5000;
+            strumLines.members[2].members[3] -= 5000;
+            
+            strumLines.members[3].members[0] -= 5000;
+            strumLines.members[3].members[1] -= 5000;
+            strumLines.members[3].members[2] -= 5000;
+            strumLines.members[3].members[3] -= 5000;
+            
+            strumLines.members[4].members[0] -= 5000;
+            strumLines.members[4].members[1] -= 5000;
+            strumLines.members[4].members[2] -= 5000;
+            strumLines.members[4].members[3] -= 5000;
 }
+
 }
 
 function stepHit(curStep){

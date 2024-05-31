@@ -143,6 +143,7 @@ function postCreate() {
         
         for(i in [0,1,2,3]){
             strumLines.members[0].members[i].x -= 320;
+		
         }
         for(i in [0,1,2,3,4,5,6,7]){
             for(e in [0,1,2,3]){
@@ -150,6 +151,31 @@ function postCreate() {
             }
         }
     }
+
+	if(PlayState.instance.curSong == "triple-trouble"){
+		// remove(strumLines.members[0].members[0]);
+		// remove(strumLines.members[0].members[1]);
+		// remove(strumLines.members[0].members[2]);
+		// remove(strumLines.members[0].members[3]);
+
+		
+		// remove(strumLines.members[2].members[0]);
+		// remove(strumLines.members[2].members[1]);
+		// remove(strumLines.members[2].members[2]);
+		// remove(strumLines.members[2].members[3]);
+
+		
+		// remove(strumLines.members[3].members[0]);
+		// remove(strumLines.members[3].members[1]);
+		// remove(strumLines.members[3].members[2]);
+		// remove(strumLines.members[3].members[3]);
+
+		
+		// remove(strumLines.members[4].members[0]);
+		// remove(strumLines.members[4].members[1]);
+		// remove(strumLines.members[4].members[2]);
+		// remove(strumLines.members[4].members[3]);
+	}
     
 }
 
