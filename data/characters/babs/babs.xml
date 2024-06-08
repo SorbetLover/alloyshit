@@ -1,0 +1,10 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" icon="babs" y="0" isGF="false" camy="120" isPlayer="false" holdTime="6.1" sprite="babs/babs">
+	<anim x="0" loop="false" y="0" fps="24" anim="babs idle" name="idle"/>
+	<anim x="4" loop="false" y="50" fps="24" anim="babs up" name="singUP"/>
+	<anim x="-40" loop="false" y="6" fps="24" anim="babs right" name="singRIGHT"/>
+	<anim x="26" loop="false" y="5" fps="24" anim="babs left" name="singLEFT"/>
+	<anim x="0" loop="false" y="-12" fps="24" anim="babs down" name="singDOWN"/>
+	<anim x="608" loop="false" y="173" fps="24" anim="babs goback" name="goback"/>
+	<anim x="232" loop="false" y="185" fps="24" anim="babs jumpin" name="jump"/>
+</character>

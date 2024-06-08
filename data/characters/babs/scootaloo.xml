@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" icon="scootaloo" y="0" isGF="false" camy="120" isPlayer="true" holdTime="6.1" sprite="babs/scootaloo">
+	<anim x="0" loop="false" y="0" fps="24" anim="scootaloo idle" name="idle"/>
+	<anim x="4" loop="false" y="35" fps="24" anim="scootaloo up" name="singUP"/>
+	<anim x="0" loop="false" y="4" fps="24" anim="scootaloo right" name="singLEFT"/>
+	<anim x="0" loop="false" y="2" fps="24" anim="scootaloo left" name="singRIGHT"/>
+	<anim x="4" loop="false" y="-21" fps="24" anim="scootaloo down" name="singDOWN"/>
+</character>

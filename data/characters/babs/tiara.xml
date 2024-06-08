@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" icon="tiara" y="0" isGF="false" camy="120" isPlayer="false" holdTime="6.1" sprite="babs/tiara">
+	<anim x="0" loop="false" y="0" fps="24" anim="tiara idle" name="idle"/>
+	<anim x="-9" loop="false" y="10" fps="24" anim="tiara up" name="singUP"/>
+	<anim x="-2" loop="false" y="-3" fps="24" anim="tiara right" name="singRIGHT"/>
+	<anim x="2" loop="false" y="1" fps="24" anim="tiara left" name="singLEFT"/>
+	<anim x="0" loop="false" y="-8" fps="24" anim="tiara down" name="singDOWN"/>
+	<anim x="0" loop="false" y="15" fps="24" anim="tiara blank1" name="blank"/>
+	<anim x="0" loop="false" y="15" fps="24" anim="tiara blank2" name="blank2"/>
+	<anim x="2" loop="false" y="13" fps="24" anim="tiara mine" name="mine"/>
+	<anim x="215" loop="false" y="3" fps="24" anim="tiara slidein" name="slide"/>
+</character>

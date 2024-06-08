@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" icon="bloom" y="0" isGF="false" camy="120" flipX="true" isPlayer="false" holdTime="6.1" sprite="babs/bloom">
+	<anim x="0" loop="false" y="0" fps="24" anim="bloom idle" name="idle"/>
+	<anim x="-2" loop="false" y="6" fps="24" anim="bloom up" name="singUP"/>
+	<anim x="2" loop="false" y="5" fps="24" anim="bloom right" name="singLEFT"/>
+	<anim x="16" loop="false" y="4" fps="24" anim="bloom left" name="singRIGHT"/>
+	<anim x="0" loop="false" y="-6" fps="24" anim="bloom down" name="singDOWN"/>
+</character>

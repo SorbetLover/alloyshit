@@ -1,0 +1,23 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/babssneed/" name="babs" zoom="0.9">
+	<sprite antialiasing="false" x="0" sprite="sky" y="-100" scale="1" scroll="0" name="sky"/>
+	
+	<sprite antialiasing="false" x="700" sprite="treesbg" y="-100" scale="1.5" scroll="0.9" name="treesbg"/>
+	<sprite antialiasing="false" x="0" sprite="farbg" y="0" scale="1" name="farbg"/>
+	<sprite antialiasing="false" x="-335" sprite="ground" y="-160" scale="1" name="ground"/>
+	<sprite antialiasing="false" x="-335" sprite="trees" y="-560" scale="1" name="trees"/>
+
+
+	<girlfriend/>
+	<boyfriend/>
+	<sprite antialiasing="true" x="870" scroll="1" sprite="sweetiebelle" y="150" scale="1" zoomfactor="1" name="belle">
+		<anim loop="false" fps="24" anim="sweetiebelle" name="idle" indices="0,1,2,3,4,5,6,7"/>
+	</sprite>
+
+	<sprite antialiasing="false" x="-600" sprite="house" y="-200" scale="1" scroll="2" name="house"/>
+	<combo x="2000"/>
+
+<dad/>
+	
+	
+</stage>

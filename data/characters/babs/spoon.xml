@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" icon="core" y="0" isGF="false" camy="120" isPlayer="true" holdTime="6.1" sprite="babs/spoon">
+	<anim x="0" loop="false" y="0" fps="24" anim="silver idle" name="idle"/>
+	<anim x="0" loop="false" y="0" fps="24" anim="silver mine" name="mine"/>
+	<anim x="106" loop="false" y="383" fps="24" anim="silver slidein" name="slide"/>
+	<anim x="0" loop="false" y="20" fps="24" anim="silver blank1" name="blank"/>
+	<anim x="0" loop="false" y="21" fps="24" anim="silver blank2" name="blank2"/>
+</character>
