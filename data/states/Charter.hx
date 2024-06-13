@@ -51,9 +51,16 @@ function postCreate() {
 	// curPitch = vocals.pitch;
 
 
-}
+} 
 function update() {
 	
+	for(i in strumLines){
+		
+    i.healthIcons.members[0].scale.x = FlxMath.lerp(i.healthIcons.members[0].scale.x, 0.6,0.05);
+    i.healthIcons.members[0].scale.y = FlxMath.lerp(i.healthIcons.members[0].scale.y, 0.6,0.05);
+	}
+	
+
 	pitTXT.text = "pitch:" + FlxG.save.data.codenameCurPitch;
 	if(FlxG.sound.music.playing){
 		backdropshit.velocity.x = 0;
@@ -131,8 +138,20 @@ function update() {
 // 	charterBG.color = 0xFF3F2E44; // white
 // }
 function postUpdate(){
-	
+    
     gridBackdrops.members.alpha = 0;
 }
 
 
+function beatHit(){
+	
+	for(i in strumLines){
+		i.healthIcons.members[0].scale.set(0.7,0.7);
+	}
+	if(curBeat % 4 == 0){
+		for(i in strumLines){
+		i.healthIcons.members[0].scale.set(0.8,0.8);
+	}
+	}
+    strumlineAddButton.scale.set(1.1,1.1);
+}

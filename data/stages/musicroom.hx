@@ -10,7 +10,7 @@ var lastPOSX:Array = [0,0,0,0,0];
 var lastPOSY:Array = [0,0,0,0,0];
 function postCreate(){
 
-	monka = new HealthIcon('monikapixel', true);
+	if( PlayState.instance.difficulty == "hard") monka = new HealthIcon('monikapixel', true); else monka = new HealthIcon('senpai', false); 
 	monka.cameras = [camHUD];
 
 
@@ -34,6 +34,13 @@ function postCreate(){
 	strumLines.members[0].characters[0].y += 60;  // annie
 	strumLines.members[2].characters[0].x -= 300; // monika
 	strumLines.members[2].characters[0].y += 100; // monika
+
+	if(PlayState.instance.difficulty == "new"){
+		
+	strumLines.members[2].characters[0].x -= 200; // sepie
+	strumLines.members[2].characters[0].y -= 400; // sepie
+	}
+	
 	strumLines.members[3].characters[0].x -= 20;  // gif
 	strumLines.members[3].characters[0].y = 260;  // gif
 	strumLines.members[4].characters[0].x -= 100;  // abigale evins / car 
@@ -83,6 +90,8 @@ function postUpdate(){
 	if(iconP2.animation.curAnim.curFrame == 2) for(i in [monka,abbe,giffur]) i.animation.curAnim.curFrame = 2;
 	if(iconP2.animation.curAnim.curFrame == 1) for(i in [monka,abbe,giffur]) i.animation.curAnim.curFrame = 1;
 
+	// camFollow.setPosition(100,700);
+
 }
 
 function stepHit(curStep){
@@ -109,9 +118,14 @@ function stepHit(curStep){
 				// strumLines.members[1].characters[0].x = 3000;
 			// strumLines.members[0].characters[0].scale.set(0.5,0.5);
         case 503:
-			FlxTween.tween(strumLines.members[2].characters[0], {x: 100, y: 50}, Conductor.crochet / 500, {ease:FlxEase.cubeOut, startDelay: Conductor.crochet / 900}); 	
 			FlxTween.tween(strumLines.members[3].characters[0], {x: -500, y: -500}, Conductor.crochet / 500, {ease:FlxEase.cubeIn}); 	
-			
+
+			if(PlayState.instance.difficulty == "hard") {
+	    		FlxTween.tween(strumLines.members[2].characters[0], {x: 100, y: 50}, Conductor.crochet / 500, {ease:FlxEase.cubeOut, startDelay: Conductor.crochet / 900}); 	
+			}
+		    if(PlayState.instance.difficulty == "new"){
+    			FlxTween.tween(strumLines.members[2].characters[0], {x: 0, y: 400}, Conductor.crochet / 500, {ease:FlxEase.cubeOut, startDelay: Conductor.crochet / 900}); 	
+			}
 		case 640:
 
 		poemVideo.alpha = 0;

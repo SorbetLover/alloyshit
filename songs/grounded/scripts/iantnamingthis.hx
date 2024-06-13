@@ -3,6 +3,7 @@ import flixel.util.FlxColor;
 // import flixel.text.FunkinText;
 // import flixel.text.FunkinText;
 var diaText:FunkinText;
+var shader2:CustomShader;
 function postCreate(){
     strumLines.members[1].characters[1].alpha = 0;  
     diaText = new FunkinText(0,100,500, "",40, true);
@@ -15,9 +16,14 @@ function postCreate(){
     add(diaText);
 
     // player.cpu = true;
-
+    // uh = new FlxSprite().makeGraphic(1000,1000, 0xFF000000);
+    // add(uh);
     trace("restart");
-    
+    // shader2 = new CustomShader("bruuh3");
+    //     // FlxG.camera.addShader();
+    //     uh.shader = shader2;
+    //     shader2.iTime = 1;
+
 }
 function stepHit(curStep){
     // if(curStep == 118){
@@ -195,10 +201,10 @@ function stepHit(curStep){
     
 }
 
-// function update(){
-//     diaText.x = healthBar.x + healthBar.width / 3;
-
-// }
+function update(elapsed){
+    diaText.x = healthBar.x + healthBar.width / 3;
+    // shader2.iTime += elapsed / 2;
+}
 
 // function postUpdate(){
 //     for( i in [vocals, inst]){

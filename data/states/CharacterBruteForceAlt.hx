@@ -11,7 +11,7 @@ import flixel.group.FlxSpriteGroup;
 // var window:UIWindow;
 var txtinput:UITextBox;
 var btG:FlxSpriteGroup;
-var foldersToCheck:Array = ["babs", "gif", "gif2"];
+var foldersToCheck:Array = ["babs", "gif", "gif2", "playabgf"];
 function create(){
 	FlxG.sound.music.destroy();
 
@@ -65,6 +65,8 @@ function update(){
 	// trace("CU");
 		if (FlxG.keys.justPressed.TAB)
 		FlxG.switchState(new UIState(true, "CharacterBruteForceAlt"));
+		if (FlxG.keys.justPressed.ALT)
+		FlxG.switchState(new UIState(true, "CharacterBruteForce"));
 
         
 }

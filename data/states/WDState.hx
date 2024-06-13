@@ -201,7 +201,7 @@ function update(){
                 FlxG.save.data.WDWarningTitle = "Story";
                 FlxG.save.data.WDWarningText = "Sorry! This hasn't beeing done yet.";
                 // FlxG.save.data.WDWarningType = "Warning";
-                new FlxTimer().start(Conductor.crochet / 1000, function(tmr:FlxTimer){  openSubState(new ModSubState("WDWarningSubState")); returnButtons = true;   });
+                new FlxTimer().start(Conductor.crochet / 1000, function(tmr:FlxTimer){  openSubState(new ModSubState("WDStorySubState")); returnButtons = true;   });
 
             case 1:
                 trace("Freeplay");

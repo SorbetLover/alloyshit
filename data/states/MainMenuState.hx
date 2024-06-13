@@ -23,6 +23,11 @@ function update(){
         FlxG.switchState(new ModState("WDState"));
          
     }
+    
+    if(FlxG.keys.justPressed.V){
+        FlxG.switchState(new ModState("BruFP"));
+         
+    }
     if(FlxG.keys.justPressed.R){
         var nonExistantImages:Array = [];
         var nonExistantChars:Array = [];

@@ -1,0 +1,10 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/playtime/" name="playtime" zoom="0.9">
+	<sprite x="-290" scroll="1" sprite="factory" y="0" scale="1" name="bgshit"/>
+	<girlfriend/>
+	<dad x="345.5" y="501.5"/>
+	<boyfriend x="1201" y="500.5"/>
+	<combo/>
+	<sprite x="-290" scroll="1" sprite="shadow" y="0" scale="0.8" name="bruh"/>
+
+</stage>

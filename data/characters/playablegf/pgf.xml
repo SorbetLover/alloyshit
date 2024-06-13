@@ -1,0 +1,17 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" icon="gf" y="0" isGF="false" flipX="true" isPlayer="false" gameOverChar="playablegf/pgf" holdTime="6.1" sprite="springf/pgf">
+	<anim x="-5" loop="false" y="0" fps="24" anim="gfDanceLeft" name="danceRight"/>
+	<anim x="-5" loop="false" y="0" fps="24" anim="gfDanceRight" name="danceLeft"/>
+	<anim x="-24" loop="false" y="27" fps="24" anim="GFup0" name="singUP"/>
+	<anim x="-68" loop="false" y="-16" fps="24" anim="GFleft0" name="singRIGHT"/>
+	<anim x="52" loop="false" y="-27" fps="24" anim="GFright0" name="singLEFT"/>
+	<anim x="-40" loop="false" y="-25" fps="24" anim="GFdown0" name="singDOWN"/>
+	<anim x="-4" loop="false" y="52" fps="24" anim="upMISS" name="singUPmiss"/>
+	<anim x="-78" loop="false" y="-21" fps="24" anim="left MISS" name="singLEFTmiss"/>
+	<anim x="30" loop="false" y="-34" fps="24" anim="rightMISS" name="singRIGHTmiss"/>
+	<anim x="-36" loop="false" y="-19" fps="24" anim="downMISS" name="singDOWNmiss"/>
+	<anim x="-33" loop="false" y="4" fps="24" anim="hey" name="hey"/>
+	<anim x="-73" loop="false" y="-4" fps="24" anim="firstDeath" name="firstDeath"/>
+	<anim x="-74" loop="false" y="-3" fps="24" anim="deathLoop" name="deathLoop"/>
+	<anim x="-72" loop="false" y="-1" fps="24" anim="deathConfirm" name="deathConfirm"/>
+</character>
