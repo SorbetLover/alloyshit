@@ -2,18 +2,6 @@ import hxvlc.flixel.FlxVideo;
 import hxvlc.flixel.FlxVideoSprite;
 import hxvlc.util.Handle;
 import flixel.group.FlxSpriteGroup;
-
-
-import openfl.net.FileReference;
-import haxe.Json;
-
-
-import Std;
-import sys.io.File;
-import sys.FileSystem;
-import funkin.backend.assets.ModsFolder;
-
-
 var nameVar:String = "umc4r4aa3";
 var bgvid:FlxVideoSprite;
 var pfpThing:FlxSprite;
@@ -33,16 +21,8 @@ var mouseTXT:FlxText;
 
 // var lasttxtpos:Array = [100,100,100,100,200];
 // var lastbgpos:Array = [90,90,125,110,98, 86];
-
-var parsed:Json;
 function create(){
-    // var bruh:Json = haxe.Json.parse(CoolUtil.coolTextFile(Paths.json("WDusers")));
-    // trace(bruh);
-    // varparsed = Json.parse(CoolUtil.coolTextFile(Paths.data("WDusers.json")));
-    // trace(parsed);
-
-
-    var tempmerda = CoolUtil.coolTextFile(Paths.txt('WDUser'));
+        var tempmerda = CoolUtil.coolTextFile(Paths.txt('WDUser'));
         	if (tempmerda.length > 0) {
 			for(s in tempmerda){
 
@@ -50,7 +30,7 @@ function create(){
                 user.push(s);
 
             }
-    }
+        }
 
 
 	    bgvid = new FlxVideoSprite(0, 0);
@@ -171,31 +151,7 @@ function create(){
         for(e in [mouseTXT, enterTXT, name]){
             e.antialiasing = true;
         }
-    
-    var o:Json = {
-            
-                icon: "sorbetLover", 
-                name: "umcd4r4aa3",
-                cool: true
-            
-        
-        };
-    // o.rating = 999;
-    var s = Json.stringify(o, null, "");
-    trace(s);
-    saveLog(s) ;
-
-    var data:String = Json.parse(File.getContent(("mods/alloyshit/data/WDusers.json")));
-    trace(data);
-}
-function saveLog(s){
-    	var prefix = (ModsFolder.currentModFolder == null) ? "./assets" : (ModsFolder.modsPath + ModsFolder.currentModFolder);
- 		// if (!FileSystem.exists(prefix + "/data/WDusers.json") || !FileSystem.isDirectory(prefix + "/data"))
-			// FileSystem.createDirectory(prefix + "/data");
- 		File.saveContent(prefix + "/data/" + "WDusers" + ".json",
-        s);
-        trace("Saved");
-        
+ 
 }
 var curov:Int = 0;
 public var substOpen:Bool = false;
