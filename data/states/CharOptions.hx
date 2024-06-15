@@ -12,14 +12,18 @@ import funkin.editors.ui.UIButton;
 import funkin.editors.ui.UITextBox;
 import funkin.editors.ui.UINumericStepper;
 import funkin.editors.ui.UICheckbox;
-
+import funkin.editors.ui.UIFileExplorer;
+import lime.system.System;
 var disableBackdrop:UICheckbox;
 var enableBeatAnim:UICheckbox;
+
+var customSongPath:UITextBox;
+var customBPM:UITextBox;
 function create() {
 	winTitle = 'Editor Properties';
 	
 	winWidth = 350;
-	winHeight = 200;
+	winHeight = 300;
 }
 
 function createPost() {
@@ -62,7 +66,7 @@ function createPost() {
 
 
 
-	var saveButton = new UIButton(windowSpr.x + windowSpr.bWidth - 20, windowSpr.y + windowSpr.bHeight - 16 - 32, "Save", function() {
+	var saveButton = new UIButton(windowSpr.x + 200, windowSpr.y + windowSpr.bHeight - 16 - 32, "Save", function() {
 		saveProperties();		
 		close();
 	}, 75);
@@ -80,6 +84,29 @@ function createPost() {
 	closeButton.frames = Paths.getFrames("editors/ui/grayscale-button");
 	closeButton.color = 0xFFFF0000;
 	closeButton.x -= closeButton.bWidth;
+    
+	add(new UIText(90,90,1020, "custom song path", 15));
+	customSongPath = new UITextBox(20,110, "", 300, 30);
+	add(customSongPath);
+
+	add(new UIText(90,140,1120, "bpm", 15));
+	customBPM = new UITextBox(20,160, "", 300, 30);
+	add(customBPM);
+
+
+	var loadButton = new UIButton(saveButton.x + 100, windowSpr.y + windowSpr.bHeight - 16 - 32, "Load", function() {
+		// saveProperties();		
+		loadCS(customSongPath);
+		// trace(Paths.song(customSongPath));
+		close();
+	}, 75);
+	add(loadButton);
+
+    var browse = new UIButton(closeButton.x, loadButton.y - 50, "See BPM", function(){
+		System.openFile('mods/alloyshit/songs/' + customSongPath.label.text + '/meta.json');
+	});	
+	add(browse);
+
 }
 
 function saveProperties() {
@@ -100,6 +127,12 @@ function saveProperties() {
 	}
 
 
+}
+function loadCS(path){
+    FlxG.save.data.changingCharSong = true;
+	FlxG.save.data.charSongPath = path.label.text;
+	FlxG.save.data.customBPM = customBPM.label.text;
+	trace("loadCS");
 }
 
 var callPost:Bool = true;

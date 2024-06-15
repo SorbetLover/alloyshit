@@ -92,11 +92,12 @@ function stepHit(){
 		for(i in [spoon, tiara]){
         	i.alpha = 1;
         }
+		
 		babs.alpha = 0;
 		babs.cameraOffset = FlxPoint.weak(200,200);
 
         case 1204: babs.alpha = 1; babs.playAnim("jump", true);
-
+        case 1207:  babs.danceOnBeat = true;
 		case 1220, 1348: spoon.danceOnBeat = false; tiara.danceOnBeat = false; spoon.animation.play("mine");
 		case 1228, 1356: tiara.animation.play("mine");
 

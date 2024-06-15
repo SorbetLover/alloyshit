@@ -2,6 +2,8 @@ import flixel.addons.display.FlxBackdrop;
 import funkin.editors.ui.UISubstateWindow;
 import funkin.backend.utils.NativeAPI;
 
+import funkin.backend.chart.Chart;
+
 var charHasDances:Bool = false;
 var backdropshit:FlxBackdrop;
 var saves = FlxG.save.data;
@@ -68,7 +70,7 @@ switch(character.sprite){
 		
     default:
 		stopCharCreation = true;
-   
+
 }
 if(stopCharCreation == false){
 
@@ -81,9 +83,13 @@ if(stopCharCreation == false){
 	if(otherExtraChar == true) extraChar2.cameras = [charCamera]; 	insert(members.indexOf(extraChar), extraChar2); extraChar2.alpha = 0.5; extraChar2.debugMode = true;
 	
 }
+trace("BPM:" + Conductor.bpm);
 }
 
 function update(){
+
+
+
 
 	if(saves.charEditordisableBackdrop == true){ backdropshit.alpha = 0; }
 	if(saves.charEditordisableBackdrop == false){ backdropshit.alpha = 1; }
@@ -136,6 +142,22 @@ function update(){
 		}
 	}
 
+}
+
+function postUpdate(){
+	    if(FlxG.save.data.changingCharSong == true){
+		changeSong();
+
+
+	}
+}
+function changeSong(){
+		FlxG.sound.music.destroy();
+		// trace(Paths.song(FlxG.save.data.charSongPath + "/Inst.ogg"));
+		FlxG.sound.playMusic(Paths.inst(FlxG.save.data.charSongPath ), 1, true);
+		Conductor.changeBPM(FlxG.save.data.customBPM);
+		FlxG.save.data.changingCharSong = false;
+		trace(Conductor.bpm);
 }
 var danceBool:Bool = false;
 function beatHit(curBeat){

@@ -1,6 +1,6 @@
 function postCreate(){
 importScript("data/scripts/camsys"); 
-player.cpu = true;
+// player.cpu = true;
 
 camOFF[2][0] = 970;
 camOFF[2][1] = 600;
