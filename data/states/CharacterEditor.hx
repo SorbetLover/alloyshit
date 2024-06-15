@@ -20,8 +20,10 @@ var invertCanims:Bool = false;
 function postCreate() {
 	if(character.animation.exists("danceLeft") || character.animation.exists("danceRight") || character.isGF == true){ charHasDances = true;}
 	backdropshit = new FlxBackdrop(Paths.image('editors/drawers2'));
+	// backdropshit.scrollFactor.set(1,1);
+	
 	trace(charHasDances);
-
+    
 	insert(members.indexOf(character) - 1, backdropshit);
 	// add(backdropshit);
     backdropshit.alpha = 1;
@@ -33,14 +35,15 @@ function postCreate() {
 	// Conductor.changeBPM(128.0);
 	// }
 
-	backdropshit.y = 700;
+	// backdropshit.y = 700;
+	// backdropshit.y = character.y + 1000;
 	// trace(backdropshit.x);
 	if(saves.charEditorenableBeatAnim == true){
 		characterBG.alpha = 0;
 	}
 
-    backdropshit.x = character.x;
-	backdropshit.y = character.y;
+    backdropshit.x = character.x + character.width / 2.5;
+	backdropshit.y = character.y + character.height / 2;
     // if(character.sprite == "jeanL"){
 	// extraChar = new Character(-400,0,'ralucacloserv2', false);
 	// add(extraChar);
@@ -150,6 +153,8 @@ function postUpdate(){
 
 
 	}
+    backdropshit.scale.x = FlxMath.lerp(backdropshit.scale.x, 1, 0.1);
+    backdropshit.scale.y = FlxMath.lerp(backdropshit.scale.x, 1, 0.1);
 }
 function changeSong(){
 		FlxG.sound.music.destroy();
@@ -164,8 +169,8 @@ function beatHit(curBeat){
 
 
 	if(curBeat % 4 == 0 || curBeat == 0){
-		backdropshit.scale.set(1.1,1.1);
-		FlxTween.tween(backdropshit, {"scale.x": 1, "scale.y": 1}, Conductor.crochet / 1000, {ease: FlxEase.cubeOut});
+		backdropshit.scale.set(1.15,1.15);
+		// FlxTween.tween(backdropshit, {"scale.x": 1, "scale.y": 1}, Conductor.crochet / 1000, {ease: FlxEase.cubeOut});
 		if(otherExtraChar == true) extraChar2.playAnim("idle");
 
 		if(charHasDances == false){
