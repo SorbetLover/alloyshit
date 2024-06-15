@@ -238,7 +238,8 @@ function update(){
 function closeShit(){
     closing = true;
         // FlxTween.tween(pfp, {alpha:0}, Conductor.crochet / 1000);
-        new FlxTimer().start(Conductor.crochet / 10000, function(tmr:FlxTimer){close(); 
+        new FlxTimer().start(Conductor.crochet / 10000, function(tmr:FlxTimer){
+			close(); 
             // parent.call("buttonsIn");
             // FlxG.closeSubState();
             FlxG.save.data.WDReturnButtons = true;

@@ -29,11 +29,12 @@ function create() {
     // quant = 16;
 	// quants = [6,12, 18, 1212];
 	gridColor1 = 0xFFFF5555;
-
 }
 // var	meh = new UIWindow(0,520,160,200, "bruu");
 var pitTXT = new UIText(600,0,200,"pitch", 18);
 function postCreate() { 
+
+
 	// add(meh);
 	add(pitTXT);
 	for(i in [ pitTXT]) i.cameras = [uiCamera];
