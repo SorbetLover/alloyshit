@@ -1,0 +1,15 @@
+{
+	"opponentModeAllowed": false,
+	"difficulties": [
+		"NIGHTMARE"
+	],
+	"icon": "doctorsenpai",
+	"parsedColor": -84889,
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "damage-erect",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 190,
+	"name": "damage-erect"
+}
