@@ -9,7 +9,7 @@ import flixel.text.FlxTextBorderStyle;
 function postUpdate(){
     camFollow.setPosition(camobj.x,camobj.y);
 
-    camZooming = false;
+    camZooming = true;
     strumLines.members[2].characters[0].y = bgsepie.y - 100;
 
     strumLines.members[2].characters[0].x = bgsepie.x + 100;
@@ -60,6 +60,8 @@ var bgback:FlxBackdrop;
 var pen:FlxSprite;
 var sngText:FlxText;
 function postCreate(){
+
+    FlxG.camera.addShader(shader2 = new CustomShader("antifish"));
 
     // importScript("data/scripts/FishEyeShader");
     // var shadershit:FishEyeShader = new FishEyeShader();
@@ -171,7 +173,23 @@ function postCreate(){
     pen.y = 585;
     pen.scale.set(0.4,0.4);
     new FlxTimer().start(8, function(tmr:FlxTimer){ FlxTween.tween(pen, {alpha: 0}, 1);FlxTween.tween(sngText, {alpha: 0}, 1);});
- }
+    camobj.y -= 1000;
+
+    for(i in strumLines.members[2].members) i.alpha = 0;
+
+    for(i in 0...strumLines.length){
+        strumLines.members[i].members[0].alpha = 0;
+        strumLines.members[i].members[1].alpha = 0;
+        strumLines.members[i].members[2].alpha = 0;
+        strumLines.members[i].members[3].alpha = 0;
+    }
+    initialletociaAlpha = 0;
+    iconP1.alpha = 0;
+    iconP2.alpha = 0;
+    healthBar.alpha = 0;
+    healthBarBG.alpha = 0;
+}
+
 
 
 function stepHit(curStep){
@@ -180,13 +198,39 @@ function stepHit(curStep){
         boxsepie.y = -5000;
     }
     switch(curStep){
+
+
+        case 16:
+                    FlxTween.tween(dokiLogo, {alpha: 1}, 2);
+            
+        case 52:
+                    for(i in 0...strumLines.length){
+                        FlxTween.tween(strumLines.members[i].members[0], {alpha: 1}, 0.5);
+                        FlxTween.tween(strumLines.members[i].members[1], {alpha: 1}, 0.5);
+                        FlxTween.tween(strumLines.members[i].members[2], {alpha: 1}, 0.5);
+                        FlxTween.tween(strumLines.members[i].members[3], {alpha: 1}, 0.5);
+
+                    }
+                    for(i in [ iconP1, iconP2, healthBar, healthBarBG]){
+                        FlxTween.tween(i, {alpha: 1}, 0.5);
+                    }
+                    for(i in 0...uhhGrouper.length){
+    
+                    FlxTween.tween(uhhGrouper.members[i], {alpha: 0.8}, 0.5);
+                    }
+                    FlxTween.tween(dokiLogo, {alpha: 0}, 0.5);
+                    FlxTween.tween(camobj, {y: camobj.y + 1000}, 3);
         case 64:
             FlxTween.tween(box, {alpha: 1}, 1);
             FlxTween.tween(box2, {alpha: 1}, 1);
 
             FlxTween.tween(boxsepie, {alpha: 1}, 1);
             FlxTween.tween(bg0, {alpha: 1}, 1);
-            FlxTween.tween(strumLines.members[0].characters[0], {alpha: 1}, 1);
+            
+         for(i in strumLines.members[2].members){
+                FlxTween.tween(i, {alpha: 1}, 1);
+        
+         }            FlxTween.tween(strumLines.members[0].characters[0], {alpha: 1}, 1);
             FlxTween.tween(bg, {alpha: 1}, 1);
         case 76:
             strumLines.members[1].characters[0].alpha = 1;
@@ -402,7 +446,7 @@ function stepHit(curStep){
                     FlxTween.tween(dokiLogo, {alpha: 1}, 2);
             
         case 2328:
-                            FlxTween.tween(dokiLogo, {alpha: 0}, 0.5);
+                  FlxTween.tween(dokiLogo, {alpha: 0}, 0.5);
         case 2391:
                 
             FlxTween.tween(bgback, {alpha: 0}, 0.01);

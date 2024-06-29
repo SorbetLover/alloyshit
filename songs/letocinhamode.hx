@@ -1,0 +1,63 @@
+import flixel.group.FlxSpriteGroup;
+// var strum = strumLines.members[1];
+// var songName:Array = [
+//     "boogieman"
+// ];
+// var strums:Array = [
+//     [1,2],
+// ];
+// trace(songName[0]);
+var strums:Array = [1];
+public var initialletociaAlpha = 0.8;
+public var uhhGrouper:FlxTypedGroup<FlxSprite>;
+function create(){
+    switch(curSong){
+        case "boogieman", "w00f":
+            strums = [1,2];
+        case "babssneed":
+            strums = [2,3];
+        case "takeover medley": strums = [0];
+    }
+}
+function postCreate(){
+    
+    uhhGrouper = new FlxTypedGroup();
+    if(FlxG.save.data.letocinhaMode){
+        scrollSpeed = 2;
+
+    for(i in strums){
+        strumLines.members[i].members[0].x -= 40;
+        strumLines.members[i].members[1].x -= 40;
+        
+        strumLines.members[i].members[2].x += 40;
+        strumLines.members[i].members[3].x += 40;
+    }
+
+    for(i in 0...4){
+        var bruh = new FlxSprite().makeGraphic(120,2000, 0xFF000000);
+            bruh.cameras = [camHUD];
+            bruh.x = strumLines.members[strums[0]].members[i].x - 5;
+            
+            bruh.alpha = 0.8;
+            insert(members.indexOf(strumLines.members[1].members[0]) + 1, bruh);
+            
+            uhhGrouper.add(bruh);
+            
+            // trace(uh);
+    }
+    }
+    for(i in 0...uhhGrouper.length){
+    uhhGrouper.members[i].alpha = initialletociaAlpha;
+    }
+    
+}
+
+
+
+function postUpdate(){
+    if(FlxG.save.data.letocinhaMode){
+        scrollSpeed = 2;
+        // playerStrums.
+        // strumLines.members[1].scrollSpeed = 2;
+    }
+}

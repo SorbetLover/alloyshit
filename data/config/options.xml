@@ -18,13 +18,7 @@
 	<checkbox id="midSongShit" name="disable mid song shit" />
 	<checkbox id="disableMarkovEyes" name="Disable markov eyes" />
 	<checkbox id="alwaysDebugMode" name="TURN DEBUG MODe ON AAAAAAAA" />
-	<menu name="Song test" desc="Submenu test">
-	    <choice id="choiceExample" name="Choice Example">
-		    <value name="Disabled" value="disabled" />
-		    <value name="This Only" value="thisonly" />
-		    <value name="All" value="all" />
-	    </choice>
-	</menu>
-	<textoption name="shit" id="uhh"/>
+	<checkbox id="letocinhaMode" name="modo para baixinhas" />
+	<!-- <textoption name="shit" id="uhh"/> -->
 
 </menu>
