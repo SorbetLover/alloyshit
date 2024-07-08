@@ -13,3 +13,9 @@
 //         i.y = healthBar.y - (i.height / 2) ;
 //     }
 // }
+
+function postCreate(){
+    strumLines.members[0].characters[0].x += 200;
+    strumLines.members[0].characters[0].y -= 100;
+    // strumLines.members[0].characters[1].scale.set(0.85,0.85);
+}

@@ -1,0 +1,17 @@
+{
+	"opponentModeAllowed": false,
+	"difficulties": [
+		"CHALLENGEDD-HARD",
+		"HARD",
+		"CHALLENGEDD-FUCKED"
+	],
+	"icon": "face",
+	"parsedColor": -7179779,
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "challengedd",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 186,
+	"name": "challengedd"
+}

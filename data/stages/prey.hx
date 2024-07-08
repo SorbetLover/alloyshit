@@ -89,7 +89,7 @@ function postUpdate(elapsed){
 	
 
     flames.y = strumLines.members[0].characters[0].y + 300;
-    flames.x = strumLines.members[0].characters[0].x + 120;
+    flames.x = strumLines.members[0].characters[0].x + 220;
     jeanp.y = strumLines.members[0].characters[1].y + 595;
     jeanp.x = strumLines.members[0].characters[1].x + 360;
 

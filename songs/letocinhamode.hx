@@ -8,15 +8,20 @@ import flixel.group.FlxSpriteGroup;
 // ];
 // trace(songName[0]);
 var strums:Array = [1];
+
 public var initialletociaAlpha = 0.8;
 public var uhhGrouper:FlxTypedGroup<FlxSprite>;
 function create(){
+
     switch(curSong){
         case "boogieman", "w00f":
             strums = [1,2];
         case "babssneed":
             strums = [2,3];
         case "takeover medley": strums = [0];
+    }
+    if(PlayState.opponentMode == true){
+        strums = [0];
     }
 }
 function postCreate(){
@@ -26,14 +31,16 @@ function postCreate(){
         scrollSpeed = 2;
 
     for(i in strums){
-        strumLines.members[i].members[0].x -= 40;
-        strumLines.members[i].members[1].x -= 40;
+        if(strumLines.members[0].length != 5){
+            strumLines.members[i].members[0].x -= 40;
+            strumLines.members[i].members[1].x -= 40;
         
-        strumLines.members[i].members[2].x += 40;
-        strumLines.members[i].members[3].x += 40;
+            strumLines.members[i].members[2].x += 40;
+            strumLines.members[i].members[3].x += 40;
+        }
     }
 
-    for(i in 0...4){
+    for(i in 0...strumLines.members[0].members.length){
         var bruh = new FlxSprite().makeGraphic(120,2000, 0xFF000000);
             bruh.cameras = [camHUD];
             bruh.x = strumLines.members[strums[0]].members[i].x - 5;
