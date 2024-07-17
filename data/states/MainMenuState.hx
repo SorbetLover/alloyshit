@@ -8,6 +8,7 @@ var fileCheckIMG:Array = ["alphabet", "test/merda", "test/merda2"];
 var fileCheckCHARS:Array = ["dadd", "momm", "sepie"];
 function create(){
     FlxG.save.data.insubs = false;
+    
 }
 function update(){
     

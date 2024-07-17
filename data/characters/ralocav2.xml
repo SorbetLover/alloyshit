@@ -1,8 +1,8 @@
 <!DOCTYPE codename-engine-character>
 <character x="0" icon="raloca" camx="100" y="0" isGF="false" camy="140" isPlayer="false" holdTime="6.1" sprite="ralocav2">
-	<anim x="0" loop="false" y="0" fps="40" anim="idle" name="idle"/>
-	<anim x="-26" loop="false" y="5" fps="24" anim="up" name="singUP"/>
-	<anim x="-10" loop="false" y="5" fps="24" anim="left" name="singLEFT"/>
-	<anim x="-40" loop="false" y="7" fps="24" anim="right" name="singRIGHT"/>
-	<anim x="-15" loop="false" y="0" fps="24" anim="down" name="singDOWN"/>
+	<anim x="62" loop="false" y="104" fps="24" anim="up" name="singUP"/>
+	<anim x="40" loop="false" y="95" fps="24" anim="left" name="singLEFT"/>
+	<anim x="14" loop="false" y="104" fps="24" anim="right" name="singRIGHT"/>
+	<anim x="70" loop="false" y="105" fps="24" anim="down" name="singDOWN"/>
+	<anim x="65" loop="false" y="80" fps="24" anim="idle0" name="idle"/>
 </character>

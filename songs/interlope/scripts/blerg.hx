@@ -1,5 +1,6 @@
 function onNoteCreation(event){
     if(event.noteType == "Hurt Note"){
+        
         event.noteSprite = 'game/notes/NOTE_alastor'; // replaces default noteskin
         // event.misses = false;
         event.mustHit = false;

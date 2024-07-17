@@ -70,7 +70,9 @@ switch(character.sprite){
 		// shite.flipX = true;
 	case 'cellbit':
 	    extraChar = new Character(400,-50,'felps', false);
-		
+	case 'ralocav2':
+		extraChar = new Character(character.x,character.y,'ralucas', false);
+
     default:
 		stopCharCreation = true;
 
@@ -144,6 +146,11 @@ function update(){
 
 		}
 	}
+
+	if(FlxG.keys.justPressed.A) character.playAnim("singLEFT", true);
+	if(FlxG.keys.justPressed.S) character.playAnim("singDOWN", true);
+	if(FlxG.keys.justPressed.K) character.playAnim("singUP", true);
+	if(FlxG.keys.justPressed.L) character.playAnim("singRIGHT", true);
 
 }
 

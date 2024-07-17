@@ -1,17 +1,17 @@
-function postCreate(){
+// function postCreate(){
     
-    strumLines.members[0].characters[0].scale.set(0.7,0.7);
-    strumLines.members[0].characters[0].y -= 120;
-    strumLines.members[0].characters[0].x -= 100;
-    strumLines.members[1].characters[0].x += 200;
+//     strumLines.members[0].characters[0].scale.set(0.7,0.7);
+//     strumLines.members[0].characters[0].y -= 120;
+//     strumLines.members[0].characters[0].x -= 100;
+//     strumLines.members[1].characters[0].x += 200;
 
-    strumLines.members[2].characters[0].y -= 100;
-    strumLines.members[3].characters[0].y -= 100;
+//     strumLines.members[2].characters[0].y -= 100;
+//     strumLines.members[3].characters[0].y -= 100;
 
-    for( i in [2,3,4]){
-   strumLines.members[i].characters[0].alpha = 0;
-    }
-}
+// //     for( i in [2,3,4]){
+// //    strumLines.members[i].characters[0].alpha = 0;
+// //     }
+// }
 
 function stepHit(curStep){
     switch(curStep){

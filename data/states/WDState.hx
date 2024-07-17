@@ -36,6 +36,8 @@ var mouseTXT:FlxText;
 
 var parsed:Json;
 function create(){
+
+    nameVar = DiscordUtil.instance.username;
     // var bruh:Json = haxe.Json.parse(CoolUtil.coolTextFile(Paths.json("WDusers")));
     // trace(bruh);
     // varparsed = Json.parse(CoolUtil.coolTextFile(Paths.data("WDusers.json")));

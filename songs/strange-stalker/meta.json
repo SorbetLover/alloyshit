@@ -1,0 +1,17 @@
+{
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": false,
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"bpm": 155,
+	"difficulties": [
+		"DIFFICULTY"
+	],
+	"needsVoices": true,
+	"parsedColor": -7376387,
+	"displayName": "strange-stalker",
+	"icon": "face",
+	"name": "strange-stalker",
+	"color": "#8F71FD",
+	"customValues": {}
+}
