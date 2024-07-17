@@ -6,6 +6,7 @@ import flixel.group.FlxSpriteGroup;
 
 import openfl.net.FileReference;
 import haxe.Json;
+import funkin.backend.utils.DiscordUtil;
 
 
 import Std;
@@ -34,10 +35,11 @@ var mouseTXT:FlxText;
 // var lasttxtpos:Array = [100,100,100,100,200];
 // var lastbgpos:Array = [90,90,125,110,98, 86];
 
+public var tt:BitmapData;
 var parsed:Json;
 function create(){
 
-    nameVar = DiscordUtil.instance.username;
+    // nameVar = DiscordUtil.user;
     // var bruh:Json = haxe.Json.parse(CoolUtil.coolTextFile(Paths.json("WDusers")));
     // trace(bruh);
     // varparsed = Json.parse(CoolUtil.coolTextFile(Paths.data("WDusers.json")));
@@ -75,14 +77,20 @@ function create(){
         pfpThing.y = 680;
         pfpThing.x = 0;
         add(pfpThing);
-         
-        pfp = new FlxSprite().loadGraphic(Paths.image("wdpfps/" + user[1]));
+
+            
+        // pfp = new FlxSprite().loadGraphic(Paths.image("wdpfps/" + user[1]));
+        tt = DiscordUtil.user.getAvatar(256);
+        pfp = new FlxSprite().loadGraphic(DiscordUtil.user.getAvatar(256));
         add(pfp);
         pfp.setGraphicSize(30,30);
-        pfp.y = 470;
-        pfp.x = -190;
-
-        name = new FlxText(20,680,200, user[0], 10);
+        // pfp.y = 470;
+        // pfp.x = -190;
+        pfp.y = 570;
+        pfp.x = -90;
+        
+        // name = new FlxText(20,680,200, user[0], 10);
+        name = new FlxText(20,680,200, DiscordUtil.user.username, 10);
         name.setFormat(Paths.font("Roboto-Regular.ttf"), 30);
         name.scale.set(0.6,0.6);
         name.color = 0xFFbfbfbf;

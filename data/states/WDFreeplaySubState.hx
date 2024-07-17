@@ -7,6 +7,10 @@ import funkin.menus.FreeplayState.FreeplaySonglist;
 
 import haxe.io.Path;
 import lime.utils.Assets;
+import funkin.backend.utils.DiscordUtil;
+
+
+
 public var freeplayList:FreeplaySonglist;
 public var curSong:ChartMetaData;
 	
@@ -121,12 +125,17 @@ function create(){
         pfpThing.y = 680;
         pfpThing.x = 0;
         add(pfpThing);
-         
-        pfp = new FlxSprite().loadGraphic(Paths.image("wdpfps/" + user[1]));
+            
+        // pfp = new FlxSprite().loadGraphic(Paths.image("wdpfps/" + user[1]));
+        var tt = DiscordUtil.user.getAvatar(256);
+        pfp = new FlxSprite().loadGraphic(DiscordUtil.user.getAvatar(256));
         add(pfp);
         pfp.setGraphicSize(30,30);
-        pfp.y = 470;
-        pfp.x = -190;
+        // pfp.y = 470;
+        // pfp.x = -190;
+        pfp.y = 570;
+        pfp.x = -90;
+
 
         name = new FlxText(20,680,200, user[0], 10);
         name.setFormat(Paths.font("Roboto-Regular.ttf"), 30);
