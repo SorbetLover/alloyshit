@@ -1,0 +1,13 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/limbo/" zoom="0.7">
+	<sprite x="519.5" sprite="podcast" y="-194.25" scale="0.6" name="podcast"/>
+	<sprite x="440.5" y="-306.5" sprite="monark" type="none" scale="0.6" name="monark"/>
+	<gf x="1470" y="-758"/>
+	<bf x="1606.5" y="-812"/>
+	<combo x="669.5" y="7180"/>
+	<sprite x="-380.5" y="-149.25" sprite="gabriel" type="none" scale="0.57" name="gabriel"/>
+	<sprite x="779.75" y="-107.25" sprite="mamaefalei" type="none" scale="0.67" name="mamaefalei"/>
+	<sprite x="-546.5" y="-168.25" sprite="mcpipokinha" type="none" scale="0.7" name="mcpipokinha"/>
+	<sprite x="248.5" y="-175.25" sprite="felca" type="none" scale="0.6" name="felca"/>
+		<dad x="300" y="200"/>
+</stage>

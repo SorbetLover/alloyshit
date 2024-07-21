@@ -17,8 +17,8 @@ function postCreate(){
 }
 
 function postUpdate(){
-    thumbsdown.scale.x = FlxMath.lerp(thumbsdown.scale.x, 0.2, 0.04);
-    thumbsdown.scale.y = FlxMath.lerp(thumbsdown.scale.x, 0.2, 0.04);
+    thumbsdown.scale.x = FlxMath.lerp(thumbsdown.scale.x, 0.2, 0.33);
+    thumbsdown.scale.y = FlxMath.lerp(thumbsdown.scale.x, 0.2, 0.33);
     thumbsdown.y = iconP2.y - 140;
 
     thumbsdown.x = healthBar.x + healthBar.width * FlxMath.remapToRange(healthBar.percent, 0, 100, 1, 0) - 100;

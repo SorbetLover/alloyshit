@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" icon="ralucaanima" y="0" isGF="false" isPlayer="false" sprite="ralucaanima">
+	<anim x="0" loop="false" y="0" fps="24" anim="ralucaanima idle0" name="idle"/>
+	<anim x="141" loop="false" y="186" fps="24" anim="ralucaanima up0" name="singUP"/>
+	<anim x="148" loop="false" y="197" fps="24" anim="ralucaanima right0" name="singRIGHT"/>
+	<anim x="160" loop="false" y="190" fps="24" anim="ralucaanima left0" name="singLEFT"/>
+	<anim x="143" loop="false" y="188" fps="24" anim="ralucaanima down0" name="singDOWN"/>
+</character>

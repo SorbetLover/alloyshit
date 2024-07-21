@@ -1,3 +1,5 @@
+
+var shader2:CustomShader;
 function postCreate(){
 	strumLines.members[0].characters[0].scale.set(0.6,0.6);
 	strumLines.members[1].characters[0].scale.set(0.7,0.7);
@@ -9,13 +11,21 @@ function postCreate(){
 	inst.pitch = 1;
 
 trace(boyfriend.cameraOffset.x, boyfriend.cameraOffset.y);
+    // shader2 = new CustomShader("rgbeffect3");
+    // FlxG.camera.addShader(shader2);
+
 boyfriend.cameraOffset = FlxPoint.weak(-60,140);
 }
 var volcanoUsed:Bool = false;
 var dockUsed:Bool = false;
 var dinerUsed:Bool = false;
+//     var uhh = 0;
 
+// function update(elapsed){
+//     shader2.multi = uhh;
+// }
 function stepHit(curStep){
+	
 	switch(curStep){
       case 128: gotoMaze();
 	  case 384: gotoVolcano();
