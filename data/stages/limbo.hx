@@ -14,9 +14,17 @@ function postUpdate(){
 }
 function beatHit(curBeat){
     if(curBeat % 2 == 0){
-        for(i in [monark, gabriel, mamaefalei, mcpipokinha, felca]){
+        // for(i in [monark, gabriel, mamaefalei, mcpipokinha, felca]){
+        //     i.animation.play("idle");
+        // }
+        for(i in [gabriel, mcpipokinha]){
             i.animation.play("idle");
-        }   
+        }
+    } else {
+        for(i in [monark,mamaefalei,  felca]){
+            i.animation.play("idle");
+        }
+        
     }
 }
 
