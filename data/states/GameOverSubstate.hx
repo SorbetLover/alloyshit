@@ -121,15 +121,16 @@ function create(){
 
 }
 function update(){ 
-    if(ralucatalking == true) { FlxG.sound.music.volume = 0; }
-    if(ralucatalking == false) { FlxG.sound.music.volume = 1; }
+    
+    // if(ralucatalking == true) { FlxG.sound.music.volume = 0; }
+    // if(ralucatalking == false) { FlxG.sound.music.volume = 1; }
     if(PlayState.instance.curSong == "quickdraw") character.y = 200;
     if(FlxG.keys.justPressed.ENTER){
         pianobite.danceOnBeat = false;
         pianobite.playAnim('anger', false);
         giff.playAnim('laugh', false);
     }
- }
+}
 function beatHit(curBeat){
     if(curBeat < 0 && PlayState.instance.curSong == "quickdraw"){
     character.alpha = 0;

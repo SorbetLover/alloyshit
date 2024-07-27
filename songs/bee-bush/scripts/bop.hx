@@ -3,6 +3,7 @@ var box1:FlxSprite;
 var guh = false;
 function postCreate(){
     // player.cpu = true;
+    // cpu.cpu = true;
 
     box0 = new FlxSprite(0,0).makeGraphic(7000,200, 0xFF000000);
     add(box0);
@@ -29,9 +30,30 @@ function postUpdate(){
         i.x = FlxMath.lerp(i.x, 0, 0.044);
         i.y = FlxMath.lerp(i.y, 0, 0.044);
     }
+    if(FlxG.keys.justPressed.T && !startingSong){
+        customGameOver();
+    }
+}
+function customGameOver(){
+        persistentUpdate = false;
+		persistentDraw = false;
+		paused = true;
+
+		vocals.stop();
+		if (FlxG.sound.music != null){
+			FlxG.sound.music.stop();
+        }
+		for (strumLine in strumLines.members){ strumLine.vocals.stop();
+        }
+        trace("CU");
+        openSubState(new ModSubState("RalucaDeathSubState", true));
+}
+function onGameOver(e){
+    e.cancel();
+    customGameOver();
 }
 function beatHit(curBeat: Int) {
-
+if(startingSong == false && curBeat >= 4){
     guh = !guh;
     
     var angle = guh ? -17 : 17;
@@ -52,4 +74,5 @@ function beatHit(curBeat: Int) {
         i.x = x0;
         i.y = 10;
     }
+}
 }

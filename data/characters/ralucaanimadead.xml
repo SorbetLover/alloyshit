@@ -1,0 +1,5 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" icon="ralucaanima" y="0" isGF="false" isPlayer="false" sprite="ralucaanimadead">
+	<anim x="0" loop="false" y="0" fps="28" anim="ralucaanimadead idle0" name="idle"/>
+	<anim x="0" loop="false" y="0" fps="24" anim="ralucaanimadead confirm0" name="deathConfirm"/>
+</character>
