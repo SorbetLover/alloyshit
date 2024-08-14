@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" icon="spookysm" y="200" isGF="false" image="spooky_assets" color="#FFC35D" isPlayer="false" sprite="spooky_assets">
+	<anim x="20" loop="false" y="15" fps="24" anim="spooky DOWN NOTE0" name="singDOWN"/>
+	<anim x="0" loop="false" y="0" fps="24" anim="spooky IDLE0" name="idle"/>
+	<anim x="80" loop="false" y="95" fps="24" anim="spooky LEFT NOTE0" name="singLEFT"/>
+	<anim x="55" loop="false" y="35" fps="24" anim="spooky RIGHT NOTE0" name="singRIGHT"/>
+	<anim x="45" loop="false" y="80" fps="24" anim="spooky UP NOTE0" name="singUP"/>
+</character>

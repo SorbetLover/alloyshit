@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" icon="felcanpc" camx="0" y="0" isGF="false" camy="0" color="#7027F9" isPlayer="false" holdTime="6.1" sprite="felcanpc">
+	<anim x="0" loop="false" y="0" fps="24" anim="felcanpc idle0" name="idle"/>
+	<anim x="0" loop="false" y="0" fps="24" anim="felcanpc down0" name="singDOWN"/>
+	<anim x="0" loop="false" y="0" fps="24" anim="felcanpc left0" name="singLEFT"/>
+	<anim x="0" loop="false" y="0" fps="24" anim="felcanpc right0" name="singRIGHT"/>
+	<anim x="0" loop="false" y="0" fps="24" anim="felcanpc up0" name="singUP"/>
+</character>

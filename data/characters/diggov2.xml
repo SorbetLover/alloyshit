@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" icon="diggo" y="0" isGF="false" color="#144B11" isPlayer="true" holdTime="6.1" sprite="diggov2" flipX="true">
+	<anim x="0" loop="false" y="0" fps="16" anim="diggov2 idle0" name="idle"/>
+	<anim x="0" loop="false" y="0" fps="16" anim="diggov2 left0" name="singLEFT"/>
+	<anim x="0" loop="false" y="0" fps="16" anim="diggov2 down0" name="singDOWN"/>
+	<anim x="0" loop="false" y="0" fps="16" anim="diggov2 right0" name="singRIGHT"/>
+	<anim x="0" loop="false" y="0" fps="16" anim="diggov2 up0" name="singUP"/>
+</character>

@@ -1,0 +1,10 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/acafrao/" zoom="0.8" startCamPosX="200">
+	<sprite scale="1.5" name="bg" sprite="bg"/>
+	<gf alpha="0"/>
+	<combo x="694" y="169"/>
+	<dad camxoffset="-200" x="582" y="-30"/>
+	<bf x="203" camyoffset="-30" y="133" flip="false"/>
+	<sprite x="-422" y="-15" sprite="sofia" type="none" name="sofia"/>
+	<sprite x="925" y="30" sprite="tio" type="none" scale="0.9" name="tio"/>
+</stage>

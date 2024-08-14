@@ -11,7 +11,7 @@ trace("Angle: " + strumLines.members[0].members[0].y);
         trace(i.x);
     }
 
-    strumLines.members[0].cpu = true;
+    // strumLines.members[0].cpu = true;
 }
 
 // [  11:59:57  |    TRACE    ] bleh.hx:21: 96

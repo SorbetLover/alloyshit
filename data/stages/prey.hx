@@ -7,9 +7,21 @@ var skate:FlxSprite;
 var jean;
 var raluca;
 function create(){
+
+	// remove(iconP2);
+	// iconP2 = new HealthIcon("ralucaprey", false);
+	// iconP2.cameras = [camHUD];
+	// iconP2.alpha = 0;
+	// iconP2.y = healthBar.y - iconP2.height / 2;
+
+	// remove(iconP1);
+	// iconP1 = new HealthIcon("diggoprey", false);
+	// iconP1.cameras = [camHUD];
+	// iconP1.alpha = 0;
+	// iconP1.y = healthBar.y - iconP1.height / 2;
+
     jean = strumLines.members[0].characters[1];
     raluca = strumLines.members[0].characters[0];
-
 	sky = new FlxBackdrop().loadGraphic(Paths.image("stages/prey/stardustBg3"));
 	// add(sky);
 	sky.y = -470;
@@ -73,21 +85,31 @@ function create(){
     camHUD.alpha = 0;
 
 }
-
-function postCreate(){
+function onSongStart(){
 	
-    remove(iconP1);
-	iconP1 = new HealthIcon("diggo", false);
+	doIconBop = false;
+}
+function postCreate(){
+	doIconBop = false;
+    trace(doIconBop);
+	remove(iconP1);
+	iconP1 = new HealthIcon("diggoprey", false);
 	iconP1.cameras = [camHUD];
 	// iconP1.alpha = 0;
 	iconP1.y = healthBar.y - iconP1.height / 2;
 	add(iconP1);
+
+	// iconP1.setIcon("diggoprey");
+	iconP2.setIcon("ralucaprey");
+	
 }
 var focusondiggo:Bool = true;
 var rodajean:Bool = false;
 function postUpdate(elapsed){
-	
+	iconP1.scale.x = FlxMath.lerp(iconP1.scale.x, 0.8, 0.04);
+	iconP1.scale.y = FlxMath.lerp(iconP1.scale.y, 0.8, 0.04);
 
+    // trace(doIconBop);
     flames.y = strumLines.members[0].characters[0].y + 300;
     flames.x = strumLines.members[0].characters[0].x + 220;
     jeanp.y = strumLines.members[0].characters[1].y + 595;
@@ -103,6 +125,9 @@ function postUpdate(elapsed){
     
 	}
 	// if(rodajean == true) jean.angle += 100 * elapsed;
+}
+function beatHit(){
+	iconP1.scale.set(1.1,1.1);
 }
 
 function stepHit(){
@@ -123,7 +148,8 @@ function stepHit(){
 
 		    // focusondiggo = t;
             remove(iconP2);
-			iconP2 = new HealthIcon("jeanl", false);
+			iconP2 = new HealthIcon("jeanprey", false);
+			// iconP2 = new HealthIcon("jeanl", false);
 			iconP2.cameras = [camHUD];
 			iconP2.alpha = 0;
 			iconP2.y = healthBar.y - iconP2.height / 2;

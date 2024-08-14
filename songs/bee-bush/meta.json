@@ -5,7 +5,7 @@
 	"stepsPerBeat": 4,
 	"bpm": 170,
 	"difficulties": [
-		"HARD"
+		"HARD", "raquelzinha"
 	],
 	"needsVoices": true,
 	"parsedColor": -41678,

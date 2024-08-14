@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" icon="raquelzinha" y="0" isGF="false" camy="140" isPlayer="false" holdTime="6.1" sprite="raquelzinha">
+	<anim x="0" loop="false" y="0" fps="24" anim="raquelzinha idle0" name="idle"/>
+	<anim x="-5" loop="false" y="-5" fps="48" anim="raquelzinha left0" name="singLEFT"/>
+	<anim x="5" loop="false" y="0" fps="48" anim="raquelzinha right0" name="singRIGHT"/>
+	<anim x="-2" loop="false" y="0" fps="24" anim="raquelzinha up0" name="singUP"/>
+	<anim x="-10" loop="false" y="0" fps="24" anim="raquelzinha down0" name="singDOWN"/>
+</character>

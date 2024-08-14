@@ -2,11 +2,17 @@ import flixel.FlxObject;
 import hxvlc.flixel.FlxVideo;
 import hxvlc.flixel.FlxVideoSprite;
 import flixel.util.FlxTimer;
+import flixel.text.FlxText;
+import flixel.text.FlxTextBorderStyle;
+import flixel.text.FlxTextAlign;
 var raluD:FlxVideoSprite;
 var raluca:Character;
 public var camHUD:FlxCamera;
 var glow:FlxSprite;
 var hm:FlxSprite;
+
+var subtitle:FlxText;
+var subtitleENG:FlxText;
 function create(){
   hm = new FlxSprite().makeGraphic(10000,10000, 0xFF191719);
   add(hm);
@@ -55,6 +61,35 @@ function create(){
     glow.cameras = [camHUD];
     glow.alpha = 0;
 
+
+    subtitle = new FlxText(200,300,800, "*Monark Rindo*", 20);
+    subtitle.cameras = [camHUD];
+    add(subtitle);
+    subtitle.screenCenter();
+    subtitle.y += 200;
+    subtitle.setFormat(Paths.font("notosans .ttf"), 30);
+    subtitle.borderColor = 0xFF000000;
+    subtitle.borderQuality = 3;
+    subtitle.borderSize = 3;
+    subtitle.borderStyle = FlxTextBorderStyle.OUTLINE;
+    subtitle.alignment = FlxTextAlign.CENTER;
+    subtitle.antialiasing = true;
+
+    
+    subtitleENG = new FlxText(200,300,800, "*Monark Laugh*", 20);
+    subtitleENG.cameras = [camHUD];
+    add(subtitleENG);
+    subtitleENG.screenCenter();
+    subtitleENG.y = 580;
+    subtitleENG.setFormat(Paths.font("notosans.ttf"), 20);
+    subtitleENG.borderColor = 0xFF000000;
+    subtitleENG.borderQuality = 1;
+    subtitleENG.borderSize = 2;
+    subtitleENG.borderStyle = FlxTextBorderStyle.OUTLINE;
+    subtitleENG.alignment = FlxTextAlign.CENTER;
+    subtitleENG.antialiasing = true;
+
+
 }
 var exiting:Bool = false;
 var finishedCutscene:Bool = false;
@@ -65,7 +100,8 @@ function startshit(){
     raluD.alpha = 0;
     raluca.alpha = 1;
     raluca.danceOnBeat = false;
-    
+    subtitle.text = "";
+    subtitleENG.text = "";
 }
 function endShit(){
     if (FlxG.sound.music != null){
@@ -85,6 +121,7 @@ function endShit(){
     FlxTween.tween(raluca, {alpha: 0}, 1, {startDelay: 1});
     FlxTween.tween(glow, {alpha: 0}, 0.2, {startDelay: 2, onComplete: function(twn:FlxTween){
     }});
+    // FlxTween.tween(camHUD, {zoom: 0.6}, 0.1, {startDelay: 0});
 
     new FlxTimer().start(4, function(tmr:FlxTimer){
     	FlxG.switchState(new PlayState());
@@ -116,6 +153,19 @@ function update(){
       
     }
     camHUD.zoom = FlxMath.lerp(camHUD.zoom, 1, 0.04);
+
+    if(raluD.bitmap.time > 1000 && raluD.bitmap.time < 5000){
+      subtitle.text = "Fazer exposed dos outros é facil quando o conteúdo é pobre? \nVamos questionar tudo!";
+      subtitleENG.text = "Is exposing others easy when the content is poor? \nLet's question everything!";
+      subtitleENG.y = 620;
+    }
+    
+    if(raluD.bitmap.time > 5010 && raluD.bitmap.time < 5500){
+      subtitle.text = "Raluuuukam, voçê gosta de paçoquita ou de paçoquito?";
+      subtitleENG.text = "Raluuuuca, do you like paçoquita or paçoquito?";
+      subtitleENG.y = 580;
+    }
+    
 }
 
 function beatHit(curBeat){

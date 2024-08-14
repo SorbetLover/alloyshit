@@ -1,8 +1,5 @@
 {
 	"opponentModeAllowed": true,
-	"difficulties": [
-		"HARD", "5k"
-	],
 	"icon": "face",
 	"parsedColor": -7179779,
 	"coopAllowed": true,

@@ -4,6 +4,7 @@ var guh = false;
 function postCreate(){
     // player.cpu = true;
     // cpu.cpu = true;
+    if(PlayState.instance.curDifficulty == "hard"){
 
     box0 = new FlxSprite(0,0).makeGraphic(7000,200, 0xFF000000);
     add(box0);
@@ -14,7 +15,8 @@ function postCreate(){
     add(box1);
     box1.screenCenter();
     box1.y = 700;
-
+    }
+    
 }
 
 function postUpdate(){
@@ -35,6 +37,7 @@ function postUpdate(){
     }
 }
 function customGameOver(){
+        camGame.bgColor = 0xFF000000;
         persistentUpdate = false;
 		persistentDraw = false;
 		paused = true;
@@ -49,8 +52,10 @@ function customGameOver(){
         openSubState(new ModSubState("RalucaDeathSubState", true));
 }
 function onGameOver(e){
-    e.cancel();
-    customGameOver();
+    if(PlayState.instance.curDifficulty == "hard"){
+        e.cancel();
+        customGameOver();
+    }
 }
 function beatHit(curBeat: Int) {
 if(startingSong == false && curBeat >= 4){
