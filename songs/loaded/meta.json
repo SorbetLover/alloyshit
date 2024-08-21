@@ -5,7 +5,7 @@
 	"stepsPerBeat": 4,
 	"bpm": 215,
 	"difficulties": [
-		"HARD","abby"
+		"HARD","abby", "janja"
 	],
 	"needsVoices": true,
 	"parsedColor": -23817,

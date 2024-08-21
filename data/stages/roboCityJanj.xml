@@ -1,0 +1,36 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/loaded/" zoom="1.1">
+	<gf x="829" y="342.75"/>
+	<sprite name="ROBO_BG_SKY" sprite="ROBO_BG_SKY"/>
+	<sprite x="98" y="-22" sprite="zardy_bg" name="zardy_bg"/>
+	<sprite x="98" y="41" sprite="zardy_fevertown" scrollx="1.08" name="zardy_fevertown"/>
+	<sprite x="75" y="67" sprite="zardy_foreground" name="zardy_foreground"/>
+	<sprite x="-304" y="-258" sprite="rockysky" name="rockysky" scrollx="1.09"/>
+	<sprite x="-304" y="-123" sprite="rockymountains" name="rockymountains"/>
+	<sprite x="-393" y="-106" sprite="alleyway" name="alleyway"/>
+	<sprite sprite="sky" name="sky"/>
+	<sprite sprite="boardwalk" name="boardwalk"/>
+	<sprite x="-294" y="867.5" sprite="stagefront" name="stagefront"/>
+	<sprite x="-24" y="-53" sprite="stagecurtains" name="stagecurtains"/>
+	<sprite x="-519.5" y="-288.5" sprite="diner" name="diner"/>
+	<sprite x="-701" y="-576.5" sprite="bg_taki" name="bg_taki"/>
+	<sprite x="413" y="164" sprite="taki_gf" name="taki_gf">
+		
+		
+				
+		
+		<anim loop="true" anim="taki bumpin " fps="48" name="idle" indices="0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32"/>
+		
+		
+    
+	
+	</sprite>
+	<sprite sprite="matt_spotlight" name="matt_spotlight"/>
+	<sprite sprite="matt_bg" name="matt_bg"/>
+	<sprite sprite="matt_crowd" name="matt_crowd"/>
+	<sprite sprite="matt_foreground" name="matt_foreground"/>
+	<sprite x="-453" y="-191" sprite="janj" scale="0.6" name="janj"/>
+	<dad scale="0.6" x="55" y="28"/>
+	<bf x="1080" y="248.75"/>
+	<combo x="1854.5" y="220.75"/>
+</stage>
