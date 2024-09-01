@@ -52,7 +52,7 @@ function customGameOver(){
         openSubState(new ModSubState("RalucaDeathSubState", true));
 }
 function onGameOver(e){
-    if(PlayState.instance.curDifficulty == "hard"){
+    if(strumLines.members[0].characters[0].curCharacter == "ralucaanima"){
         e.cancel();
         customGameOver();
     }

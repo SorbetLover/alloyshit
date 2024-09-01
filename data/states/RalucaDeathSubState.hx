@@ -62,7 +62,7 @@ function create(){
     glow.alpha = 0;
 
 
-    subtitle = new FlxText(200,300,800, "*Monark Rindo*", 20);
+    subtitle = new FlxText(200,300,800, "*risada*", 20);
     subtitle.cameras = [camHUD];
     add(subtitle);
     subtitle.screenCenter();
@@ -76,7 +76,7 @@ function create(){
     subtitle.antialiasing = true;
 
     
-    subtitleENG = new FlxText(200,300,800, "*Monark Laugh*", 20);
+    subtitleENG = new FlxText(200,300,800, "*laugh*", 20);
     subtitleENG.cameras = [camHUD];
     add(subtitleENG);
     subtitleENG.screenCenter();

@@ -2,19 +2,6 @@ import hxvlc.flixel.FlxVideo;
 import hxvlc.flixel.FlxVideoSprite;
 import hxvlc.util.Handle;
 import flixel.group.FlxSpriteGroup;
-
-
-import openfl.net.FileReference;
-import haxe.Json;
-import funkin.backend.utils.DiscordUtil;
-
-
-import Std;
-import sys.io.File;
-import sys.FileSystem;
-import funkin.backend.assets.ModsFolder;
-
-
 var nameVar:String = "umc4r4aa3";
 var bgvid:FlxVideoSprite;
 var pfpThing:FlxSprite;
@@ -34,19 +21,8 @@ var mouseTXT:FlxText;
 
 // var lasttxtpos:Array = [100,100,100,100,200];
 // var lastbgpos:Array = [90,90,125,110,98, 86];
-
-public var tt:BitmapData;
-var parsed:Json;
 function create(){
-
-    // nameVar = DiscordUtil.user;
-    // var bruh:Json = haxe.Json.parse(CoolUtil.coolTextFile(Paths.json("WDusers")));
-    // trace(bruh);
-    // varparsed = Json.parse(CoolUtil.coolTextFile(Paths.data("WDusers.json")));
-    // trace(parsed);
-
-
-    var tempmerda = CoolUtil.coolTextFile(Paths.txt('WDUser'));
+        var tempmerda = CoolUtil.coolTextFile(Paths.txt('WDUser'));
         	if (tempmerda.length > 0) {
 			for(s in tempmerda){
 
@@ -54,7 +30,7 @@ function create(){
                 user.push(s);
 
             }
-    }
+        }
 
 
 	    bgvid = new FlxVideoSprite(0, 0);
@@ -77,20 +53,14 @@ function create(){
         pfpThing.y = 680;
         pfpThing.x = 0;
         add(pfpThing);
-
-            
-        // pfp = new FlxSprite().loadGraphic(Paths.image("wdpfps/" + user[1]));
-        tt = DiscordUtil.user.getAvatar(256);
-        pfp = new FlxSprite().loadGraphic(DiscordUtil.user.getAvatar(256));
+         
+        pfp = new FlxSprite().loadGraphic(Paths.image("wdpfps/" + user[1]));
         add(pfp);
         pfp.setGraphicSize(30,30);
-        // pfp.y = 470;
-        // pfp.x = -190;
-        pfp.y = 570;
-        pfp.x = -90;
-        
-        // name = new FlxText(20,680,200, user[0], 10);
-        name = new FlxText(20,680,200, DiscordUtil.user.username, 10);
+        pfp.y = 470;
+        pfp.x = -190;
+
+        name = new FlxText(20,680,200, user[0], 10);
         name.setFormat(Paths.font("Roboto-Regular.ttf"), 30);
         name.scale.set(0.6,0.6);
         name.color = 0xFFbfbfbf;
@@ -181,31 +151,7 @@ function create(){
         for(e in [mouseTXT, enterTXT, name]){
             e.antialiasing = true;
         }
-    
-    var o:Json = {
-            
-                icon: "sorbetLover", 
-                name: "umcd4r4aa3",
-                cool: true
-            
-        
-        };
-    // o.rating = 999;
-    var s = Json.stringify(o, null, "");
-    trace(s);
-    saveLog(s) ;
-
-    var data:String = Json.parse(File.getContent(("mods/alloyshit/data/WDusers.json")));
-    trace(data);
-}
-function saveLog(s){
-    	var prefix = (ModsFolder.currentModFolder == null) ? "./assets" : (ModsFolder.modsPath + ModsFolder.currentModFolder);
- 		// if (!FileSystem.exists(prefix + "/data/WDusers.json") || !FileSystem.isDirectory(prefix + "/data"))
-			// FileSystem.createDirectory(prefix + "/data");
- 		File.saveContent(prefix + "/data/" + "WDusers" + ".json",
-        s);
-        trace("Saved");
-        
+ 
 }
 var curov:Int = 0;
 public var substOpen:Bool = false;

@@ -1,8 +1,6 @@
 function postCreate(){
 	sofia.animation.pause();
 	tio.animation.pause();
-
-	boyfriend.alpha = 0;
 }
 function postUpdate(){
 	camFollow.setPosition(700,500);
