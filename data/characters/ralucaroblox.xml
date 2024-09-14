@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="ralucaroblox" icon="raloca" holdTime="6.1" isGF="false">
+	<anim name="idle" anim="ralucaroblox idle0" x="0" y="0" fps="12" loop="false"/>
+	<anim name="singDOWN" anim="ralucaroblox down0" x="-240" y="-55" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="ralucaroblox left0" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="ralucaroblox right0" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singUP" anim="ralucaroblox up0" x="80" y="275" fps="24" loop="false"/>
+</character>

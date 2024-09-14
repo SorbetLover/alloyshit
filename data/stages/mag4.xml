@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/mag4/" zoom="0.8">
+	<sprite x="-816" y="-262" sprite="magbg" name="magbg"/>
+	<gf alpha="0"/>
+	<dad scale="1.4" x="-383" y="-131"/>
+	<bf x="711" scale="0.8" y="56"/>
+	<combo/>
+	<sprite x="191" y="74" sprite="mcfunny" scale="0.8" name="mcfunny"/>
+</stage>

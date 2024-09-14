@@ -1,0 +1,17 @@
+{
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": false,
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"bpm": 218,
+	"difficulties": [
+		"HARD"
+	],
+	"needsVoices": true,
+	"parsedColor": -27054,
+	"displayName": "mag-four",
+	"icon": "raloca",
+	"name": "mag-four",
+	"color": "#FF9652",
+	"customValues": {}
+}
