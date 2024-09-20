@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="texture.png" width="8687" height="4028">
+	<SubTexture name="Thad_Down_-1" x="673" y="2072" width="661.5" height="988.5" frameX="-57" frameY="-184.5" frameWidth="834" frameHeight="1194"/>
+	<SubTexture name="Thad_Down_-2" x="5414" y="2116.5" width="670.5" height="952.5" frameX="-48.5" frameY="-220.5" frameWidth="834" frameHeight="1194"/>
+	<SubTexture name="Thad_Down_-3" x="4737.5" y="2188" width="668.5" height="942" frameX="-51" frameY="-231" frameWidth="834" frameHeight="1194"/>
+	<SubTexture name="Thad_Down_-4" x="5407.5" y="3070.5" width="668" height="935.5" frameX="-51.5" frameY="-237.5" frameWidth="834" frameHeight="1194"/>
+	<SubTexture name="Thad_Down_-5" x="4069.5" y="2127.5" width="666.5" height="964.5" frameX="-53" frameY="-208.5" frameWidth="834" frameHeight="1194"/>
+	<SubTexture name="Thad_Down_-6" x="5414" y="1044" width="641.5" height="1071" frameX="-78.5" frameY="-102" frameWidth="834" frameHeight="1194"/>
+	<SubTexture name="Thad_Entry-01" x="673" y="3062" width="632.5" height="608.5" frameX="-184.5" frameY="-62.5" frameWidth="843" frameHeight="826"/>
+	<SubTexture name="Thad_Entry-02" x="0.5" y="3101.5" width="619.5" height="599.5" frameX="-197" frameY="-86.5" frameWidth="843" frameHeight="826"/>
+	<SubTexture name="Thad_Entry-03" x="6077" y="3070.5" width="605" height="607.5" frameX="-167.5" frameY="-57" frameWidth="843" frameHeight="826"/>
+	<SubTexture name="Thad_Entry-04" x="3924" y="3093.5" width="592.5" height="606" frameX="-158" frameY="-65" frameWidth="843" frameHeight="826"/>
+	<SubTexture name="Thad_Entry-05" x="6086" y="2216.5" width="597" height="604.5" frameX="-149.5" frameY="-74" frameWidth="843" frameHeight="826"/>
+	<SubTexture name="Thad_Entry-06" x="2942.5" y="3332" width="601.5" height="596" frameX="-142.5" frameY="-87.5" frameWidth="843" frameHeight="826"/>
+	<SubTexture name="Thad_Entry-07" x="6592.5" y="0.5" width="592" height="580.5" frameX="-147" frameY="-105" frameWidth="843" frameHeight="826"/>
+	<SubTexture name="Thad_Entry-08" x="7155" y="582.5" width="583" height="582.5" frameX="-149.5" frameY="-114" frameWidth="843" frameHeight="826"/>
+	<SubTexture name="Thad_Entry-09" x="1307" y="3329" width="583.5" height="596.5" frameX="-153" frameY="-117" frameWidth="843" frameHeight="826"/>
+	<SubTexture name="Thad_Entry-10" x="6621.5" y="1229.5" width="572" height="595.5" frameX="-183.5" frameY="-112.5" frameWidth="843" frameHeight="826"/>
+	<SubTexture name="Thad_Entry-11" x="2942.5" y="2363.5" width="429" height="625" frameX="-200.5" frameY="-75" frameWidth="843" frameHeight="826"/>
+	<SubTexture name="Thad_Entry-12" x="3545.5" y="3332" width="362.5" height="613.5" frameX="-216.5" frameY="-96.5" frameWidth="843" frameHeight="826"/>
+	<SubTexture name="Thad_Entry-13" x="8389.5" y="585" width="297" height="591.5" frameX="-260.5" frameY="-122" frameWidth="843" frameHeight="826"/>
+	<SubTexture name="Thad_Entry-14" x="8361" y="1183" width="284" height="621.5" frameX="-265" frameY="-120" frameWidth="843" frameHeight="826"/>
+	<SubTexture name="Thad_Entry-15" x="8050" y="1183" width="308.5" height="594.5" frameX="-226.5" frameY="-116" frameWidth="843" frameHeight="826"/>
+	<SubTexture name="Thad_Entry-16" x="7725" y="1166.5" width="323.5" height="615.5" frameX="-199.5" frameY="-84.5" frameWidth="843" frameHeight="826"/>
+	<SubTexture name="Thad_Entry-17" x="7707.5" y="1810" width="320" height="622.5" frameX="-188.5" frameY="-67" frameWidth="843" frameHeight="826"/>
+	<SubTexture name="Thad_Entry-18" x="8056.5" y="3002" width="310" height="632.5" frameX="-182" frameY="-57" frameWidth="843" frameHeight="826"/>
+	<SubTexture name="Thad_Entry-19" x="8368" y="2969.5" width="294.5" height="636.5" frameX="-176.5" frameY="-53" frameWidth="843" frameHeight="826"/>
+	<SubTexture name="Thad_Entry-20" x="5052.5" y="3131.5" width="340" height="630" frameX="-157" frameY="-66.5" frameWidth="843" frameHeight="826"/>
+	<SubTexture name="Thad_Entry-21" x="2322.5" y="0.5" width="351" height="590.5" frameX="-150.5" frameY="-112.5" frameWidth="843" frameHeight="826"/>
+	<SubTexture name="Thad_Entry-22" x="7186" y="0.5" width="356" height="564" frameX="-147.5" frameY="-142.5" frameWidth="843" frameHeight="826"/>
+	<SubTexture name="Thad_Entry-23" x="6684.5" y="1826.5" width="490.5" height="649.5" frameX="-73" frameY="-27.5" frameWidth="843" frameHeight="826"/>
+	<SubTexture name="Thad_Entry-24" x="7195" y="1166.5" width="528.5" height="642" frameX="-62" frameY="-14" frameWidth="843" frameHeight="826"/>
+	<SubTexture name="Thad_Entry-25" x="6683.5" y="2822.5" width="533" height="645" frameX="-54.5" frameY="-11" frameWidth="843" frameHeight="826"/>
+	<SubTexture name="Thad_Entry-26" x="4518" y="3131.5" width="533" height="647.5" frameX="-52.5" frameY="-8.5" frameWidth="843" frameHeight="826"/>
+	<SubTexture name="Thad_Entry-27" x="6621.5" y="582.5" width="532" height="645.5" frameX="-54.5" frameY="-13.5" frameWidth="843" frameHeight="826"/>
+	<SubTexture name="Thad_Entry-28" x="1892" y="3329" width="512" height="625.5" frameX="-74.5" frameY="-33.5" frameWidth="843" frameHeight="826"/>
+	<SubTexture name="Thad_Entry-29" x="7195" y="1810" width="511" height="625.5" frameX="-75.5" frameY="-33.5" frameWidth="843" frameHeight="826"/>
+	<SubTexture name="Thad_Entry-30" x="7218" y="2437" width="510" height="625.5" frameX="-76.5" frameY="-33.5" frameWidth="843" frameHeight="826"/>
+	<SubTexture name="Thad_Entry-31" x="7218" y="3064" width="509.5" height="617.5" frameX="-78.5" frameY="-47" frameWidth="843" frameHeight="826"/>
+	<SubTexture name="Thad_Entry-32" x="7729" y="3064" width="326" height="610" frameX="-169" frameY="-64" frameWidth="843" frameHeight="826"/>
+	<SubTexture name="Thad_Entry-33" x="7739.5" y="0.5" width="327.5" height="604" frameX="-171.5" frameY="-76.5" frameWidth="843" frameHeight="826"/>
+	<SubTexture name="Thad_Entry-34" x="8029" y="1783.5" width="330.5" height="594" frameX="-171.5" frameY="-90.5" frameWidth="843" frameHeight="826"/>
+	<SubTexture name="Thad_Entry-35" x="8081" y="2379" width="330.5" height="589" frameX="-171.5" frameY="-95.5" frameWidth="843" frameHeight="826"/>
+	<SubTexture name="Thad_Entry-36" x="8068.5" y="0.5" width="330.5" height="583" frameX="-163" frameY="-102.5" frameWidth="843" frameHeight="826"/>
+	<SubTexture name="Thad_Entry-37" x="8050" y="606" width="338" height="575.5" frameX="-155.5" frameY="-110" frameWidth="843" frameHeight="826"/>
+	<SubTexture name="Thad_Entry-38" x="7729.5" y="2434" width="350" height="566.5" frameX="-84.5" frameY="-160" frameWidth="843" frameHeight="826"/>
+	<SubTexture name="Thad_Entry-39" x="2405.5" y="3473.5" width="387" height="554" frameX="-34" frameY="-195" frameWidth="843" frameHeight="826"/>
+	<SubTexture name="Thad_Entry-40" x="6683.5" y="3469" width="384" height="549" frameX="-30" frameY="-218" frameWidth="843" frameHeight="826"/>
+	<SubTexture name="Thad_Left_-1" x="773" y="1035" width="742" height="1035.5" frameX="-36" frameY="-127" frameWidth="834" frameHeight="1194"/>
+	<SubTexture name="Thad_Left_-2" x="0.5" y="1032" width="771" height="1028" frameX="-6.5" frameY="-134.5" frameWidth="834" frameHeight="1194"/>
+	<SubTexture name="Thad_Left_-3" x="0.5" y="0.5" width="777.5" height="1030" frameX="-0" frameY="-132.5" frameWidth="834" frameHeight="1194"/>
+	<SubTexture name="Thad_Left_-4" x="779.5" y="0.5" width="773.5" height="1033" frameX="-4.5" frameY="-129.5" frameWidth="834" frameHeight="1194"/>
+	<SubTexture name="Thad_Left_-5" x="1554.5" y="0.5" width="766.5" height="1034" frameX="-12.5" frameY="-128.5" frameWidth="834" frameHeight="1194"/>
+	<SubTexture name="Thad_Left_-6" x="3373" y="1171" width="695" height="1039.5" frameX="-86" frameY="-123.5" frameWidth="834" frameHeight="1194"/>
+	<SubTexture name="Thad_Sprite_-1" x="1336" y="2215.5" width="534" height="1110" frameX="-242" frameY="-78" frameWidth="834" frameHeight="1194"/>
+	<SubTexture name="Thad_Sprite_-2" x="6086" y="1110.5" width="534" height="1104.5" frameX="-261.5" frameY="-83.5" frameWidth="834" frameHeight="1194"/>
+	<SubTexture name="Thad_Sprite_-3" x="2407" y="2363.5" width="534" height="1108.5" frameX="-272.5" frameY="-79.5" frameWidth="834" frameHeight="1194"/>
+	<SubTexture name="Thad_Sprite_-4" x="1871.5" y="2217.5" width="534" height="1110" frameX="-261.5" frameY="-78" frameWidth="834" frameHeight="1194"/>
+	<SubTexture name="Thad_Sprite_-5" x="6057" y="0.5" width="534" height="1108.5" frameX="-252" frameY="-79.5" frameWidth="834" frameHeight="1194"/>
+	<SubTexture name="Thad_Sprite_-6" x="3373" y="2212" width="549.5" height="1118.5" frameX="-147" frameY="-69.5" frameWidth="834" frameHeight="1194"/>
+	<SubTexture name="Thad_Sprite_Idle-10" x="5366.5" y="0.5" width="671" height="1042" frameX="-110" frameY="-121" frameWidth="834" frameHeight="1194"/>
+	<SubTexture name="Thad_Sprite_Idle-11" x="4069.5" y="1066.5" width="670.5" height="1059.5" frameX="-111" frameY="-103.5" frameWidth="834" frameHeight="1194"/>
+	<SubTexture name="Thad_Sprite_Idle-12" x="3993" y="0.5" width="671.5" height="1064.5" frameX="-109" frameY="-98" frameWidth="834" frameHeight="1194"/>
+	<SubTexture name="Thad_Sprite_Idle-7" x="3993" y="0.5" width="671.5" height="1064.5" frameX="-109" frameY="-98" frameWidth="834" frameHeight="1194"/>
+	<SubTexture name="Thad_Sprite_Idle-8" x="4741.5" y="1138" width="671" height="1048.5" frameX="-110" frameY="-114" frameWidth="834" frameHeight="1194"/>
+	<SubTexture name="Thad_Sprite_Idle-9" x="0.5" y="2061.5" width="671" height="1038.5" frameX="-110" frameY="-123.5" frameWidth="834" frameHeight="1194"/>
+	<SubTexture name="Thad_Up-1" x="3373" y="0.5" width="618.5" height="1169" frameX="-139" frameY="-10.5" frameWidth="834" frameHeight="1194"/>
+	<SubTexture name="Thad_Up-2" x="2756" y="0.5" width="615.5" height="1180" frameX="-142" frameY="-0" frameWidth="834" frameHeight="1194"/>
+	<SubTexture name="Thad_Up-3" x="2756" y="1182" width="615.5" height="1180" frameX="-142" frameY="-0" frameWidth="834" frameHeight="1194"/>
+	<SubTexture name="Thad_Up-4" x="2137" y="1036" width="617.5" height="1180" frameX="-140" frameY="-0" frameWidth="834" frameHeight="1194"/>
+	<SubTexture name="Thad_Up-5" x="1516.5" y="1036" width="619" height="1178" frameX="-139" frameY="-2" frameWidth="834" frameHeight="1194"/>
+	<SubTexture name="Thad_Up-6" x="4741.5" y="0.5" width="623.5" height="1136" frameX="-134.5" frameY="-44" frameWidth="834" frameHeight="1194"/>
+</TextureAtlas>

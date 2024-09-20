@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character>
+<character x="-180" icon="fd/Thad" camx="50" y="240" isGF="false" camy="30" color="#371E5F" isPlayer="false" holdTime="6.1" sprite="funkindrones/Thad">
+	<anim x="-21" loop="false" y="-5" fps="16" anim="Thad_Sprite_Idle-" name="idle"/>
+	<anim x="2" loop="false" y="2" fps="16" anim="Thad_Left_-" name="singLEFT"/>
+	<anim x="-50" loop="false" y="-13" fps="16" anim="Thad_Down_-" name="singDOWN"/>
+	<anim x="-42" loop="false" y="-14" fps="16" anim="Thad_Up-" name="singUP"/>
+	<anim x="-21" loop="false" y="-5" fps="16" anim="Thad_Sprite_-" name="singRIGHT"/>
+	<anim x="-21" loop="false" y="-5" fps="15" anim="Thad_Entry-" name="Entry"/>
+</character>
