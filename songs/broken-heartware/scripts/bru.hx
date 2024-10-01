@@ -1,1 +1,5 @@
-	function create(){}
+function postCreate(){
+	// returnChars();
+	// getCharFolders();	
+	getDiffs();
+}

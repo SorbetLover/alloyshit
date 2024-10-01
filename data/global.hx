@@ -12,3 +12,8 @@
 //         if (FlxG.game._requestedState is redirectState)
 //             FlxG.game._requestedState = new ModState(redirectStates.get(redirectState));
 // }
+
+
+// public function testshit(){
+//     trace("raluca");
+// }

@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/andre guedes/" zoom="1.05">
+	<gf/>
+	<sprite x="-792" y="-476" sprite="janj" name="janj"/>
+	<dad x="-477" y="-271"/>
+	<bf x="689" y="-17"/>
+	<combo x="562" y="510"/>
+</stage>
