@@ -11,7 +11,7 @@ trace("Angle: " + strumLines.members[0].members[0].y);
         trace(i.x);
     }
 
-    // strumLines.members[0].cpu = true;
+    strumLines.members[0].cpu = true;
 }
 
 // [  11:59:57  |    TRACE    ] bleh.hx:21: 96
@@ -60,6 +60,7 @@ function stepHit(curStep){
             strumTween1.cancel();
             strumTween2.cancel();
             strumTween3.cancel();
+            
 
             strumLines.members[0].members[0].x = 736;
             strumLines.members[0].members[1].x = 848;
@@ -102,6 +103,7 @@ function stepHit(curStep){
 // [  12:19:06  |    TRACE    ] bleh.hx:10: 1072
 var beatchangedir:Bool = true;
 
+var camag:Bool = false;
 function beatHit(curBeat){
     if(PlayState.instance.difficulty == "hard"){
     
@@ -156,6 +158,15 @@ function beatHit(curBeat){
                         // i.y = 430 - i.height;
                         i.angle = FlxG.random.int(0,-360);
                     }
+                        // camHUD.angle = FlxG.random.int(-360,360);
+
+                    if(camag == false){
+                        camHUD.angle = -360;
+                        camag = true;
+                    } else {
+                        camag = false;
+                        camHUD.angle = 360;
+                    }
         
         }
 
@@ -185,4 +196,9 @@ function beatHit(curBeat){
     //     }
     // }
 
+}
+
+
+function update(){
+    camHUD.angle = FlxMath.lerp(camHUD.angle, 0, Conductor.crochet / 8000);
 }

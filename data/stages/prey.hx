@@ -87,20 +87,20 @@ function create(){
 }
 function onSongStart(){
 	
-	doIconBop = false;
+	// doIconBop = false;
 }
 function postCreate(){
-	doIconBop = false;
+	// doIconBop = false;
     trace(doIconBop);
 	remove(iconP1);
-	iconP1 = new HealthIcon("diggoprey", false);
+	iconP1 = new HealthIcon("diggo", false);
 	iconP1.cameras = [camHUD];
 	// iconP1.alpha = 0;
 	iconP1.y = healthBar.y - iconP1.height / 2;
 	add(iconP1);
 
 	// iconP1.setIcon("diggoprey");
-	iconP2.setIcon("ralucaprey");
+	iconP2.setIcon("raloca");
 	
 }
 var focusondiggo:Bool = true;
@@ -148,8 +148,8 @@ function stepHit(){
 
 		    // focusondiggo = t;
             remove(iconP2);
-			iconP2 = new HealthIcon("jeanprey", false);
-			// iconP2 = new HealthIcon("jeanl", false);
+			// iconP2 = new HealthIcon("jeanprey", false);
+			iconP2 = new HealthIcon("jeanl", false);
 			iconP2.cameras = [camHUD];
 			iconP2.alpha = 0;
 			iconP2.y = healthBar.y - iconP2.height / 2;

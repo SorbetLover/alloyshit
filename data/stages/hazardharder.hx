@@ -90,7 +90,7 @@ function postUpdate(elapsed){
 	FlxG.camera.zoom = 0.6;
 	wiggleEffect.update(elapsed);
 	wiggleEffect2.update(elapsed);
-	// strumLines.members[0].cpu = true;
+	strumLines.members[0].cpu = true;
 
 }
 function addFogB(i){
@@ -159,7 +159,7 @@ function stepHit(curStep){
 		
 		hazardBlack.alpha = 0;
 			hazardInterlopeLaugh.alpha = 0;
-			FlxG.camera.fade(0xFF000000,Conductor.crochet/2000,true);
+			// FlxG.camera.fade(0xFF000000,Conductor.crochet/2000,true);
 
 		case 1776:
          hazardBlack.alpha = 0.7;
@@ -169,8 +169,7 @@ function stepHit(curStep){
 		case 1792:
 			hazardInterlopeLaugh.alpha = 0;
 			hazardBlack.alpha = 0;
-			FlxG.camera.fade(0xFF000000,Conductor.crochet/3000,true);
-
+			// FlxG.camera.fade(0xFF000000,Conductor.crochet/3000,true);
 		case 2040:
 			hazardInterlopeLaugh.alpha = 1;
 			hazardBlack.alpha = 0;
@@ -178,7 +177,7 @@ function stepHit(curStep){
 			hazardInterlopeLaugh.alpha = 1;
 				hazardInterlopeLaugh.animation.play("laugh2");
 	    case 2048:
-			FlxG.camera.fade(0xFF000000,Conductor.crochet/3000,true);
+			// FlxG.camera.fade(0xFF000000,Conductor.crochet/3000,true);
 
 		hazardInterlopeLaugh.alpha = 0;
 		hazardBlack.alpha = 0;
