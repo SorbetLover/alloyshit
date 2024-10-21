@@ -1,0 +1,24 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/gears/" zoom="0.5">
+	<gf scale="0"/>
+	<sprite x="-1246" y="-802" sprite="sky" name="sky"/>
+	<sprite x="-330" y="-394" sprite="fallBG" scale="1.3" name="fallBG"/>
+	<sprite x="-422" y="-592" sprite="streaks" name="streaks"/>
+	<sprite x="-1042" y="377" sprite="train" name="train"/>
+	<sprite x="-1098" y="330" sprite="trainGlow" name="trainGlow"/>
+	<sprite x="-1047" y="362" sprite="death" name="death">
+		
+		
+		
+		
+		<anim x="0" loop="false" y="0" fps="24" anim="Train be like" type="none" name="death"/>
+		
+		
+	
+	
+	</sprite>
+	<dad x="-439" y="-433"/>
+	<bf x="262" y="-412" flipX="false"/>
+	<combo x="1286" y="-97"/>
+	<sprite x="2304" name="tunnelEnterance" sprite="tunnelEnterance" y="-1344"/>
+</stage>

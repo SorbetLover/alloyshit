@@ -1,0 +1,17 @@
+{
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": false,
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"bpm": 250,
+	"difficulties": [
+		"GEARS-HARD"
+	],
+	"needsVoices": true,
+	"parsedColor": -3659520,
+	"displayName": "gears",
+	"icon": "raloca",
+	"name": "gears",
+	"color": "#C82900",
+	"customValues": {}
+}
