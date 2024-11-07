@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character y="150" sprite="oji" isPlayer="true" icon="oji" holdTime="6.1" isGF="false" flipX="true">
+	<anim name="idle" anim="oji idle0" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="oji down0" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="oji left0" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="oji right0" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singUP" anim="oji up0" x="0" y="0" fps="24" loop="false"/>
+</character>

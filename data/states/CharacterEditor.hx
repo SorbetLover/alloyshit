@@ -72,8 +72,24 @@ switch(character.sprite){
 	    extraChar = new Character(400,-50,'felps', false);
 	case 'ralocav2':
 		extraChar = new Character(character.x,character.y,'ralucas', false);
+	
+	case 'oji':
+    	extraChar = new Character(character.x,character.y,'aloi', false);
+		
+	ugh = new FlxSprite().makeGraphic(2000,1400, 0xFFFFFFFF);
+	ugh.x -= 500;
+	insert(members.indexOf(character) - 1, ugh);
+	ugh.cameras = [charCamera];
 
-    default:
+	ugh.alpha = 0.4;
+
+		extraChar.x -= 	500;
+		extraChar.y += 150;
+	case 'aloi':
+    	extraChar = new Character(character.x,character.y,'oji', false);	
+
+		// extraChar.x -= 400;
+	default:
 		stopCharCreation = true;
 
 }
@@ -125,7 +141,35 @@ function update(){
                 characterBG.alpha = 1;
 		
     }
-	if(stopCharCreation == false && FlxG.mouse.justPressed){
+	// if(stopCharCreation == false && FlxG.mouse.justPressed){
+		
+	// 	switch(character.getAnimName()){
+    //         case 'singLEFT': extraChar.playAnim("singRIGHT");
+    //         case 'singRIGHT': extraChar.playAnim("singLEFT");
+	// 		case 'singUP': extraChar.playAnim("singUP");
+    //         case 'singDOWN': extraChar.playAnim("singDOWN");
+
+	// 	}
+	// }
+	
+	// if(stopCharCreation == false && invertCanims == false){
+		
+	// 	switch(character.getAnimName()){
+    //         case 'singLEFT': extraChar.playAnim("singLEFT");
+    //         case 'singRIGHT': extraChar.playAnim("singRIGHT");
+	// 		case 'singUP': extraChar.playAnim("singUP");
+    //         case 'singDOWN': extraChar.playAnim("singDOWN");
+
+	// 	}
+	// }
+
+	if(FlxG.keys.justPressed.A) character.playAnim("singLEFT", true);
+	if(FlxG.keys.justPressed.S) character.playAnim("singDOWN", true);
+	if(FlxG.keys.justPressed.K) character.playAnim("singUP", true);
+	if(FlxG.keys.justPressed.L) character.playAnim("singRIGHT", true);
+	var ddd = FlxG.keys.justPressed;
+	if(ddd.A || ddd.S || ddd.K || ddd.L){
+		if(stopCharCreation == false && FlxG.mouse.justPressed){
 		
 		switch(character.getAnimName()){
             case 'singLEFT': extraChar.playAnim("singRIGHT");
@@ -146,12 +190,7 @@ function update(){
 
 		}
 	}
-
-	if(FlxG.keys.justPressed.A) character.playAnim("singLEFT", true);
-	if(FlxG.keys.justPressed.S) character.playAnim("singDOWN", true);
-	if(FlxG.keys.justPressed.K) character.playAnim("singUP", true);
-	if(FlxG.keys.justPressed.L) character.playAnim("singRIGHT", true);
-
+	}
 }
 
 function postUpdate(){
