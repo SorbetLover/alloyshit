@@ -1,1 +1,17 @@
-null
+{
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": false,
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"bpm": 120,
+	"difficulties": [
+		"HARD"
+	],
+	"needsVoices": true,
+	"parsedColor": -3187456,
+	"displayName": "digital drama",
+	"icon": "felcca",
+	"name": "digital drama",
+	"color": "#CF5D00",
+	"customValues": {}
+}
