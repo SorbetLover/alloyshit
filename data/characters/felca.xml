@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character y="150" sprite="felca" icon="felcca" holdTime="6.1" isGF="false">
+	<anim name="idle" anim="FELCA_IDLE0" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="FELCA_DOWN0" x="20" y="-200" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="FELCA_LEFT0" x="20" y="-15" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="FELCA_RIGHT0" x="-55" y="-10" fps="24" loop="false"/>
+	<anim name="singUP" anim="FELCA_UP0" x="-30" y="60" fps="24" loop="false"/>
+</character>

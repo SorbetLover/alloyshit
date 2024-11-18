@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-character>
-<character y="150" sprite="oji" isPlayer="true" icon="oji" holdTime="6.1" isGF="false" flipX="true">
+<character y="150" sprite="oji" isPlayer="true" icon="oji" holdTime="6.1" isGF="false">
 	<anim name="idle" anim="oji idle0" x="0" y="0" fps="24" loop="false"/>
 	<anim name="singDOWN" anim="oji down0" x="0" y="0" fps="24" loop="false"/>
 	<anim name="singLEFT" anim="oji left0" x="0" y="0" fps="24" loop="false"/>

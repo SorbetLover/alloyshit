@@ -1,0 +1,15 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/felca/" zoom="0.6">
+	<gf/>
+	<sprite x="-649" y="-307" sprite="walls" name="walls"/>
+	<sprite x="-649" y="-305" sprite="walls_alt" name="walls_alt"/>
+	<sprite x="-678" y="-326" sprite="ring_l_n_trash_can" name="ring_l_n_trash_can"/>
+
+	<sprite x="-674" y="-319" sprite="luz" name="luz"/>
+	<dad x="23" camxoffset="100" y="-92" lastOpponent="felca"/>
+	<sprite x="-661" y="-330" sprite="chair" name="chair"/>
+	<bf x="909" camxoffset="-100" y="210" scale="1.2" lastPlayer="bf"/>
+	<combo/>
+
+	<sprite x="-652" y="-307" sprite="table" alpha="0.8" name="table"/>
+</stage>

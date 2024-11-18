@@ -1,8 +1,8 @@
 <!DOCTYPE codename-engine-character>
-<character x="0" icon="edgar" camx="100" y="0" isGF="false" camy="140" color="#7027F9" isPlayer="false" holdTime="6.1" sprite="edgar">
-	<anim x="0" loop="false" y="0" fps="36" anim="edgar idle0" name="idle"/>
-	<anim x="0" loop="false" y="0" fps="24" anim="edgar up0" name="singUP"/>
-	<anim x="0" loop="false" y="0" fps="24" anim="edgar right0" name="singRIGHT"/>
-	<anim x="0" loop="false" y="0" fps="24" anim="edgar left0" name="singLEFT"/>
-	<anim x="0" loop="false" y="0" fps="24" anim="edgar down0" name="singDOWN"/>
+<character sprite="edgar" camx="100" camy="140" icon="edgar" color="#7027F9" holdTime="6.1" isGF="false">
+	<anim name="idle" anim="edgar idle0" x="0" y="0" fps="48" loop="false"/>
+	<anim name="singUP" anim="edgar up0" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="edgar right0" x="0" y="-5" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="edgar left0" x="70" y="0" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="edgar down0" x="0" y="0" fps="24" loop="false"/>
 </character>
