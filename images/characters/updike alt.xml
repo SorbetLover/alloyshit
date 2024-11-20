@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="updike alt.png">
+	<!-- Created with Adobe Animate version 21.0.5.40714 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Updike down0000" x="463" y="30" width="326" height="670" frameX="0" frameY="-7" frameWidth="326" frameHeight="678"/>
+	<SubTexture name="Updike down0001" x="819" y="30" width="326" height="669" frameX="0" frameY="-8" frameWidth="326" frameHeight="678"/>
+	<SubTexture name="Updike down0002" x="862" y="729" width="325" height="666" frameX="0" frameY="-11" frameWidth="326" frameHeight="678"/>
+	<SubTexture name="Updike down0003" x="862" y="729" width="325" height="666" frameX="0" frameY="-11" frameWidth="326" frameHeight="678"/>
+	<SubTexture name="Updike down0004" x="798" y="1448" width="324" height="678" frameX="0" frameY="0" frameWidth="326" frameHeight="678"/>
+	<SubTexture name="Updike down0005" x="798" y="1448" width="324" height="678" frameX="0" frameY="0" frameWidth="326" frameHeight="678"/>
+	<SubTexture name="Updike down0006" x="798" y="1448" width="324" height="678" frameX="0" frameY="0" frameWidth="326" frameHeight="678"/>
+	<SubTexture name="Updike down0007" x="798" y="1448" width="324" height="678" frameX="0" frameY="0" frameWidth="326" frameHeight="678"/>
+	<SubTexture name="Updike down0008" x="798" y="1448" width="324" height="678" frameX="0" frameY="0" frameWidth="326" frameHeight="678"/>
+	<SubTexture name="Updike down0009" x="798" y="1448" width="324" height="678" frameX="0" frameY="0" frameWidth="326" frameHeight="678"/>
+	<SubTexture name="Updike down0010" x="798" y="1448" width="324" height="678" frameX="0" frameY="0" frameWidth="326" frameHeight="678"/>
+	<SubTexture name="Updike down0011" x="798" y="1448" width="324" height="678" frameX="0" frameY="0" frameWidth="326" frameHeight="678"/>
+	<SubTexture name="Updike down0012" x="798" y="1448" width="324" height="678" frameX="0" frameY="0" frameWidth="326" frameHeight="678"/>
+	<SubTexture name="Updike down0013" x="798" y="1448" width="324" height="678" frameX="0" frameY="0" frameWidth="326" frameHeight="678"/>
+	<SubTexture name="Updike idle0000" x="30" y="30" width="403" height="677" frameX="0" frameY="-11" frameWidth="403" frameHeight="688"/>
+	<SubTexture name="Updike idle0001" x="30" y="30" width="403" height="677" frameX="0" frameY="-11" frameWidth="403" frameHeight="688"/>
+	<SubTexture name="Updike idle0002" x="30" y="2888" width="387" height="681" frameX="-8" frameY="-7" frameWidth="403" frameHeight="688"/>
+	<SubTexture name="Updike idle0003" x="445" y="737" width="387" height="681" frameX="-8" frameY="-7" frameWidth="403" frameHeight="688"/>
+	<SubTexture name="Updike idle0004" x="30" y="2173" width="385" height="685" frameX="-5" frameY="-3" frameWidth="403" frameHeight="688"/>
+	<SubTexture name="Updike idle0005" x="30" y="2173" width="385" height="685" frameX="-5" frameY="-3" frameWidth="403" frameHeight="688"/>
+	<SubTexture name="Updike idle0006" x="30" y="737" width="385" height="688" frameX="-6" frameY="0" frameWidth="403" frameHeight="688"/>
+	<SubTexture name="Updike idle0007" x="30" y="737" width="385" height="688" frameX="-6" frameY="0" frameWidth="403" frameHeight="688"/>
+	<SubTexture name="Updike idle0008" x="30" y="1455" width="385" height="688" frameX="-6" frameY="0" frameWidth="403" frameHeight="688"/>
+	<SubTexture name="Updike idle0009" x="30" y="1455" width="385" height="688" frameX="-6" frameY="0" frameWidth="403" frameHeight="688"/>
+	<SubTexture name="Updike idle0010" x="30" y="1455" width="385" height="688" frameX="-6" frameY="0" frameWidth="403" frameHeight="688"/>
+	<SubTexture name="Updike idle0011" x="30" y="1455" width="385" height="688" frameX="-6" frameY="0" frameWidth="403" frameHeight="688"/>
+	<SubTexture name="Updike idle0012" x="30" y="1455" width="385" height="688" frameX="-6" frameY="0" frameWidth="403" frameHeight="688"/>
+	<SubTexture name="Updike idle0013" x="30" y="1455" width="385" height="688" frameX="-6" frameY="0" frameWidth="403" frameHeight="688"/>
+	<SubTexture name="Updike left0000" x="445" y="1448" width="323" height="695"/>
+	<SubTexture name="Updike left0001" x="445" y="1448" width="323" height="695"/>
+	<SubTexture name="Updike left0002" x="1142" y="2889" width="315" height="692" frameX="-1" frameY="-2" frameWidth="323" frameHeight="695"/>
+	<SubTexture name="Updike left0003" x="1142" y="2889" width="315" height="692" frameX="-1" frameY="-2" frameWidth="323" frameHeight="695"/>
+	<SubTexture name="Updike left0004" x="1487" y="2863" width="311" height="688" frameX="-8" frameY="-6" frameWidth="323" frameHeight="695"/>
+	<SubTexture name="Updike left0005" x="1487" y="2863" width="311" height="688" frameX="-8" frameY="-6" frameWidth="323" frameHeight="695"/>
+	<SubTexture name="Updike left0006" x="1217" y="30" width="311" height="688" frameX="-8" frameY="-6" frameWidth="323" frameHeight="695"/>
+	<SubTexture name="Updike left0007" x="1217" y="30" width="311" height="688" frameX="-8" frameY="-6" frameWidth="323" frameHeight="695"/>
+	<SubTexture name="Updike left0008" x="1217" y="30" width="311" height="688" frameX="-8" frameY="-6" frameWidth="323" frameHeight="695"/>
+	<SubTexture name="Updike left0009" x="1217" y="30" width="311" height="688" frameX="-8" frameY="-6" frameWidth="323" frameHeight="695"/>
+	<SubTexture name="Updike left0010" x="1217" y="30" width="311" height="688" frameX="-8" frameY="-6" frameWidth="323" frameHeight="695"/>
+	<SubTexture name="Updike left0011" x="1217" y="30" width="311" height="688" frameX="-8" frameY="-6" frameWidth="323" frameHeight="695"/>
+	<SubTexture name="Updike left0012" x="1217" y="30" width="311" height="688" frameX="-8" frameY="-6" frameWidth="323" frameHeight="695"/>
+	<SubTexture name="Updike left0013" x="1217" y="30" width="311" height="688" frameX="-8" frameY="-6" frameWidth="323" frameHeight="695"/>
+	<SubTexture name="Updike right0000" x="1484" y="2144" width="311" height="689" frameX="-6" frameY="0" frameWidth="323" frameHeight="689"/>
+	<SubTexture name="Updike right0001" x="1484" y="2144" width="311" height="689" frameX="-6" frameY="0" frameWidth="323" frameHeight="689"/>
+	<SubTexture name="Updike right0002" x="1152" y="1425" width="312" height="689" frameX="-6" frameY="0" frameWidth="323" frameHeight="689"/>
+	<SubTexture name="Updike right0003" x="1152" y="1425" width="312" height="689" frameX="-6" frameY="0" frameWidth="323" frameHeight="689"/>
+	<SubTexture name="Updike right0004" x="792" y="2173" width="322" height="686" frameX="-1" frameY="-3" frameWidth="323" frameHeight="689"/>
+	<SubTexture name="Updike right0005" x="792" y="2173" width="322" height="686" frameX="-1" frameY="-3" frameWidth="323" frameHeight="689"/>
+	<SubTexture name="Updike right0006" x="447" y="2909" width="323" height="686" frameX="0" frameY="-3" frameWidth="323" frameHeight="689"/>
+	<SubTexture name="Updike right0007" x="447" y="2909" width="323" height="686" frameX="0" frameY="-3" frameWidth="323" frameHeight="689"/>
+	<SubTexture name="Updike right0008" x="447" y="2909" width="323" height="686" frameX="0" frameY="-3" frameWidth="323" frameHeight="689"/>
+	<SubTexture name="Updike right0009" x="447" y="2909" width="323" height="686" frameX="0" frameY="-3" frameWidth="323" frameHeight="689"/>
+	<SubTexture name="Updike right0010" x="447" y="2909" width="323" height="686" frameX="0" frameY="-3" frameWidth="323" frameHeight="689"/>
+	<SubTexture name="Updike right0011" x="447" y="2909" width="323" height="686" frameX="0" frameY="-3" frameWidth="323" frameHeight="689"/>
+	<SubTexture name="Updike right0012" x="447" y="2909" width="323" height="686" frameX="0" frameY="-3" frameWidth="323" frameHeight="689"/>
+	<SubTexture name="Updike right0013" x="447" y="2909" width="323" height="686" frameX="0" frameY="-3" frameWidth="323" frameHeight="689"/>
+	<SubTexture name="Updike up0000" x="447" y="2173" width="315" height="706"/>
+	<SubTexture name="Updike up0001" x="447" y="2173" width="315" height="706"/>
+	<SubTexture name="Updike up0002" x="800" y="2889" width="312" height="702" frameX="0" frameY="-4" frameWidth="315" frameHeight="706"/>
+	<SubTexture name="Updike up0003" x="800" y="2889" width="312" height="702" frameX="0" frameY="-4" frameWidth="315" frameHeight="706"/>
+	<SubTexture name="Updike up0004" x="1144" y="2156" width="310" height="699" frameX="-1" frameY="-7" frameWidth="315" frameHeight="706"/>
+	<SubTexture name="Updike up0005" x="1144" y="2156" width="310" height="699" frameX="-1" frameY="-7" frameWidth="315" frameHeight="706"/>
+	<SubTexture name="Updike up0006" x="1144" y="2156" width="310" height="699" frameX="-1" frameY="-7" frameWidth="315" frameHeight="706"/>
+	<SubTexture name="Updike up0007" x="1144" y="2156" width="310" height="699" frameX="-1" frameY="-7" frameWidth="315" frameHeight="706"/>
+	<SubTexture name="Updike up0008" x="1144" y="2156" width="310" height="699" frameX="-1" frameY="-7" frameWidth="315" frameHeight="706"/>
+	<SubTexture name="Updike up0009" x="1144" y="2156" width="310" height="699" frameX="-1" frameY="-7" frameWidth="315" frameHeight="706"/>
+	<SubTexture name="Updike up0010" x="1144" y="2156" width="310" height="699" frameX="-1" frameY="-7" frameWidth="315" frameHeight="706"/>
+	<SubTexture name="Updike up0011" x="1144" y="2156" width="310" height="699" frameX="-1" frameY="-7" frameWidth="315" frameHeight="706"/>
+	<SubTexture name="Updike up0012" x="1144" y="2156" width="310" height="699" frameX="-1" frameY="-7" frameWidth="315" frameHeight="706"/>
+	<SubTexture name="Updike up0013" x="1144" y="2156" width="310" height="699" frameX="-1" frameY="-7" frameWidth="315" frameHeight="706"/>
+</TextureAtlas>

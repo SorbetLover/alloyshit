@@ -1,0 +1,14 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="updike" icon="remorse/upd" color="#797979" isGF="false">
+	<anim name="idle" anim="Updike idle" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singUP" anim="Updike up0" x="-1" y="17" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="Updike down0" x="-10" y="-10" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="Updike left0" x="23" y="6" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="Updike right0" x="-20" y="0" fps="24" loop="false"/>
+	<anim name="singUP-alt" anim="Updike studing up0" x="0" y="18" fps="24" loop="false"/>
+	<anim name="singDOWN-alt" anim="Updike studing down0" x="-11" y="-12" fps="24" loop="false"/>
+	<anim name="singLEFT-alt" anim="Updike studing left0" x="21" y="6" fps="24" loop="false"/>
+	<anim name="singRIGHT-alt" anim="Updike studing right0" x="-15" y="0" fps="24" loop="false"/>
+	<anim name="in" anim="Updike in" x="0" y="0" fps="24" loop="false"/>
+	<anim name="out" anim="Updike out" x="0" y="0" fps="24" loop="false"/>
+</character>
