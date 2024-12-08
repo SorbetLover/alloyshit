@@ -1,0 +1,5 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="dora/Customgf" icon="dora/gabriela" holdTime="6.1">
+	<anim name="idle" anim="IdleGf0" x="0" y="0" fps="24" loop="false"/>
+	<anim name="idle-alt" anim="IdleGf2" x="75" y="211" fps="24" loop="false"/>
+</character>

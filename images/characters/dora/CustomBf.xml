@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="CustomBf.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="BFIdle0000" x="0" y="0" width="499" height="466" frameX="0" frameY="-22" frameWidth="512" frameHeight="488"/>
+	<SubTexture name="BFIdle0001" x="0" y="0" width="499" height="466" frameX="0" frameY="-22" frameWidth="512" frameHeight="488"/>
+	<SubTexture name="BFIdle0002" x="0" y="0" width="499" height="466" frameX="0" frameY="-22" frameWidth="512" frameHeight="488"/>
+	<SubTexture name="BFIdle0003" x="499" y="0" width="498" height="471" frameX="-5" frameY="-17" frameWidth="512" frameHeight="488"/>
+	<SubTexture name="BFIdle0004" x="997" y="0" width="492" height="478" frameX="-14" frameY="-10" frameWidth="512" frameHeight="488"/>
+	<SubTexture name="BFIdle0005" x="997" y="0" width="492" height="478" frameX="-14" frameY="-10" frameWidth="512" frameHeight="488"/>
+	<SubTexture name="BFIdle0006" x="1489" y="0" width="493" height="486" frameX="-18" frameY="-2" frameWidth="512" frameHeight="488"/>
+	<SubTexture name="BFIdle0007" x="1489" y="0" width="493" height="486" frameX="-18" frameY="-2" frameWidth="512" frameHeight="488"/>
+	<SubTexture name="BFIdle0008" x="1489" y="0" width="493" height="486" frameX="-18" frameY="-2" frameWidth="512" frameHeight="488"/>
+	<SubTexture name="BFIdle0009" x="0" y="486" width="493" height="488" frameX="-19" frameY="0" frameWidth="512" frameHeight="488"/>
+	<SubTexture name="BFIdle0010" x="0" y="486" width="493" height="488" frameX="-19" frameY="0" frameWidth="512" frameHeight="488"/>
+	<SubTexture name="BFIdle0011" x="0" y="486" width="493" height="488" frameX="-19" frameY="0" frameWidth="512" frameHeight="488"/>
+	<SubTexture name="BFIdle0012" x="493" y="486" width="493" height="486" frameX="-18" frameY="-2" frameWidth="512" frameHeight="488"/>
+	<SubTexture name="BFIdle0013" x="493" y="486" width="493" height="486" frameX="-18" frameY="-2" frameWidth="512" frameHeight="488"/>
+	<SubTexture name="DeadLoop0000" x="986" y="486" width="397" height="493" frameX="0" frameY="0" frameWidth="397" frameHeight="497"/>
+	<SubTexture name="DeadLoop0001" x="1383" y="486" width="397" height="497"/>
+	<SubTexture name="DeadLoop0002" x="0" y="983" width="397" height="497"/>
+	<SubTexture name="DeadLoop0003" x="397" y="983" width="397" height="493" frameX="0" frameY="0" frameWidth="397" frameHeight="497"/>
+	<SubTexture name="DownBf0000" x="794" y="983" width="473" height="393" frameX="0" frameY="-47" frameWidth="473" frameHeight="440"/>
+	<SubTexture name="DownBf0001" x="794" y="983" width="473" height="393" frameX="0" frameY="-47" frameWidth="473" frameHeight="440"/>
+	<SubTexture name="DownBf0002" x="1267" y="983" width="446" height="414" frameX="-10" frameY="-26" frameWidth="473" frameHeight="440"/>
+	<SubTexture name="DownBf0003" x="1267" y="983" width="446" height="414" frameX="-10" frameY="-26" frameWidth="473" frameHeight="440"/>
+	<SubTexture name="DownBf0004" x="0" y="1480" width="432" height="440" frameX="-18" frameY="0" frameWidth="473" frameHeight="440"/>
+	<SubTexture name="DownBf0005" x="0" y="1480" width="432" height="440" frameX="-18" frameY="0" frameWidth="473" frameHeight="440"/>
+	<SubTexture name="DownBfMiss0000" x="432" y="1480" width="451" height="408"/>
+	<SubTexture name="LeftBF0000" x="883" y="1480" width="587" height="461" frameX="0" frameY="0" frameWidth="595" frameHeight="461"/>
+	<SubTexture name="LeftBF0001" x="883" y="1480" width="587" height="461" frameX="0" frameY="0" frameWidth="595" frameHeight="461"/>
+	<SubTexture name="LeftBF0002" x="1470" y="1480" width="556" height="461" frameX="-36" frameY="0" frameWidth="595" frameHeight="461"/>
+	<SubTexture name="LeftBF0003" x="1470" y="1480" width="556" height="461" frameX="-36" frameY="0" frameWidth="595" frameHeight="461"/>
+	<SubTexture name="LeftBF0004" x="0" y="1941" width="533" height="461" frameX="-62" frameY="0" frameWidth="595" frameHeight="461"/>
+	<SubTexture name="LeftBF0005" x="0" y="1941" width="533" height="461" frameX="-62" frameY="0" frameWidth="595" frameHeight="461"/>
+	<SubTexture name="LeftBfMiss0000" x="533" y="1941" width="536" height="453"/>
+	<SubTexture name="RightBf0000" x="1069" y="1941" width="499" height="482" frameX="-11" frameY="0" frameWidth="510" frameHeight="482"/>
+	<SubTexture name="RightBf0001" x="1069" y="1941" width="499" height="482" frameX="-11" frameY="0" frameWidth="510" frameHeight="482"/>
+	<SubTexture name="RightBf0002" x="0" y="2423" width="483" height="482" frameX="-10" frameY="0" frameWidth="510" frameHeight="482"/>
+	<SubTexture name="RightBf0003" x="0" y="2423" width="483" height="482" frameX="-10" frameY="0" frameWidth="510" frameHeight="482"/>
+	<SubTexture name="RightBf0004" x="483" y="2423" width="480" height="482" frameX="0" frameY="0" frameWidth="510" frameHeight="482"/>
+	<SubTexture name="RightBf0005" x="483" y="2423" width="480" height="482" frameX="0" frameY="0" frameWidth="510" frameHeight="482"/>
+	<SubTexture name="RightBfmiss0000" x="963" y="2423" width="463" height="471"/>
+	<SubTexture name="UpBf0000" x="1426" y="2423" width="497" height="575" frameX="-12" frameY="0" frameWidth="515" frameHeight="575"/>
+	<SubTexture name="UpBf0001" x="1426" y="2423" width="497" height="575" frameX="-12" frameY="0" frameWidth="515" frameHeight="575"/>
+	<SubTexture name="UpBf0002" x="0" y="2998" width="498" height="553" frameX="-11" frameY="-22" frameWidth="515" frameHeight="575"/>
+	<SubTexture name="UpBf0003" x="0" y="2998" width="498" height="553" frameX="-11" frameY="-22" frameWidth="515" frameHeight="575"/>
+	<SubTexture name="UpBf0004" x="498" y="2998" width="515" height="525" frameX="0" frameY="-50" frameWidth="515" frameHeight="575"/>
+	<SubTexture name="UpBf0005" x="498" y="2998" width="515" height="525" frameX="0" frameY="-50" frameWidth="515" frameHeight="575"/>
+	<SubTexture name="UpBfMiss0000" x="1013" y="2998" width="484" height="528"/>
+	<SubTexture name="deadbfintro0000" x="986" y="486" width="397" height="493" frameX="0" frameY="0" frameWidth="397" frameHeight="497"/>
+	<SubTexture name="deadend0000" x="1497" y="2998" width="516" height="493"/>
+</TextureAtlas>

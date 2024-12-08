@@ -1,0 +1,10 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/dora/" zoom="0.9">
+	<sprite x="164" y="131" sprite="puente" scale="2" name="puente"/>
+	<sprite x="-303" y="-430" sprite="fireBG" name="fireBG"/>
+	<sprite x="-1420" y="-786" sprite="poder_politicoBG" scale="0.6" name="poder_politicoBG"/>
+	<gf x="570" y="230" scale="0.9"/>
+	<dad x="-258" camxoffset="139" camyoffset="60" y="-106" scale="1" lastOpponent="doraexe"/>
+	<bf x="790" camxoffset="-400" y="300" camyoffset="-180" lastPlayer="bf"/>
+	<combo x="1200"/>
+</stage>

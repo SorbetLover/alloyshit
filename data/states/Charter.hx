@@ -55,12 +55,28 @@ function postCreate() {
 } 
 function update() {
 	
-	for(i in strumLines){
+	// for(i in strumLines){
+	// 	for(o in 0...10)
+	// 		if(i.healthIcons.members[o].exists()) 
+	// 		i.healthIcons.members[o].scale.x = FlxMath.lerp(i.healthIcons.members[0].scale.x, 0.6,0.05);
+    // 		i.healthIcons.members[o].scale.y = FlxMath.lerp(i.healthIcons.members[0].scale.y, 0.6,0.05);
 		
-    i.healthIcons.members[0].scale.x = FlxMath.lerp(i.healthIcons.members[0].scale.x, 0.6,0.05);
-    i.healthIcons.members[0].scale.y = FlxMath.lerp(i.healthIcons.members[0].scale.y, 0.6,0.05);
+	// }
+
+	for(e in strumLines){
+		for(i in e.healthIcons){
+			i.scale.x = FlxMath.lerp(i.scale.x, 0.6,0.05);
+			i.scale.y = FlxMath.lerp(i.scale.x, 0.6,0.05);
+
+		}
 	}
-	
+
+	// for(e in strumLines){
+		// 	for(i in 0...e.healthIcons.members.lenght){
+		// 		e.healthIcons.members[i].scale.x = FlxMath.lerp(i.healthIcons.members[0].scale.x, 0.6,0.05);
+		// 		e.healthIcons.members[i].scale.y = FlxMath.lerp(i.healthIcons.members[0].scale.x, 0.6,0.05);
+		// 	}
+		// }
 
 	pitTXT.text = "pitch:" + FlxG.save.data.codenameCurPitch;
 	if(FlxG.sound.music.playing){
@@ -141,18 +157,31 @@ function update() {
 function postUpdate(){
     
     gridBackdrops.members.alpha = 0;
+	topMenuSpr.color = 0xFF666666;
+	strumlineInfoBG.color = 0xFF666666;
 }
 
 
 function beatHit(){
 	
-	for(i in strumLines){
-		i.healthIcons.members[0].scale.set(0.7,0.7);
+	// for(i in strumLines){
+	// 	i.healthIcons.members[0].scale.set(0.7,0.7);
+	// }
+	// if(curBeat % 4 == 0){
+	// 	for(i in strumLines){
+	// 	i.healthIcons.members[0].scale.set(0.8,0.8);
+	// }
+	// }
+    // strumlineAddButton.scale.set(1.1,1.1);
+	for(e in strumLines){
+		for(i in e.healthIcons){
+			i.scale.set(0.7,0.7);
+
+			if(curBeat % 4 == 0){
+				i.scale.set(0.8, 0.8);
+			}
+		}
 	}
-	if(curBeat % 4 == 0){
-		for(i in strumLines){
-		i.healthIcons.members[0].scale.set(0.8,0.8);
-	}
-	}
-    strumlineAddButton.scale.set(1.1,1.1);
+
+
 }

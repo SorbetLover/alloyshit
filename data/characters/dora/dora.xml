@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="dora/dora" icon="dora/dora1" color="#66C4FE" holdTime="6.1">
+	<anim name="idle" anim="Dora Idle0" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="Dora Down0" x="99" y="-105" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="Dora Left0" x="175" y="-120" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="Dora Right0" x="-80" y="-55" fps="24" loop="false"/>
+	<anim name="Dora Staring" anim="Dora Staring0" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singUP" anim="Dora Up0" x="35" y="10" fps="24" loop="false"/>
+</character>

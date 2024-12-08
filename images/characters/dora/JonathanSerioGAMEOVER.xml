@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="JonathanSerioGAMEOVER.png">
+	<!-- Created with Adobe Animate version 23.0.2.103 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="DTBF1DeadEnd0000" x="0" y="0" width="1280" height="720"/>
+	<SubTexture name="DTBF1DeadIntro0000" x="1280" y="0" width="646" height="730"/>
+	<SubTexture name="DTBF1DeadLoop0000" x="1280" y="0" width="646" height="730"/>
+</TextureAtlas>

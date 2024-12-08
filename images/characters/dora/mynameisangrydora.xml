@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="mynameisangrydora.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Dora Down0000" x="0" y="0" width="623" height="619" frameX="0" frameY="-28" frameWidth="623" frameHeight="647"/>
+	<SubTexture name="Dora Down0001" x="0" y="0" width="623" height="619" frameX="0" frameY="-28" frameWidth="623" frameHeight="647"/>
+	<SubTexture name="Dora Down0002" x="623" y="0" width="607" height="628" frameX="-12" frameY="-19" frameWidth="623" frameHeight="647"/>
+	<SubTexture name="Dora Down0003" x="623" y="0" width="607" height="628" frameX="-12" frameY="-19" frameWidth="623" frameHeight="647"/>
+	<SubTexture name="Dora Down0004" x="1230" y="0" width="567" height="647" frameX="-32" frameY="0" frameWidth="623" frameHeight="647"/>
+	<SubTexture name="Dora Down0005" x="1230" y="0" width="567" height="647" frameX="-32" frameY="0" frameWidth="623" frameHeight="647"/>
+	<SubTexture name="Dora Idle0000" x="1797" y="0" width="530" height="723" frameX="-6" frameY="-26" frameWidth="536" frameHeight="749"/>
+	<SubTexture name="Dora Idle0001" x="1797" y="0" width="530" height="723" frameX="-6" frameY="-26" frameWidth="536" frameHeight="749"/>
+	<SubTexture name="Dora Idle0002" x="1797" y="0" width="530" height="723" frameX="-6" frameY="-26" frameWidth="536" frameHeight="749"/>
+	<SubTexture name="Dora Idle0003" x="2327" y="0" width="531" height="731" frameX="-3" frameY="-18" frameWidth="536" frameHeight="749"/>
+	<SubTexture name="Dora Idle0004" x="2858" y="0" width="527" height="741" frameX="-2" frameY="-8" frameWidth="536" frameHeight="749"/>
+	<SubTexture name="Dora Idle0005" x="2858" y="0" width="527" height="741" frameX="-2" frameY="-8" frameWidth="536" frameHeight="749"/>
+	<SubTexture name="Dora Idle0006" x="3385" y="0" width="524" height="747" frameX="0" frameY="-2" frameWidth="536" frameHeight="749"/>
+	<SubTexture name="Dora Idle0007" x="3385" y="0" width="524" height="747" frameX="0" frameY="-2" frameWidth="536" frameHeight="749"/>
+	<SubTexture name="Dora Idle0008" x="3385" y="0" width="524" height="747" frameX="0" frameY="-2" frameWidth="536" frameHeight="749"/>
+	<SubTexture name="Dora Idle0009" x="0" y="747" width="525" height="749" frameX="0" frameY="0" frameWidth="536" frameHeight="749"/>
+	<SubTexture name="Dora Idle0010" x="0" y="747" width="525" height="749" frameX="0" frameY="0" frameWidth="536" frameHeight="749"/>
+	<SubTexture name="Dora Idle0011" x="0" y="747" width="525" height="749" frameX="0" frameY="0" frameWidth="536" frameHeight="749"/>
+	<SubTexture name="Dora Idle0012" x="0" y="747" width="525" height="749" frameX="0" frameY="0" frameWidth="536" frameHeight="749"/>
+	<SubTexture name="Dora Idle0013" x="2858" y="0" width="527" height="741" frameX="-2" frameY="-8" frameWidth="536" frameHeight="749"/>
+	<SubTexture name="Dora Left0000" x="525" y="747" width="551" height="630" frameX="0" frameY="0" frameWidth="556" frameHeight="630"/>
+	<SubTexture name="Dora Left0001" x="525" y="747" width="551" height="630" frameX="0" frameY="0" frameWidth="556" frameHeight="630"/>
+	<SubTexture name="Dora Left0002" x="1076" y="747" width="533" height="630" frameX="-20" frameY="0" frameWidth="556" frameHeight="630"/>
+	<SubTexture name="Dora Left0003" x="1076" y="747" width="533" height="630" frameX="-20" frameY="0" frameWidth="556" frameHeight="630"/>
+	<SubTexture name="Dora Left0004" x="1609" y="747" width="482" height="630" frameX="-74" frameY="0" frameWidth="556" frameHeight="630"/>
+	<SubTexture name="Dora Left0005" x="1609" y="747" width="482" height="630" frameX="-74" frameY="0" frameWidth="556" frameHeight="630"/>
+	<SubTexture name="Dora Right0000" x="2091" y="747" width="572" height="688" frameX="-4" frameY="0" frameWidth="576" frameHeight="688"/>
+	<SubTexture name="Dora Right0001" x="2091" y="747" width="572" height="688" frameX="-4" frameY="0" frameWidth="576" frameHeight="688"/>
+	<SubTexture name="Dora Right0002" x="2663" y="747" width="546" height="688" frameX="-3" frameY="0" frameWidth="576" frameHeight="688"/>
+	<SubTexture name="Dora Right0003" x="2663" y="747" width="546" height="688" frameX="-3" frameY="0" frameWidth="576" frameHeight="688"/>
+	<SubTexture name="Dora Right0004" x="3209" y="747" width="496" height="688" frameX="0" frameY="0" frameWidth="576" frameHeight="688"/>
+	<SubTexture name="Dora Right0005" x="3209" y="747" width="496" height="688" frameX="0" frameY="0" frameWidth="576" frameHeight="688"/>
+	<SubTexture name="Dora Staring0000" x="0" y="1496" width="519" height="732" frameX="-15" frameY="-15" frameWidth="534" frameHeight="749"/>
+	<SubTexture name="Dora Staring0001" x="0" y="1496" width="519" height="732" frameX="-15" frameY="-15" frameWidth="534" frameHeight="749"/>
+	<SubTexture name="Dora Staring0002" x="0" y="1496" width="519" height="732" frameX="-15" frameY="-15" frameWidth="534" frameHeight="749"/>
+	<SubTexture name="Dora Staring0003" x="519" y="1496" width="503" height="747" frameX="-4" frameY="-2" frameWidth="534" frameHeight="749"/>
+	<SubTexture name="Dora Staring0004" x="1022" y="1496" width="503" height="747" frameX="-4" frameY="-2" frameWidth="534" frameHeight="749"/>
+	<SubTexture name="Dora Staring0005" x="1525" y="1496" width="499" height="749" frameX="0" frameY="0" frameWidth="534" frameHeight="749"/>
+	<SubTexture name="Dora Staring0006" x="1525" y="1496" width="499" height="749" frameX="0" frameY="0" frameWidth="534" frameHeight="749"/>
+	<SubTexture name="Dora Staring0007" x="1525" y="1496" width="499" height="749" frameX="0" frameY="0" frameWidth="534" frameHeight="749"/>
+	<SubTexture name="Dora Staring0008" x="1525" y="1496" width="499" height="749" frameX="0" frameY="0" frameWidth="534" frameHeight="749"/>
+	<SubTexture name="Dora Staring0009" x="1525" y="1496" width="499" height="749" frameX="0" frameY="0" frameWidth="534" frameHeight="749"/>
+	<SubTexture name="Dora Staring0010" x="1525" y="1496" width="499" height="749" frameX="0" frameY="0" frameWidth="534" frameHeight="749"/>
+	<SubTexture name="Dora Staring0011" x="1525" y="1496" width="499" height="749" frameX="0" frameY="0" frameWidth="534" frameHeight="749"/>
+	<SubTexture name="Dora Staring0012" x="1525" y="1496" width="499" height="749" frameX="0" frameY="0" frameWidth="534" frameHeight="749"/>
+	<SubTexture name="Dora Staring0013" x="1525" y="1496" width="499" height="749" frameX="0" frameY="0" frameWidth="534" frameHeight="749"/>
+	<SubTexture name="Dora Staring0014" x="1525" y="1496" width="499" height="749" frameX="0" frameY="0" frameWidth="534" frameHeight="749"/>
+	<SubTexture name="Dora Staring0015" x="1525" y="1496" width="499" height="749" frameX="0" frameY="0" frameWidth="534" frameHeight="749"/>
+	<SubTexture name="Dora Staring0016" x="1525" y="1496" width="499" height="749" frameX="0" frameY="0" frameWidth="534" frameHeight="749"/>
+	<SubTexture name="Dora Staring0017" x="1525" y="1496" width="499" height="749" frameX="0" frameY="0" frameWidth="534" frameHeight="749"/>
+	<SubTexture name="Dora Staring0018" x="1525" y="1496" width="499" height="749" frameX="0" frameY="0" frameWidth="534" frameHeight="749"/>
+	<SubTexture name="Dora Staring0019" x="1525" y="1496" width="499" height="749" frameX="0" frameY="0" frameWidth="534" frameHeight="749"/>
+	<SubTexture name="Dora Staring0020" x="1525" y="1496" width="499" height="749" frameX="0" frameY="0" frameWidth="534" frameHeight="749"/>
+	<SubTexture name="Dora Staring0021" x="1525" y="1496" width="499" height="749" frameX="0" frameY="0" frameWidth="534" frameHeight="749"/>
+	<SubTexture name="Dora Staring0022" x="1525" y="1496" width="499" height="749" frameX="0" frameY="0" frameWidth="534" frameHeight="749"/>
+	<SubTexture name="Dora Up0000" x="2024" y="1496" width="542" height="762" frameX="-23" frameY="0" frameWidth="581" frameHeight="762"/>
+	<SubTexture name="Dora Up0001" x="2024" y="1496" width="542" height="762" frameX="-23" frameY="0" frameWidth="581" frameHeight="762"/>
+	<SubTexture name="Dora Up0002" x="2566" y="1496" width="553" height="753" frameX="-18" frameY="-9" frameWidth="581" frameHeight="762"/>
+	<SubTexture name="Dora Up0003" x="2566" y="1496" width="553" height="753" frameX="-18" frameY="-9" frameWidth="581" frameHeight="762"/>
+	<SubTexture name="Dora Up0004" x="3119" y="1496" width="581" height="734" frameX="0" frameY="-27" frameWidth="581" frameHeight="762"/>
+	<SubTexture name="Dora Up0005" x="3119" y="1496" width="581" height="734" frameX="0" frameY="-27" frameWidth="581" frameHeight="762"/>
+</TextureAtlas>

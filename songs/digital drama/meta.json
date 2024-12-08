@@ -1,6 +1,6 @@
 {
 	"beatsPerMeasure": 4,
-	"opponentModeAllowed": false,
+	"opponentModeAllowed": true,
 	"coopAllowed": false,
 	"stepsPerBeat": 4,
 	"bpm": 120,

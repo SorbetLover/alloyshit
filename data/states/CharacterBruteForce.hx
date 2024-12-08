@@ -25,6 +25,10 @@ function update(){
 			FlxG.switchState(new CharacterEditor(txtinput.label.text));
 	}
 	// trace("CU");
-		if (FlxG.keys.justPressed.TAB)
+	if (FlxG.keys.justPressed.TAB)
 		FlxG.switchState(new UIState(true, "CharacterBruteForce"));
+	if (FlxG.keys.justPressed.BACKSPACE)
+		FlxG.switchState(new UIState(true, "CharacterBruteForceAlt"));
+
+		
 }
