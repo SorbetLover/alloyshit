@@ -5,7 +5,7 @@
 	"stepsPerBeat": 4,
 	"bpm": 250,
 	"difficulties": [
-		"GEARS-HARD"
+		"hard", "dogs"
 	],
 	"needsVoices": true,
 	"parsedColor": -3659520,

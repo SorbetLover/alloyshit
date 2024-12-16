@@ -1,15 +1,17 @@
 {
-	"opponentModeAllowed": false,
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": true,
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"bpm": 190,
 	"difficulties": [
 		"MARQUEZ-HARD"
 	],
-	"icon": "face",
-	"parsedColor": -7179779,
-	"coopAllowed": false,
-	"stepsPerBeat": 4,
-	"displayName": "marquez",
 	"needsVoices": true,
-	"beatsPerMeasure": 4,
-	"bpm": 190,
-	"name": "marquez"
+	"parsedColor": -7179779,
+	"displayName": "marquez",
+	"icon": "dora/dora1",
+	"name": "marquez",
+	"color": "#9271FD",
+	"customValues": {}
 }

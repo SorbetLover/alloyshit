@@ -21,7 +21,7 @@ var buildings3:FlxBackdrop;
 
 var jean:Character;
 var eggmob:FlxSprite;
-
+var sergei:FlxSprite;
 function postCreate(){
 
 	// strumLines.members[1].cpu = true;
@@ -149,6 +149,24 @@ function postCreate(){
 	insert(members.indexOf(dad) - 2, backBuildings);
 	insert(members.indexOf(dad) - 1, buildings);
 
+	if(dad.curCharacter == "wrench")
+{
+	dad.scale.set(0.5,0.5);
+	boyfriend.scale.set(0.5,0.5);
+
+	dad.y -= 60;
+	dad.x -= 570;
+	boyfriend.y -= 50;
+	boyfriend.x -= 300;
+
+    jean.alpha = 0;
+	eggmob.alpha = 0;
+
+	sergei = new FlxSprite().loadGraphic(Paths.image("stages/sergei"));
+	// add(sergei);
+	insert(members.indexOf(dad)-1, sergei);
+
+}
 }
 function beatHit(curBeat){
 	switch(curBeat){
@@ -206,6 +224,21 @@ function beatHit(curBeat){
 			eggmob.y -= 160;
 			jean.y -= 300;
 			sky.y -= 1000;
+			
+	eggmob.alpha = 0;
+	
+	sergei.scale.set(0.9,0.7);
+
+	dad.scale.set(0.5,0.5);
+	boyfriend.scale.set(0.5,0.5);
+	sergei.alpha = 1;
+	
+	sergei.x = dad.x + 40;
+	sergei.y = dad.y + 490;
+
+	boyfriend.x = dad.x + 500;
+	boyfriend.y -= 200;
+
 			
 						});
 
@@ -281,6 +314,7 @@ train.visible = false;
 	dad.angle = 20;
 
 	boyfriend.scale.set(0.8,0.8);
+	
 		falling = true;
 
 
@@ -296,13 +330,29 @@ train.visible = false;
 function postUpdate(){
 	if(falling == true){
 		camFollow.setPosition(fallBG.x + 800,fallBG.y + 500);
-	eggmob.x = jean.x + 350;
+		eggmob.x = jean.x + 350;
 		eggmob.y = jean.y + 580;
+		if(dad.curCharacter == "wrench"){
+
+
+
+		}
 	}
 
 	backBuildings.y = boyfriend.y + 100;
 	buildings.y = boyfriend.y + 100;
 	buildings.spacing.x = 1000;
 	
-	
+		if(dad.curCharacter == "wrench" && falling == false){
+			
+	eggmob.alpha = 0;
+			switch(curCameraTarget){
+				case 0:
+					camFollow.setPosition(dad.x + 1200,dad.y + 600);
+				case 1:
+					camFollow.setPosition(boyfriend.x+ 500,boyfriend.y + 500);
+
+			}
+		}
+
 }
