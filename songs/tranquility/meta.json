@@ -1,7 +1,7 @@
 {
 	"beatsPerMeasure": 4,
-	"opponentModeAllowed": false,
-	"coopAllowed": false,
+	"opponentModeAllowed": true,
+	"coopAllowed": true,
 	"stepsPerBeat": 4,
 	"bpm": 140,
 	"difficulties": [
