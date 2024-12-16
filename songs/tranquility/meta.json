@@ -5,7 +5,6 @@
 	"stepsPerBeat": 4,
 	"bpm": 140,
 	"difficulties": [
-		"alt",
 		"HARD"
 	],
 	"needsVoices": true,
