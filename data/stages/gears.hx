@@ -164,7 +164,8 @@ function postCreate(){
 
 	sergei = new FlxSprite().loadGraphic(Paths.image("stages/sergei"));
 	// add(sergei);
-	insert(members.indexOf(dad)-1, sergei);
+	insert(members.indexOf(dad)-1, sergei);	
+	sergei.alpha = 0;
 
 }
 }
@@ -237,7 +238,7 @@ function beatHit(curBeat){
 	sergei.y = dad.y + 490;
 
 	boyfriend.x = dad.x + 500;
-	boyfriend.y -= 200;
+	boyfriend.y -= sergei.y + 1000;
 
 			
 						});
