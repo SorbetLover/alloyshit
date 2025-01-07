@@ -59,15 +59,41 @@ function postCreate(){
 				cuts.screenCenter();
 			}
 		});
-		cuts.load("mods/alloyshit/videos/dora/finalcutscene.mp4");
 
 		cuts.load("mods/alloyshit/videos/dora/cutscene_para_poner.mp4");
 		cuts.cameras = [camHUD];
 		// add(cuts);
 		insert(0, cuts);
 		cuts.screenCenter();
+		
+			cuts.play();
+			cuts.pause();
+			cuts.alpha = 0;
 
-		// cuts.scale.set(1.2,1.2);
+		cuts2 = new FlxVideoSprite(0, 0);
+		cuts2.antialiasing = true;
+		cuts2.bitmap.onFormatSetup.add(function():Void
+		{
+			if (cuts2.bitmap != null && cuts2.bitmap.bitmapData != null)
+			{
+				final scale:Float = Math.min(FlxG.width / cuts2.bitmap.bitmapData.width, FlxG.height / cuts2.bitmap.bitmapData.height) * 0.8;
+
+				// cuts2.setGraphicSize(cuts2.bitmap.bitmapData.width * scale, cuts2.bitmap.bitmapData.height * scale);
+				// cuts2.updateHitbox();
+				cuts2.screenCenter();
+			}
+		});
+			cuts2.load("mods/alloyshit/videos/dora/finalcutscene.mp4");
+
+		cuts2.cameras = [camHUD];
+		// add(cuts2);
+		insert(1, cuts2);
+		cuts2.screenCenter();
+		
+			cuts2.play();
+			cuts2.pause();
+			cuts2.alpha = 0;
+
 		// player.cpu = true;
 }
 
@@ -84,10 +110,12 @@ function beatHit(curBeat){
 var focusbff = false;
 
 function postUpdate(elapsed){
-	if(paused == true){
+	if(paused == true && (cuts.alpha == 1 || cuts2.alpha == 1)){
 		cuts.pause();
-	} else {
+		cuts2.pause();
+	} else if (cuts.alpha == 1 || cuts2.alpha == 1){
 		cuts.resume();
+		cuts2.resume();
 	}
 	if(!	startingSong)
 	wiggleEffect.update(elapsed);	
@@ -107,16 +135,19 @@ function stepHit(curStep){
 			strumLines.members[0].characters[0].alpha = 0;
 			strumLines.members[0].characters[1].alpha = 1;
 			fireBG.alpha = 1;
-			camGame.flash(0xFFFFFFFF, 0.5);
-		case 272:
+			// camGame.flash(0xFFFFFFFF, 0.5);
 			void.alpha = 1;
-		case 280, 328, 344:
+
+		case 272, 320, 336:
+			void.alpha = 1;
+		case 264, 280, 328, 344, 384:
 			void.alpha = 0;
 			camGame.flash(0xFFFFFFFF, 0.5);
 
 		case 768:
-			cuts.play();
 			cuts.bitmap.rate = inst.pitch + 0.01;
+			cuts.alpha = 1;
+			cuts.resume();
 		case 1088:
 			// cuts.bitmap.time += 400;
 			// cuts.time += 400;
@@ -141,12 +172,12 @@ function stepHit(curStep){
 			focusbff = true;
 
 		case 1664:
-			cuts.load("mods/alloyshit/videos/dora/finalcutscene.mp4");
+			// cuts.load("mods/alloyshit/videos/dora/finalcutscene.mp4");
 			camHUD.flash(0xFFFFFFFF, 0.5);
 
-		cuts.play();
-			cuts.alpha = 1;
-			cuts.bitmap.rate = inst.pitch;
+		cuts2.resume();
+			cuts2.alpha = 1;
+			cuts2.bitmap.rate = inst.pitch;
 
 	
 	}

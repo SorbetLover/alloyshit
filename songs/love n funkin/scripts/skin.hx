@@ -21,7 +21,7 @@ function onNoteCreation(event){
 
 var testaa:Array = ["monka", "abby", "annie", "sepie"];
 function postCreate(){
-    player.cpu = true;
+    // player.cpu = true;
     trace(returnArrayBool(testaa, "abby"));
     returnChars();
 }

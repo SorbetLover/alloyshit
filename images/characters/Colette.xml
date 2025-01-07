@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Collete_Assets.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Collete DOWN0000" x="5" y="5" width="533" height="623"/>
+	<SubTexture name="Collete DOWN0001" x="553" y="5" width="533" height="623"/>
+	<SubTexture name="Collete DOWN0002" x="1101" y="5" width="533" height="623"/>
+	<SubTexture name="Collete DOWN0003" x="1649" y="5" width="533" height="623"/>
+	<SubTexture name="Collete DOWN0004" x="2197" y="5" width="533" height="623"/>
+	<SubTexture name="Collete DOWN0005" x="2745" y="5" width="533" height="623"/>
+	<SubTexture name="Collete DOWN0006" x="3293" y="5" width="533" height="623"/>
+	<SubTexture name="Collete DOWN0007" x="3293" y="5" width="533" height="623"/>
+	<SubTexture name="Collete DOWN0008" x="3293" y="5" width="533" height="623"/>
+	<SubTexture name="Collete DOWN0009" x="3841" y="5" width="533" height="623"/>
+	<SubTexture name="Collete DOWN0010" x="4389" y="5" width="533" height="623"/>
+	<SubTexture name="Collete DOWN0011" x="4937" y="5" width="533" height="623"/>
+	<SubTexture name="Collete DOWN0012" x="5485" y="5" width="533" height="623"/>
+	<SubTexture name="Collete DOWN0013" x="5485" y="5" width="533" height="623"/>
+	<SubTexture name="Collete DOWN0014" x="6033" y="5" width="533" height="623"/>
+	<SubTexture name="Collete DOWN0015" x="6581" y="5" width="533" height="623"/>
+	<SubTexture name="Collete DOWN0016" x="6033" y="5" width="533" height="623"/>
+	<SubTexture name="Collete DOWN0017" x="7129" y="5" width="533" height="623"/>
+	<SubTexture name="Collete Idle0000" x="7677" y="5" width="490" height="705"/>
+	<SubTexture name="Collete Idle0001" x="5" y="725" width="490" height="705"/>
+	<SubTexture name="Collete Idle0002" x="5" y="725" width="490" height="705"/>
+	<SubTexture name="Collete Idle0003" x="510" y="725" width="490" height="705"/>
+	<SubTexture name="Collete Idle0004" x="510" y="725" width="490" height="705"/>
+	<SubTexture name="Collete Idle0005" x="1015" y="725" width="490" height="705"/>
+	<SubTexture name="Collete Idle0006" x="1015" y="725" width="490" height="705"/>
+	<SubTexture name="Collete Idle0007" x="1520" y="725" width="490" height="705"/>
+	<SubTexture name="Collete Idle0008" x="1520" y="725" width="490" height="705"/>
+	<SubTexture name="Collete Idle0009" x="2025" y="725" width="490" height="705"/>
+	<SubTexture name="Collete Idle0010" x="2025" y="725" width="490" height="705"/>
+	<SubTexture name="Collete Idle0011" x="2530" y="725" width="490" height="705"/>
+	<SubTexture name="Collete Idle0012" x="2530" y="725" width="490" height="705"/>
+	<SubTexture name="Collete LEFT0000" x="3035" y="725" width="564" height="657"/>
+	<SubTexture name="Collete LEFT0001" x="3614" y="725" width="564" height="657"/>
+	<SubTexture name="Collete LEFT0002" x="4193" y="725" width="564" height="657"/>
+	<SubTexture name="Collete LEFT0003" x="4772" y="725" width="564" height="657"/>
+	<SubTexture name="Collete LEFT0004" x="5351" y="725" width="564" height="657"/>
+	<SubTexture name="Collete LEFT0005" x="5930" y="725" width="564" height="657"/>
+	<SubTexture name="Collete LEFT0006" x="6509" y="725" width="564" height="657"/>
+	<SubTexture name="Collete LEFT0007" x="7088" y="725" width="564" height="657"/>
+	<SubTexture name="Collete LEFT0008" x="5" y="1445" width="564" height="657"/>
+	<SubTexture name="Collete LEFT0009" x="584" y="1445" width="564" height="657"/>
+	<SubTexture name="Collete LEFT0010" x="1163" y="1445" width="564" height="657"/>
+	<SubTexture name="Collete LEFT0011" x="1742" y="1445" width="564" height="657"/>
+	<SubTexture name="Collete LEFT0012" x="2321" y="1445" width="564" height="657"/>
+	<SubTexture name="Collete LEFT0013" x="2900" y="1445" width="564" height="657"/>
+	<SubTexture name="Collete LEFT0014" x="3479" y="1445" width="564" height="657"/>
+	<SubTexture name="Collete LEFT0015" x="4058" y="1445" width="564" height="657"/>
+	<SubTexture name="Collete LEFT0016" x="3479" y="1445" width="564" height="657"/>
+	<SubTexture name="Collete LEFT0017" x="4637" y="1445" width="564" height="657"/>
+	<SubTexture name="Collete RIGHT0000" x="5216" y="1445" width="474" height="703"/>
+	<SubTexture name="Collete RIGHT0001" x="5705" y="1445" width="474" height="703"/>
+	<SubTexture name="Collete RIGHT0002" x="6194" y="1445" width="474" height="703"/>
+	<SubTexture name="Collete RIGHT0003" x="6683" y="1445" width="474" height="703"/>
+	<SubTexture name="Collete RIGHT0004" x="7172" y="1445" width="474" height="703"/>
+	<SubTexture name="Collete RIGHT0005" x="7661" y="1445" width="474" height="703"/>
+	<SubTexture name="Collete RIGHT0006" x="5" y="2163" width="474" height="703"/>
+	<SubTexture name="Collete RIGHT0007" x="5" y="2163" width="474" height="703"/>
+	<SubTexture name="Collete RIGHT0008" x="494" y="2163" width="474" height="703"/>
+	<SubTexture name="Collete RIGHT0009" x="983" y="2163" width="474" height="703"/>
+	<SubTexture name="Collete UP0000" x="1472" y="2163" width="833" height="973"/>
+	<SubTexture name="Collete UP0001" x="2320" y="2163" width="833" height="973"/>
+	<SubTexture name="Collete UP0002" x="3168" y="2163" width="833" height="973"/>
+	<SubTexture name="Collete UP0003" x="4016" y="2163" width="833" height="973"/>
+	<SubTexture name="Collete UP0004" x="4864" y="2163" width="833" height="973"/>
+	<SubTexture name="Collete UP0005" x="5712" y="2163" width="833" height="973"/>
+	<SubTexture name="Collete UP0006" x="6560" y="2163" width="833" height="973"/>
+	<SubTexture name="Collete UP0007" x="5" y="3151" width="833" height="973"/>
+	<SubTexture name="Collete UP0008" x="853" y="3151" width="833" height="973"/>
+	<SubTexture name="Collete UP0009" x="1701" y="3151" width="833" height="973"/>
+	<SubTexture name="Collete UP0010" x="2549" y="3151" width="833" height="973"/>
+	<SubTexture name="Collete UP0011" x="3397" y="3151" width="833" height="973"/>
+	<SubTexture name="Collete UP0012" x="4245" y="3151" width="833" height="973"/>
+	<SubTexture name="Collete UP0013" x="5093" y="3151" width="833" height="973"/>
+	<SubTexture name="Collete UP0014" x="5941" y="3151" width="833" height="973"/>
+	<SubTexture name="Collete UP0015" x="5093" y="3151" width="833" height="973"/>
+	<SubTexture name="Collete UP0016" x="6789" y="3151" width="833" height="973"/>
+	<SubTexture name="ColleteIntro0000" x="7637" y="3151" width="491" height="705"/>
+	<SubTexture name="ColleteIntro0001" x="5" y="4139" width="491" height="705"/>
+	<SubTexture name="ColleteIntro0002" x="511" y="4139" width="491" height="705"/>
+	<SubTexture name="ColleteIntro0003" x="1017" y="4139" width="491" height="705"/>
+	<SubTexture name="ColleteIntro0004" x="1017" y="4139" width="491" height="705"/>
+	<SubTexture name="ColleteIntro0005" x="1017" y="4139" width="491" height="705"/>
+	<SubTexture name="ColleteIntro0006" x="1017" y="4139" width="491" height="705"/>
+	<SubTexture name="ColleteIntro0007" x="1017" y="4139" width="491" height="705"/>
+	<SubTexture name="ColleteIntro0008" x="1017" y="4139" width="491" height="705"/>
+	<SubTexture name="ColleteIntro0009" x="1017" y="4139" width="491" height="705"/>
+	<SubTexture name="ColleteIntro0010" x="1017" y="4139" width="491" height="705"/>
+	<SubTexture name="ColleteIntro0011" x="1523" y="4139" width="491" height="705"/>
+	<SubTexture name="ColleteIntro0012" x="1523" y="4139" width="491" height="705"/>
+	<SubTexture name="ColleteIntro0013" x="2029" y="4139" width="491" height="705"/>
+	<SubTexture name="ColleteIntro0014" x="2535" y="4139" width="491" height="705"/>
+	<SubTexture name="ColleteIntro0015" x="3041" y="4139" width="491" height="705"/>
+	<SubTexture name="ColleteIntro0016" x="3547" y="4139" width="491" height="705"/>
+	<SubTexture name="ColleteIntro0017" x="4053" y="4139" width="491" height="705"/>
+	<SubTexture name="ColleteIntro0018" x="4559" y="4139" width="491" height="705"/>
+	<SubTexture name="ColleteIntro0019" x="4559" y="4139" width="491" height="705"/>
+	<SubTexture name="ColleteIntro0020" x="5065" y="4139" width="491" height="705"/>
+	<SubTexture name="ColleteIntro0021" x="5571" y="4139" width="491" height="705"/>
+	<SubTexture name="ColleteIntro0022" x="5571" y="4139" width="491" height="705"/>
+	<SubTexture name="ColleteIntro0023" x="6077" y="4139" width="491" height="705"/>
+	<SubTexture name="ColleteIntro0024" x="6583" y="4139" width="491" height="705"/>
+	<SubTexture name="ColleteIntro0025" x="6583" y="4139" width="491" height="705"/>
+</TextureAtlas>

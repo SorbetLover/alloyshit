@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="colette" camx="100" camy="140" icon="colette" color="#7027F9" holdTime="6.1" isGF="false">
+	<anim name="idle" anim="Collete Idle0" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="Collete DOWN0" x="15" y="-75" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="Collete LEFT0" x="95" y="-35" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="Collete RIGHT0" x="-25" y="0" fps="24" loop="false"/>
+	<anim name="singUP" anim="Collete UP0" x="235" y="200" fps="24" loop="false"/>
+	<anim name="ColleteIntro" anim="ColleteIntro0" x="0" y="-20" fps="24" loop="false"/>
+</character>

@@ -8,6 +8,8 @@ var fileCheckIMG:Array = ["alphabet", "test/merda", "test/merda2"];
 var fileCheckCHARS:Array = ["dadd", "momm", "sepie"];
 function create(){
     FlxG.save.data.insubs = false;
+
+    trace(FlxG.save.data.portraitmode);
     
 }
 function update(){
@@ -28,6 +30,10 @@ function update(){
     if(FlxG.keys.justPressed.V){
         FlxG.switchState(new ModState("BruFP"));
          
+    }
+
+    if(FlxG.keys.justPressed.Q){
+        FlxG.switchState(new ModState("ScrSwitch"));
     }
     if(FlxG.keys.justPressed.R){
         var nonExistantImages:Array = [];
