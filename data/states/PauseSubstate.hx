@@ -9,7 +9,7 @@ function create() {
 }
 function postCreate(){
 	if(PlayState.instance.curSong == "bee-bush"){
-		trace(manualtxt);
+		// trace(manualtxt);
 		mbg = new FlxSprite().makeGraphic(1400,200, 0xFF134445);
 		
 		add(mbg);
@@ -37,6 +37,7 @@ function update() {
     	    	openSubState(new ModSubState("PauseDiffs"), true);
 
 		}
+
     }
 
     if(FlxG.keys.justPressed.I && !FlxG.keys.pressed.SHIFT){
@@ -56,4 +57,6 @@ function update() {
 	if(FlxG.keys.justPressed.Y){
 		FlxG.save.data.codenameCurPitch = 1;
 	}
+
+	// trace("cuzin");
 }
