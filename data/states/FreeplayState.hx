@@ -2,6 +2,8 @@ import flixel.addons.display.FlxBackdrop;
 var dokiBD:FlxBackdrop;
 var oogieboogievar:Bool = true;
 var mechanicalvar:Bool = true;
+
+
 function postCreate(){
     dokiBD = new FlxBackdrop(Paths.image('fpscrolling_BG'));
     insert(members.indexOf(bg)+1,dokiBD);

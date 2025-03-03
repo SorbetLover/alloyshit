@@ -1,23 +1,43 @@
 <!DOCTYPE codename-engine-stage>
-<stage zoom="0.7" name="maginagedark" folder="stages/magdark/">
-	<sprite name="bgshit"               x="-290" y="-530"   sprite="Schoolyard"         scale="1" />
-	<sprite name="Crowd1" x="650" y="1180" sprite="Crowd2" scroll="1" zoomfactor="1">
-		<anim name="shit" anim="Crowd2_Idle" loop="false" indices="0,1,2,3,4,5,6,7,8,9,10,11"  type="1"/>
+<stage folder="stages/magdark/" name="maginagedark" zoom="0.6">
+	<sprite x="-315" sprite="Schoolyard" y="-541" scale="1" name="bgshit"/>
+	<sprite x="650" scroll="1" sprite="Crowd2" y="1180" zoomfactor="1" name="Crowd1">
+		
+		
+		<anim loop="false" anim="Crowd2_Idle" type="1" name="shit" indices="0,1,2,3,4,5,6,7,8,9,10,11"/>
+		
+	
 	</sprite>
-	<sprite name="sayori" x="700" y="1200" sprite="sayori" scroll="1" zoomfactor="1">
-		<anim name="bop" anim="Sayori BG" loop="false" indices="0,1,2,3,4,5,6,7,8,9,10,11" type="1"/>
+	<sprite x="700" scroll="1" sprite="sayori" y="1200" zoomfactor="1" name="sayori">
+		
+		
+		<anim loop="false" anim="Sayori BG" type="1" name="bop" indices="0,1,2,3,4,5,6,7,8,9,10,11"/>
+		
+	
 	</sprite>
-	<sprite name="monika" x="700" y="1200" sprite="monika" scroll="1" zoomfactor="1">
-		<anim name="bop" anim="Moni BG" loop="false" indices="0,1,2,3,4,5,6,7,8,9,10,11" type="1"/>
+	<sprite x="700" scroll="1" sprite="monika" y="1200" zoomfactor="1" name="monika">
+		
+		
+		<anim loop="false" anim="Moni BG" type="1" name="bop" indices="0,1,2,3,4,5,6,7,8,9,10,11"/>
+		
+	
 	</sprite>
-	<sprite name="yuri" x="700" y="1200" sprite="yuri" scroll="1" zoomfactor="1">
-		<anim name="bop" anim="Yuri BG" loop="false" indices="0,1,2,3,4,5,6,7,8,9,10,11"   type="1"/>
+	<sprite x="700" scroll="1" sprite="yuri" y="1200" zoomfactor="1" name="yuri">
+		
+		
+		<anim loop="false" anim="Yuri BG" type="1" name="bop" indices="0,1,2,3,4,5,6,7,8,9,10,11"/>
+		
+	
 	</sprite>
-	<sprite name="natsuki" x="700" y="1200" sprite="natsuki" scroll="1" zoomfactor="1">
-		<anim name="bop" anim="Natsu BG" loop="false" indices="0,1,2,3,4,5,6,7,8,9,10,11" type="1"/>
+	<sprite x="700" scroll="1" sprite="natsuki" y="1200" zoomfactor="1" name="natsuki">
+		
+		
+		<anim loop="false" anim="Natsu BG" type="1" name="bop" indices="0,1,2,3,4,5,6,7,8,9,10,11"/>
+		
+	
 	</sprite>
-
-	<girlfriend                              y="-100"                                      scale="0.8" />
-	<dad                            x="800" y="1560"/>
-	<boyfriend                      x="1800" y="1380" scale="0.9"/>
+	<girlfriend scale="0.8" y="-100"/>
+	<dad scale="1.1" x="750" y="1534" lastOpponent="abby"/>
+	<boyfriend x="1779" y="1299" lastPlayer="sayoridark"/>
+	<combo/>
 </stage>
