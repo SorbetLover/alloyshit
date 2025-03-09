@@ -31,8 +31,9 @@ function create(){
     });
     // raluD.bitmap.onEndReached.add(raluD.play());
     // raluD.load(Paths.video("ralocalimbo", "mods/alloyshit/videos"));
-    
-    raluD.load("mods/alloyshit/videos/ralocalimbo.mp4 ");
+        // FlxG.sound.play(Paths.sound("limbo/ralucaDeath"));
+
+    raluD.load("mods/alloyshit/videos/ralocalimbo.mp4");
     add(raluD);
     raluD.play();
     // raluD.bitmap.pitch = 3;
@@ -49,9 +50,9 @@ function create(){
     raluca.alpha = 0;
     
     raluD.autoVolumeHandle = false;
-    raluD.bitmap.volume = 0;
+    raluD.bitmap.volume = 200;
 
-    FlxG.sound.play(Paths.sound("limbo/ralucaDeath"));
+
 
     glow = new FlxSprite().loadGraphic(Paths.image("stages/limbo/glow"));
     add(glow);

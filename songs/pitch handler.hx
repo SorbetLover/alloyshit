@@ -1,6 +1,10 @@
 function update(){
     vocals.pitch = FlxG.save.data.codenameCurPitch;
     inst.pitch = FlxG.save.data.codenameCurPitch;
+
+    if(FlxG.save.data.codenameCurPitch < 0 || FlxG.save.data.codenameCurPitch == null){
+        FlxG.save.data.codenameCurPitch = 1;
+    }
 }
 // function postCreate(){
 //     if(FlxG.save.data.samedifftime == true){
