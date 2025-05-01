@@ -61,7 +61,7 @@ function create(){
         interpColor = new FlxInterpolateColor(bg.color);
 
 
-        sdf = new FlxSprite().makeGraphic(140,80, 0xFFFFFFFF);
+        sdf = new FlxSprite().makeGraphic(240,80, 0xFFFFFFFF);
 
         sdf2 = new FlxSprite().makeGraphic(400,200, 0x99000000);
 
@@ -105,7 +105,7 @@ var shouldTrack = false;
 function makeSongs(){
     
 
-    modtext.text = sections[curSection];
+    modtext.text = "[1] " + sections[curSection] + " [2]";
     modtext.x = FlxG.width / 10 + 10;
     
     curSelected = 0;
@@ -301,7 +301,7 @@ function track(){
             shits.members[i].alpha = 0.4;
             icons.members[i].alpha = 0.4;
             
-            shits.members[i].x = FlxMath.lerp(shits.members[i].x, -150, 0.2);
+            shits.members[i].x = FlxMath.lerp(shits.members[i].x, 30, 0.2);
         } 
     }
     for(i in 0...icons.members.length){
