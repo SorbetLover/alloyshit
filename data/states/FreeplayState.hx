@@ -70,7 +70,7 @@ function beatHit(){
 
 function postUpdate(){
     dokiBD.velocity.x = FlxMath.lerp(dokiBD.velocity.x, Conductor.crochet / 2, 0.03);
-    dokiBD.velocity.y = dokiBD.velocity.x / 3; 
+        dokiBD.velocity.y = dokiBD.velocity.x / 3; 
     switch(songs[curSelected].name){
         case "b-epiphany", "b-epiphany-alt", "b-epiphany-raluca", "markov", "catfight", "hot-air-baloon", "its-complicated", "poems-n-thorns", "love n funkin", 'takeover medley', 'libitina', "home", 'drinks on me', 'bara no yume':
             dokiBD.alpha = FlxMath.lerp(dokiBD.alpha, 1, 0.03);
