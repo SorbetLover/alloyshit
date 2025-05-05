@@ -6,6 +6,8 @@ import sys.FileSystem;
 import sys.io.File;
 import flixel.text.FlxTextAlign;
 import funkin.savedata.FunkinSave;
+import openfl.display.BitmapData;
+
 var sections:Array = [];
 var curSection:Int = 0;
 
@@ -166,6 +168,7 @@ function loadDiffs(){
     diffs = merda.difficulties;
 }
 var iconBeatScl = 0.8;
+var iconBeatRot = 0;
 function update(){ 
     opptext.text = "[TAB] " + opponentshit[ops];
     updateScore();
@@ -208,12 +211,12 @@ function update(){
     if(FlxG.keys.justPressed.S || FlxG.keys.justPressed.DOWN){
         curSelected += 1;
         loadDiffs();
-
+        changeSelection();
     }
     if(FlxG.keys.justPressed.W || FlxG.keys.justPressed.UP){
         curSelected -= 1;
         loadDiffs();
-
+        changeSelection();
     } 
     interpColor.fpsLerpTo(colors[curSelected], 0.0625);
 	bg.color = interpColor.color;
@@ -233,6 +236,7 @@ function update(){
             curSection = 0;
         }
         makeSongs(1);
+        
         trace("ADDED " + curSection);
     }
     
@@ -241,6 +245,7 @@ function update(){
 					Conductor.changeBPM(bpms[curSelected], bms[curSelected], spm[curSelected]);
     }
     iconBeatScl = FlxMath.lerp(iconBeatScl, 1, 0.06);
+    iconBeatRot = FlxMath.lerp(iconBeatRot, 0, 0.035);
     for(i in 0...icons.members.length){
         icons.members[i].scale.x = iconBeatScl;
         icons.members[i].scale.y = iconBeatScl;
@@ -258,6 +263,32 @@ function update(){
 
     if(FlxG.keys.justPressed.ENTER){
         enterSong();
+    }
+
+    for(i in icons.members){
+        i.angle = iconBeatRot;
+    }
+    curSelected -= FlxG.mouse.wheel;
+}
+function changeSelection(){
+    switch(songNames[curSelected]){
+        case "gears", "tranquility", "mechanical", "loaded":
+            bg.loadGraphic(Paths.image("freeplay/fever"));
+        
+        case "b-epiphany", "b-epiphany-alt", "b-epiphany-raluca", "catfight", "hot-air-baloon", "its-complicated", "poems-n-thorns", "love n funkin", "takeover medley", "markov", "libitina", "home", "drinks on me", "bara no yume":
+            bg.loadGraphic(Paths.image("freeplay/doki"));
+
+        case "soul", "damage-erect", "damage":
+            bg.loadGraphic(Paths.image("freeplay/static"));
+
+        case "lockdown":
+            bg.loadGraphic(Paths.image("freeplay/kou"));
+
+        case "promenade":
+            bg.loadGraphic(Paths.image("freeplay/agoti  "));
+
+        default:
+            bg.loadGraphic(Paths.image("menus/menuDesat"));
     }
 }
 var isOpp = false;
@@ -281,13 +312,37 @@ function enterSong(){
 		FlxG.switchState(new PlayState());
 
 }
+var iconOffY = 0;
+var boog = false;
+var twins = ["boogieman", "power-hour", "sleeptalk","bee-bush"];
 function beatHit(curBeat){
     // if(curBeat % 2 == 0)
     iconBeatScl = 0.9;
     bg.scale.set(1.03,1.03);
+    
+        boog = !boog;
+    
+    if(twins.contains(songNames[curSelected])){
+        switch(boog){
+            case false:
+                iconBeatRot = 15;
+            case true:
+                iconBeatRot = -15;
+        }
+    }
+    if(songNames[curSelected] == "bee-bush"){
+        for(i in icons.members){
+            i.flipX = boog;
+        }
+        iconOffY = 10;
+    } else if(icons.members[0].flipX == true) {
+        for(i in icons.members){
+            i.flipX = false;
+        }
+    }
 }
 function track(){
-    
+    iconOffY = FlxMath.lerp(iconOffY, 0, 0.07);
     // shits.y = ((FlxG.height / 2) - 100) - (edh  * curSelected);
     shits.y = FlxMath.lerp(shits.y, ((FlxG.height / 2) - 100) - (edh  * curSelected), 0.3);
     for(i in 0...shits.members.length){  
@@ -305,10 +360,10 @@ function track(){
         } 
     }
     for(i in 0...icons.members.length){
-        icons.members[i].y = shits.members[i].y - (125 - (icons.members[i].height / 2));
+        icons.members[i].y = shits.members[i].y - (125 - (icons.members[i].height / 2)) + iconOffY;
         icons.members[i].x = shits.members[i].x + (1 * shits.members[i].width) + 5;
     }
-
+    
 }
 
 
