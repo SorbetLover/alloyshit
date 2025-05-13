@@ -7,7 +7,9 @@ import sys.io.File;
 import flixel.text.FlxTextAlign;
 import funkin.savedata.FunkinSave;
 import openfl.display.BitmapData;
+import flixel.addons.display.FlxBackdrop;
 
+var backdropshit:FlxBackdrop;
 var sections:Array = [];
 var curSection:Int = 0;
 
@@ -62,6 +64,11 @@ function create(){
         CoolUtil.playMenuSong();
         interpColor = new FlxInterpolateColor(bg.color);
 
+        backdropshit = new FlxBackdrop(Paths.image('editors/bgs/charter'));
+        // add(backdropshit);
+        insert(members.indexOf(bg) + 1, backdropshit);
+        backdropshit.alpha = 0.4;
+        backdropshit.velocity.set(200,0);
 
         sdf = new FlxSprite().makeGraphic(240,80, 0xFFFFFFFF);
 
@@ -146,8 +153,7 @@ function makeSongs(){
         icons.add(icon);
     }   
     shouldTrack = true;
-    
-
+    changeSelection();
 }
 var dgg:Int;
 function updateScore() {
@@ -169,7 +175,8 @@ function loadDiffs(){
 }
 var iconBeatScl = 0.8;
 var iconBeatRot = 0;
-function update(){ 
+function update(){
+    // backdropshit.angle = backdropshit.velocity.degrees;
     opptext.text = "[TAB] " + opponentshit[ops];
     updateScore();
     opptext.x = sdf2.x - (sdf2.width / 2) +230;
@@ -220,6 +227,7 @@ function update(){
     } 
     interpColor.fpsLerpTo(colors[curSelected], 0.0625);
 	bg.color = interpColor.color;
+	backdropshit.color = interpColor.color;
 
     if(FlxG.keys.justPressed.ONE){
         curSection -= 1;
@@ -268,11 +276,11 @@ function update(){
     for(i in icons.members){
         i.angle = iconBeatRot;
     }
-    curSelected -= FlxG.mouse.wheel;
+    curSelected -= FlxG.mouse.wheel; 
 }
 function changeSelection(){
     switch(songNames[curSelected]){
-        case "gears", "tranquility", "mechanical", "loaded":
+        case "gears", "tranquility", "mechanical", "loaded", "w00f", "last-meow":
             bg.loadGraphic(Paths.image("freeplay/fever"));
         
         case "b-epiphany", "b-epiphany-alt", "b-epiphany-raluca", "catfight", "hot-air-baloon", "its-complicated", "poems-n-thorns", "love n funkin", "takeover medley", "markov", "libitina", "home", "drinks on me", "bara no yume":
