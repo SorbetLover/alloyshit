@@ -1,7 +1,7 @@
 import flixel.tweens.FlxTween;
 import funkin.backend.HealthIcon;
 function postCreate(){
-camGame.addShader(shader2 = new CustomShader("chroma"));
+    camGame.addShader(shader2 = new CustomShader("chroma"));
 
 strumLines.members[0].characters[0].x -= 60;
 strumLines.members[2].characters[0].x += 20;

@@ -30,21 +30,47 @@ function postCreate(){
     if(FlxG.save.data.letocinhaMode){
         scrollSpeed = 2;
 
+    
     for(i in strums){
-        if(strumLines.members[0].length != 5){
+        if(strumLines.members[0].length == 4){
             strumLines.members[i].members[0].x -= 40;
             strumLines.members[i].members[1].x -= 40;
         
             strumLines.members[i].members[2].x += 40;
             strumLines.members[i].members[3].x += 40;
         }
+        // if(strumLines.members[0].length == 6){
+        
+        //     for(i in 1...6){
+        //         if(i <= 3){
+        //             // i.x -= 40;
+        //             for(e in 0...3){
+                        
+        //                 strumLines.members[0].members[e].x -= 40;
+        //                 strumLines.members[1].members[e].x -= 40;
+        //             }
+        //         } else {
+        //             // i.x += 40;
+                    
+        //             for(e in 0...3){    
+                        
+        //                 strumLines.members[0].members[e].x += 40;
+        //                 strumLines.members[1].members[e].x += 40;
+        //             }
+        //         }
+        //     }
+        // }  
     }
 
     for(i in 0...strumLines.members[0].members.length){
         var bruh = new FlxSprite().makeGraphic(120,2000, 0xFF000000);
             bruh.cameras = [camHUD];
-            bruh.x = strumLines.members[strums[0]].members[i].x - 5;
-            
+            // bruh.x = strumLines.members[strums[0]].members[i].x - 5;
+            if(strumLines.members[0].length == 6){
+                bruh.makeGraphic(100,2000,0xFF000000);
+                bruh.x = strumLines.members[strums[0]].members[i].x + 0;
+
+            }
             bruh.alpha = 0.8;
             insert(members.indexOf(strumLines.members[1].members[0]) + 1, bruh);
             

@@ -37,3 +37,9 @@ public function getDiffs(){
     }
     return jjs; 
 }
+
+function update(elapsed:Float) {
+    if (FlxG.keys.justPressed.SEVEN) {
+        FlxG.switchState(new Charter(PlayState.SONG.meta.name, PlayState.difficulty, true));
+    }
+}

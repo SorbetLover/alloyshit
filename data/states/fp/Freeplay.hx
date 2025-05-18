@@ -8,7 +8,7 @@ import flixel.text.FlxTextAlign;
 import funkin.savedata.FunkinSave;
 import openfl.display.BitmapData;
 import flixel.addons.display.FlxBackdrop;
-
+import funkin.editors.charter.Charter;
 var backdropshit:FlxBackdrop;
 var sections:Array = [];
 var curSection:Int = 0;
@@ -247,7 +247,9 @@ function update(){
         
         trace("ADDED " + curSection);
     }
-    
+    if(FlxG.keys.justPressed.SEVEN){
+                FlxG.switchState(new Charter(songNames[curSelected],diffs[curDiff], true));
+    }
     if(FlxG.keys.justPressed.SPACE){
 					FlxG.sound.playMusic(Paths.inst(songNames[curSelected], diffs[curDiff]), 1);
 					Conductor.changeBPM(bpms[curSelected], bms[curSelected], spm[curSelected]);

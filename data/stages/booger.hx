@@ -17,11 +17,12 @@ var screamboy:FlxSprite;
 var screamgirl:FlxSprite;
 
 function postCreate(){
-    iconP1.destroy();
-    iconP1 = new HealthIcon("boogiepersons", true);
-    iconP1.cameras = [camHUD];
-    add(iconP1);
-    iconP1.y += 580;
+    // iconP1.destroy();
+    // iconP1 = new HealthIcon("boogiepersons", true);
+    // iconP1.cameras = [camHUD];
+    // add(iconP1);
+    // iconP1.y += 580;
+    iconP1.setIcon("boogiepersons", true);
     
     scream1.animation.pause();
     scream1.y = strumLines.members[0].characters[0].y + 251;

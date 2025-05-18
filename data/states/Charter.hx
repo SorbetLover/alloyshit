@@ -30,7 +30,6 @@ function create() {
 	// quants = [6,12, 18, 1212];
 	gridColor1 = 0xFFFF5555;
 }
-// var	meh = new UIWindow(0,520,160,200, "bruu");
 var pitTXT = new UIText(600,0,200,"pitch", 18);
 function postCreate() { 
 
@@ -47,23 +46,11 @@ function postCreate() {
     backdropshit.alpha = 1;
 	backdropshit.color = 0x113D3D3D ;
     FlxG.mouse.visible = true;
-
-
-	// curPitch = vocals.pitch;
-
-
 } 
 function update() {
-	
-	// for(i in strumLines){
-	// 	for(o in 0...10)
-	// 		if(i.healthIcons.members[o].exists()) 
-	// 		i.healthIcons.members[o].scale.x = FlxMath.lerp(i.healthIcons.members[0].scale.x, 0.6,0.05);
-    // 		i.healthIcons.members[o].scale.y = FlxMath.lerp(i.healthIcons.members[0].scale.y, 0.6,0.05);
-		
-	// }
 
 	for(e in strumLines){
+        e.vocals.pitch = FlxG.save.data.codenameCurPitch;
 		for(i in e.healthIcons){
 			i.scale.x = FlxMath.lerp(i.scale.x, 0.6,0.05);
 			i.scale.y = FlxMath.lerp(i.scale.x, 0.6,0.05);
@@ -71,56 +58,14 @@ function update() {
 		}
 	}
 
-	// for(e in strumLines){
-		// 	for(i in 0...e.healthIcons.members.lenght){
-		// 		e.healthIcons.members[i].scale.x = FlxMath.lerp(i.healthIcons.members[0].scale.x, 0.6,0.05);
-		// 		e.healthIcons.members[i].scale.y = FlxMath.lerp(i.healthIcons.members[0].scale.x, 0.6,0.05);
-		// 	}
-		// }
-
 	pitTXT.text = "pitch:" + FlxG.save.data.codenameCurPitch;
 	if(FlxG.sound.music.playing){
 		backdropshit.velocity.x = 0;
 
 	} else {
-		backdropshit.velocity.x = 	Conductor.bpm * 0.8 * vocals.pitch;
+		backdropshit.velocity.x = Conductor.bpm * 0.8 * vocals.pitch;
 
-	}
-	// if(FlxG.keys.justPressed.I && !FlxG.keys.pressed.SHIFT){
-	// 	vocals.pitch += 0.1;
-		
-	// 	FlxG.sound.music.pitch += 0.1;
-	
-	// 	FlxG.save.data.codenameCurPitch += 0.1;
-	// }
-	// if(FlxG.keys.justPressed.U && !FlxG.keys.pressed.SHIFT){
-	// 	vocals.pitch -= 0.1;
-	// 	FlxG.save.data.codenameCurPitch -= 0.1;
-
-	// 	FlxG.sound.music.pitch -= 0.1;
-		
-	// }
-
-	// if(FlxG.keys.justPressed.I && FlxG.keys.pressed.SHIFT){
-	// 	vocals.pitch += 0.05;
-		
-	// 	FlxG.sound.music.pitch += 0.05;
-	// 	FlxG.save.data.codenameCurPitch += 0.05;
-	// }
-	// if(FlxG.keys.justPressed.U  && FlxG.keys.pressed.SHIFT){
-	// 	vocals.pitch -= 0.05;
-		
-	// 	FlxG.sound.music.pitch -= 0.05;
-	// 	FlxG.save.data.codenameCurPitch -= 0.05;
-	// }
-
-	// if(FlxG.keys.justPressed.Y){
-	// 	vocals.pitch = 1;
-		
-	// 	FlxG.sound.music.pitch = 1;
-	// 	FlxG.save.data.codenameCurPitch = 1;
-	// }
-	
+	}	
 	if(FlxG.keys.justPressed.I && !FlxG.keys.pressed.SHIFT){
 		FlxG.save.data.codenameCurPitch += 0.1;
 	}
@@ -142,20 +87,8 @@ function update() {
 	FlxG.sound.music.pitch = FlxG.save.data.codenameCurPitch;
 
 	if(FlxG.save.data.codenameCurPitch < 0.01){FlxG.save.data.codenameCurPitch = 0.1;}
-	
-
 }
-// function postUpdate(){
-// 	// if(curBeat % 8 == 0){
-// 	// FlxG.camera.zoom = 1.05;
-// 	// FlxTween.tween(FlxG.camera, {zoom: 1}, 0.4, {ease: FlxEase.cubeOut});
-// 	// }
-//     // strumLines.members[2].healthIcons.scale.y = 4;    
-//     charterBG.x += 1;  
-// 	charterBG.color = 0xFF3F2E44; // white
-// }
 function postUpdate(){
-    
     gridBackdrops.members.alpha = 0;
 	topMenuSpr.color = 0xFF666666;
 	strumlineInfoBG.color = 0xFF666666;
@@ -163,16 +96,6 @@ function postUpdate(){
 
 
 function beatHit(){
-	
-	// for(i in strumLines){
-	// 	i.healthIcons.members[0].scale.set(0.7,0.7);
-	// }
-	// if(curBeat % 4 == 0){
-	// 	for(i in strumLines){
-	// 	i.healthIcons.members[0].scale.set(0.8,0.8);
-	// }
-	// }
-    // strumlineAddButton.scale.set(1.1,1.1);
 	for(e in strumLines){
 		for(i in e.healthIcons){
 			i.scale.set(0.7,0.7);
@@ -182,6 +105,4 @@ function beatHit(){
 			}
 		}
 	}
-
-
 }
