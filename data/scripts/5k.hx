@@ -18,7 +18,9 @@ var keyBinds = [
 var maniaScales = [0.7, 0.6, 0.55, 0.5, 0.55];
 var maniaTypes = [
 ["purple", "blue", "green", "red"],
+
 ["purple", "blue", "white", "green", "red"],
+
 ["purple", "green", "red", "green", "purple", "blue", "red"],
 ["purple", "blue", "green", "red", "green", "purple", "blue", "green", "red"],
 ["purple", "blue", "green", "red", "purple", "blue", "green", "red"]

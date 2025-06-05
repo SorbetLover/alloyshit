@@ -1,14 +1,15 @@
-// var shader2:CustomShader;
-// function create(){
-//     shader2 = new CustomShader("whril");
-//     // shader2.renderScale = [multer, multer];
-//     shader.iTime = 0;   
-//     FlxG.camera.addShader(shader2);
-//     // camHUD.addShader(shader2);
+import  funkin.backend.shaders.CustomShader;
 
-// }
+var shader2:CustomShader;
+function postCreate(){
+    shader2 = new CustomShader("camDupe");
+    shader2.renderScale = [ 2, 2];
+    FlxG.camera.addShader(shader2.shader);
 
-
-// function postUpdate(elapsed){
-//     // shader2.iTime += 1;
-// }
+    
+    // strumLines.members[0].characters[0].shader = shader2;
+    // shader2.brightness = 2;
+    // shader2.hue = 4;
+    // shader2.contrast = 1;
+    // shader2.saturation = 9;
+}

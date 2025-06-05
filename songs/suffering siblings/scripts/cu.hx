@@ -5,11 +5,6 @@ var oppX = 0;
 var mania = 1;
 var rdom = 0;
 var holds = true;
-function create(){
-	if(PlayState.instance.curSong == "suffering siblings"){
-		disableScript();
-	}
-}
 var keyBinds = [
 	["D", "F", "J", "K"],
 	["A", "S", "D", "J", "K", "L"],
@@ -34,7 +29,6 @@ function onNoteCreation(e) {
 	if(issus == false){
         rdom += 1;
     }
-    if (mania == 1) {
 		//down note
 		if (e.note.noteData == 1) { 
     			e.note.noteData = 4;
@@ -60,80 +54,7 @@ function onNoteCreation(e) {
 		    	e.note.noteData = 2;
 			return;
 		}
-	}
-	if (mania == 2) {
-		//down note
-		if (e.note.noteData == 1) { 
-    			e.note.noteData = 5;
-			return;
-		}
-		//up note
-		if (e.note.noteData == 2 && rdom % 2 == 0 ) { 
-    			e.note.noteData = 3;
-			return;
-		}
-		if (e.note.noteData == 2) { 
-    			e.note.noteData = 1;
-			return;
-		}
-		//every other left note
-		if (e.note.noteData == 0 && rdom % 2 == 0 ) { 
-    			e.note.noteData = 4;
-			return;
-		}
-		//every other right note
-		if (e.note.noteData == 3 && rdom % 2 == 0 ) { 
-    			e.note.noteData = 6;
-			return;
-		}
-		//the every other other right note
-		if (e.note.noteData == 3) {
-		    	e.note.noteData = 2;
-			return;
-		}
-	}
-
-	if (mania == 3) {
-		if (e.note.noteData == 0 && rdom % 2 == 0 ) { 
-    			e.note.noteData = 5;
-			return;
-		}
-		if (e.note.noteData == 1 && rdom % 2 == 0 ) { 
-    			e.note.noteData = 6;
-			return;
-		}
-		if (e.note.noteData == 2 && rdom % 2 == 0 && rdom % 4 != 0 ) { 
-    			e.note.noteData = 7;
-			return;
-		}
-		if (e.note.noteData == 2 && rdom % 4 == 0 ) { 
-    			e.note.noteData = 4;
-			return;
-		}
-		if (e.note.noteData == 3 && rdom % 2 == 0 ) { 
-    			e.note.noteData = 8;
-			return;
-		}
-	}
-	if (mania == 4) {
-		if (e.note.noteData == 0 && rdom % 2 == 0 ) { 
-    			e.note.noteData = 4;
-			return;
-		}
-		if (e.note.noteData == 1 && rdom % 2 == 0 ) { 
-    			e.note.noteData = 5;
-			return;
-		}
-		if (e.note.noteData == 2 && rdom % 2 == 0 ) { 
-    			e.note.noteData = 6;
-			return;
-		}
-		if (e.note.noteData == 3 && rdom % 2 == 0 ) { 
-    			e.note.noteData = 7;
-			return;
-		}
-	}
-
+	
 	if (holds == false) {
 		if (e.note.isSustainNote) {
 			e.note.noteData = 1000;
@@ -145,9 +66,6 @@ function onPreGenerateStrums(e) {
     for (i in strumLines.members) i.strumAnimPrefix = switch(mania) {
         case 0: ["left", "down", "up", "right"];
         case 1: ["left", "up", "right", "left", "down", "right"];
-        case 2: ["left", "up", "right", "up", "left", "down", "right"];
-        case 3: ["left", "down", "up", "right", "up", "left", "down", "up", "right"];
-        case 4: ["left", "down", "up", "right", "left", "down", "up", "right"];
     };
     e.amount = strumLines.members[0].strumAnimPrefix.length;
 }
@@ -198,24 +116,44 @@ function onStrumCreation(e) {
 var singDir = [
     ["LEFT", "DOWN", "UP", "RIGHT"],
     ["LEFT", "UP", "RIGHT", "LEFT", "DOWN", "RIGHT"],
-    ["LEFT", "UP", "RIGHT", "UP", "LEFT", "DOWN", "RIGHT"],
-    ["LEFT", "DOWN", "UP", "RIGHT", "UP", "LEFT", "DOWN", "UP", "RIGHT"],
-    ["LEFT", "DOWN", "UP", "RIGHT", "LEFT", "DOWN", "UP", "RIGHT"]
 ];
-
+var strumC1 = strumLines.members[0];
+var strumC2 = strumLines.members[1];
 function onNoteHit(e) {
     e.showSplash = false;
-    e.cancelAnim();
-    for (char in e.characters)
-        if (char != null)
-            char.playAnim("sing" + singDir[mania][e.direction], e.forceAnim, "SING");
+    e.preventAnim();
+	// for (char in e.characters)
+    //     if (char != null)
+    //         char.playAnim("sing" + singDir[mania][e.direction], e.forceAnim, "SING");
+	
+	switch(e.noteType){
+		case "Second Char Glitch", "Second Char Sing":
+			if(e.player == false){
+				strumC1.characters[1].playAnim("sing" + singDir[mania][e.direction], e.forceAnim, "SING");
+			} else {
+				strumC2.characters[1].playAnim("sing" + singDir[mania][e.direction], e.forceAnim, "SING");
+			}
+		case "Glitch Note":
+			if(e.player == false){
+				strumC1.characters[0].playAnim("sing" + singDir[mania][e.direction], e.forceAnim, "SING");
+			} else {
+				strumC2.characters[0].playAnim("sing" + singDir[mania][e.direction], e.forceAnim, "SING");
+			}
+		default:
+			if(e.player == false){
+				strumC1.characters[0].playAnim("sing" + singDir[mania][e.direction], e.forceAnim, "SING");
+			} else {
+				strumC2.characters[0].playAnim("sing" + singDir[mania][e.direction], e.forceAnim, "SING");
+			}
+		
+	}
 }
 
 function postCreate() {
 	for (strum in strumLines) {
 		for (note in strum.notes) {
 			note.scale.x = note.scale.y = maniaScales[mania];
-    		}
+    	}
 	}
 
 

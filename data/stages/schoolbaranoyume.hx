@@ -2,7 +2,7 @@ import flixel.addons.display.FlxBackdrop;
 var bgSky:FlxBackdrop;
 
 function create(){
-	importScript("data/scripts/pixel");
+	// importScript("data/scripts/pixel");
         
 }
 function postCreate(){

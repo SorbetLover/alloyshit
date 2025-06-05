@@ -1,15 +1,15 @@
 {
 	"opponentModeAllowed": false,
+	"icon": "face",
 	"difficulties": [
 		"GLITCH"
 	],
-	"icon": "face",
 	"parsedColor": -7179779,
+	"name": "suffering siblings",
 	"coopAllowed": false,
 	"stepsPerBeat": 4,
 	"displayName": "suffering siblings",
-	"needsVoices": true,
 	"beatsPerMeasure": 4,
-	"bpm": 195,
-	"name": "suffering siblings"
+	"needsVoices": true,
+	"bpm": 195
 }
