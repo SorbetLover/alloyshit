@@ -5,11 +5,9 @@ import funkin.editors.charter.Charter;
 var manualtxt:Array = ["Trate essa sua calvice de merda com a Manual!", "Manual, a solução dos seus problemas de entradas.", "Até os clones do lule aprovam.", "O pavor de Alexandre de Morales."];
 function create() {
 	menuItems.insert(2, 'Change Diff');
-	// PlayState.instance.strumLines.members[1].cpu = true;
 }
 function postCreate(){
 	if(PlayState.instance.curSong == "bee-bush"){
-		// trace(manualtxt);
 		mbg = new FlxSprite().makeGraphic(1400,200, 0xFF134445);
 		
 		add(mbg);
@@ -26,13 +24,11 @@ function postCreate(){
 		dd.font = Paths.font("vcr.ttf");
 		dd.antialiasing = true;
 		add(dd);
+	}
+}
 
-		// dd.scale.set(3,3);
-
-	}}
 function update() {
     if (controls.ACCEPT) {
-
         if (menuItems[curSelected] == "Change Diff") {
     	    	openSubState(new ModSubState("PauseDiffs"), true);
 
@@ -58,5 +54,20 @@ function update() {
 		FlxG.save.data.codenameCurPitch = 1;
 	}
 
-	// trace("cuzin");
+	var fg = FlxG.keys.justPressed;
+	var maniathing = FlxG.save.data.keyCount;
+	if(fg.J){
+		maniathing -= 1;
+	}
+	if(fg.K){
+		maniathing += 1;
+	}
+
+	if(fg.H){
+		maniathing = 4;
+	}
+	if(maniathing >= 1 && maniathing <=9){
+		FlxG.save.data.keyCount = maniathing;
+	}
+
 }
