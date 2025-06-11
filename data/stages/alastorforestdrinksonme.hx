@@ -10,7 +10,6 @@ function create(){
 	trace("sadsadasjdjaskdj");
 }
 function postCreate(){
-	player.cpu = true;
 	funnTextGroup = new FlxTypedGroup();
 	funnTextGroup.cameras = [camHUD];
 	add(funnTextGroup);
@@ -31,47 +30,47 @@ function postCreate(){
 }
 var turnniconico:Bool = false;
 var jillShit:Bool = false;
-function stepHit(curStep){
-	switch(curStep){
+// function stepHit(curStep){
+// 	switch(curStep){
 
-		case 512:
-			FlxG.camera.fade(0xFFFFFFFF,0.4,true);
+// 		case 512:
+// 			FlxG.camera.fade(0xFFFFFFFF,0.4,true);
 
-		for(i in [dana, barbg2,jill]){
-				i.alpha  = 1;
-			}
-			// for(o in [sky, trees, path, bench, roses, strumLines.members[1].characters[0],strumLines.members[0].characters[0]]){
-                // o.alpha = 0;
-			// }
-			getblue();
-			// strumLines.members[0].characters[1].x += 200;
-			defaultCamZoom = 0.8;
+// 		for(i in [dana, barbg2,jill]){
+// 				i.alpha  = 1;
+// 			}
+// 			// for(o in [sky, trees, path, bench, roses, strumLines.members[1].characters[0],strumLines.members[0].characters[0]]){
+//                 // o.alpha = 0;
+// 			// }
+// 			getblue();
+// 			// strumLines.members[0].characters[1].x += 200;
+// 			defaultCamZoom = 0.8;
 
-		jillShit = true;
-		case 768:
-			FlxG.camera.fade(0xFFFFFFFF,0.4,true);
+// 		jillShit = true;
+// 		case 768:
+// 			FlxG.camera.fade(0xFFFFFFFF,0.4,true);
 
-			for(i in [alma, dorth]){
-				i.alpha = 1;
-			}
-		case 1024:
-           turnniconico = true;
-		case 1220:
-			turnniconico = false;
-		case 1280:
-			for(i in [alma, dorth,dana, barbg2,jill, ]){
-				i.alpha  = 0;
-			}
-			for(o in [sky, trees, path, bench, roses]){
-                o.alpha = 1;
-			}
-			getnormal();
-			FlxG.camera.fade(0xFFFFFFFF,0.4,true);
+// 			for(i in [alma, dorth]){
+// 				i.alpha = 1;
+// 			}
+// 		case 1024:
+//            turnniconico = true;
+// 		case 1220:
+// 			turnniconico = false;
+// 		case 1280:
+// 			for(i in [alma, dorth,dana, barbg2,jill, ]){
+// 				i.alpha  = 0;
+// 			}
+// 			for(o in [sky, trees, path, bench, roses]){
+//                 o.alpha = 1;
+// 			}
+// 			getnormal();
+// 			FlxG.camera.fade(0xFFFFFFFF,0.4,true);
 
 
 
-	}
-}
+// 	}
+// }
 
 function beatHit(){
 	if(turnniconico == true){

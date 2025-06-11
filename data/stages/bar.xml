@@ -2,14 +2,13 @@
 <stage folder="stages/bar/" name="bar" zoom="0.7">
 	<sprite antialiasing="false" x="0" sprite="BarleyBar" y="0" scale="6" name="bg"/>
 	<sprite antialiasing="false" x="166" scroll="1" sprite="barley" y="216" scale="5" zoomfactor="1" name="barley">
+		<!-- <anim loop="true" fps="12" anim="b0" name="b0" indices="0,1,2,3,4,5,6,7,8,9,10,11,12"/>	 -->
+		<anim fps="12" anim="b0" name="danceLeft" indices="0..6"/>
+		<anim fps="12" anim="b0" name="danceRight" indices="7..12"/>
 		
-		
-		<anim loop="true" fps="12" anim="b0" name="b0" indices="0,1,2,3,4,5,6,7,8,9,10,11,12,13"/>
-		
-	
 	</sprite>
 	<girlfriend scale="0.8" alpha="0" x="-30" y="822"/>
 	<dad x="-440" y="-192"/>
-	<boyfriend scale="1.2" x="496.5" y="-162.5"/>
+	<boyfriend scale="1.2" x="496.5" y="-192.5"/>
 	<combo/>
 </stage>

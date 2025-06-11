@@ -1,11 +1,11 @@
 
 function create() {
-	importScript("data/scripts/pixel");
+	// importScript("data/scripts/pixel");
 
 	enablePauseMenu = false;
 	pixelNotesForDad = false;
 	enablePixelUI = false;
-	pixelNotesForBF = true;
+	pixelNotesForBF = false;
 	enablePixelGameOver = false;
 	gameOverSong = "brawlgameOver";
 	lossSFX = "gameOverSFXBrawl";

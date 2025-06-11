@@ -74,6 +74,7 @@ function create() {
 
 function onNoteCreation(e) {
 	issus = e.note.isSustainNote;
+
 	if(mania != 6) e.cancel();
 	if (!issus) {rdom++;}
 	
@@ -257,19 +258,29 @@ function onStrumCreation(e) {
 	strum.getJustReleased = () -> Reflect.getProperty(FlxG.keys.justReleased, keyBinds[mania][strum.ID]);
 
 }
-
+	// trace(e.note.strumLine.altAnim);
 function onNoteHit(e) {
+	
 	if(e.note.noteTypeID == 0){
 		e.showSplash = false;
 		e.cancelAnim();
 		for (char in e.characters)
 			if (char != null)
-				if(mania <= 3) {
-					char.playAnim("sing" + singDir[4][e.note.extra.get("dir")], e.forceAnim, "SING");}
-				else {
-					char.playAnim("sing" + singDir[mania][e.direction], e.forceAnim, "SING");
+				switch(e.note.strumLine.altAnim){
+					case false:
+						if(mania <= 3) {
+							char.playAnim("sing" + singDir[4][e.note.extra.get("dir")], e.forceAnim, "SING");}
+						else {
+							char.playAnim("sing" + singDir[mania][e.direction], e.forceAnim, "SING");
+						}
+					case true:
+							if(mania <= 3) {
+								char.playAnim("sing" + singDir[4][e.note.extra.get("dir") + "-alt"], e.forceAnim, "SING");}
+							else {
+								char.playAnim("sing" + singDir[mania][e.direction] + "-alt", e.forceAnim, "SING");
+							}
 				}
-			}
+			} 
 	}
 
 function postCreate() {
