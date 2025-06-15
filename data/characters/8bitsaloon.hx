@@ -1,4 +1,4 @@
-// old alt anim script thanks Neo for the help
+// old alt anim script
 // // character script
 
 // var init = false;
