@@ -41,3 +41,35 @@ if (curBeat == 384){
     dad.alpha = 0;
 }
 }
+
+function postCreate(){
+    if(PlayState.instance.difficulty == "miko"){
+        dad.y -= 180;
+        trace("MERDa");
+    }
+    
+}
+
+function mikoanim(anim:Int){
+    strumLines.members[0].characters[0].danceOnBeat = false;
+    strumLines.members[0].characters[0].debugMode = true;
+    switch(anim){
+        case 0, "0":
+        strumLines.members[0].characters[0].debugMode = false;
+            strumLines.members[0].characters[0].danceOnBeat = true;
+            strumLines.members[0].characters[0].animation.play("idle", true);
+        case 1, "1":
+            strumLines.members[0].characters[0].animation.play("prwipe", true);
+                        strumLines.members[0].characters[0].alpha = 1;
+
+        case 2, "2":
+            strumLines.members[0].characters[0].animation.play("wipe", true);
+            strumLines.members[0].characters[0].alpha = 1;
+        case 3, "3":
+            camGame.fade(0xFFFFFFFF, 0.05, false);
+        case 4, "4":
+            dad.alpha = 0;
+            camGame.fade(0xFFFFFFFF, 0.3, true);
+    }
+    trace("mikoanim called" + " " + anim);
+}

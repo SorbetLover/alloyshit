@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="miko_monochrome.png">
+<SubTexture name="miko_monochrome wipe0000" x="0" y="1994" width="552" height="610" frameX="-182" frameY="-283" frameWidth="900" frameHeight="900" />
+<SubTexture name="miko_monochrome prewipe0000" x="0" y="695" width="698" height="656" frameX="-98" frameY="-241" frameWidth="900" frameHeight="900" />
+<SubTexture name="miko_monochrome idle0000" x="843" y="1351" width="429" height="631" frameX="-245" frameY="-256" frameWidth="900" frameHeight="900" />
+<SubTexture name="miko_monochrome right0000" x="428" y="1351" width="415" height="641" frameX="-261" frameY="-242" frameWidth="900" frameHeight="900" />
+<SubTexture name="miko_monochrome right0001" x="1605" y="0" width="457" height="647" frameX="-277" frameY="-236" frameWidth="900" frameHeight="900" />
+<SubTexture name="miko_monochrome right0002" x="1605" y="0" width="457" height="647" frameX="-277" frameY="-236" frameWidth="900" frameHeight="900" />
+<SubTexture name="miko_monochrome right0003" x="1605" y="647" width="441" height="643" frameX="-270" frameY="-240" frameWidth="900" frameHeight="900" />
+<SubTexture name="miko_monochrome right0004" x="0" y="1351" width="428" height="643" frameX="-265" frameY="-240" frameWidth="900" frameHeight="900" />
+<SubTexture name="miko_monochrome right0005" x="428" y="1351" width="415" height="641" frameX="-261" frameY="-242" frameWidth="900" frameHeight="900" />
+<SubTexture name="miko_monochrome right0006" x="428" y="1351" width="415" height="641" frameX="-261" frameY="-242" frameWidth="900" frameHeight="900" />
+<SubTexture name="miko_monochrome right0007" x="428" y="1351" width="415" height="641" frameX="-261" frameY="-242" frameWidth="900" frameHeight="900" />
+<SubTexture name="miko_monochrome right0008" x="428" y="1351" width="415" height="641" frameX="-261" frameY="-242" frameWidth="900" frameHeight="900" />
+<SubTexture name="miko_monochrome right0009" x="428" y="1351" width="415" height="641" frameX="-261" frameY="-242" frameWidth="900" frameHeight="900" />
+<SubTexture name="miko_monochrome left0000" x="2062" y="1254" width="612" height="626" frameX="-139" frameY="-257" frameWidth="900" frameHeight="900" />
+<SubTexture name="miko_monochrome left0001" x="1272" y="1351" width="619" height="627" frameX="-117" frameY="-256" frameWidth="900" frameHeight="900" />
+<SubTexture name="miko_monochrome left0002" x="1272" y="1351" width="619" height="627" frameX="-117" frameY="-256" frameWidth="900" frameHeight="900" />
+<SubTexture name="miko_monochrome left0003" x="2062" y="0" width="617" height="627" frameX="-125" frameY="-256" frameWidth="900" frameHeight="900" />
+<SubTexture name="miko_monochrome left0004" x="2062" y="627" width="615" height="627" frameX="-133" frameY="-256" frameWidth="900" frameHeight="900" />
+<SubTexture name="miko_monochrome left0005" x="2062" y="1254" width="612" height="626" frameX="-139" frameY="-257" frameWidth="900" frameHeight="900" />
+<SubTexture name="miko_monochrome left0006" x="2062" y="1254" width="612" height="626" frameX="-139" frameY="-257" frameWidth="900" frameHeight="900" />
+<SubTexture name="miko_monochrome left0007" x="2062" y="1254" width="612" height="626" frameX="-139" frameY="-257" frameWidth="900" frameHeight="900" />
+<SubTexture name="miko_monochrome left0008" x="2062" y="1254" width="612" height="626" frameX="-139" frameY="-257" frameWidth="900" frameHeight="900" />
+<SubTexture name="miko_monochrome down0000" x="552" y="1994" width="479" height="585" frameX="-198" frameY="-305" frameWidth="900" frameHeight="900" />
+<SubTexture name="miko_monochrome down0001" x="2074" y="1994" width="563" height="553" frameX="-156" frameY="-338" frameWidth="900" frameHeight="900" />
+<SubTexture name="miko_monochrome down0002" x="2074" y="1994" width="563" height="553" frameX="-156" frameY="-338" frameWidth="900" frameHeight="900" />
+<SubTexture name="miko_monochrome down0003" x="1541" y="1994" width="533" height="566" frameX="-171" frameY="-325" frameWidth="900" frameHeight="900" />
+<SubTexture name="miko_monochrome down0004" x="1031" y="1994" width="510" height="578" frameX="-183" frameY="-313" frameWidth="900" frameHeight="900" />
+<SubTexture name="miko_monochrome down0005" x="552" y="1994" width="479" height="585" frameX="-198" frameY="-305" frameWidth="900" frameHeight="900" />
+<SubTexture name="miko_monochrome down0006" x="552" y="1994" width="479" height="585" frameX="-198" frameY="-305" frameWidth="900" frameHeight="900" />
+<SubTexture name="miko_monochrome down0007" x="552" y="1994" width="479" height="585" frameX="-198" frameY="-305" frameWidth="900" frameHeight="900" />
+<SubTexture name="miko_monochrome down0008" x="552" y="1994" width="479" height="585" frameX="-198" frameY="-305" frameWidth="900" frameHeight="900" />
+<SubTexture name="miko_monochrome down0009" x="552" y="1994" width="479" height="585" frameX="-198" frameY="-305" frameWidth="900" frameHeight="900" />
+<SubTexture name="miko_monochrome up0000" x="698" y="695" width="598" height="654" frameX="-180" frameY="-234" frameWidth="900" frameHeight="900" />
+<SubTexture name="miko_monochrome up0001" x="0" y="0" width="501" height="695" frameX="-229" frameY="-193" frameWidth="900" frameHeight="900" />
+<SubTexture name="miko_monochrome up0002" x="0" y="0" width="501" height="695" frameX="-229" frameY="-193" frameWidth="900" frameHeight="900" />
+<SubTexture name="miko_monochrome up0003" x="501" y="0" width="542" height="681" frameX="-208" frameY="-207" frameWidth="900" frameHeight="900" />
+<SubTexture name="miko_monochrome up0004" x="1043" y="0" width="562" height="664" frameX="-198" frameY="-224" frameWidth="900" frameHeight="900" />
+<SubTexture name="miko_monochrome up0005" x="698" y="695" width="598" height="654" frameX="-180" frameY="-234" frameWidth="900" frameHeight="900" />
+<SubTexture name="miko_monochrome up0006" x="698" y="695" width="598" height="654" frameX="-180" frameY="-234" frameWidth="900" frameHeight="900" />
+<SubTexture name="miko_monochrome up0007" x="698" y="695" width="598" height="654" frameX="-180" frameY="-234" frameWidth="900" frameHeight="900" />
+<SubTexture name="miko_monochrome up0008" x="698" y="695" width="598" height="654" frameX="-180" frameY="-234" frameWidth="900" frameHeight="900" />
+<SubTexture name="miko_monochrome up0009" x="698" y="695" width="598" height="654" frameX="-180" frameY="-234" frameWidth="900" frameHeight="900" />
+</TextureAtlas>

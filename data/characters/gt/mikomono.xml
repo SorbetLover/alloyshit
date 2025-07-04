@@ -1,0 +1,10 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="gt/miko_monochrome" icon="gt/kubota" color="#C12CFF">
+	<anim name="idle" anim="miko_monochrome idle0" x="0" y="0" fps="24" loop="false"/>
+	<anim name="wipe" anim="miko_monochrome wipe0" x="0" y="0" fps="24" loop="false"/>
+	<anim name="prwipe" anim="miko_monochrome prewipe0" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="miko_monochrome right0" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singLEFT" anim="miko_monochrome left0" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="miko_monochrome down0" x="0" y="0" fps="24" loop="false"/>
+	<anim name="singUP" anim="miko_monochrome up0" x="0" y="0" fps="24" loop="false"/>
+</character>
