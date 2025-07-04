@@ -4,6 +4,8 @@ import flixel.tweens.FlxTween;
 import flixel.tweens.FlxEase;
 import flixel.util.FlxTimer;
 var hidearows:Bool = false;
+var arrowsX = [];
+var arrowsXA = [];
 function onStartCountdown(event){
       dad.alpha = 0;
       event.cancel();
@@ -34,12 +36,16 @@ function postUpdate(){
     for(shit in strumLines.members[1].members){
         shit.alpha = 0;
     }
-}
+    }
+    for(i in 0...4){
+                strumLines.members[1].members[i].x = FlxMath.lerp(strumLines.members[1].members[i].x, arrowsX[i], 0.04);
+                strumLines.members[0].members[i].x = FlxMath.lerp(strumLines.members[0].members[i].x, arrowsXA[i], 0.04);
+    }
 }
 function beatHit(curBeat){
-if (curBeat == 384){
+    if (curBeat == 384){
     dad.alpha = 0;
-}
+    }
 }
 
 function postCreate(){
@@ -47,7 +53,11 @@ function postCreate(){
         dad.y -= 180;
         trace("MERDa");
     }
-    
+    for(i in 0...4){
+        arrowsX.push(strumLines.members[1].members[i].x);
+        arrowsXA.push(strumLines.members[0].members[i].x);
+    }
+    trace(arrowsX);
 }
 
 function mikoanim(anim:Int){
@@ -65,11 +75,19 @@ function mikoanim(anim:Int){
         case 2, "2":
             strumLines.members[0].characters[0].animation.play("wipe", true);
             strumLines.members[0].characters[0].alpha = 1;
+
+            for(i in 0...4){
+                strumLines.members[1].members[i].x = FlxG.random.float(arrowsX[i] - 100, arrowsX[i] + 100);
+                strumLines.members[0].members[i].x = FlxG.random.float(arrowsXA[i] - 100, arrowsXA[i] + 100);
+            }
         case 3, "3":
-            camGame.fade(0xFFFFFFFF, 0.05, false);
+            camGame.fade(0xFF777777, 0.05, false);
         case 4, "4":
             dad.alpha = 0;
-            camGame.fade(0xFFFFFFFF, 0.3, true);
+            camGame.fade(0xFF777777, 0.3, true);
+        case 5, "5":
+            // camGame.fade(0xFF777777, 0.4, true);
+            health = 0.3;
     }
     trace("mikoanim called" + " " + anim);
 }
