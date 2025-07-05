@@ -14,26 +14,13 @@ function postCreate(){
         dad.y -= 190;
     }
 }
-function onStartSong(){
-    FlxTween.circularMotion(windowoffsetfuck, 300, 150, 30, 0, true, 10 ,true, { ease: FlxEase.linear, type: FlxTweenType.LOOPING });
+// function onStartSong(){
+//     FlxTween.circularMotion(windowoffsetfuck, 300, 150, 30, 0, true, 10 ,true, { ease: FlxEase.linear, type: FlxTweenType.LOOPING });
 
-}
-var left:Bool = true;
-function postUpdate(){
-    window.x = windowoffsetfuck.x;
-    window.y = windowoffsetfuck.y;
+// }
+// var left:Bool = true;
+// function postUpdate(){
+//     window.x = windowoffsetfuck.x;
+//     window.y = windowoffsetfuck.y;
 
-}
-// function stepHit(curStep){
-// // if(curStep % 32 == 0){
-// //     switch(left){
-// //         case true:
-// //             left = false;
-// //             FlxTween.tween(windowoffsetfuck, {x: -20}, 1, {ease:FlxEase.cubeInOut});
-// //         case false:
-// //             left = true;
-// //             FlxTween.tween(windowoffsetfuck, {x: 20}, 1, {ease:FlxEase.cubeInOut});
-    
-// //     }
-// // }
 // }
