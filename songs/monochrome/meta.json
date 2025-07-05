@@ -1,0 +1,21 @@
+{
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": true,
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"bpm": 160,
+	"difficulties": [
+		"hard",
+		"ENG",
+		"felca",
+		"alt",
+		"miko"
+	],
+	"needsVoices": false,
+	"parsedColor": -13421773,
+	"displayName": "Black Chrome",
+	"icon": "diamantepreto",
+	"name": "monochrome",
+	"color": "#333333",
+	"customValues": {}
+}
