@@ -1,7 +1,12 @@
+import flixel.input.touch.FlxTouch;
+
 var uhhhCam:FlxCamera;
 var things:Array = [];
 var curSelected = 0;
 var grou:FlxSpriteGroup = [];
+var btn1:FlxSprite;
+var btn2:FlxSprite;
+var btn3:FlxSprite;
 function create(){
         uhhhCam = new FlxCamera();
         FlxG.cameras.add(uhhhCam, false);
@@ -26,6 +31,17 @@ function create(){
             add(sss);
             sss.cameras = [uhhhCam];
         }
+    
+    btn1 = new FlxSprite(1100,600).makeGraphic(100,100,0xFF555555);
+    add(btn1);
+    btn2 = new FlxSprite(1100,450).makeGraphic(100,100,0xFF555555);
+    add(btn2);
+
+    btn3 = new FlxSprite(950, 600).makeGraphic(100,100, 0xFF559955);
+    add(btn3);
+
+
+    for(rr in [btn1, btn2, btn3]) rr.cameras = [uhhhCam];
 }
 
 var sametime:Bool = false;
@@ -46,7 +62,34 @@ function update(){
     if(FlxG.keys.justPressed.ESCAPE) {uhhhCam.bgColor = 0x00000000; close(); } 
 
     if(FlxG.keys.justPressed.ENTER){
-	PlayState.loadSong(PlayState.instance.curSong, things[curSelected], PlayState.instance.opponentMode, PlayState.instance.coopMode);
-		FlxG.switchState(new PlayState());    }
+        goin();
+    }
+
+for (touch in FlxG.touches.list)
+{
+    if (touch.justPressed) // ou touch.pressed se quiser enquanto segura
+    {
+        var pos = touch.getWorldPosition(uhhhCam); // usa a camera correta
+
+        if (btn1.overlapsPoint(pos))
+        {
+            curSelected -= 1;
+        }
+        else if (btn2.overlapsPoint(pos))
+        {
+            curSelected += 1;
+        }
+        else if (btn3.overlapsPoint(pos))
+        {
+            goin();
+        }
+    }
 }
 
+    
+}
+
+function goin(){
+    PlayState.loadSong(PlayState.instance.curSong, things[curSelected], PlayState.instance.opponentMode, PlayState.instance.coopMode);
+		FlxG.switchState(new PlayState());    
+}

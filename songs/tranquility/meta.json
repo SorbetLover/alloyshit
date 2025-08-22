@@ -1,17 +1,15 @@
 {
-	"beatsPerMeasure": 4,
+	"customValues": {},
+	"color": "#F9CB7E",
 	"opponentModeAllowed": true,
-	"coopAllowed": true,
-	"stepsPerBeat": 4,
-	"bpm": 140,
 	"difficulties": [
 		"HARD"
 	],
-	"needsVoices": true,
-	"parsedColor": -406658,
-	"displayName": "tranquility",
 	"icon": "raloca",
-	"name": "tranquility",
-	"color": "#F9CB7E",
-	"customValues": {}
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"displayName": "tranquility",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 140
 }

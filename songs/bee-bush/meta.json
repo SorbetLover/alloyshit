@@ -1,17 +1,18 @@
 {
-	"beatsPerMeasure": 4,
+	"customValues": {},
+	"color": "#FF5D32",
 	"opponentModeAllowed": true,
+	"difficulties": [
+		"HARD",
+		"remake",
+		"raquelzinha",
+		"uhh"
+	],
+	"icon": "ralucaanima",
 	"coopAllowed": true,
 	"stepsPerBeat": 4,
-	"bpm": 170,
-	"difficulties": [
-		"HARD", "remake", "raquelzinha","uhh"
-	],
-	"needsVoices": true,
-	"parsedColor": -41678,
 	"displayName": "bee-bush",
-	"icon": "ralucaanima",
-	"name": "bee-bush",
-	"color": "#FF5D32",
-	"customValues": {}
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 170
 }
