@@ -1,0 +1,13 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/limbo/remake/" zoom="0.7">
+	<sprite x="350" sprite="podcast" y="-320" scale="0.5" name="podcast"/>
+	<sprite x="550" y="-150" sprite="monark" type="none" scale="0.7" name="monark"/>
+	<gf x="1470" y="-758"/>
+	<bf x="1606.5" y="-812"/>
+	<combo x="669.5" y="7180"/>
+	<sprite x="-380.5" y="-149.25" sprite="gabriel" type="none" scale="0.62" name="gabriel"/>
+	<sprite x="779.75" y="-110" sprite="mamaefalei" type="none" scale="0.67" name="mamaefalei"/>
+	<sprite x="-576.5" y="-168.25" sprite="mcpipokinha" type="none" scale="0.7" name="mcpipokinha"/>
+	<sprite x="210" y="-150" sprite="felca" type="none" scale="0.6" name="felca"/>
+	<dad x="300" y="200"/>
+</stage>

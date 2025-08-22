@@ -38,19 +38,20 @@ for(i in [spoon, tiara]){
 	i.alpha = 0;
 }
 
-remove(iconP2);
-remove(iconP1);
+// remove(iconP2);
+// remove(iconP1);
 
-iconP2 = new HealthIcon("babs", false);
-iconP2.cameras = [camHUD];
-add(iconP2);
-iconP2.y = healthBar.y - iconP2.height / 2;
+// iconP2 = new HealthIcon("babs", false);
+// iconP2.cameras = [camHUD];
+// add(iconP2);
+// iconP2.y = healthBar.y - iconP2.height / 2;
 
-iconP1 = new HealthIcon("bloom", true);
-iconP1.cameras = [camHUD];
-add(iconP1);
-iconP1.y = healthBar.y - iconP1.height / 2;
-
+// iconP1 = new HealthIcon("bloom", true);
+// iconP1.cameras = [camHUD];
+// add(iconP1);
+// iconP1.y = healthBar.y - iconP1.height / 2;
+	iconP1.setIcon("bloom", true);
+	iconP2.setIcon("babs", false);
 
 }
 var bruh:Bool = false;

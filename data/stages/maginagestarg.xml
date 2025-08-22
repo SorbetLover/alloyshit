@@ -18,6 +18,6 @@
 	</sprite>
 
 	<girlfriend                              y="-100"                                      scale="0.8" />
-	<dad                            x="800" y="1560"/>
+	<dad                            x="800" y="1560" scale="1.1"/>
 	<boyfriend                      x="1800" y="1380" scale="0.9"/>
 </stage>

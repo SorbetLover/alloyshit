@@ -9,6 +9,8 @@ import funkin.savedata.FunkinSave;
 import openfl.display.BitmapData;
 import flixel.addons.display.FlxBackdrop;
 import funkin.editors.charter.Charter;
+import funkin.backend.MusicBeatTransition;
+
 var backdropshit:FlxBackdrop;
 var sections:Array = [];
 var curSection:Int = 0;
@@ -39,7 +41,15 @@ var curDiff = 0;
 var opponentshit = ["Solo", "Opponent", "Coop", "Coop Inverted"];
 var ops = 0;
 var opptext:FlxText;
+
+var selAnimOF:Float = 0;
+var selAnimOBJ:FlxSprite;
 function create(){
+        // MusicBeatTransition.script = "data/scripts/blankScript.hx";
+    selAnimOBJ = new FlxSprite();
+        for(i in ["kou", "static", "doki", "fever"]){
+            fag22 =  new FlxSprite().loadGraphic(Paths.image("freeplay/" + i));
+        } 
         var files = FileSystem.readDirectory("mods/alloyshit/data/freeplaysecs");
         for (i in files) {
             if (StringTools.endsWith(i, ".txt")) {
@@ -108,6 +118,9 @@ function create(){
         insert(154, scoretxt);
         insert(155, opptext);
         loadDiffs();
+        selAnimOBJ.x = -600;
+        FlxTween.tween(selAnimOBJ, {x:0}, 0.3, {ease:FlxEase.cubeOut});
+
 }
 var edh = 130;
 var shouldTrack = false;
@@ -176,6 +189,7 @@ function loadDiffs(){
 var iconBeatScl = 0.8;
 var iconBeatRot = 0;
 function update(){
+    selAnimOF = selAnimOBJ.x;
     // backdropshit.angle = backdropshit.velocity.degrees;
     opptext.text = "[TAB] " + opponentshit[ops];
     updateScore();
@@ -213,7 +227,11 @@ function update(){
     }
     if (controls.BACK)
     {
-        FlxG.switchState(new MainMenuState());
+        FlxG.camera.fade(0xFF000000, 0.2, false);
+        new FlxTimer().start(0.2, function(f:FlxTimer){
+            FlxG.switchState(new MainMenuState());
+            MusicBeatTransition.script = "";
+        });
     }
     if(FlxG.keys.justPressed.S || FlxG.keys.justPressed.DOWN){
         curSelected += 1;
@@ -294,9 +312,6 @@ function changeSelection(){
         case "lockdown":
             bg.loadGraphic(Paths.image("freeplay/kou"));
 
-        case "promenade":
-            bg.loadGraphic(Paths.image("freeplay/agoti  "));
-
         default:
             bg.loadGraphic(Paths.image("menus/menuDesat"));
     }
@@ -318,9 +333,20 @@ function enterSong(){
                 isOpp = true;
                 isCop = true;
         }
-        PlayState.loadSong(songNames[curSelected], diffs[curDiff],isOpp, isCop);
-		FlxG.switchState(new PlayState());
+        trace("CU");
+        FlxTween.tween(selAnimOBJ, {x: -1700}, 0.5, {ease:FlxEase.backIn});
+        MusicBeatTransition.script = "data/scripts/blankScript.hx";
+        new FlxTimer().start(0.5, function(f:FlxTimer){
+            FlxG.camera.fade(0xFF000000, 0.3, false);
+            FlxTween.tween(FlxG.sound.music, {volume:0}, 0.3);
 
+                new FlxTimer().start(2, function(f:FlxTimer){
+                    PlayState.loadSong(songNames[curSelected], diffs[curDiff],isOpp, isCop);
+                    FlxG.switchState(new PlayState());
+                    MusicBeatTransition.script = "";
+
+                });
+        });
 }
 var iconOffY = 0;
 var boog = false;
@@ -351,6 +377,7 @@ function beatHit(curBeat){
         }
     }
 }
+
 function track(){
     iconOffY = FlxMath.lerp(iconOffY, 0, 0.07);
     // shits.y = ((FlxG.height / 2) - 100) - (edh  * curSelected);
@@ -366,7 +393,7 @@ function track(){
             shits.members[i].alpha = 0.4;
             icons.members[i].alpha = 0.4;
             
-            shits.members[i].x = FlxMath.lerp(shits.members[i].x, 30, 0.2);
+            shits.members[i].x = FlxMath.lerp(shits.members[i].x, 30 + selAnimOF, 0.2);
         } 
     }
     for(i in 0...icons.members.length){

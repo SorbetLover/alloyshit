@@ -1,21 +1,20 @@
 {
-	"beatsPerMeasure": 4,
+	"customValues": {},
+	"color": "#333333",
 	"opponentModeAllowed": true,
-	"coopAllowed": true,
-	"stepsPerBeat": 4,
-	"bpm": 160,
 	"difficulties": [
 		"hard",
 		"ENG",
 		"felca",
 		"alt",
-		"miko"
+		"miko",
+		"ridley"
 	],
-	"needsVoices": false,
-	"parsedColor": -13421773,
-	"displayName": "Black Chrome",
 	"icon": "diamantepreto",
-	"name": "monochrome",
-	"color": "#333333",
-	"customValues": {}
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"displayName": "Black Chrome",
+	"needsVoices": false,
+	"beatsPerMeasure": 4,
+	"bpm": 160
 }

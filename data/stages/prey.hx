@@ -101,11 +101,12 @@ function postCreate(){
 
 	// iconP1.setIcon("diggoprey");
 	iconP2.setIcon("raloca");
-	
+	camGame.bgColor = 0xFF000000;
 }
 var focusondiggo:Bool = true;
 var rodajean:Bool = false;
 function postUpdate(elapsed){
+	
 	iconP1.scale.x = FlxMath.lerp(iconP1.scale.x, 0.8, 0.04);
 	iconP1.scale.y = FlxMath.lerp(iconP1.scale.y, 0.8, 0.04);
 
@@ -118,7 +119,7 @@ function postUpdate(elapsed){
     skate.y = strumLines.members[1].characters[0].y - 1000;
     skate.x = strumLines.members[1].characters[0].x - 2150;
 
-	sky.velocity.x = -3000 * inst.pitch;
+	sky.velocity.x = -1000 * inst.pitch;
 	platform.velocity.x = -3000 * inst.pitch;
     if(focusondiggo == true){
 	camFollow.setPosition(500,300);

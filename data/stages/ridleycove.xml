@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/" zoom="0.4">
+	<combo x="571" y="91"/>
+	<gf x="292" y="136"/>
+	<sprite x="-257" y="-137" sprite="../ridleycove" scale="4" name="ridleycove"/>
+	<sprite x="-257" y="-137" sprite="../ridleycove2" scale="4" name="ridleycove" alpha="0.0001"/>
+	<dad camxoffset="100" x="-669" camyoffset="-100" y="30" scale="0.7" lastOpponent="rididle"/>
+	<bf camxoffset="-100" x="753" camyoffset="-100" y="48" flip="false" scale="0.75" lastPlayer="mikidle"/>
+</stage>

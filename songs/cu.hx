@@ -69,6 +69,10 @@ function create() {
 	if (mania == 4 || mania == 0 || mania == null) {
 		disableScript();
 	}
+	if(PlayState.instance.curSong == "vespers"){
+		disableScript();
+		trace("go fuck yourself fucking error");
+	}
 
 }
 

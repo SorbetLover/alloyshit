@@ -31,7 +31,7 @@ var cancellingtweens:Bool = false;
 
 var allowThatStrumShit:Bool = false;
 function stepHit(curStep){
-    switch(curStep){
+        switch(curStep){
         case 256:
             strumTween = FlxTween.tween(strumLines.members[0].members[0], {x: strumLines.members[0].members[0].x + 100, y: strumLines.members[0].members[0].y - 100, alpha:1, angle: 0}, Conductor.crochet / 70 / vocals.pitch, {ease: FlxEase.cubeOut});
         case 320:
@@ -40,6 +40,11 @@ function stepHit(curStep){
             strumTween2 = FlxTween.tween(strumLines.members[0].members[2], {x: strumLines.members[0].members[2].x + 100, y: strumLines.members[0].members[2].y - 100, alpha:1, angle: 0}, Conductor.crochet / 70 / vocals.pitch, {ease: FlxEase.cubeOut});
         case 448:
             strumTween3 = FlxTween.tween(strumLines.members[0].members[3], {x: strumLines.members[0].members[3].x + 100, y: strumLines.members[0].members[3].y - 100, alpha:1, angle: 0}, Conductor.crochet / 70 / vocals.pitch, {ease: FlxEase.cubeOut});
+        case 512:
+            for(i in 0...4){
+                FlxTween.completeTweensOf(strumLines.members[0].members[i]);
+                strumLines.members[0].members[i].alpha = 1;
+            }
         case 1024:
 
             for(i in [strumLines.members[0].members[0]]){
@@ -76,6 +81,18 @@ function stepHit(curStep){
             }
 
     }
+    if( curStep % 2 == 0 && curBeat >= 128){
+    //     for(i in 0...4){
+    //         strumLines.members[0].members[i].angle += 45;
+    //     }
+    //         strumLines.members[0].members[0].noteAngle = 0;
+    //         strumLines.members[0].members[1].noteAngle = 0;
+    //         strumLines.members[0].members[2].noteAngle = 0;
+    //         strumLines.members[0].members[3].noteAngle = 0;
+    //         strumLines.members[1].notes.forEachAlive(function(note:Note){
+    //         note.forceIsOnScreen = true;
+    //     });
+    }
 }
 
 // function postUpdate(){
@@ -105,6 +122,7 @@ var beatchangedir:Bool = true;
 
 var camag:Bool = false;
 function beatHit(curBeat){
+
     if(PlayState.instance.difficulty == "hard"){
     
        if((curBeat > 445) && (curBeat < 508) && (curBeat % 2 == 0)){

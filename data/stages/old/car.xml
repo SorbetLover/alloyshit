@@ -1,0 +1,16 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="0.9" name="car" folder="stages/rolldog/">
+	<sprite name="sky"               x="0" y="0"   sprite="w1city"       scroll="1"   scale="1" />
+	<sprite name="buildings" x="-60" y="160" sprite="roll_dog_buildings" scroll="1" zoomfactor="1">
+		<anim name="buildings0" anim="" loop="false" indices="0,1,2,3" fps="1"/>
+	</sprite>
+	<sprite name="bg"               x="-200" y="-100"   sprite="dog bg"       scroll="1"   scale="1" />
+	<sprite name="chairs"               x="70" y="0"   sprite="bg chairs"       scroll="1"   scale="1" />
+	<girlfriend y="320" x="140"/>
+	<boyfriend y="-100"/>
+	<sprite name="butt"               x="40"  y="130"   sprite="butt"       scroll="1"   scale="10" antialiasing="false"/>
+	<dad y="100" x="680" scale="1"/>
+	<sprite name="shit"               x="40"  y="130"   sprite="001"       scroll="1"   scale="10" antialiasing="false"/>
+	<sprite name="shit2"               x="40" y="130"   sprite="002"       scroll="1"   scale="10" antialiasing="false" />
+
+</stage>

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="mamaefalei.png">
+<SubTexture name="mamaefalei idle0000" x="0" y="0" width="370" height="683" frameX="-273" frameY="-215" frameWidth="900" frameHeight="900" />
+<SubTexture name="mamaefalei idle0001" x="1180" y="0" width="446" height="658" frameX="-235" frameY="-241" frameWidth="900" frameHeight="900" />
+<SubTexture name="mamaefalei idle0002" x="1180" y="0" width="446" height="658" frameX="-235" frameY="-241" frameWidth="900" frameHeight="900" />
+<SubTexture name="mamaefalei idle0003" x="766" y="0" width="414" height="669" frameX="-251" frameY="-230" frameWidth="900" frameHeight="900" />
+<SubTexture name="mamaefalei idle0004" x="766" y="0" width="414" height="669" frameX="-251" frameY="-230" frameWidth="900" frameHeight="900" />
+<SubTexture name="mamaefalei idle0005" x="370" y="0" width="396" height="676" frameX="-260" frameY="-222" frameWidth="900" frameHeight="900" />
+<SubTexture name="mamaefalei idle0006" x="370" y="0" width="396" height="676" frameX="-260" frameY="-222" frameWidth="900" frameHeight="900" />
+<SubTexture name="mamaefalei idle0007" x="0" y="0" width="370" height="683" frameX="-273" frameY="-215" frameWidth="900" frameHeight="900" />
+<SubTexture name="mamaefalei idle0008" x="0" y="0" width="370" height="683" frameX="-273" frameY="-215" frameWidth="900" frameHeight="900" />
+<SubTexture name="mamaefalei idle0009" x="0" y="0" width="370" height="683" frameX="-273" frameY="-215" frameWidth="900" frameHeight="900" />
+<SubTexture name="mamaefalei idle0010" x="0" y="0" width="370" height="683" frameX="-273" frameY="-215" frameWidth="900" frameHeight="900" />
+<SubTexture name="mamaefalei idle0011" x="0" y="0" width="370" height="683" frameX="-273" frameY="-215" frameWidth="900" frameHeight="900" />
+<SubTexture name="mamaefalei idle0012" x="0" y="0" width="370" height="683" frameX="-273" frameY="-215" frameWidth="900" frameHeight="900" />
+<SubTexture name="mamaefalei idle0013" x="0" y="0" width="370" height="683" frameX="-273" frameY="-215" frameWidth="900" frameHeight="900" />
+<SubTexture name="mamaefalei idle0014" x="0" y="0" width="370" height="683" frameX="-273" frameY="-215" frameWidth="900" frameHeight="900" />
+<SubTexture name="mamaefalei idle0015" x="0" y="0" width="370" height="683" frameX="-273" frameY="-215" frameWidth="900" frameHeight="900" />
+<SubTexture name="mamaefalei idle0016" x="0" y="0" width="370" height="683" frameX="-273" frameY="-215" frameWidth="900" frameHeight="900" />
+<SubTexture name="mamaefalei idle0017" x="0" y="0" width="370" height="683" frameX="-273" frameY="-215" frameWidth="900" frameHeight="900" />
+<SubTexture name="mamaefalei idle0018" x="0" y="0" width="370" height="683" frameX="-273" frameY="-215" frameWidth="900" frameHeight="900" />
+<SubTexture name="mamaefalei idle0019" x="0" y="0" width="370" height="683" frameX="-273" frameY="-215" frameWidth="900" frameHeight="900" />
+</TextureAtlas>

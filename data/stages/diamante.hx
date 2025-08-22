@@ -6,12 +6,12 @@ var subs:FlxText;
 function postCreate(){
 	camGame.followLerp = 10;
 	if(PlayState.SONG.meta.displayName == "Black Chrome" ){
-		for(e in strumLines.members[0]){
-			e.y -= 1000;
-		 }
-		 for(e in strumLines.members[1]){
-			e.y -= 1000;
-		 }
+		// for(e in strumLines.members[0]){
+		// 	e.y -= 1000;
+		//  }
+		//  for(e in strumLines.members[1]){
+		// 	e.y -= 1000;
+		//  }
 	}
     // subs = new FlxText(1, 19, 400, "", 32);
     // subs.setFormat(Paths.font("vcr.ttf"), 42, FlxColor.WHITE, "center", FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);

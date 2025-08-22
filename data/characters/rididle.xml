@@ -1,0 +1,4 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="gt/rid" icon="gt/ridley">
+	<anim name="idle" anim="idle0" x="0" y="0" fps="24" loop="false"/>
+</character>

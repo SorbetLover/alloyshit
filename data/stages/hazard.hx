@@ -93,6 +93,10 @@ function postUpdate(elapsed){
 	// strumLines.members[0].cpu = true;
 
 }
+
+function onPostGenerateStrums(e){
+	e.cancelAnim();
+}
 function addFogB(i){
     var scale:Int;
 	var fog:FlxSprite;
@@ -195,9 +199,12 @@ function postCreate() {
 				
 			// 	}
 			// }
- for(eu in [healthBar, healthBarBG, iconP1, iconP2]){
+ 	for(eu in [healthBar, healthBarBG, iconP1, iconP2]){
 	eu.alpha = 0;
- }
+ 	}
+	for(i in 0...5){
+		strumLines.members[0].members[i].alpha = 0;
+	}
 }
 function beatHit(curBeat){
 	// strumLines.members[0].members[0].x += 10;

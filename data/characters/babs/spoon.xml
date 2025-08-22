@@ -1,8 +1,8 @@
 <!DOCTYPE codename-engine-character>
-<character x="0" icon="core" y="0" isGF="false" camy="120" isPlayer="true" holdTime="6.1" sprite="babs/spoon">
-	<anim x="0" loop="false" y="0" fps="24" anim="silver idle" name="idle"/>
-	<anim x="0" loop="false" y="0" fps="24" anim="silver mine" name="mine"/>
-	<anim x="106" loop="false" y="383" fps="24" anim="silver slidein" name="slide"/>
-	<anim x="0" loop="false" y="20" fps="24" anim="silver blank1" name="blank"/>
-	<anim x="0" loop="false" y="21" fps="24" anim="silver blank2" name="blank2"/>
+<character sprite="babs/spoon" camy="120" isPlayer="true" icon="core" holdTime="6.1" isGF="false">
+	<anim name="idle" anim="silver idle" x="0" y="0" fps="24" loop="false"/>
+	<anim name="mine" anim="silver mine" x="-15" y="35" fps="24" loop="false"/>
+	<anim name="slide" anim="silver slidein" x="21" y="383" fps="24" loop="false"/>
+	<anim name="blank" anim="silver blank1" x="0" y="20" fps="24" loop="false"/>
+	<anim name="blank2" anim="silver blank2" x="0" y="21" fps="24" loop="false"/>
 </character>

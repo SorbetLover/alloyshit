@@ -1,0 +1,10 @@
+<!DOCTYPE codename-engine-character>
+<character icon="gt/ridley" color="#B1E5F3" holdTime="6">
+	<anim name="idle" anim="idle"/>
+	<anim name="singDOWN" anim="down"/>
+	<anim name="singRIGHT" anim="right" x="-20"/>
+	<anim name="singLEFT" anim="left" x="152" y="4"/>
+	<anim name="singUP" anim="up"/>
+	<anim name="prwipe" anim="ridleymono pre wipe" x="15" y="-25"/>
+	<anim name="wipe" anim="ridleymono wipe" y="130"/>
+</character>

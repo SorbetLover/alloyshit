@@ -46,6 +46,8 @@ function create(){
 	
 	sergei = new FlxSprite().loadGraphic(Paths.image("stages/sergei"));
 	sergei.scale.set(0.55,0.45);
+		camGame.bgColor = 0xFF000000;
+
 }
 function postCreate(){	
 	curCameraTarget = 1;

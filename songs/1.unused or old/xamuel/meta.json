@@ -1,0 +1,16 @@
+{
+	"opponentModeAllowed": false,
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"beatsPerMesure": 4,
+	"bpm": 130,
+	"difficulties": [
+		"HARD"
+	],
+	"needsVoices": true,
+	"parsedColor": -11328256,
+	"displayName": "Luna Beauty n Xamuel ",
+	"icon": "xamuel",
+	"name": "xamuel",
+	"color": "#532546"
+}

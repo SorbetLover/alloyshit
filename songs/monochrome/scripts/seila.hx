@@ -36,7 +36,7 @@ var isshakin = false;
 var umm = false;
 function onStartSong(){
     med = true;
-    FlxTween.circularMotion(windowoffsetfuck, 300, 150, 30, 0, true, 10 ,true, { ease: FlxEase.linear, type: FlxTweenType.LOOPING });
+    FlxTween.circularMotion(windowoffsetfuck, 350, 150, 90, 0, true, 10 ,true, { ease: FlxEase.linear, type: FlxTweenType.LOOPING });
 }
 var staticthing:FunkinSprite;
 function postCreate(){
@@ -44,6 +44,10 @@ function postCreate(){
 
     if(PlayState.instance.difficulty == "miko"){
         dad.y -= 180;
+        trace("MERDa");
+    }
+    if(PlayState.instance.difficulty == "ridley"){
+        dad.y -= 60;
         trace("MERDa");
     }
     for(i in 0...4){
@@ -63,11 +67,24 @@ function postCreate(){
     staticthing.blend = BlendMode.ERASE;
     staticthing.alpha = 0;
 }
+var _elap = 0;
+function postUpdate(elapsed){
+    if(FlxG.keys.justPressed.ONE){
+        mikoanim(0);
+    }
+    if(FlxG.keys.justPressed.TWO){
+        mikoanim(1);
+    }
 
-function postUpdate(){
+
+    if(FlxG.keys.justPressed.THREE){
+        mikoanim(2);
+    }
+    _elap += elapsed;
     if(med == true){
     window.x = windowoffsetfuck.x + (isshakin ? winoffX : 0);
-    window.y = windowoffsetfuck.y;
+    // window.y = windowoffsetfuck.y;
+    window.y = 180 + 100 * Math.sin(_elap);
     // winoffX = FlxMath.lerp(winoffX, 0, 0.02);
     
     }
@@ -89,6 +106,9 @@ function postUpdate(){
     }
 
     // staticthing.alpha = (FlxMath.lerp(staticthing.alpha * 10, 0, 0.007) / 10);
+
+
+
 }
 function beatHit(curBeat){
     if (curBeat == 384){

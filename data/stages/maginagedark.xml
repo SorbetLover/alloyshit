@@ -37,7 +37,7 @@
 	
 	</sprite>
 	<girlfriend scale="0.8" y="-100"/>
-	<dad scale="1.1" x="750" y="1534" lastOpponent="abby"/>
+	<dad scale="1.2" x="750" y="1484" lastOpponent="abby"/>
 	<boyfriend x="1779" y="1299" lastPlayer="sayoridark"/>
 	<combo/>
 </stage>
