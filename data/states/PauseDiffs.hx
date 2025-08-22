@@ -73,11 +73,11 @@ for (touch in FlxG.touches.list)
 
         if (btn1.overlapsPoint(pos))
         {
-            curSelected -= 1;
+            curSelected += 1;
         }
         else if (btn2.overlapsPoint(pos))
         {
-            curSelected += 1;
+            curSelected -= 1;
         }
         else if (btn3.overlapsPoint(pos))
         {
