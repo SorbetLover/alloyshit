@@ -1,373 +1,263 @@
 import hxvlc.flixel.FlxVideo;
 import hxvlc.flixel.FlxVideoSprite;
 import hxvlc.util.Handle;
+import openfl.display.BlendMode;
+import funkin.backend.shaders.WiggleEffect;
+import funkin.backend.shaders.WiggleEffect.WiggleEffectType;
 
 var crackBG:FlxVideoSprite;
+var infoBG:FunkinSprite;
+var infoBGI:FunkinSprite;
+var ghostBG:FunkinSprite;
+var raluca:Array = [];
+var coolWindow:FunkinSprite;
+var staticthing:FunkinSprite;
+var shadowmilkcookieisthatyou:FunkinSprite;
+var vignette:FunkinSprite;
 
-var desktopIn:FlxSprite;
-var desktopOut:FlxSprite;
-var desktop:FlxSprite;
-var cursor:FlxSprite;
-var jeanprof:FlxSprite;
-var jeancall:FlxSprite;
-var ralucapointing:FlxSprite;
-var jeanexplains:FlxSprite;
-var ralucaassustada:FlxSprite;
-var deusdiggo:FlxSprite;
-var ralucabrava:FlxSprite;
-var vagina:FlxSprite;
-var maluca:FlxSprite;
-var putz:FlxSprite;
+var glitchShader:CustomShader;
+var ghostShader:WiggleEffect;
+var usingShader = false;
+var lightOverlay:FunkinSprite;
+
+var FinaleBG:FunkinSprite;
+var she:FunkinSprite;
+var goons1:FunkinSprite;
+var goons2:FunkinSprite;
+var sheWatches:FunkinSprite;
+
+var camSHIT:FlxSprite;
+function create(){
+            ghostBG = new FunkinSprite().loadGraphic(Paths.image("stages/libitina/ghostbg"));
+                insert(0,ghostBG);
+                ghostBG.scrollFactor.set(0,0);
+                ghostBG.screenCenter();
+                ghostBG.scale.set(1.5,1.5);
+                ghostBG.alpha = 0;
+                coolWindow = new FunkinSprite().loadGraphic(Paths.image("stages/libitina/bigwindow"));
+                insert(0, coolWindow);
+
+                shadowmilkcookieisthatyou = new FunkinSprite();
+                shadowmilkcookieisthatyou.frames = Paths.getSparrowAtlas("stages/libitina/EyeMidwayBG");
+                add(shadowmilkcookieisthatyou);
+                shadowmilkcookieisthatyou.scrollFactor.set(0,0);
+                shadowmilkcookieisthatyou.screenCenter();
+                shadowmilkcookieisthatyou.animation.addByPrefix("MidwayBG","MidwayBG", 24, true);
+                shadowmilkcookieisthatyou.animation.play("MidwayBG");
+                shadowmilkcookieisthatyou.alpha = 0.001;
+                
+                staticshit = new FunkinSprite();
+                staticshit.frames = Paths.getSparrowAtlas("stages/libitina/HomeStatic");
+                add(staticshit);
+                staticshit.color = 0xFF888888;
+                staticshit.antialiasing = false;
+                staticshit.scrollFactor.set(0,0);
+                staticshit.screenCenter();
+                staticshit.animation.addByPrefix("HomeStatic", "HomeStatic", 24, true);
+                staticshit.animation.play("HomeStatic");
+                staticshit.alpha = 0.0001;
+
+                vignette = new FunkinSprite().loadGraphic(Paths.image("stages/libitina/vignette"));
+                vignette.cameras = [camHUD];
+                vignette.scrollFactor.set(0,0);
+                vignette.setGraphicSize(FlxG.width, FlxG.height);
+                vignette.screenCenter();
+                insert(1, vignette);
+                
+
+
+                infoBG = new FunkinSprite();
+                infoBG.frames = Paths.getSparrowAtlas("stages/libitina/InfoMidwayBGInvert");
+                infoBG.animation.addByPrefix("InfoBG", "InfoBG", 24, true);
+                infoBG.animation.play("InfoBG");
+                infoBG.scrollFactor.set(0,0);
+                infoBG.screenCenter();
+                insert(0, infoBG);
+
+                infoBGI = new FunkinSprite();
+                infoBGI.frames = Paths.getSparrowAtlas("stages/libitina/InfoMidwayBG");
+                infoBGI.animation.addByPrefix("InfoBG", "InfoBG", 24, true);
+                infoBGI.animation.play("InfoBG");
+                infoBGI.scrollFactor.set(0,0);
+                infoBGI.screenCenter();
+                insert(0, infoBGI);
+                infoBG.alpha = 0.00001;
+                infoBGI.alpha = 0.000001;
+
+                    crackBG = new FlxVideoSprite(0, 0);
+                    crackBG.antialiasing = true;
+                    crackBG.bitmap.onFormatSetup.add(function():Void
+                    {
+                        crackBG.setGraphicSize(FlxG.width + 150, FlxG.height + 100);
+                        crackBG.scrollFactor.set(0,0);
+                        crackBG.updateHitbox();
+                        crackBG.screenCenter();
+                    });
+                    crackBG.bitmap.onEndReached.add(replayCrack());
+                    crackBG.load(Paths.video('libitina/crackBG'), [':input-repeat=2']);
+                    insert(4, crackBG);
+                    // crackBG.play();
+                    crackBG.alpha = 0.000000000001;
+
+/// finale WOW
+    camSHIT = new FlxSprite(0,0);
+    FinaleBG = new FunkinSprite().loadGraphic(Paths.image("stages/libitina/finale/FinaleBG"));
+    insert(10, FinaleBG);
+    FinaleBG.scrollFactor.set(0,1);
+    FinaleBG.screenCenter();
+    FinaleBG.scale.set(1.1,1.1);
+    she = new FunkinSprite().loadGraphic(Paths.image("stages/libitina/ralucalookin"));
+    she.scale.set(0.8,0.8);
+    she.x = -600;
+    she.y = 100;
+    she.color = 0xFF555599;
+    insert(11,she);
+
+    goons1 = new FunkinSprite(0,-200).loadGraphic(Paths.image("stages/libitina/finale/GOONS1"));
+    insert(12, goons1);
+    goons2 = new FunkinSprite(100,-200).loadGraphic(Paths.image("stages/libitina/finale/GOONS2"));
+    insert(13, goons2);
+    goons1.scrollFactor.set(0, 0.9);
+    goons2.scrollFactor.set(0,0.9);
+    goons1.alpha = 0.00000000001;
+    goons2.alpha = 0.000000000001;
+
+    she.alpha = 0.00001;
+    FinaleBG.alpha = 0.0000001;
+
+
+}
+function replayCrack(){
+    crackBG.bitmap.time = 0;
+}
 function postCreate(){
-	// for(i in strumLines.members[0].members){
-	// 	i.alpha = 0;
-	// }
-	strumLines.members[0].members[0].alpha = 0;
-	strumLines.members[0].members[1].alpha = 0;
-	strumLines.members[0].members[2].alpha = 0;
-	strumLines.members[0].members[3].alpha = 0;
-	for(e in [healthBar, healthBarBG, iconP1,iconP2]){
-		e.visible = false;
-	}
-    //cutscene shit
-	desktopIn = new FlxSprite().loadGraphic(Paths.image('stages/libitina/introdesk'));
-	add(desktopIn);
-	desktopIn.screenCenter();
-	desktopIn.scale.set(1.4,1.4);
-	desktopIn.alpha = 0;
+    for(ee in [iconP1, iconP2, healthBar, healthBarBG]){
+        ee.y += 800;
+    }
+    raluca = [strumLines.members[0].characters[0],strumLines.members[0].characters[1]];
+    insert(100, raluca[0]);
+    insert(101, raluca[1]);
+    for(ee in [raluca[1], raluca[0]]){
+        ee.scrollFactor.set(0,0);
+        ee.screenCenter();
+        ee.scale.set(1.5,1.5);
+        ee.x += 80;
+        ee.y += 180;
+        
+    }
+    for(ff in [coolWindow]){
+        ff.scrollFactor.set(0,0);
+        ff.screenCenter();
+        ff.scale.set(0.0001,0.0001);
+    }
+    raluca[1].visible = false;
+    raluca[0].visible = false;
+
+    glitchShader = new CustomShader("coolseparation/libitinaGlitch");
+    FlxG.camera.addShader(glitchShader);
+    glitchShader.glitchThing = 0.0;
     
-	desktop = new FlxSprite().loadGraphic(Paths.image("stages/libitina/desktop2"));
-	add(desktop);
-	
-	desktop.screenCenter();
-	desktop.cameras = [camHUD];
-	desktop.scale.set(0.69,0.69);
-	// desktop.x += 100;
-    desktop.alpha = 0;
+    lightOverlay = new FunkinSprite().loadGraphic(Paths.image("stages/libitina/lightOverlay"));
+    lightOverlay.cameras = [camHUD];
+    lightOverlay.blend = BlendMode.ADD;
+    lightOverlay.alpha = 0.2;
+    insert(0,lightOverlay);
 
- 
-    
-	jeanprof = new FlxSprite().loadGraphic(Paths.image("stages/libitina/discordjean"));
-	jeanprof.cameras = [camHUD];
-	add(jeanprof);
-	jeanprof.screenCenter();
-	jeanprof.scale.set(1.54,1.54);
-	jeanprof.y -= 60;
-	jeanprof.x += 10;
-	jeanprof.alpha = 0;
- 
-	jeancall = new FlxSprite().loadGraphic(Paths.image("stages/libitina/discordcall"));
-	jeancall.cameras = [camHUD];
-	jeancall.screenCenter();
-	add(jeancall);
-	jeancall.scale.set(1,1);
-	jeancall.alpha = 0;	
- 
-    ralucapointing = new FlxSprite().loadGraphic(Paths.image("stages/libitina/ralucabio"));
-	ralucapointing.cameras = [camHUD];
-	ralucapointing.screenCenter();
-	ralucapointing.scale.set(1.4,1.4);
-	add(ralucapointing);
-	ralucapointing.alpha = 0;
-
-	ralucapointing2 = new FlxSprite().loadGraphic(Paths.image("stages/libitina/raloucaapontando"));
-	ralucapointing2.cameras = [camHUD];
-	ralucapointing2.screenCenter();
-	ralucapointing2.scale.set(0.8,0.8);
-	add(ralucapointing2);
-	ralucapointing2.alpha = 0;
-    
-	jeanexplains = new FlxSprite().loadGraphic(Paths.image("stages/libitina/jeanresposta"));
-	jeanexplains.cameras = [camHUD];
-	add(jeanexplains);
-    jeanexplains.screenCenter();
-	jeanexplains.alpha = 0;
-
-	jeanacusa = new FlxSprite().loadGraphic(Paths.image("stages/libitina/jeanpointing"));
-	jeanacusa.cameras = [camHUD];
-	jeanacusa.screenCenter();
-	add(jeanacusa);
-	jeanacusa.scale.set(0.8,0.8);
-    jeanacusa.alpha = 0;
-
-    ralucaassustada = new FlxSprite().loadGraphic(Paths.image("stages/libitina/ralocaerrada"));
-	add(ralucaassustada);
-	ralucaassustada.cameras = [camHUD];
-	ralucaassustada.screenCenter();
-	ralucaassustada.alpha = 0;
-    ralucaassustada.scale.set(1.4,1.4);
-
-	deusdiggo = new FlxSprite().loadGraphic(Paths.image("stages/libitina/deusdiggo"));
-	deusdiggo.cameras = [camHUD];
-	add(deusdiggo);
-	deusdiggo.screenCenter();
-	deusdiggo.scale.set(1.3,1.3);
-	deusdiggo.alpha = 0;
-
-	ralucabrava = new FlxSprite().loadGraphic(Paths.image("stages/libitina/ralucabraba"));
-	ralucabrava.cameras = [camHUD];
-	add(ralucabrava);
-	ralucabrava.screenCenter();
-	ralucabrava.scale.set(1.3,1.3);
-	ralucabrava.alpha = 0;
-	
-	vagina = new FlxSprite().loadGraphic(Paths.image("stages/libitina/elatemmsmumavagina"));
-	vagina.cameras = [camHUD];
-	vagina.screenCenter();
-	add(vagina);
-	vagina.scale.set(1.3,1.3);
-	vagina.alpha = 0;
-
-	maluca = new FlxSprite().loadGraphic(Paths.image("stages/libitina/ralucamaluca"));
-	maluca.cameras = [camHUD];
-	maluca.screenCenter();
-	maluca.scale.set(1.3,1.3);
-	add(maluca);
-	maluca.alpha = 0;
-
-    putz = new FlxSprite().loadGraphic(Paths.image("stages/libitina/raluca2"));
-	
-	putz.cameras = [camHUD];
-	putz.scale.set(2,2);
-	putz.screenCenter();
-
-	add(putz);
-	putz.alpha = 0;
-	// insert(members.indexOf(strumLines.members[0].members[0]), putz);
-
-	cursor = new FlxSprite().loadGraphic(Paths.image("stages/libitina/cursor"));
-	cursor.cameras = [camHUD];
-	add(cursor);
-	cursor.scale.set(0.4,0.4);
-	cursor.x = 1000;
-	cursor.y = -90;
-
-  
-	//end of cutscene shit
-	strumLines.members[0].characters[0].x = 200;
-	strumLines.members[0].characters[0].y = 30;
-
-	strumLines.members[0].characters[0].scale.set(2,2);
-	strumLines.members[0].characters[1].scale.set(2,2);
-	strumLines.members[0].characters[1].x = strumLines.members[0].characters[0].x;
-	strumLines.members[0].characters[1].y = strumLines.members[0].characters[0].y;
-	GOONS1.alpha = 0;
-	GOONS2.alpha = 0;
-	
-	
-	strumLines.members[0].characters[0].alpha = 0;
-	strumLines.members[0].characters[1].alpha = 0;
-	bigwindow.alpha = 0;
-	bigwindow.scale.set(0.01,0.01);
-	InfoMidwayBGInvert.alpha = 0;
-	InfoMidwayBG.alpha = 0;
-	InfoMidwayBG.scale.set (1.3,1.3);
-	InfoMidwayBGInvert.scale.set (1.3,1.3);
-	FinaleBG.alpha = 0;
-
-	// crackBG.alpha = 0;
-	    crackBG = new FlxVideoSprite(0, 0);
-		crackBG.antialiasing = true;
-		crackBG.bitmap.onFormatSetup.add(function():Void
-		{
-			crackBG.setGraphicSize(FlxG.width + 150, FlxG.height + 100);
-			crackBG.scrollFactor.set(0,0);
-			crackBG.updateHitbox();
-			crackBG.screenCenter();
-		});
-		crackBG.bitmap.onEndReached.add(crackBG.play());
-		crackBG.load(Paths.video('crackBG'), [':input-repeat=2']);
-
-	    insert(members.indexOf(bigwindow) + 1, crackBG);
-        crackBG.play();
-		crackBG.alpha = 0;
-
-   bigwindow.x = strumLines.members[0].characters[0].x;
+    ghostShader = new WiggleEffect();
+    ghostShader.effectType = WiggleEffectType.DREAMY;
+    ghostShader.waveAmplitude = 0.02;
+	ghostShader.waveFrequency = 3;
+	ghostShader.waveSpeed = 1;
+    ghostBG.shader = ghostShader.shader;
 }
 
-function postUpdate(){
-	curCameraTarget = -1;
-	if(PlayState.instance.curStep < 2915) camFollow.setPosition(600,400);
-    // bigwindow.alpha = 0;
+function swapRaluca(){
+    raluca[0].visible = !raluca[0].visible;
+    raluca[1].visible = !raluca[1].visible;
 }
-var docutscene:Bool = false;
 function stepHit(curStep){
-	if(docutscene == true){
-
-	
-	switch(curStep){
-		case 0:
-			FlxTween.tween(desktopIn, {alpha:1}, Conductor.crochet / 100, {ease:FlxEase.cubeOut});
-			
-	strumLines.members[0].members[0].alpha = 0;
-	strumLines.members[0].members[1].alpha = 0;
-	strumLines.members[0].members[2].alpha = 0;
-	strumLines.members[0].members[3].alpha = 0;
-		case 53:
-			FlxTween.tween(desktop, {alpha:1}, Conductor.crochet / 300, {ease:FlxEase.cubeOut});
-			FlxTween.tween(cursor, {alpha:1}, Conductor.crochet / 300, {ease:FlxEase.cubeOut});
-			FlxTween.tween(cursor, {y: 430, x: 80}, Conductor.crochet / 200, {ease:FlxEase.cubeOut});
-		case 78:
-			desktop.alpha = 0;
-			desktopIn.alpha = 0;
-            jeanprof.alpha = 1;		
-			FlxTween.tween(cursor, {y: 590, x: 440}, Conductor.crochet / 270, {ease:FlxEase.cubeOut, startDelay: 1});
-        case 98:
-			camHUD.fade(0xFFFFFFFF, Conductor.crochet  / 1000,true);
-			jeanprof.alpha = 0;
-			jeancall.alpha = 1;
-			desktop.alpha = 0;
-			desktopIn.alpha = 0;
-
-
-		case 124:
-			camHUD.fade(0xFF000000, Conductor.crochet  / 500,true);
-			desktop.alpha = 0;
-			desktopIn.alpha = 0;
-
-			ralucapointing.alpha = 1;
-			jeancall.alpha = 0;
-			desktop.alpha = 0;
-			cursor.alpha = 0;
-		case 148:
-			camHUD.fade(0xFF000000, Conductor.crochet  / 500,true);
-            desktop.alpha = 0;
-			cursor.alpha = 0;
-			ralucapointing.alpha = 0;
-			ralucapointing2.alpha = 1;
-		case 172:
-			camHUD.fade(0xFF000000, Conductor.crochet  / 500,true);
-			ralucapointing2.alpha = 0;
-			cursor.alpha = 0;
-			strumLines.members[0].members[0].alpha = 0;
-			strumLines.members[0].members[1].alpha = 0;
-			strumLines.members[0].members[2].alpha = 0;
-			strumLines.members[0].members[3].alpha = 0;
-     		jeanexplains.alpha = 1;
-		case 197:
-			camHUD.fade(0xFF000000, Conductor.crochet  / 500,true);
-     		jeanexplains.alpha = 0;
-			jeanacusa.alpha = 1;
-			cursor.alpha = 0;
-		case 234:
-			camHUD.fade(0xFF000000, Conductor.crochet  / 500,true);
-		    jeanacusa.alpha = 0;
-			ralucaassustada.alpha = 1;
-		case 246:
-			camHUD.fade(0xFF000000, Conductor.crochet  / 500,true);
-			ralucaassustada.alpha = 0;
-			deusdiggo.alpha = 1;
-		   
-		case 256:
-			camHUD.fade(0xFF000000, Conductor.crochet  / 500,true);
-             deusdiggo.alpha = 0;
-			 ralucabrava.alpha = 1;
-		case 266:
-			camHUD.fade(0xFF000000, Conductor.crochet  / 500,true);
-            ralucabrava.alpha = 0;
-			vagina.alpha = 1;
-			
-
-        case 272:
-			camHUD.fade(0xFF000000, Conductor.crochet  / 500,true);
-            vagina.alpha = 0;
-            putz.alpha = 1;
-		case 277: //fade out to cam game
-		
-		camHUD.fade(0xFF000000, Conductor.crochet  / 500,true);
-		// putz.alpha = 1;
-			
-
-
-
-
-	}
-	}
-	// if(curStep < 260){
-	// 	vocals.pitch = 30;
-	// 	inst.pitch = 30;
-	// } else {
-		
-	// 	vocals.pitch = 1;
-	// 	inst.pitch = 1;
-	// }
     switch(curStep){
-		case 277:
-			// camHUD.
-	strumLines.members[0].members[0].alpha = 1;
-	strumLines.members[0].members[1].alpha = 1;
-	strumLines.members[0].members[2].alpha = 1;
-	strumLines.members[0].members[3].alpha = 1;
-          bigwindow.alpha = 1;
-		//   putz.alpha = 0;
-		  FlxTween.tween(putz, {alpha: 0}, Conductor.crochet / 200);
-          FlxTween.tween(bigwindow, {"scale.x": 1.3, "scale.y": 1.3}, Conductor.crochet / 400, {ease: FlxEase.cubeOut});
-		case 295:
-			FlxG.camera.fade(0xFFFFFFFF,0.4,true);
-			strumLines.members[0].characters[0].alpha = 1;
-            bigwindow.alpha = 1;  
-		case 320:
-			FlxTween.tween(bigwindow, {"scale.x": 0.01, "scale.y": 0.01}, Conductor.crochet / 800, {ease: FlxEase.cubeIn});
+        case 348:
+            inst.pitch = FlxG.save.data.codenameCurPitch;
+            vocals.pitch = FlxG.save.data.codenameCurPitch;
+        case 364:
+            FlxTween.tween(coolWindow, {"scale.x": 1.2, "scale.y": 1.2}, 1 / inst.pitch, {ease:FlxEase.cubeOut});
+        case 384:
+            raluca[1].visible = true;
+            doFlash(0xFF333333);
+        case 640:
+            // swapRaluca();
+            // ghostBG.alpha =1;
+            coolWindow.alpha = 0.000000001;
+        case 1195:
+            FlxG.camera.fade(0xFF000000, 1 / inst.pitch, false);
+        case 1216:
+            swapRaluca();
+            FlxG.camera.fade(0xFF000000, 0.01, true);
+            ghostBG.alpha = 1;
+        case 1712:
+            staticshit.alpha = 1;
+        case 1728:
+            staticshit.alpha = 0.0001;
+            shadowmilkcookieisthatyou.alpha = 1;
+            ghostBG.alpha = 0;
+            doFlash(0xFF222222);
+        case 1984:
+            shadowmilkcookieisthatyou.alpha = 0.0001;
+            swapRaluca();
+            doFlash(0xFF222222);
+            infoBGI.alpha = 1;
+        case 2240:
+            infoBGI.alpha = 0.0001;
+            infoBG.alpha = 1;
+            swapRaluca();
+            doFlash(0xFFFFB275);
+        case 2496:
+            infoBG.alpha = 0.00001;
+            crackBG.alpha = 1;
+            crackBG.play();
+            doFlash(0xFF666666 );
+        case 3008:
+            FlxG.camera.fade(0xFF000000, 0, false);
+        case 3025:
+            FlxG.camera.fade(0xFF000000, 6 / inst.pitch, true);
+            for(eeee in [raluca[0], raluca[1], crackBG, vignette, lightOverlay]){
+                eeee.visible = false;
+            }
+            she.alpha = 1;
+            FinaleBG.alpha = 1;
+            FlxTween.tween(camSHIT, {y: 500}, 10 / inst.pitch, {ease:FlxEase.cubeOut});
+        case 3648:
+            FlxG.camera.fade(0xFF000000, 0, false);
+        case 3584:
+            goons1.alpha = 1;
+            goons2.alpha = 1;
+            doFlash(0xFF000000);
+    }
+}
+function update(elapsed){
+    if(usingShader == true){
+        glitchShader.glitchThing = FlxG.random.float(0.05,1);
+    }
+    ghostShader.update(elapsed);
+    camFollow.y = camSHIT.y;
 
-		case 552:
-			strumLines.members[0].characters[0].alpha = 0;
-			strumLines.members[0].characters[1].alpha = 1;
-            InfoMidwayBG.alpha = 1;
-		case 807:
-			FlxG.camera.fade(0xFFFFFFFF,0.4	,true);
-        case 1103:
-			FlxG.camera.fade(0xFFFFFFFF,3,false);
-        case 1127:
-			FlxG.camera.fade(0xFFFFFFFF,0.4,true);
+}
+function postUpdate(){
+    if(startingSong == false && inst.time < 40000){
+        inst.pitch = 10;
+        vocals.pitch = 10;
+    }
+}
+var disableFlash = false;
+function doFlash(colour){
+    if (disableFlash == true) return;
+    camGame.fade(colour, 0.35 / inst.pitch, true);
+}
+function shaderThing(dddd){
+    usingShader = !usingShader;
 
-		case 1081:
-			FlxG.camera.fade(0xFF000000,2,false);
-		case 1128:
-			FlxG.camera.fade(0xFF000000,0.1,true);
-			InfoMidwayBGInvert.alpha = 1;
-			InfoMidwayBG.alpha = 0;
-			strumLines.members[0].characters[0].alpha = 1;
-			strumLines.members[0].characters[1].alpha = 0;
-        case 1895:
-			strumLines.members[0].characters[0].alpha = 0;
-			strumLines.members[0].characters[1].alpha = 1;
-            InfoMidwayBG.alpha = 1;
-			FlxG.camera.fade(0xFFFFFFFF,0.4,true);
- 
-		case 2151:
-			FlxG.camera.fade(0xFFFFFFFF,0.7,true);
-        case 2391, 2395:
-			InfoMidwayBGInvert.alpha = 0;
-			FlxG.camera.fade(0xFFFFFFFF,0.2,true);
-		case 2399, 2401, 2403, 2405:
-			FlxG.camera.fade(0xFFFFFFFF,0.4,true);
-        case 2407:
-			strumLines.members[0].characters[0].alpha = 1;
-			strumLines.members[0].characters[1].alpha = 0;
-			crackBG.alpha = 1;
-			bigwindow.alpha = 0;
-
-		case 2919:
-			FlxG.camera.fade(0xFFFFFFFF,0.2,false);
-        case 2930:
-			defaultCamZoom = 1.3;
-            InfoMidwayBG.alpha = 0;
-			camFollow.setPosition(600,-200);
-		case 2944:
-			crackBG.alpha = 0;
-			strumLines.members[0].characters[0].scale.set(0.7,0.7);
-			dad.color = 0xFF000000;
-			GOONS1.alpha = 1;
-			GOONS2.alpha = 1;
-			FinaleBG.alpha = 1;
-			FlxG.camera.fade(0xFFFFFFFF,5,true);
-			strumLines.members[0].characters[0].x += 200;
-			camGame.followLerp = 0.01;
-			camFollow.setPosition(600,400);
-			GOONS1.y -= 100;
-			GOONS2.y -= 120;
-			GOONS2.x -= 190;
-        case 3359:
-			FlxG.camera.fade(0xFF000000, 5, false);
-	}
+    if(usingShader == false){
+        glitchShader.glitchThing = 0;
+    }
 }

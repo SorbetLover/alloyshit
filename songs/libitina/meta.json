@@ -1,16 +1,15 @@
 {
-	"opponentModeAllowed": false,
-	"coopAllowed": false,
-	"stepsPerBeat": 4,
-	"beatsPerMesure": 4,
-	"bpm": 100,
+	"customValues": {},
+	"color": "#553131",
+	"opponentModeAllowed": true,
+	"icon": "raloca",
 	"difficulties": [
-		"HARD"
+		"libitina"
 	],
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"displayName": "libitina",
+	"beatsPerMeasure": 4,
 	"needsVoices": true,
-	"parsedColor": -7376387,
-	"displayName": "Raluca",
-	"icon": "raluca1",
-	"name": "libitina",
-	"color": "#8F71FD"
+	"bpm": 130
 }

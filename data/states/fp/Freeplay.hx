@@ -159,6 +159,7 @@ function makeSongs(){
         songText = new Alphabet(100 , 100 + (i * edh), merda.displayName, true,false);
         add(songText);
         shits.add(songText);
+        songText.scale.set(0.8,0.8);
         icon = new HealthIcon(merda.icon, false);
         icon.x = -200;
         icon.scale.set(0.8,0.8);
@@ -386,19 +387,25 @@ function track(){
         if(i == curSelected && i != null){
             shits.members[i].alpha = 1;
             icons.members[i].alpha = 1;
-            shits.members[i].x = FlxMath.lerp(shits.members[i].x, (FlxG.width / 2 - (shits.members[i].width / 2 )), 0.2);
+            shits.members[i].x = FlxMath.lerp(shits.members[i].x, (FlxG.width / 2 - (shits.members[i].width / 2 )) - (75), 0.2);
             
         } 
-        if(i != curSelected && i != null){
-            shits.members[i].alpha = 0.4;
-            icons.members[i].alpha = 0.4;
-            
-            shits.members[i].x = FlxMath.lerp(shits.members[i].x, 30 + selAnimOF, 0.2);
-        } 
+    if (i != curSelected && i != null) {
+        shits.members[i].alpha = 0.3;
+        icons.members[i].alpha = 0.3;
+
+        var diff = i - curSelected; // negativo se for menor, positivo se maior
+        shits.members[i].x = FlxMath.lerp(
+            shits.members[i].x,
+            ((-10) + selAnimOF) * ((i + 2) - curSelected) + (50 * diff),
+            0.2
+        );
+}
+
     }
     for(i in 0...icons.members.length){
         icons.members[i].y = shits.members[i].y - (125 - (icons.members[i].height / 2)) + iconOffY;
-        icons.members[i].x = shits.members[i].x + (1 * shits.members[i].width) + 5;
+        icons.members[i].x = shits.members[i].x + (1.15 * shits.members[i].width) + 5;
     }
     
 }
