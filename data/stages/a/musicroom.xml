@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/musicroom/" name="musicroom">
+	<sprite x="-190" y="74" sprite="Music_RoomLNF" scale="1.6" name="Music_RoomLNF"/>
+	<gf/>
+	<dad y="300"/>
+	<bf y="-10"/>
+	<combo/>
+</stage>

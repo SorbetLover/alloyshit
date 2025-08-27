@@ -1,16 +1,17 @@
 {
+	"color": "#FDB071",
 	"opponentModeAllowed": true,
+	"difficulties": [
+		"hard",
+		"new",
+		"sorbetlover"
+	],
+	"icon": "lovenfunkin",
 	"coopAllowed": false,
 	"stepsPerBeat": 4,
 	"beatsPerMesure": 4,
-	"bpm": 128,
-	"difficulties": [
-		"hard","new"
-	],
-	"needsVoices": true,
-	"parsedColor": -151439,
 	"displayName": "love n funkin",
-	"icon": "lovenfunkin",
-	"name": "love n funkin",
-	"color": "#FDB071"
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 128
 }
