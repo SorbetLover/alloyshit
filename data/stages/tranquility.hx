@@ -24,9 +24,11 @@ function postCreate(){
 	wiggleEffect.waveSpeed = 1;
 
 	alleyway.shader = wiggleEffect.shader;
+
 }
 
 function postUpdate(elapsed){
+
 	if(!	startingSong)
 	wiggleEffect.update(elapsed);	
 	shader2.data.intensity += elapsed;

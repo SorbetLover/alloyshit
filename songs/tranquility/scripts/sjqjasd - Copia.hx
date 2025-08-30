@@ -8,7 +8,6 @@ var hmalpha:Float = 1;
 var campos:FlxSprite;
 function postUpdate(elapsed){
 
-
     if(movingCam == true){
         camFollow.setPosition(campos.x, campos.y);
     } else {
