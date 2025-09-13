@@ -85,7 +85,7 @@ function beatHit(curBeat)
         camFollow.setPosition(11,11);
             movingCam = true;
 			FlxTween.tween(campos, {y: camFollow.y - 550}, 0.64);
-			FlxTween.num(1, 0.2, duh, {ease:FlxEase.linear}, function(num:Float){
+			FlxTween.num(1, 0.5, duh, {ease:FlxEase.linear}, function(num:Float){
 				hmalpha = num;
 			});
 			FlxTween.tween(blackScreen, {alpha: 1}, 0.58, {

@@ -17,7 +17,7 @@ function postCreate(){
 	monBG(false, false);
 	for(e in [bgSky, bgSchool, bgStreet]){
 		e.visible = true;
-		e.color = 0xFF111111;
+		e.color = FlxG.save.data.AMOLEDSCREEN ? 0xFF333333 : 0xFF111111;
 	}
 	
 }
