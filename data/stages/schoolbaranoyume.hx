@@ -2,9 +2,9 @@ import flixel.addons.display.FlxBackdrop;
 var bgSky:FlxBackdrop;
 
 function create(){
-	// importScript("data/scripts/pixel");
         
 }
+var contrastthing:CustomShader;
 function postCreate(){
 	mbgSky = new FlxBackdrop().loadGraphic(Paths.image("stages/epiphanycross/Sky"));
 	insert(members.indexOf(BG), mbgSky);
@@ -19,7 +19,6 @@ function postCreate(){
 		e.visible = true;
 		e.color = FlxG.save.data.AMOLEDSCREEN ? 0xFF333333 : 0xFF111111;
 	}
-	
 }
 
 function monBG(v1,v2){
