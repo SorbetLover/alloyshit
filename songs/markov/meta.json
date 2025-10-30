@@ -1,16 +1,17 @@
 {
+	"color": "#C3C3C3",
 	"opponentModeAllowed": true,
+	"difficulties": [
+		"HARD",
+		"OLD",
+		"veigar"
+	],
+	"icon": "raloca",
 	"coopAllowed": false,
 	"stepsPerBeat": 4,
 	"beatsPerMesure": 4,
-	"bpm": 146,
-	"difficulties": [
-		"HARD","OLD"
-	],
+	"displayName": "Raluk-ov",
 	"needsVoices": true,
-	"parsedColor": -3947581,
-	"displayName": "Raluko-v",
-	"icon": "raloca",
-	"name": "markov",
-	"color": "#C3C3C3"
+	"beatsPerMeasure": 4,
+	"bpm": 146
 }

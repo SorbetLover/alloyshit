@@ -2,11 +2,13 @@
 import funkin.backend.utils.NativeAPI;
 import funkin.editors.charter.Charter;
 
-var manualtxt:Array = ["Trate essa sua calvice de merda com a Manual!", "Manual, a solução dos seus problemas de entradas.", "Até os clones do lule aprovam.", "O pavor de Alexandre de Morales."];
+var manualtxt:Array = ["Trate essa sua calvice de merda com a Manual!", "Manual, a solução dos seus problemas de entradas.", "Até os clones do lule aprovam.", "O pavor de Alexandre de Morales.", "Aproveite agora o cupom AG40 para 40% de desconto!"];
 function create() {
 	menuItems.insert(2, 'Change Diff');
 }
 function postCreate(){
+	// trace(menuItems);
+	remove(bg);
 	if(PlayState.instance.curSong == "bee-bush"){
 		mbg = new FlxSprite().makeGraphic(1400,200, 0xFF134445);
 		
@@ -20,7 +22,7 @@ function postCreate(){
 
 		mbg.y = manual.y - mbg.height / 2;
 
-		dd = new FlxText(580,60,700,manualtxt[FlxG.random.int(0,3)], 30);
+		dd = new FlxText(580,40,400,manualtxt[FlxG.random.int(0,manualtxt.length - 1)], 30);
 		dd.font = Paths.font("vcr.ttf");
 		dd.antialiasing = true;
 		add(dd);
