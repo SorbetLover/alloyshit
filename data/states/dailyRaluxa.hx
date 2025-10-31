@@ -38,8 +38,7 @@ function create(){
     quote.y = 40;
     add(quote);
     quote.font = Paths.font("Roboto-Light.ttf");
-    // randomq = 11;
-    FlxG.sound.play(Paths.sound("raluca/" + (randomq + 1)));
+    // randomq = 13;
     quote.resetText(falas[randomq - 1] + "\n\n $- Raluxa$");
     quote.setBorderStyle(FlxTextBorderStyle.OUTLINE, 0xFF000000, true);
     switch(randomq){
@@ -56,8 +55,12 @@ function create(){
         
 
     ]);
-
+    new FlxTimer().start(0.5, function(){
     quote.start(0.05,true, false, {});
+
+    FlxG.sound.play(Paths.sound("raluca/" + (randomq + 1)));
+
+    });
 
     cu = new FlxText(10,FlxG.height - 40,100, randomq, 20);
     cu.color = 0xFF333333;
