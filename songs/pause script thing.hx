@@ -1,4 +1,4 @@
-function postCreate(){
-	PauseSubState.script = 'data/scripts/cu2';
+// function postCreate(){
+// 	PauseSubState.script = 'data/scripts/cu2';
 
-}
+// }

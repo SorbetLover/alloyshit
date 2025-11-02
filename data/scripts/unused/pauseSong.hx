@@ -75,6 +75,7 @@ function create(event) {
             event.music = "ddto-menu";
     }
     startIconLoop();
+    othercreate();
 }
 var wichicondrop = false;
 
@@ -188,6 +189,8 @@ function postCreate(){
     for(i in [merda, merda2]){
         i.setFormat(Paths.font("notosans.ttf"), 25);
     }
+
+    otherpostCreate();
 }
 function update(elapsed){
     pitchnum = "[Y][U/I] Pitch: " + FlxG.save.data.codenameCurPitch;
@@ -199,5 +202,76 @@ function update(elapsed){
         icontween1.cancel();
         icontween2.cancel();
     }
+        if (controls.ACCEPT) {
+        if (menuItems[curSelected] == "Change Diff") {
+    	    	openSubState(new ModSubState("PauseDiffs"), true);
+
+		}
+
+    }
+
+    if(FlxG.keys.justPressed.I && !FlxG.keys.pressed.SHIFT){
+		FlxG.save.data.codenameCurPitch += 0.1;
+	}
+	if(FlxG.keys.justPressed.U && !FlxG.keys.pressed.SHIFT){
+		FlxG.save.data.codenameCurPitch -= 0.1;
+		trace("A");
+	}
+
+	if(FlxG.keys.justPressed.I && FlxG.keys.pressed.SHIFT){
+		FlxG.save.data.codenameCurPitch += 0.05;
+	}
+	if(FlxG.keys.justPressed.U  && FlxG.keys.pressed.SHIFT){
+		FlxG.save.data.codenameCurPitch -= 0.05;
+	}
+
+	if(FlxG.keys.justPressed.Y){
+		FlxG.save.data.codenameCurPitch = 1;
+	}
+
+	var fg = FlxG.keys.justPressed;
+	var maniathing = FlxG.save.data.keyCount;
+	if(fg.J){
+		maniathing -= 1;
+	}
+	if(fg.K){
+		maniathing += 1;
+	}
+
+	if(fg.H){
+		maniathing = 4;
+	}
+	if(maniathing >= 1 && maniathing <=9){
+		FlxG.save.data.keyCount = maniathing;
+	}
+
 }
 
+
+var manualtxt:Array = ["Trate essa sua calvice de merda com a Manual!", "Manual, a solução dos seus problemas de entradas.", "Até os clones do lule aprovam.", "O pavor de Alexandre de Morales.", "Aproveite agora o cupom AG40 para 40% de desconto!"];
+function othercreate() {
+	menuItems.insert(2, 'Change Diff');
+}
+function otherpostCreate(){
+	// trace(menuItems);
+	remove(bg);
+	if(PlayState.instance.curSong == "bee-bush"){
+		mbg = new FlxSprite().makeGraphic(1400,200, 0xFF134445);
+		
+		add(mbg);
+		manual = new FlxSprite().loadGraphic(Paths.image("manual"));
+		
+		add(manual);
+		manual.scale.set(2,2);
+		manual.y += 60;
+		manual.x += 200;
+
+		mbg.y = manual.y - mbg.height / 2;
+
+		dd = new FlxText(580,40,400,manualtxt[FlxG.random.int(0,manualtxt.length - 1)], 30);
+		dd.font = Paths.font("vcr.ttf");
+		dd.antialiasing = true;
+		add(dd);
+	}
+trace(FlxG.keys.enabled); // deve ser true
+}

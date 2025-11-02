@@ -9,7 +9,6 @@ var fileCheckCHARS:Array = ["dadd", "momm", "sepie"];
 function create(){
     FlxG.save.data.insubs = false;
 
-    trace(FlxG.save.data.portraitmode);
     
 }
 function postCreate(){

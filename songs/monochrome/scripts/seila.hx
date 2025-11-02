@@ -35,8 +35,12 @@ var med = false;
 var isshakin = false;
 var umm = false;
 function onStartSong(){
-    med = true;
-    FlxTween.circularMotion(windowoffsetfuck, 350, 150, 90, 0, true, 10 ,true, { ease: FlxEase.linear, type: FlxTweenType.LOOPING });
+    #if windows
+        med = true;
+        FlxTween.circularMotion(windowoffsetfuck, 350, 150, 90, 0, true, 10 ,true, { ease: FlxEase.linear, type: FlxTweenType.LOOPING });
+    #else 
+        trace("not windows lol");
+    #end
 }
 var staticthing:FunkinSprite;
 function postCreate(){
@@ -55,8 +59,10 @@ function postCreate(){
         arrowsXA.push(strumLines.members[0].members[i].x);
     }
     trace(arrowsX);
+    #if windows
     window.x = 300;
     window.y = 150;
+    #end
     staticthing = new FunkinSprite();
     staticthing.frames = Paths.getSparrowAtlas("stages/memories/static");
     staticthing.scrollFactor.set(0,0);
@@ -82,11 +88,12 @@ function postUpdate(elapsed){
     }
     _elap += elapsed;
     if(med == true){
-    window.x = windowoffsetfuck.x + (isshakin ? winoffX : 0);
-    // window.y = windowoffsetfuck.y;
-    window.y = 180 + 100 * Math.sin(_elap);
-    // winoffX = FlxMath.lerp(winoffX, 0, 0.02);
-    
+        #if windows
+            window.x = windowoffsetfuck.x + (isshakin ? winoffX : 0);
+            // window.y = windowoffsetfuck.y;
+            window.y = 180 + 100 * Math.sin(_elap);
+            // winoffX = FlxMath.lerp(winoffX, 0, 0.02);
+        #end
     }
     // if(isshakin == true) winoffX = FlxG.random.float(-10,10);
     
@@ -107,7 +114,13 @@ function postUpdate(elapsed){
 
     // staticthing.alpha = (FlxMath.lerp(staticthing.alpha * 10, 0, 0.007) / 10);
 
-
+    #if linux
+        if(isshakin == true){
+            FlxG.camera.x = FlxG.random.int(100,-100);
+        } else {
+            FlxG.camera.x = 0;
+        }
+    #end
 
 }
 function beatHit(curBeat){
