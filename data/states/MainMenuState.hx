@@ -21,17 +21,22 @@ function postCreate(){
 function update(){
     
     if(FlxG.keys.justPressed.Z){
-        FlxG.switchState(new ModState("qwe/TestStoryState"));
+        FlxG.switchState(new ModState("Test3d"));
          
     }
-    if(FlxG.keys.justPressed.X){
-        FlxG.switchState(new ModState("qwe/TestCreditState"));
+
+    // if(FlxG.keys.justPressed.Z){
+    //     FlxG.switchState(new ModState("qwe/TestStoryState"));
          
-    }
-    if(FlxG.keys.justPressed.C){
-        FlxG.switchState(new ModState("qwe/WDState"));
+    // }
+    // if(FlxG.keys.justPressed.X){
+    //     FlxG.switchState(new ModState("qwe/TestCreditState"));
          
-    }
+    // }
+    // if(FlxG.keys.justPressed.C){
+    //     FlxG.switchState(new ModState("qwe/WDState"));
+         
+    // }
     
     // if(FlxG.keys.justPressed.V){
     //     FlxG.switchState(new ModState("BruFP"));

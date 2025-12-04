@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-stage>
-<stage folder="stages/cyberhate/">
+<stage folder="stages/cyberhate/" zoom="0.7">
 	<sprite x="333" y="603.5" sprite="FNR7bfroomShadow" scale="2" name="FNR7bfroomShadow"/>
 	<gf/>
 	<dad x="-296" y="15" scale="0.3" />

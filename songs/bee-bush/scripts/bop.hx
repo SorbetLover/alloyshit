@@ -1,21 +1,10 @@
-var box0:FlxSprite;
-var box1:FlxSprite;
+
 var guh = false;
 function postCreate(){
     // player.cpu = true;
     // cpu.cpu = true;
-    if(PlayState.instance.curDifficulty == "hard"){
+    // if(PlayState.instance.curDifficulty == "hard"){
 
-    box0 = new FlxSprite(0,0).makeGraphic(7000,200, 0xFF000000);
-    add(box0);
-    box0.screenCenter();
-    box0.y = -250;
-
-    box1 = new FlxSprite(0,0).makeGraphic(7000,150, 0xFF000000);
-    add(box1);
-    box1.screenCenter();
-    box1.y = 700;
-    }
     
 }
 

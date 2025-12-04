@@ -44,6 +44,9 @@ var opptext:FlxText;
 
 var selAnimOF:Float = 0;
 var selAnimOBJ:FlxSprite;
+
+
+var brokenwarning:FlxText;
 function create(){
         // MusicBeatTransition.script = "data/scripts/blankScript.hx";
     selAnimOBJ = new FlxSprite();
@@ -120,6 +123,10 @@ function create(){
         loadDiffs();
         selAnimOBJ.x = -600;
         FlxTween.tween(selAnimOBJ, {x:0}, 0.3, {ease:FlxEase.cubeOut});
+
+        brokenwarning = new FlxText(FlxG.width - 350,500,1000, "[SONG BROKEN SORRY]", 20);
+        add(brokenwarning);
+        brokenwarning.visible = false;
 
 }
 var edh = 130;
@@ -299,6 +306,7 @@ function update(){
     }
     curSelected -= FlxG.mouse.wheel; 
 }
+var brokensongs = ["agitated_remix", "w00f", "vespers", "takeover medley"];
 function changeSelection(){
     switch(songNames[curSelected]){
         case "gears", "tranquility", "mechanical", "loaded", "w00f", "last-meow":
@@ -315,6 +323,11 @@ function changeSelection(){
 
         default:
             bg.loadGraphic(Paths.image("menus/menuDesat"));
+    }
+    if(brokensongs.contains(songNames[curSelected])){
+        brokenwarning.visible = true;
+    } else {
+        brokenwarning.visible = false;
     }
 }
 var isOpp = false;
@@ -407,6 +420,8 @@ function track(){
         icons.members[i].y = shits.members[i].y - (125 - (icons.members[i].height / 2)) + iconOffY;
         icons.members[i].x = shits.members[i].x + (1.15 * shits.members[i].width) + 5;
     }
+
+    
     
 }
 

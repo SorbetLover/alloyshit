@@ -1,17 +1,18 @@
 {
-	"beatsPerMeasure": 4,
+	"customValues": {},
+	"color": "#FFA2F7",
 	"opponentModeAllowed": false,
+	"difficulties": [
+		"HARD",
+		"abby",
+		"janja",
+		"dawgs"
+	],
+	"icon": "felipe",
 	"coopAllowed": false,
 	"stepsPerBeat": 4,
-	"bpm": 215,
-	"difficulties": [
-		"HARD","abby", "janja", "dawgs"
-	],
-	"needsVoices": true,
-	"parsedColor": -23817,
 	"displayName": "loaded",
-	"icon": "felipe",
-	"name": "loaded",
-	"color": "#FFA2F7",
-	"customValues": {}
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 215
 }

@@ -14,6 +14,7 @@ trace(boyfriend.cameraOffset.x, boyfriend.cameraOffset.y);
 boyfriend.cameraOffset = FlxPoint.weak(-60,0);
 strumLines.members[0].characters[1].x = strumLines.members[0].characters[0].x + 100; 
 strumLines.members[0].characters[1].y = strumLines.members[0].characters[1].y + 70;
+trace("merda");
 
 }
 var volcanoUsed:Bool = false;
