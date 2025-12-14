@@ -1,15 +1,15 @@
 {
 	"opponentModeAllowed": true,
 	"difficulties": [
-		"HARD"
+		"HARD",
+		"6k"
 	],
 	"icon": "remorse/upd",
-	"parsedColor": -7179779,
+	"color": "#9271FD",
 	"coopAllowed": false,
 	"stepsPerBeat": 4,
 	"displayName": "remorse",
 	"needsVoices": true,
 	"beatsPerMeasure": 4,
-	"bpm": 120,
-	"name": "remorse"
+	"bpm": 120
 }

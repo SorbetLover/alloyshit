@@ -61,7 +61,7 @@ var singDir = [
 	["LEFT", "UP", "RIGHT", "UP", "LEFT", "UP", "DOWN", "RIGHT"],
 	["LEFT", "DOWN", "UP", "RIGHT", "UP", "LEFT", "DOWN", "UP", "RIGHT"],
 ];
-
+var cancelOnThisSongs = ["remorse", "interlope"];
 function create() {
 	if(FlxG.save.data.keyCount != null){
 		mania = FlxG.save.data.keyCount;
@@ -69,9 +69,15 @@ function create() {
 	if (mania == 4 || mania == 0 || mania == null) {
 		disableScript();
 	}
+
 	if(PlayState.instance.curSong == "vespers"){
 		disableScript();
 		trace("go fuck yourself fucking error");
+	}
+
+	if(cancelOnThisSongs.contains(curSong.toLowerCase())){
+		trace("Song on the disable list. '" + curSong + "'" + "\n");
+		disableScript();
 	}
 
 }
@@ -368,7 +374,10 @@ function postCreate() {
 			var cumerda = 0;
 			switch(mania){
 				case 6:
-					cumerda = -30;
+					cumerda = -20;
+					if(FlxG.width == 1560){
+						cumerda = 80;
+					}
 				case 5:
 					cumerda = -20;
 				case 3: cumerda = 70;

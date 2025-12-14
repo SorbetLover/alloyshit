@@ -1,6 +1,6 @@
 var thealp = 0.7;
 function postCreate() {
-    scrollSpeed = 2.2;
+    scrollSpeed = 3;
     if(strumLines.members[0].members.length != 4) return;
     if (curSong != "interlope") {
         for (i in 0...strumLines.length) {

@@ -16,6 +16,11 @@ function create(e) {
 	acreate(e);
 }
 function postCreate(){
+    if(Conductor.isSorbetBuild){
+        bg.visible = false;
+    } else {
+        camera.bgColor = 0x00000000;
+    }
 	if(PlayState.instance.curSong == "bee-bush"){
 		mbg = new FlxSprite().makeGraphic(1400,200, 0xFF134445);
 		
@@ -166,7 +171,7 @@ function acreate(e) {
     icondrop2.color = 0xFF999999;
     // backdropshit.spacing.x = -14;
     // backdropshit.spacing.y = -14;
-    backdropshit.alpha = 0.8;
+    backdropshit.alpha = 0.6;
     var event = e;
     switch(PlayState.SONG.meta.name){
         default:
