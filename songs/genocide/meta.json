@@ -1,17 +1,17 @@
 {
+	"color": "#FFA05D",
 	"opponentModeAllowed": true,
+	"difficulties": [
+		"HARD",
+		"rechart",
+		"alt"
+	],
+	"icon": "abby",
 	"coopAllowed": true,
 	"stepsPerBeat": 4,
 	"beatsPerMesure": 4,
-	"bpm": 213,
-	"difficulties": [
-		"HARD"
-	],
-	"needsVoices": true,
-	"parsedColor": -24483,
 	"displayName": "genocide",
-	"icon": "abby",
-	"name": "genocide",
-	"color": "#FFA05D"
-
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 213
 }

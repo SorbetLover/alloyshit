@@ -122,6 +122,8 @@ function postUpdate(elapsed){
         }
     #end
 
+    camFollow.y = 600;
+
 }
 function beatHit(curBeat){
     if (curBeat == 384){

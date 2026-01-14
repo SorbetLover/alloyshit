@@ -20,6 +20,14 @@ function postCreate(){
 	}
 	notexs[2][0] = strumLines.members[0].members[0].y;
 	trace(notexs);
+
+
+	if(PlayState.difficulty == "jax"){
+		dad.x -= 400;
+		dad.y -= 250;
+		defaultCamZoom -= 0.2;
+		FlxG.camera.zoom = defaultCamZoom;
+	}
 }
 
 function onStrumCreation(e){

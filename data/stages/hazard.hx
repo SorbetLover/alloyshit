@@ -147,13 +147,13 @@ function addFog(i){
 }
 function stepHit(curStep){
 
-	// if(curStep > 511 && curStep % 2 == 0){
-	// 	strumLines.members[0].members[0].angle += 25;
-	// 	strumLines.members[0].members[1].angle += 25;
-	// 	strumLines.members[0].members[2].angle += 25;
-	// 	strumLines.members[0].members[3].angle += 25;
+	if(curStep > 511 && curStep % 2 == 0){
+		strumLines.members[0].members[0].angle += 25;
+		strumLines.members[0].members[1].angle += 25;
+		strumLines.members[0].members[2].angle += 25;
+		strumLines.members[0].members[3].angle += 25;
 
-    // }
+    }
 	switch(curStep){
 		case 496:
 			hazardBlack.alpha = 0.6;
@@ -192,13 +192,13 @@ function stepHit(curStep){
 }
 
 function postCreate() {
-			// for (sl in strumLines.members){
-			//     for (s in sl.members){
-			//         s.noteAngle = 0;
-			// 	    s.forceIsOnScreen = true;
+			for (sl in strumLines.members){
+			    for (s in sl.members){
+			        s.noteAngle = 0;
+				    s.forceIsOnScreen = true;
 				
-			// 	}
-			// }
+				}
+			}
  	for(eu in [healthBar, healthBarBG, iconP1, iconP2]){
 	eu.alpha = 0;
  	}

@@ -30,6 +30,8 @@ function postCreate(){
 
 	skew.yrot = 0;
 	skew.xrot = 0;
+	skew.zpos = 0;
+	skew.xpos = 0;
 	#end
 	upd = strumLines.members[0].characters[0]; 
 	upd1 = strumLines.members[0].characters[1];
@@ -87,11 +89,17 @@ var scrollLerp = 0.01;
 var dizzy = false;
 var delta = 0;
 var goup = false;
+var isOpp = false;
 var intendedScrollSpeed = 2;
 function postUpdate(elapsed){
+
+	isOpp = !strumLines.members[0].cpu;
+	// trace(isOpp);
 	#if !android
 	skew.yrot = FlxMath.lerp(skew.yrot, 0, 0.05);
 	skew.xrot = FlxMath.lerp(skew.xrot, 0, 0.05);
+	skew.zpos = FlxMath.lerp(skew.zpos, 0, 0.05);
+	skew.xpos = FlxMath.lerp(skew.xpos, 0, 0.01);
 	#end
 	// scrollSpeed = intendedScrollSpeed;
 	delta += elapsed;
@@ -101,22 +109,22 @@ function postUpdate(elapsed){
 	}
 	if(dizzy == true){
 		unbindthestrums = true;
-		var thestrum = PlayState.instance.opponentMode ? 0 : 1; 
+		var thestrum = isOpp ? 0 : 1; 
 		for(i in [thestrum]){
 			for(e in 0...mania){
 				
 				if(e % 2 == 0){
-					strd[i].members[e].x = ((((FlxG.width / mania) -50) * e) + 180) + 20 * Math.cos(delta);
-					strd[i].members[e].y = strumpos[1][0] + 20 * Math.sin(delta);
+					strd[i].members[e].x = ((((FlxG.width / mania) -50) * e) + 180) + 20 * Math.cos(delta - (e / 1));
+					strd[i].members[e].y = strumpos[1][0] + 20 * Math.sin(delta + (e / 1));
 				} else {
-					strd[i].members[e].y = strumpos[1][0] + 20 * Math.cos(delta);
-					strd[i].members[e].x = ((((FlxG.width / mania) -50) * e) + 180) + 20 * Math.sin(delta);
+					strd[i].members[e].y = strumpos[1][0] + 20 * Math.cos(delta + (e / 1));
+					strd[i].members[e].x = ((((FlxG.width / mania) -50) * e) + 180) + 20 * Math.sin(delta + (e / 1));
 	
 				}
 			}
 		}
 			for(e in 0...mania){
-				strd[PlayState.instance.opponentMode ? 1 : 0].members[e].y = 1000;
+				strd[isOpp ? 1 : 0].members[e].y = 1000;
 			}
 
 	} else {
@@ -156,10 +164,12 @@ function postUpdate(elapsed){
 	if(PlayState.instance.curStep == 1540){
 		camHUD.fade(0xFF000000, 1, false);
 	}
+	strumLines.members[2].cpu = true;
 }
 var uh = false;
 var u2h = false;
 var u3h = false;
+var stra:Bool = false;
 function stepHit(curStep){
 	switch(curStep){
 		case 256:
@@ -181,8 +191,8 @@ function stepHit(curStep){
 			dizzy = false; 
 			
 			for(e in 0...mania){
-				strd[PlayState.instance.opponentMode ? 1 : 0].members[e].y = strumpos1[1][0];
-				strd[PlayState.instance.opponentMode ? 1 : 0].members[e].x = strd[PlayState.instance.opponentMode ? 0 : 1].members[e].x;
+				strd[isOpp ? 1 : 0].members[e].y = strumpos1[1][0];
+				strd[isOpp ? 1 : 0].members[e].x = strd[isOpp ? 0 : 1].members[e].x;
 			}
 			
 			lightzY.alpha = 1;
@@ -233,6 +243,7 @@ function stepHit(curStep){
 	}
 	#end
 }
+var cu2:Bool = false;
 function onNoteHit(e){
 	if(e.character.curCharacter == "disablethis"){
 		trace(e.direction);
@@ -243,6 +254,9 @@ function onNoteHit(e){
 				goup = !goup;
 			case 2:
 				speedBeat();
+				skew.zpos += cu2 ? 0.2 : -0.05;
+				skew.xpos += cu2 ? 0.2 : -0.2;
+				cu2 = !cu2;
 		}
 	}
 }
@@ -251,7 +265,7 @@ function onStrumCreation(e){
 	e.cancelAnimation();
 }
 function speedBeat(){
-	scrollSpeed -= 2;
+	scrollSpeed -= isOpp ? 1.25 : 2;
 	scrollLerp = 0.002;
 }
 function strumBeat(){

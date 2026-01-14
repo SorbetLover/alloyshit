@@ -1,15 +1,14 @@
 {
+	"color": "#9271FD",
 	"opponentModeAllowed": true,
 	"difficulties": [
 		"HARD"
 	],
 	"icon": "babs",
-	"parsedColor": -7179779,
 	"coopAllowed": true,
 	"stepsPerBeat": 4,
 	"displayName": "babssneed",
 	"needsVoices": true,
 	"beatsPerMeasure": 4,
-	"bpm": 160,
-	"name": "babssneed"
+	"bpm": 160
 }
