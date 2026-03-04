@@ -5,7 +5,7 @@ var bf;
 var bf1;
 
 var mania:Int = 4;
-#if !android
+#if linux
 var skew:CustomShader;
 #end
 var strumpos:Array = [[], []];
@@ -25,7 +25,7 @@ function postCreate(){
 	iconP2.visible = false;
 	iconP1.visible = false;
 	healthBarBG.visible = false;
-	#if !android
+	#if linux
 	camHUD.addShader(skew = new CustomShader("3D"));
 
 	skew.yrot = 0;
@@ -95,7 +95,7 @@ function postUpdate(elapsed){
 
 	isOpp = !strumLines.members[0].cpu;
 	// trace(isOpp);
-	#if !android
+	#if linux
 	skew.yrot = FlxMath.lerp(skew.yrot, 0, 0.05);
 	skew.xrot = FlxMath.lerp(skew.xrot, 0, 0.05);
 	skew.zpos = FlxMath.lerp(skew.zpos, 0, 0.05);
@@ -203,7 +203,7 @@ function stepHit(curStep){
 			bf.alpha = 1;
 			bf1.alpha = 0;
 	}
-	#if !android
+	#if linux
 	if(curStep % 4 == 0 && curStep >= 384 && curStep <= 511){
 		if(uh == false){
 			skew.yrot = -0.1;
