@@ -1,5 +1,5 @@
 function postCreate(){
-    for(i in [monark, gabriel, mamaefalei, mcpipokinha, felca]){
+    for(i in [monark, gabriel, mamaefalei, mcpipokinha]){
         i.animation.stop();
         // i.color = 0xFF999999;
     }
@@ -21,7 +21,7 @@ function beatHit(curBeat){
             i.animation.play("idle");
         }
     } else {
-        for(i in [monark,mamaefalei,  felca]){
+        for(i in [monark,mamaefalei]){
             i.animation.play("idle");
         }
         

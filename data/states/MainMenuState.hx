@@ -1,6 +1,6 @@
 // import flixel.addons.ui.FlxUI;
 import lime.utils.Assets;
-
+import flixel.input.gamepad.FlxGamepad;
 import flixel.FlxG;
 import flixel.FlxState;
 import flixel.text.FlxText;
@@ -19,7 +19,9 @@ function postCreate(){
     }
 }
 function update(){
-    
+    if(FlxG.gamepads.anyJustPressed([106,0,107])){
+        trace("du");
+    }
     if(FlxG.keys.justPressed.Z){
         FlxG.switchState(new ModState("Test3d"));
          

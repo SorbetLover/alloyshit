@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/garcello/" name="garcello" zoom="0.8">
+	<sprite x="-572" sprite="garStagebgRise" y="-146" type="none" name="fg" scroll="0.8"/>
+	<sprite x="-562.542728143964" sprite="garStageRise" y="-270.271925253525" type="none" name="bg"/>
+	<girlfriend/>
+	<dad x="-100" y="-30"/>
+	<boyfriend/>
+</stage>

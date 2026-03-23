@@ -1,7 +1,7 @@
 import flixel.util.FlxColor;
 var crowda:FlxSprite;
 var the2:Bool = false;
-
+var cudd:CustomShader;
 function onDadHit(){
 	if(the2 == false){		
 	camFollow.setPosition(1200, 1750);
@@ -43,8 +43,16 @@ switch(PlayState.SONG.meta.displayName){
     	
 
 	}
+	bgshitd = new FunkinSprite().makeGraphic(1280,720,0xFF000000);
+	bgshitd.scrollFactor.set(0,0);
+	insert(members.indexOf(yuri) + 1, bgshitd);
+	bgshitd.screenCenter();
+
+	// cudd = new CustomShader("esqi");
+	// bgshitd.shader = cudd;
+	// cudd.iTime = 0;
 }
-function postUpdate(){
+function postUpdate(elapsed){
 
 	if(strumLines.members[0].characters[0].getAnimName() != "idle" && strumLines.members[1].characters[0].getAnimName() != "idle"){
 		the2 = true;
@@ -55,6 +63,8 @@ function postUpdate(){
 	}
 
     curCameraTarget = -1;
+
+	// cudd.iTime += elapsed;
 
 }
 

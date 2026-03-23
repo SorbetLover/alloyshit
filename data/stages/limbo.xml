@@ -8,6 +8,6 @@
 	<sprite x="-380.5" y="-149.25" sprite="gabriel" type="none" scale="0.57" name="gabriel"/>
 	<sprite x="779.75" y="-107.25" sprite="mamaefalei" type="none" scale="0.67" name="mamaefalei"/>
 	<sprite x="-546.5" y="-168.25" sprite="mcpipokinha" type="none" scale="0.7" name="mcpipokinha"/>
-	<sprite x="248.5" y="-175.25" sprite="felca" type="none" scale="0.6" name="felca"/>
+	<!-- <sprite x="248.5" y="-175.25" sprite="bosta" type="none" scale="0.6" name="bosta"/> -->
 		<dad x="300" y="200"/>
 </stage>

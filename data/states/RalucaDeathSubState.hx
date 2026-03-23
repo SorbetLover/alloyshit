@@ -24,7 +24,7 @@ function create(){
     raluD.antialiasing = true;
     raluD.bitmap.onFormatSetup.add(function():Void
     {
-        raluD.setGraphicSize(FlxG.width, FlxG.height);
+        raluD.setGraphicSize(1280, 720);
         raluD.scrollFactor.set(0,0);
         raluD.updateHitbox();
         raluD.screenCenter();
@@ -48,9 +48,9 @@ function create(){
     raluca.cameras = [camHUD];
     raluD.cameras = [camHUD];
     raluca.alpha = 0;
-    
+    raluca.screenCenter();
     raluD.autoVolumeHandle = false;
-    raluD.bitmap.volume = 200;
+    raluD.bitmap.volume = 100;
 
 
 
@@ -65,10 +65,10 @@ function create(){
 
     subtitle = new FlxText(200,300,800, "*risada*", 20);
     subtitle.cameras = [camHUD];
-    add(subtitle);
+    // add(subtitle);
     subtitle.screenCenter();
     subtitle.y += 200;
-    subtitle.setFormat(Paths.font("notosans .ttf"), 30);
+    subtitle.setFormat(Paths.font("notosans .ttf"), 20);
     subtitle.borderColor = 0xFF000000;
     subtitle.borderQuality = 3;
     subtitle.borderSize = 3;

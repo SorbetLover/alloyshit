@@ -6,7 +6,6 @@ var cube:Mesh;
 var scene3D:Flx3DView;
 function create() {
     cube = new Mesh();
-    cube2 = new Mesh();
  
 
     scene3D = new Flx3DView(0, 0, FlxG.width / 2 , FlxG.height / 2); // This is what's creating the 3D world
@@ -16,26 +15,14 @@ function create() {
     add(scene3D); // The 3D View works just like any other sprite so it will have to be added like one
     scene3D.addChild(cube);
     
-    scene3D.addModel(Paths.dae('nyanses'), function(model){
+    scene3D.addModel(Paths.obj('NyansesOBJ/Nyanses'), function(model){
         if(Std.string(model.asset.assetType) == 'mesh'){
-            model.asset.scale(80);
+            model.asset.scale(40);
             model.asset.y -= 100;
             model.asset.z -= 300;
-            model.asset.x = -300;
-            model.asset.rotationX = 90;
             cube = model.asset;
         }
-    }, Paths.image("models/y804000_01"), false);
-
-    scene3D.addModel(Paths.obj('obj/Nyanses'), function(model){
-        if(Std.string(model.asset.assetType) == 'mesh'){
-            model.asset.scale(80);
-            model.asset.y -=300;
-            model.asset.z = 0;
-            model.asset.x = 300;
-            cube2 = model.asset;
-        }
-    }, Paths.image("models/y804000_01"), false);
+    }, Paths.image("models/nyanses/y804000_01"), false);
 
 }
 
