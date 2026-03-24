@@ -1,8 +1,11 @@
 <!DOCTYPE codename-engine-stage>
 <stage folder="stages/garcello/" name="garcello" zoom="0.8">
-	<sprite x="-572" sprite="garStagebgRise" y="-146" type="none" name="fg" scroll="0.8"/>
+	<sprite x="-572" scroll="0.8" sprite="garStagebgRise" y="-146" type="none" name="fg"/>
 	<sprite x="-562.542728143964" sprite="garStageRise" y="-270.271925253525" type="none" name="bg"/>
+	<sprite x="-151.623907162847" sprite="yokaifreaks" y="-252.706511938078" type="none" name="bgfreaks"/>
 	<girlfriend/>
 	<dad x="-100" y="-30"/>
 	<boyfriend/>
+	<character camxoffset="-200" x="800" y="80" scale="0.7" flipX="true" name="gt/ridleyplayer"/>
+	<character camxoffset="-200" x="600" flipX="true" name="ralocav2"/>
 </stage>
