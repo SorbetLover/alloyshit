@@ -158,7 +158,12 @@ function makeSongs(){
         // diffs[i] = [];
         // diffs[i].push(merda.difficulties);
         songNames.push(merda.name);
-        colors.push(merda.parsedColor);
+        if(merda.parsedColor == null){
+            colors.push(merda.color);
+        } else {
+            colors.push(merda.parsedColor);
+            
+        }
         bpms.push(merda.bpm);
         bms.push(merda.beatsPerMeasure);
         spm.push(merda.stepsPerMeasure);

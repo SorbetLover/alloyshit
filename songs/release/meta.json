@@ -1,11 +1,10 @@
 {
 	"opponentModeAllowed": false,
-	"icon": "face",
+	"icon": "kyubih",
 	"difficulties": [
-		"hard",
-		"release--hard"
+		"hard"
 	],
-	"color": "#9271FD",
+	"color": "#B562FF",
 	"coopAllowed": false,
 	"stepsPerBeat": 4,
 	"displayName": "release",
