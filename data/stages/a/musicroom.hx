@@ -41,9 +41,9 @@ for(i in [sideWindow, poemVideo]){
 	chars[0].x -= 100;
 	
 	
-	chars[2].x -= 100;
-	chars[2].scale.set(0.6,0.6);
-	chars[2].y -= 400;
+	chars[2].x -= 250;
+	chars[2].scale.set(0.8,0.8);
+	chars[2].y -= 230;
 	chars[2].x -= 50;
 	
 	chars[3].x -= 700;
@@ -57,7 +57,7 @@ for(i in [sideWindow, poemVideo]){
 		lastPOSX[i] = strumLines.members[i].characters[0].x;
 		lastPOSY[i] = strumLines.members[i].characters[0].y;
 	}
-	for(i in ["janja", "wrench", "felcca"]){
+	for(i in ["janja", "wrench", "kyubih"]){
 		var morradusannemec = new HealthIcon(i, false);
 		add(morradusannemec);
 		iconshit.push(morradusannemec);
@@ -155,7 +155,7 @@ function stepHit(curStep){
         case 503:
 			FlxTween.tween(strumLines.members[3].characters[0], {x: -600, y: -1000}, Conductor.crochet / 500, {ease:FlxEase.cubeIn}); 	
 
-	    	FlxTween.tween(strumLines.members[2].characters[0], {x: -100, y: -100}, Conductor.crochet / 500, {ease:FlxEase.cubeOut, startDelay: Conductor.crochet / 900}); 	
+	    	FlxTween.tween(strumLines.members[2].characters[0], {x: -200, y: -200}, Conductor.crochet / 500, {ease:FlxEase.cubeOut, startDelay: Conductor.crochet / 900}); 	
 		case 640:
 
 			poemVideo.alpha = 0;

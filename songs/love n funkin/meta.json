@@ -9,8 +9,8 @@
 	"icon": "lovenfunkin",
 	"coopAllowed": false,
 	"stepsPerBeat": 4,
-	"beatsPerMesure": 4,
 	"displayName": "love n funkin",
+	"beatsPerMesure": 4,
 	"needsVoices": true,
 	"beatsPerMeasure": 4,
 	"bpm": 128
