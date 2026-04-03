@@ -202,6 +202,9 @@ function loadDiffs(){
 var iconBeatScl = 0.8;
 var iconBeatRot = 0;
 function update(){
+    if(diffs.length <= 0){
+        loadDiffs();
+    }
     selAnimOF = selAnimOBJ.x;
     // backdropshit.angle = backdropshit.velocity.degrees;
     opptext.text = "[TAB] " + opponentshit[ops];
@@ -278,9 +281,9 @@ function update(){
         
         trace("ADDED " + curSection);
     }
-    if(FlxG.keys.justPressed.SEVEN){
-                FlxG.switchState(new Charter(songNames[curSelected],diffs[curDiff], true));
-    }
+    // if(FlxG.keys.justPressed.SEVEN){
+    //             FlxG.switchState(new Charter(songNames[curSelected],diffs[curDiff], true));
+    // }
     if(FlxG.keys.justPressed.SPACE){
 					FlxG.sound.playMusic(Paths.inst(songNames[curSelected], diffs[curDiff]), 1);
 					Conductor.changeBPM(bpms[curSelected], bms[curSelected], spm[curSelected]);
@@ -329,10 +332,13 @@ function changeSelection(){
         default:
             bg.loadGraphic(Paths.image("menus/menuDesat"));
     }
+    if(brokenwarning != null){
+
     if(brokensongs.contains(songNames[curSelected])){
         brokenwarning.visible = true;
     } else {
         brokenwarning.visible = false;
+    }
     }
 }
 var isOpp = false;
