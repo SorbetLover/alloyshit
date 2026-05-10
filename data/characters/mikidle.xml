@@ -1,4 +1,0 @@
-<!DOCTYPE codename-engine-character>
-<character sprite="gt/mek" icon="gt/miko">
-	<anim name="idle" anim="idle0" x="0" y="0" fps="24" loop="false"/>
-</character>

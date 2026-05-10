@@ -9,7 +9,7 @@
 		"miko",
 		"ridley"
 	],
-	"icon": "diamantepreto",
+	"icon": "sorbetlover/diamantepreto",
 	"coopAllowed": true,
 	"stepsPerBeat": 4,
 	"displayName": "Black Chrome",

@@ -1,16 +1,17 @@
 {
+	"color": "#FD71FC",
 	"opponentModeAllowed": true,
+	"difficulties": [
+		"HARD",
+		"raluca",
+		"HARD+"
+	],
+	"icon": "fnr/gifpissed",
 	"coopAllowed": false,
 	"stepsPerBeat": 4,
-	"beatsPerMesure": 4,
-	"bpm": 320,
-	"difficulties": [
-		"HARD", "raluca", "HARD+"
-	],
-	"needsVoices": true,
-	"parsedColor": -167428,
 	"displayName": "broken-heartware",
-	"icon": "gifpissed",
-	"name": "broken-heartware",
-	"color": "#FD71FC"
+	"beatsPerMesure": 4,
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 320
 }

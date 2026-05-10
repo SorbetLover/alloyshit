@@ -1,15 +1,15 @@
 {
+	"color": "#9271FD",
 	"opponentModeAllowed": true,
 	"difficulties": [
-		"HARD", "dogs"
+		"HARD",
+		"dogs"
 	],
-	"icon": "ralucoejean",
-	"parsedColor": -7179779,
+	"icon": "sorbetlover/ralucoejean",
 	"coopAllowed": true,
 	"stepsPerBeat": 4,
 	"displayName": "prey",
 	"needsVoices": true,
 	"beatsPerMeasure": 4,
-	"bpm": 176,
-	"name": "prey"
+	"bpm": 176
 }

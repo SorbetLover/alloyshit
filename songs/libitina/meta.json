@@ -2,7 +2,7 @@
 	"customValues": {},
 	"color": "#553131",
 	"opponentModeAllowed": true,
-	"icon": "raloca",
+	"icon": "sorbetlover/raloca",
 	"difficulties": [
 		"libitina"
 	],

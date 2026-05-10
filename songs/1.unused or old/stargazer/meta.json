@@ -1,0 +1,12 @@
+{
+	"opponentModeAllowed": true,
+	"icon": "maginage/abby",
+	"parsedColor": -7179779,
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"displayName": "stargazer",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 180,
+	"name": "stargazer"
+}

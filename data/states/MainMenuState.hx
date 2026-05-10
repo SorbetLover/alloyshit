@@ -27,10 +27,10 @@ function update(){
          
     }
 
-    // if(FlxG.keys.justPressed.Z){
-    //     FlxG.switchState(new ModState("qwe/TestStoryState"));
-         
-    // }
+    if(FlxG.keys.justPressed.Z){
+        // FlxG.switchState(new ModState("qwe/TestStoryState"));
+        FlxG.switchState(new ModState("fp2/state"));
+    }
     // if(FlxG.keys.justPressed.X){
     //     FlxG.switchState(new ModState("qwe/TestCreditState"));
          

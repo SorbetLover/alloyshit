@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-character>
-<character sprite="babs/spoon" camy="120" isPlayer="true" icon="core" holdTime="6.1" isGF="false">
+<character sprite="babs/spoon" camy="120" isPlayer="true" icon="babs/core" holdTime="6.1" isGF="false">
 	<anim name="idle" anim="silver idle" x="0" y="0" fps="24" loop="false"/>
 	<anim name="mine" anim="silver mine" x="-15" y="35" fps="24" loop="false"/>
 	<anim name="slide" anim="silver slidein" x="21" y="383" fps="24" loop="false"/>

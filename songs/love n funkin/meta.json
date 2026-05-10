@@ -6,11 +6,11 @@
 		"new",
 		"sorbetlover"
 	],
-	"icon": "lovenfunkin",
+	"icon": "ddto/lovenfunkin",
 	"coopAllowed": false,
 	"stepsPerBeat": 4,
-	"displayName": "love n funkin",
 	"beatsPerMesure": 4,
+	"displayName": "love n funkin",
 	"needsVoices": true,
 	"beatsPerMeasure": 4,
 	"bpm": 128

@@ -1,16 +1,15 @@
 {
+	"color": "#FD71FC",
 	"opponentModeAllowed": true,
-	"coopAllowed": false,
-	"stepsPerBeat": 4,
-	"beatsPerMesure": 4,
-	"bpm": 159,
 	"difficulties": [
 		"HARD"
 	],
-	"needsVoices": true,
-	"parsedColor": -167428,
+	"icon": "fever/scarlet",
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
 	"displayName": "mechanical",
-	"icon": "scarlet",
-	"name": "mechanical",
-	"color": "#FD71FC"
+	"beatsPerMesure": 4,
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 159
 }

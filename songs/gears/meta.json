@@ -1,17 +1,16 @@
 {
-	"beatsPerMeasure": 4,
+	"customValues": {},
+	"color": "#C82900",
 	"opponentModeAllowed": false,
+	"difficulties": [
+		"hard",
+		"dogs"
+	],
+	"icon": "sorbetlover/raloca",
 	"coopAllowed": false,
 	"stepsPerBeat": 4,
-	"bpm": 250,
-	"difficulties": [
-		"hard", "dogs"
-	],
-	"needsVoices": true,
-	"parsedColor": -3659520,
 	"displayName": "gears",
-	"icon": "raloca",
-	"name": "gears",
-	"color": "#C82900",
-	"customValues": {}
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 250
 }

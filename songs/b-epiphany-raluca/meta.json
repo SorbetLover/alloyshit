@@ -2,7 +2,7 @@
 	"color": "#71FD7B",
 	"freeplaybg": "bigmonika",
 	"opponentModeAllowed": true,
-	"icon": "ralucoejean",
+	"icon": "sorbetlover/ralucoejean",
 	"difficulties": [
 		"HARD"
 	],

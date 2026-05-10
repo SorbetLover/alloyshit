@@ -1,16 +1,15 @@
 {
+	"color": "#B6F5FF",
 	"opponentModeAllowed": true,
-	"coopAllowed": true,
-	"stepsPerBeat": 4,
-	"beatsPerMesure": 4,
-	"bpm": 185,
 	"difficulties": [
 		"HARD"
 	],
-	"needsVoices": true,
-	"parsedColor": -4786689,
+	"icon": "maginage/abby",
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"beatsPerMesure": 4,
 	"displayName": "its-complicated",
-	"icon": "abby",
-	"name": "its-complicated",
-	"color": "#B6F5FF"
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 185
 }

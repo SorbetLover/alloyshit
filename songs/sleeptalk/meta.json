@@ -1,16 +1,15 @@
 {
+	"color": "#000000",
 	"opponentModeAllowed": false,
-	"coopAllowed": false,
-	"stepsPerBeat": 4,
-	"beatsPerMesure": 4,
-	"bpm": 90,
 	"difficulties": [
 		"HARD"
 	],
-	"needsVoices": true,
-	"parsedColor": -16777216,
+	"icon": "sorbetlover/raloca",
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"beatsPerMesure": 4,
 	"displayName": "sleeptalk",
-	"icon": "raloca",
-	"name": "sleeptalk",
-	"color": "#000000"
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 90
 }

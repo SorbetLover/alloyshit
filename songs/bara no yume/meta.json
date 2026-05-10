@@ -1,17 +1,15 @@
 {
-	"beatsPerMeasure": 4,
+	"customValues": {},
+	"color": "#FFA2F3",
 	"opponentModeAllowed": true,
-	"coopAllowed": false,
-	"stepsPerBeat": 4,
-	"bpm": 160,
 	"difficulties": [
 		"HARD"
 	],
-	"needsVoices": true,
-	"parsedColor": -23821,
+	"icon": "ddto/duet",
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
 	"displayName": "bara no yume",
-	"icon": "duet",
-	"name": "bara no yume",
-	"color": "#FFA2F3",
-	"customValues": {}
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 160
 }

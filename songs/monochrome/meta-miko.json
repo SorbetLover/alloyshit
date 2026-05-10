@@ -1,7 +1,7 @@
 {
 	"displayName": "Miko Chrome",
 	"bpm": 160.0,
-	"icon": "diamantepreto",
+	"icon": "sorbetlover/diamantepreto",
 	"color": "#333333",
 	"difficulties": [
 		"hard","ENG", "alt", "miko"

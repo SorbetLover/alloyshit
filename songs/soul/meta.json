@@ -1,16 +1,16 @@
 {
+	"color": "#C6C5C5",
 	"opponentModeAllowed": true,
+	"difficulties": [
+		"hard",
+		"6k"
+	],
+	"icon": "staticmemories/pump",
 	"coopAllowed": true,
 	"stepsPerBeat": 4,
 	"beatsPerMesure": 4,
-	"bpm": 90,
-	"difficulties": [
-		"hard", "6k"
-	],
-	"needsVoices": true,
-	"parsedColor": -3750459,
 	"displayName": "soul",
-	"icon": "pump",
-	"name": "soul",
-	"color": "#C6C5C5"
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 90
 }

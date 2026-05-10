@@ -4,7 +4,7 @@
 	"difficulties": [
 		"HARD"
 	],
-	"icon": "babs",
+	"icon": "babs/babs",
 	"coopAllowed": true,
 	"stepsPerBeat": 4,
 	"displayName": "babssneed",

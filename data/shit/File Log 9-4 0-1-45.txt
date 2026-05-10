@@ -1,1 +1,0 @@
-  IMGS:[alphabet,test/merda,test/merda2]  CHARS:[dadd,momm,sepie]

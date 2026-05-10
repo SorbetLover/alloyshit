@@ -1,8 +1,0 @@
-<!DOCTYPE codename-engine-character>
-<character icon="kyubih" color="#64FFFF" holdTime="6.1">
-	<anim name="idle" anim="idle"/>
-	<anim name="singUP" anim="up" x="-12" y="-1"/>
-	<anim name="singLEFT" anim="left" x="49" y="-3"/>
-	<anim name="singRIGHT" anim="right" x="-25" y="14"/>
-	<anim name="singDOWN" anim="down" x="218" y="-11"/>
-</character>

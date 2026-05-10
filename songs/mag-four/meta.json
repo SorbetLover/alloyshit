@@ -1,17 +1,15 @@
 {
-	"beatsPerMeasure": 4,
+	"customValues": {},
+	"color": "#FF9652",
 	"opponentModeAllowed": false,
-	"coopAllowed": false,
-	"stepsPerBeat": 4,
-	"bpm": 218,
 	"difficulties": [
 		"HARD"
 	],
-	"needsVoices": true,
-	"parsedColor": -27054,
+	"icon": "sorbetlover/raloca",
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
 	"displayName": "mag-four",
-	"icon": "raloca",
-	"name": "mag-four",
-	"color": "#FF9652",
-	"customValues": {}
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 218
 }

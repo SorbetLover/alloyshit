@@ -1,16 +1,15 @@
 {
+	"color": "#8771FD",
 	"opponentModeAllowed": true,
-	"coopAllowed": false,
-	"stepsPerBeat": 4,
-	"beatsPerMesure": 4,
-	"bpm": 200,
 	"difficulties": [
 		"hard"
 	],
-	"needsVoices": true,
-	"parsedColor": -7900675,
+	"icon": "sorbetlover/core",
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"beatsPerMesure": 4,
 	"displayName": "home of core",
-	"icon": "core",
-	"name": "home",
-	"color": "#8771FD"
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 200
 }

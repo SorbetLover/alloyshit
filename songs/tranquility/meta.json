@@ -5,7 +5,7 @@
 	"difficulties": [
 		"HARD"
 	],
-	"icon": "raloca",
+	"icon": "sorbetlover/raloca",
 	"coopAllowed": true,
 	"stepsPerBeat": 4,
 	"displayName": "tranquility",

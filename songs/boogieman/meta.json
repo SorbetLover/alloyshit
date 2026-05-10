@@ -1,16 +1,15 @@
 {
+	"color": "#352F4E",
 	"opponentModeAllowed": true,
-	"coopAllowed": false,
-	"stepsPerBeat": 4,
-	"beatsPerMesure": 4,
-	"bpm": 150,
 	"difficulties": [
 		"HARD"
 	],
-	"needsVoices": true,
-	"parsedColor": -13291698,
+	"icon": "twins/boogiepersons",
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"beatsPerMesure": 4,
 	"displayName": "boogieman",
-	"icon": "boogiepersons",
-	"name": "boogieman",
-	"color": "#352F4E"
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 150
 }

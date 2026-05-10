@@ -1,16 +1,15 @@
 {
+	"color": "#A9A9AA",
 	"opponentModeAllowed": false,
-	"coopAllowed": true,
-	"stepsPerBeat": 4,
-	"beatsPerMesure": 4,
-	"bpm": 140,
 	"difficulties": [
 		"HARD"
 	],
-	"needsVoices": true,
-	"parsedColor": -5658198,
+	"icon": "sorbetlover/raloca",
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"beatsPerMesure": 4,
 	"displayName": "bzavodila",
-	"icon": "raloca",
-	"name": "bzavodila",
-	"color": "#A9A9AA"
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 140
 }

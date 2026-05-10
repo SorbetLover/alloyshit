@@ -1,16 +1,16 @@
 {
+	"customValues": {},
+	"color": "#000000",
 	"opponentModeAllowed": true,
-	"coopAllowed": true,
-	"stepsPerBeat": 4,
-	"beatsPerMesure": 4,
-	"bpm": 195,
 	"difficulties": [
 		"Hard"
 	],
-	"needsVoices": true,
-	"parsedColor": -11842741,
+	"icon": "fever/wee",
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
 	"displayName": "Last Meow",
-	"icon": "wee",
-	"name": "last-meow",
-	"color": "#000000"
+	"beatsPerMesure": 4,
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 195
 }

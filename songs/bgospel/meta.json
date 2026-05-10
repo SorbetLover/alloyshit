@@ -1,16 +1,15 @@
 {
+	"color": "#F434FE",
 	"opponentModeAllowed": true,
-	"icon": "raloca",
+	"icon": "sorbetlover/raloca",
 	"difficulties": [
 		"hard"
 	],
-	"parsedColor": -772866,
-	"color": "#F434FE",
-	"name": "bgospel",
 	"coopAllowed": false,
 	"stepsPerBeat": 4,
 	"displayName": "B Gospel",
 	"beatsPerMesure": 4,
 	"needsVoices": true,
+	"beatsPerMeasure": 4,
 	"bpm": 152
 }

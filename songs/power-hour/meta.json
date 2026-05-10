@@ -1,16 +1,15 @@
 {
+	"color": "#181818",
 	"opponentModeAllowed": true,
-	"coopAllowed": false,
-	"stepsPerBeat": 4,
-	"beatsPerMesure": 4,
-	"bpm": 180,
 	"difficulties": [
 		"HARD"
 	],
-	"needsVoices": true,
-	"parsedColor": -15198184,
+	"icon": "sorbetlover/felpsandcellbit",
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"beatsPerMesure": 4,
 	"displayName": "Nerdola Hour",
-	"icon": "felpsandcellbit",
-	"name": "power-hour",
-	"color": "#181818"
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 180
 }

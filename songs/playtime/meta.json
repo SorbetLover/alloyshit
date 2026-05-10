@@ -1,17 +1,15 @@
 {
-	"beatsPerMeasure": 4,
+	"customValues": {},
+	"color": "#FEB467",
 	"opponentModeAllowed": true,
-	"coopAllowed": true,
-	"stepsPerBeat": 4,
-	"bpm": 110,
 	"difficulties": [
 		"HARD"
 	],
-	"needsVoices": true,
-	"parsedColor": -84889,
+	"icon": "maginage/abby",
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
 	"displayName": "playtime",
-	"icon": "abby",
-	"name": "playtime",
-	"color": "#FEB467",
-	"customValues": {}
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 110
 }
