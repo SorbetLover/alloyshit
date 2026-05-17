@@ -22,12 +22,15 @@ function update(elapsed){
     v2update(elapsed);
 
 
-    vocals.pitch = FlxG.save.data.codenameCurPitch;
-    inst.pitch = FlxG.save.data.codenameCurPitch;
-
     if(FlxG.save.data.codenameCurPitch < 0 || FlxG.save.data.codenameCurPitch == null){
         FlxG.save.data.codenameCurPitch = 1;
     }
+
+    vocals.pitch = FlxG.save.data.codenameCurPitch;
+    inst.pitch = FlxG.save.data.codenameCurPitch;
+    // for (strumLine in strumLines.members){
+            // strumLine.vocals.resume(); strumLine.vocals.pitch = FlxG.save.data.curPitch; 
+    // }
 }
 
 function onStartSong(){
@@ -79,7 +82,7 @@ var delta = 0;
 function v2update(elapsed){
     
     keyshit();
-    functionsthing();
+    // functionsthing();
     botplayText.visible = theStrs.cpu;
     if(theStrs.cpu){
 
@@ -93,6 +96,7 @@ function v2update(elapsed){
 function keyshit(){
     if(FlxG.keys.justPressed.Z){
         songIsPaused = !songIsPaused;
+        functionsthing();
     }
     if(FlxG.keys.justPressed.C){
         theStrs.cpu = !theStrs.cpu;
@@ -110,14 +114,11 @@ function functionsthing(){
         vocals.pause();
         for (strumLine in strumLines.members) strumLine.vocals.pause();
     } else {
-        
+                
         inst.resume();
         vocals.resume();
         
         inst.pitch = FlxG.save.data.curPitch;
         vocals.pitch = FlxG.save.data.curPitch;
-        for (strumLine in strumLines.members){
-            strumLine.vocals.resume(); strumLine.vocals.pitch = FlxG.save.data.curPitch; 
-        }
     }
 }

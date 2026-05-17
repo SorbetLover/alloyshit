@@ -13,6 +13,7 @@ var strumpos1:Array = [[], []];
 
 var strd;
 
+var blackthng:FunkinSprite;
 var ogscale = 1;
 function create(){
 	importScript("data/scripts/remorse-cu");
@@ -71,6 +72,36 @@ function postCreate(){
 
 	ogscale = strd[0].members[0].scale.x;
 
+	strumLines.members[0].characters[2].alpha = 0.01;
+	strumLines.members[1].characters[2].alpha = 0.01;
+
+	blackthng = new FunkinSprite(-900, -400).makeSolid(FlxG.width * 2, FlxG.height * 2, 0xFF000000);
+	// blackthng.screnCenter();
+	blackthng.scrollFactor.set(0,0);
+	// add(blackthng);
+	blackthng.alpha = 0.001;	
+	insert(members.indexOf(strumLines.members[0].characters[2]), blackthng);
+
+	strumLines.members[0].characters[2].scrollFactor.set(0,0);
+	strumLines.members[1].characters[2].scrollFactor.set(0,0);
+
+	strumLines.members[0].characters[2].screenCenter();
+	strumLines.members[1].characters[2].screenCenter();
+
+	var upd3 = strumLines.members[0].characters[2];
+	var bf3 = strumLines.members[1].characters[2];
+
+	lightzYW.alpha = 0;
+	lightzYW.scrollFactor.set(0,0);
+	lightzYW.screenCenter();
+	lightzYW.y -= 200;
+	remove(lightzYW);
+	insert(members.indexOf(strumLines.members[0].characters[2]), lightzYW);
+
+	upd3.scale.set(1.6,1.6);
+	bf3.scale.set(1.6,1.6);
+	bf3.x -= 40;
+	lightzYW.scale.set(2,2);
 }
 
 
@@ -202,6 +233,22 @@ function stepHit(curStep){
 			upd1.alpha = 0;
 			bf.alpha = 1;
 			bf1.alpha = 0;
+			strumLines.members[0].characters[2].alpha = 0;
+			strumLines.members[1].characters[2].alpha = 0;
+			blackthng.alpha = 0;
+			lightzYW.alpha = 0;
+
+		case 1024:
+			/// swap to the closer 
+			
+			strumLines.members[0].characters[2].alpha = 1;
+			strumLines.members[1].characters[2].alpha = 1;
+			blackthng.alpha = 1;
+			bf1.alpha = 0;
+			upd1.alpha = 0;
+			lightzYW.alpha = 1;
+
+
 	}
 	#if linux
 	if(curStep % 4 == 0 && curStep >= 384 && curStep <= 511){

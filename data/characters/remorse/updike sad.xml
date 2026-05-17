@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character icon="remorse/updike" color="#AF66CE" holdTime="6.1">
+	<anim name="idle" anim="updike sad idle0"/>
+	<anim name="singUP" anim="updike sad up0" x="-10" y="24"/>
+	<anim name="singLEFT" anim="updike sad left0" x="32" y="-21"/>
+	<anim name="singRIGHT" anim="updike sad right0" x="-31" y="-28"/>
+	<anim name="singDOWN" anim="updike sad down0" x="11" y="-45"/>
+</character>
