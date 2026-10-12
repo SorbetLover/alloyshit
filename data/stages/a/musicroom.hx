@@ -10,12 +10,17 @@ function postCreate(){
 
 
 
-    poemVideo = new Character(0,0,'notepadalt', false);
+    poemVideo = new Character(0,0,'ddto/notepadalt', false);
     poemVideo.danceOnBeat = false;
-	poemVideo.setGraphicSize(Std.int(poemVideo.width / defaultCamZoom));
     // poemVideo.y = FlxG.height / 2.7;
-	poemVideo.y = 270;
+	// poemVideo.y = 270;
     poemVideo.alpha = 0;
+	poemVideo.updateHitbox();
+	// poemVideo.setGraphicSize(Std.int(poemVideo.width / defaultCamZoom));
+	poemVideo.setGraphicSize(FlxG.width * 1.6);
+	poemVideo.screenCenter();
+	poemVideo.x += 400;
+	poemVideo.y = -900;
 
 	sideWindow = new FlxSprite().loadGraphic(Paths.image("stages/musicroom/notepad/SideWindow"));
 	sideWindow.updateHitbox();
@@ -58,7 +63,7 @@ for(i in [sideWindow, poemVideo]){
 		lastPOSY[i] = strumLines.members[i].characters[0].y;
 	}
 	for(i in ["janja", "wrench", "kyubih"]){
-		var morradusannemec = new HealthIcon(i, false);
+		var morradusannemec = new HealthIcon("sorbetlover/" + i, false);
 		add(morradusannemec);
 		iconshit.push(morradusannemec);
 		morradusannemec.cameras = [camHUD];
@@ -139,7 +144,7 @@ function stepHit(curStep){
 		case 384:
 			poemVideo.alpha = 1;
 			camHUD.fade(0xFFFFFFFF, Conductor.crochet  / 1000,true);
-			poemVideo.playAnim('idle', true);
+			poemVideo.playAnim('ass', true);
             sideWindow.alpha = 1;
 			for(i in [2,3]){
 				strumLines.members[i].characters[0].cameras = [camHUD];

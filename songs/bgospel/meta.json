@@ -7,8 +7,8 @@
 	],
 	"coopAllowed": false,
 	"stepsPerBeat": 4,
-	"displayName": "B Gospel",
 	"beatsPerMesure": 4,
+	"displayName": "B Gospel",
 	"needsVoices": true,
 	"beatsPerMeasure": 4,
 	"bpm": 152

@@ -43,10 +43,10 @@ switch(PlayState.SONG.meta.displayName){
     	
 
 	}
-	bgshitd = new FunkinSprite().makeGraphic(1280,720,0xFF000000);
-	bgshitd.scrollFactor.set(0,0);
-	insert(members.indexOf(yuri) + 1, bgshitd);
-	bgshitd.screenCenter();
+	// bgshitd = new FunkinSprite().makeGraphic(1280,720,0xFF000000);
+	// bgshitd.scrollFactor.set(0,0);
+	// insert(members.indexOf(yuri) + 1, bgshitd);
+	// bgshitd.screenCenter();
 
 	// cudd = new CustomShader("esqi");
 	// bgshitd.shader = cudd;

@@ -35,12 +35,15 @@ var med = false;
 var isshakin = false;
 var umm = false;
 function onStartSong(){
-    #if windows
+    // #if windows
         med = true;
-        FlxTween.circularMotion(windowoffsetfuck, 350, 150, 90, 0, true, 10 ,true, { ease: FlxEase.linear, type: FlxTweenType.LOOPING });
-    #else 
+        FlxTween.circularMotion(windowoffsetfuck, 0, 0, 90, 0, true, 10 ,true, { ease: FlxEase.linear, type: FlxTweenType.LOOPING });
+    // #else 
         trace("not windows lol");
-    #end
+    // #end
+}
+function destroy(){
+    FlxG.game.setPosition(0,0);
 }
 var staticthing:FunkinSprite;
 function postCreate(){
@@ -93,6 +96,9 @@ function postUpdate(elapsed){
             // window.y = windowoffsetfuck.y;
             window.y = 180 + 100 * Math.sin(_elap);
             // winoffX = FlxMath.lerp(winoffX, 0, 0.02);
+        #else 
+            FlxG.game.x = windowoffsetfuck.x + (isshakin ? winoffX : 0);
+            FlxG.game.y = 80 + 100 * Math.sin(_elap);
         #end
     }
     // if(isshakin == true) winoffX = FlxG.random.float(-10,10);
@@ -114,13 +120,13 @@ function postUpdate(elapsed){
 
     // staticthing.alpha = (FlxMath.lerp(staticthing.alpha * 10, 0, 0.007) / 10);
 
-    #if linux
+    // #if linux
         if(isshakin == true){
             FlxG.camera.x = FlxG.random.int(100,-100);
         } else {
             FlxG.camera.x = 0;
         }
-    #end
+    // #end
 
     camFollow.y = 600;
 

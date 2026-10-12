@@ -20,6 +20,10 @@ function postCreate(){
 	// subs.x = camGame.width / 2.5; 
 	// add(subs);
     // subs.alignment = FlxTextAlign.CENTER; 
+	dad.y += 50;
+	if(PlayState.difficulty == "ridley"){
+		dad.y += 100;
+	}
 	
 
 }
@@ -39,8 +43,8 @@ function postUpdate(){
 	// camFollow.setPosition(520,400);
 	boyfriend.alpha = 0;
 	gf.alpha = 0;
-if(FlxG.keys.justPressed.X){
-	strumLines.members[1].cpu = true;
-}
+	// if(FlxG.keys.justPressed.X){
+	// 	strumLines.members[1].cpu = true;
+	// }
 }
 

@@ -1,4 +1,5 @@
 var thealp = 0.7;
+if(PlayState.SONG.meta.name == "monochrome") disableScript(); 
 function postCreate() {
     scrollSpeed = 3;
     if(strumLines.members[0].members.length != 4) return;

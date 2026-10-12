@@ -66,7 +66,7 @@ function create(){
     cu.color = 0xFF333333;
     add(cu);
 }
-
+var eh = "";
 function update(){
     if(FlxG.keys.justPressed.R){
         FlxG.switchState(new ModState("dailyRaluxa"));
@@ -74,4 +74,5 @@ function update(){
     if(FlxG.keys.justPressed.ESCAPE){
         FlxG.switchState(new MainMenuState());
     }
+
 }
